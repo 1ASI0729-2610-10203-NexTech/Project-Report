@@ -365,10 +365,117 @@ La mala alimentación incrementa de forma acelerada el desarrollo de enfermedade
   - Total estimado MVP: S/ 28,500 - S/ 51,000
 
 #### 1.2.2 Lean UX Process
+
 ##### 1.2.2.1. Lean UX Problem Statements
+
+El seguimiento nutricional es un proceso clave para mejorar la salud y el bienestar tanto de los pacientes como de los colaboradores dentro de una organización. Sin embargo, actualmente este proceso se realiza de manera fragmentada, mediante registros manuales o herramientas aisladas que no permiten una visión integral del estado nutricional. 
+
+Hemos identificado un factor crítico que afecta la efectividad de este seguimiento: la falta de acceso a información centralizada, continua y confiable sobre el progreso nutricional. Por un lado, los pacientes no cuentan con una herramienta que les permita registrar y visualizar su evolución de forma constante, lo que genera desmotivación y abandono de los planes alimenticios. Por otro lado, las organizaciones no disponen de datos agregados y actualizados que les permitan monitorear el bienestar de sus colaboradores y tomar decisiones informadas. 
+
+¿Cómo mejorar la gestión nutricional logrando que los pacientes registren su información de manera constante y puedan visualizar su progreso, mientras que las organizaciones acceden a datos claros y actualizados, permitiendo un seguimiento eficiente y la implementación de estrategias de bienestar basadas en información confiable? 
+
 ##### 1.2.2.2. Lean UX Assumptions
+
+Business Outcomes 
+
+Creemos que nuestros usuarios necesitan: 
+Una plataforma web que les permita gestionar y visualizar información nutricional de manera centralizada, para realizar un seguimiento continuo de su progreso y mejorar la toma de decisiones relacionadas con su salud y bienestar. 
+
+Estas necesidades se pueden satisfacer con: 
+Una aplicación web interactiva que permita registrar planes alimenticios, llevar control del progreso del paciente y visualizar datos mediante gráficos y reportes, además de ofrecer dashboards con información agregada para organizaciones. 
+
+Nuestros clientes iniciales son: 
+Personas interesadas en mejorar sus hábitos alimenticios (pacientes) y organizaciones que buscan monitorear el bienestar de sus colaboradores mediante herramientas digitales. 
+
+El valor más importante que un cliente quiere de nuestros servicios es: 
+Contar con información clara, accesible y actualizada sobre su estado nutricional o el de sus colaboradores, presentada de forma sencilla y comprensible. 
+
+El cliente también va a obtener estos beneficios adicionales: 
+Mejor organización de su información, seguimiento continuo de su progreso, visualización de resultados mediante gráficos, reducción del uso de registros manuales y apoyo en la toma de decisiones relacionadas con la salud. 
+
+Vamos a adquirir la mayoría de nuestros clientes a través de: 
+Redes sociales, campañas digitales, demostraciones del sistema y propuestas dirigidas a organizaciones interesadas en programas de bienestar. 
+
+Haremos dinero a través de: 
+Suscripciones mensuales o anuales para el acceso a la plataforma, tanto para usuarios individuales como para organizaciones. 
+
+Nuestra competencia principal en el mercado será: 
+Aplicaciones de seguimiento de salud, registros manuales y herramientas básicas como hojas de cálculo que no permiten un monitoreo centralizado ni visualización avanzada. 
+
+Vamos a tener ventaja frente a nuestra competencia debido a: 
+Una plataforma simple, accesible desde cualquier dispositivo, con visualización clara de datos y enfoque en la centralización de la información nutricional en un solo sistema. 
+
+El mayor riesgo del servicio es que: 
+Los usuarios no adopten la plataforma por costumbre de usar métodos tradicionales o por falta de interés en registrar información de manera constante. 
+
+Eliminaremos los riesgos: 
+Diseñando una interfaz sencilla e intuitiva, reduciendo la complejidad del registro de datos y mostrando de forma clara los beneficios del seguimiento continuo mediante gráficos y reportes. 
+
+User Outcomes 
+
+¿Quién es nuestro usuario? 
+Los usuarios principales son pacientes que desean mejorar su alimentación y organizaciones que buscan monitorear el bienestar general de sus colaboradores. 
+
+¿Qué problema tiene nuestro producto y cómo se puede resolver? 
+La falta de seguimiento continuo y centralizado se resuelve mediante una plataforma que permite registrar información nutricional y visualizar el progreso de forma clara y accesible. 
+
+¿Dónde encaja nuestro producto en su vida? 
+En la rutina diaria del usuario, al momento de consultar su plan alimenticio, registrar su progreso y revisar su evolución. En el caso de organizaciones, encaja en la gestión de programas de bienestar. 
+
+¿Cómo y cuándo es usado nuestro producto? 
+Se utiliza de forma frecuente, principalmente durante el día, cuando el usuario consulta su plan, registra información o revisa su progreso, y cuando las organizaciones analizan reportes generales. 
+
+¿Qué problemas tiene nuestro producto? 
+Dependencia de que el usuario registre información, posible desinterés en el uso continuo y limitaciones en la precisión de los datos ingresados manualmente. 
+
+¿Qué características son importantes? 
+Interfaz intuitiva, registro sencillo de datos, visualización mediante gráficos, acceso desde cualquier dispositivo, dashboards claros para organizaciones y seguridad en la información.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+Hipótesis 1 (Pacientes – uso general) 
+
+Creemos que los pacientes utilizarán la plataforma de manera constante si pueden registrar y visualizar su progreso nutricional de forma simple y clara. 
+Sabremos que esto es cierto cuando al menos el 70% de los usuarios activos registren sus datos al menos 3 veces por semana. 
+
+Hipótesis 2 (Pacientes – motivación) 
+
+Creemos que mostrar gráficos de evolución aumentará la motivación de los pacientes para seguir su plan alimenticio. 
+Sabremos que esto es cierto cuando el 65% de los usuarios consulten la sección de progreso al menos una vez al día. 
+
+Hipótesis 3 (Facilidad de uso) 
+
+Creemos que una interfaz simple permitirá que los usuarios registren su información sin dificultad. 
+Sabremos que esto es cierto cuando al menos el 80% de los usuarios completen el registro de datos sin abandonar el proceso. 
+
+Hipótesis 4 (Organizaciones – valor del dashboard) 
+
+Creemos que las organizaciones encontrarán útil el dashboard con información agregada de sus colaboradores. 
+Sabremos que esto es cierto cuando el 75% de las organizaciones accedan al dashboard al menos una vez por semana. 
+
+Hipótesis 5 (Organizaciones – toma de decisiones) 
+
+Creemos que la visualización de datos permitirá a las organizaciones tomar mejores decisiones sobre programas de bienestar. 
+Sabremos que esto es cierto cuando al menos el 60% de las organizaciones revisen reportes o gráficos más de una vez por semana. 
+
+Hipótesis 6 (Valor del sistema) 
+
+Creemos que centralizar la información nutricional en una sola plataforma mejorará la experiencia del usuario. 
+Sabremos que esto es cierto cuando el 70% de los usuarios continúen usando la plataforma después de 2 semanas. 
+
+Hipótesis 7 (Registro constante) 
+
+Creemos que los recordatorios ayudarán a que los usuarios registren sus datos de manera constante. 
+Sabremos que esto es cierto cuando el 65% de los usuarios respondan a recordatorios registrando información el mismo día. 
+
+Hipótesis 8 (Percepción de utilidad) 
+  
+Creemos que los usuarios percibirán la plataforma como útil si pueden ver resultados claros de su progreso. 
+Sabremos que esto es cierto cuando al menos el 75% de los usuarios interactúen con la sección de reportes y gráficos.
+
 ##### 1.2.2.4. Lean UX Canvas
+
+<img src="resources/Lean Ux Canva.PNG">
 
 ### 1.3. Segmentos objetivo
 ---
@@ -389,9 +496,168 @@ La mala alimentación incrementa de forma acelerada el desarrollo de enfermedade
 #### 2.3.2. User Task Matrix
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
+## 2.4. Big Picture EventStorming
 
-### 2.4. Big Picture EventStorming
+
+El Big Picture EventStorming nos permite explorar el dominio de BioTrack de manera colaborativa, identificando los eventos de negocio clave a lo largo de la línea de tiempo. A través de este proceso se descubren las interacciones entre actores, comandos y sistemas que conforman la plataforma de gestión nutricional. Hemos dividido este análisis en tres etapas fundamentales: descubrimiento de eventos de dominio, identificación de comandos y actores, y agrupación en bounded contexts.
+
+
+### Fase 0
+
+El siguiente apartado presenta el descubrimiento inicial de los eventos de negocio de BioTrack. Se identifican cronológicamente los eventos de dominio que ocurren a lo largo del ciclo de vida de los usuarios, abarcando desde el registro y activación de cuentas hasta la configuración del perfil de salud, la gestión corporativa, la planificación nutricional, el seguimiento del progreso y la facturación. En esta fase, los eventos —representados en notas de color naranja— son colocados en el orden en que ocurren dentro del negocio, sin aún vincularlos a comandos ni actores específicos.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-fase0-1.png" alt="Big Picture EventStorming - Fase 0 - Identity & Profile Management" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En esta figura se observan los eventos de dominio correspondientes a la gestión de identidad y perfil del usuario. Se identifican los hitos del ciclo de vida de la cuenta: el registro, la asignación del tipo de cuenta, el envío del correo de verificación, la validación del correo electrónico y la activación de la cuenta. Adicionalmente, se incluyen los eventos de error como la expiración del token de verificación y el bloqueo temporal por credenciales inválidas, junto con el inicio de sesión exitoso. En la fila inferior se presentan los eventos del perfil de salud del paciente: el registro de datos básicos, la definición del objetivo nutricional y el guardado de restricciones alimentarias.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-fase0-2.png" alt="Big Picture EventStorming - Fase 0 - Corporate Management" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En la imagen se presentan los eventos de dominio del módulo de gestión corporativa. La fila superior muestra los eventos relacionados con el alta de una organización en la plataforma: la creación del perfil corporativo, la verificación de la organización y el procesamiento de la lista de colaboradores. La fila inferior comprende los eventos derivados de dicho procesamiento: la consolidación de datos grupales de salud, la actualización de métricas de bienestar y el envío de invitaciones corporativas a los colaboradores.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-fase0-3.png" alt="Big Picture EventStorming - Fase 0 - Nutritional Planning" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Se observan los eventos de dominio correspondientes al módulo de planificación nutricional. La primera fila recoge los eventos del inicio del proceso clínico: la asignación del nutricionista al paciente, la notificación de dicha asignación y la propuesta del plan nutricional. La segunda fila muestra los eventos de la evaluación y activación: la evaluación inicial completada, el plan nutricional activado y el guardado de notas de control post-consulta. La fila inferior presenta los eventos de seguimiento: la consulta agendada y el envío del recordatorio de cita.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-fase0-4.png" alt="Big Picture EventStorming - Fase 0 - Progress Tracking & Monitoring" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En esta figura se identifican los eventos de dominio del módulo de seguimiento del progreso. La fila superior muestra los eventos de registro continuo del paciente: el consumo diario registrado, la actividad física guardada y las medidas corporales actualizadas. La fila inferior presenta los eventos de monitoreo automatizado: el cálculo del nivel de adherencia al plan, el envío de la notificación de bajo cumplimiento al nutricionista y la generación del reporte de metas alcanzadas.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-fase0-5.png" alt="Big Picture EventStorming - Fase 0 - Subscriptions & Billing" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Se observan los eventos de dominio del módulo de suscripciones y facturación. La fila superior recoge los eventos del flujo de pago individual B2C y corporativo B2B: el plan seleccionado, el intento de cobro iniciado, el pago procesado exitosamente, la suscripción B2C activada y el lote de licencias B2B habilitado. La fila intermedia presenta los eventos del ciclo de facturación corporativa y renovación: la orden de compra generada, el cobro automático exitoso, la factura emitida, el pago corporativo confirmado y la suscripción renovada. La fila inferior recoge los eventos del flujo de cobro fallido: el cobro automático fallido, el acceso al nutricionista revocado y el aviso de pago atrasado enviado.</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
+  <em>Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) de la plataforma BioTrack, representados en notas de color naranja.</em>
+</p>
+
+En conjunto, los eventos presentados en la Fase 0 evidencian un dominio de negocio amplio y bien articulado que abarca el ciclo completo de la plataforma BioTrack. Se identifican con claridad los hitos críticos de cada área funcional: el ciclo de vida de la cuenta de usuario con sus flujos de éxito y error, la configuración del perfil de salud del paciente, la incorporación y gestión de organizaciones corporativas, el proceso clínico de planificación nutricional desde la asignación del especialista hasta el seguimiento de consultas, el monitoreo continuo del progreso con alertas automáticas, y el modelo de negocio por suscripción con sus flujos de pago, renovación y recuperación ante cobros fallidos. Esta visión cronológica de eventos constituye la base sobre la cual se incorporarán, en las etapas siguientes, los comandos, actores y políticas que darán estructura completa al dominio.
+
+---
+
+### Etapa 1 y 2
+
+El presente apartado introduce la segunda y tercera fase del Big Picture EventStorming de BioTrack, en la cual se añaden los comandos que desencadenan cada evento y se identifican los actores o sistemas responsables de ejecutarlos. Esta capa de análisis permite comprender no solo qué ocurre en el dominio, sino también quién lo provoca y bajo qué condición, revelando la lógica operativa de cada bounded context. A continuación, se presentan los flujos enriquecidos con comandos y actores para cada módulo de la plataforma.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa12-identity.png" alt="Big Picture EventStorming - Identity & Profile Management" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En esta figura se observa el flujo de Identity & Profile Management con comandos y actores. El usuario ejecuta el comando de registrar cuenta, desencadenando la asignación del tipo de cuenta y el envío del correo de verificación mediante una política que invoca el servicio de Email. Según la acción del usuario al validar el correo, se activa la cuenta o, ante la inacción, expira el token a las 24 horas. El módulo de inicio de sesión bifurca entre el acceso exitoso al Dashboard Principal y el bloqueo temporal por credenciales inválidas, regido por una política de seguridad. En la sección inferior, el paciente registra sus datos de salud, selecciona su objetivo nutricional y registra sus restricciones alimentarias, las cuales quedan guardadas en su perfil.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa12-corporate.png" alt="Big Picture EventStorming - Corporate Management" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En la imagen se presenta el flujo de Corporate Management con comandos y actores identificados. El Admin Corporativo ejecuta el comando de registrar datos de empresa, lo que genera el perfil corporativo y activa una política de verificación de identidad fiscal (RUC). Una vez verificada la organización, el administrador sube la lista de colaboradores, cuyo procesamiento activa una política que genera los accesos y envía las invitaciones corporativas a través del servicio de Email. Paralelamente, el sistema consolida las métricas de salud grupales de forma anónima y las publica en el Dashboard Corporativo Anónimo.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa12-nutrition.png" alt="Big Picture EventStorming - Nutritional Planning" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Se observa el flujo de Nutritional Planning con su capa de comandos y actores. El sistema asigna automáticamente un nutricionista disponible al paciente, notificando a ambas partes vía Email. El nutricionista evalúa el perfil de salud del paciente y ejecuta el comando de crear plan nutricional, lo que genera una propuesta que debe ser aceptada por el paciente mediante una política de aprobación, activando el plan. En el flujo de seguimiento, el paciente agenda una consulta de control, lo que dispara el envío de un recordatorio y posteriormente habilita al nutricionista para registrar las notas de la consulta, las cuales quedan guardadas en el sistema.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa12-tracking.png" alt="Big Picture EventStorming - Progress Tracking & Monitoring" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En esta figura se detalla el flujo de Progress Tracking & Monitoring con comandos y actores. El paciente registra su consumo de alimentos y su actividad física diaria, y actualiza su peso semanal, datos que alimentan el Gráfico de Progreso. De forma paralela, el sistema calcula el nivel de adherencia al plan y, ante un valor bajo, una política activa el envío de una alerta al nutricionista vía Email con una notificación de bajo cumplimiento. Adicionalmente, el sistema genera periódicamente el reporte de evolución con las metas alcanzadas, disponible como Reporte PDF de Resultados.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa12-billing.png" alt="Big Picture EventStorming - Subscriptions & Billing" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Se observa el flujo de Subscriptions & Billing con su capa de comandos y actores. El paciente selecciona un plan mensual e ingresa su método de pago, iniciando el intento de cobro a través de la Pasarela de Pagos. Ante un pago exitoso, una política activa los beneficios del plan y genera el Resumen de Facturación B2C. En el flujo corporativo, el Admin Corporativo compra un paquete de licencias, generando una orden de compra que desencadena la emisión de una factura; confirmado el pago, se habilita el lote de licencias B2B. El sistema procesa mensualmente las renovaciones automáticas, bifurcando entre la extensión del plan ante cobro exitoso y la suspensión de funciones premium con aviso de pago atrasado ante cobro fallido.</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
+  <em>Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores y sistemas (notas amarillas y rosadas) que los ejecutan, así como las políticas (notas moradas) que rigen las decisiones de negocio dentro de cada bounded context.</em>
+</p>
+
+En conjunto, los flujos presentados revelan una plataforma con una lógica de negocio clara y bien estructurada, donde cada acción del usuario o del sistema tiene un desencadenante definido y una consecuencia trazable. La incorporación de comandos y actores permite visualizar con precisión las responsabilidades de cada rol: el paciente como principal generador de datos de salud, el nutricionista como responsable clínico del plan, el Admin Corporativo como gestor de su organización y el sistema como motor de cálculo, notificación y facturación automática. Las políticas identificadas en color morado evidencian los puntos de decisión críticos del negocio, desde la validación de identidad fiscal hasta el cálculo de adherencia y la gestión de cobros recurrentes, consolidando una visión integral del dominio de BioTrack.
+
+---
+
+### Etapa 3
+
+La siguiente etapa presenta la vista final del Big Picture EventStorming de BioTrack, en la cual los eventos, comandos, actores y políticas quedan agrupados en sus respectivos Bounded Contexts o contextos delimitados. Esta organización permite definir las fronteras naturales del dominio y establecer la base sobre la cual se construirá la arquitectura de software orientada al dominio (DDD). A continuación, se presentan los cinco bounded contexts identificados para la plataforma.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa3-identity.png" alt="Big Picture EventStorming - Etapa 3 Identity & Profile Management" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En esta figura se observa el Bounded Context de Identity & Profile Management. Agrupa todos los eventos, comandos y políticas relacionados con el registro de usuarios, la verificación de correo electrónico, la activación de cuentas, el inicio de sesión con sus flujos de error y el registro del perfil de salud del paciente incluyendo objetivo nutricional y restricciones alimentarias.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa3-corporate.png" alt="Big Picture EventStorming - Etapa 3 Corporate Management" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En la imagen se presenta el Bounded Context de Corporate Management. Consolida los flujos de registro y verificación de empresas, la gestión de colaboradores mediante la carga masiva de listas y el envío de invitaciones corporativas, y la publicación anónima de métricas de bienestar grupal en el Dashboard Corporativo.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa3-nutrition.png" alt="Big Picture EventStorming - Etapa 3 Nutritional Planning" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Se observa el Bounded Context de Nutritional Planning. Abarca la asignación del nutricionista al paciente, la evaluación del perfil de salud, la creación y aprobación del plan nutricional, el agendamiento de consultas de control con recordatorios automáticos y el registro de notas clínicas post-consulta.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa3-tracking.png" alt="Big Picture EventStorming - Etapa 3 Progress Tracking & Monitoring" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. En esta figura se identifica el Bounded Context de Progress Tracking & Monitoring. Concentra los eventos de registro de consumo alimentario, actividad física y peso semanal, el cálculo automático de adherencia al plan con sus alertas de bajo cumplimiento al nutricionista, y la generación periódica de reportes de evolución y metas alcanzadas.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="resources/Chapter-II/bigpicture-etapa3-billing.png" alt="Big Picture EventStorming - Etapa 3 Subscriptions & Billing" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Se observa el Bounded Context de Subscriptions & Billing. Engloba los flujos de suscripción individual B2C y corporativa B2B, incluyendo el procesamiento de pagos, la emisión de facturas, la habilitación de licencias, la renovación automática mensual y los flujos de cobro fallido con suspensión de acceso y notificación de pago atrasado.</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
+  <em>Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que encapsulan las reglas de negocio y se agrupan los eventos en sus cinco Bounded Contexts: Identity & Profile Management, Corporate Management, Nutritional Planning, Progress Tracking & Monitoring, y Subscriptions & Billing.</em>
+</p>
+
+En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con claridad las fronteras del dominio de negocio mediante cinco bounded contexts bien diferenciados. Cada contexto encapsula una responsabilidad específica: la gestión de identidad y perfiles garantiza el acceso seguro y la configuración inicial del usuario; el contexto corporativo habilita el modelo B2B con privacidad de datos; la planificación nutricional centraliza la relación clínica entre paciente y nutricionista; el seguimiento del progreso provee la capa de monitoreo continuo que diferencia a BioTrack de soluciones básicas; y el módulo de suscripciones y facturación sostiene el modelo de negocio escalable. Esta delimitación constituye la base arquitectónica sobre la cual se diseñarán los componentes de software en las fases posteriores del proyecto.
+
 ### 2.5. Ubiquitous Language
+
+| N° | Palabra técnica | Significado |
+| :---: | :--- | :--- |
+| 1 | **Nutritional Assessment (Evaluación Nutricional)** | Proceso inicial y periódico donde el especialista analiza el estado físico, hábitos y necesidades específicas del usuario para establecer un punto de partida. |
+| 2 | **Dietary Plan (Plan Dietético)** | Guía estructurada de alimentación diseñada por un profesional, que especifica las porciones, tipos de alimentos y horarios que el paciente debe seguir. |
+| 3 | **Food Intake Record (Registro de Ingesta)** | Documento o registro cotidiano donde el paciente detalla los alimentos consumidos y el cumplimiento de las pautas del plan nutricional. |
+| 4 | **Nutritional Adherence (Adherencia Nutricional)** | Grado de coincidencia entre el comportamiento del paciente y las recomendaciones prescritas por el especialista a lo largo del tiempo. |
+| 5 | **Body Measurement (Medición Corporal)** | Conjunto de medidas físicas (como peso, porcentaje de grasa y masa muscular) que sirven como indicadores objetivos del progreso del usuario. |
+| 6 | **Adherence Alert (Alerta de Adherencia)** | Aviso de prioridad emitido al profesional de la nutrición cuando se detecta una desviación significativa o una caída prolongada en el cumplimiento del paciente. |
+| 7 | **Wellness Report (Reporte de Bienestar)** | Documento estadístico consolidado que permite a las organizaciones visualizar el estado de salud general de sus colaboradores de forma anónima. |
+| 8 | **Health Goal (Meta de Salud)** | Objetivo específico, medible y temporal definido conjuntamente entre el nutricionista y el paciente para guiar el seguimiento. |
+| 9 | **Follow-up Consultation (Consulta de Seguimiento)** | Sesión periódica donde el nutricionista evalúa el registro diario de datos y ajusta el plan dietético según los resultados observados.  |
+| 10 | **Nutritional Risk (Riesgo Nutricional)** | Identificación de condiciones o hábitos que pueden comprometer la salud del paciente si no se intervienen de manera oportuna. |
+| 11 | **Corporate Subscriber (Suscriptor Corporativo)** | Organización que adquiere los servicios de monitoreo nutricional preventivo para ofrecerlos como beneficio laboral a su personal. |
+
+*(Tabla 10. Ubiquitous Languages - Elaboración propia.)*
 
 ---
 
