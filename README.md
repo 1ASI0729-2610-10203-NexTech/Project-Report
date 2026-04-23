@@ -710,7 +710,25 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 ## 🛠️ Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1. Software Configuration Management
+En el trancurso del desarollo se gestionó una configuración de software básico funcional, con herramientas estandars para el control de versiones, documentación y colaboración en equipo dentro de una organización y proyecto. Esto aseguró que el código fuente se mantuviera homologado, accesible y organizado, facilitando la integración continua del gitflow
+
 #### 5.1.1. Software Development Environment Configuration
+En el entorno de desarolló se configuró localmente las siguientes herramientas:
+
+Editor de código: Visual Studio Code
+
+Control de versiones: Git
+
+Repositorio remoto: GitHub
+
+Estilos: CSS
+
+Gestor de paquetes: npm
+
+Despliegue: GitHub Pages para la landing page
+
+Se definieron las extensiones de VSCode para buenas prácticas: ESLint, Prettier, GitLens, JS-sniptes
+
 #### 5.1.2. Source Code Management
 #### 5.1.3. Source Code Style Guide & Conventions
 #### 5.1.4. Software Deployment Configuration
