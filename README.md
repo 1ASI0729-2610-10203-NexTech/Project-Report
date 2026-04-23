@@ -365,10 +365,117 @@ La mala alimentación incrementa de forma acelerada el desarrollo de enfermedade
   - Total estimado MVP: S/ 28,500 - S/ 51,000
 
 #### 1.2.2 Lean UX Process
+
 ##### 1.2.2.1. Lean UX Problem Statements
+
+El seguimiento nutricional es un proceso clave para mejorar la salud y el bienestar tanto de los pacientes como de los colaboradores dentro de una organización. Sin embargo, actualmente este proceso se realiza de manera fragmentada, mediante registros manuales o herramientas aisladas que no permiten una visión integral del estado nutricional. 
+
+Hemos identificado un factor crítico que afecta la efectividad de este seguimiento: la falta de acceso a información centralizada, continua y confiable sobre el progreso nutricional. Por un lado, los pacientes no cuentan con una herramienta que les permita registrar y visualizar su evolución de forma constante, lo que genera desmotivación y abandono de los planes alimenticios. Por otro lado, las organizaciones no disponen de datos agregados y actualizados que les permitan monitorear el bienestar de sus colaboradores y tomar decisiones informadas. 
+
+¿Cómo mejorar la gestión nutricional logrando que los pacientes registren su información de manera constante y puedan visualizar su progreso, mientras que las organizaciones acceden a datos claros y actualizados, permitiendo un seguimiento eficiente y la implementación de estrategias de bienestar basadas en información confiable? 
+
 ##### 1.2.2.2. Lean UX Assumptions
+
+Business Outcomes 
+
+Creemos que nuestros usuarios necesitan: 
+Una plataforma web que les permita gestionar y visualizar información nutricional de manera centralizada, para realizar un seguimiento continuo de su progreso y mejorar la toma de decisiones relacionadas con su salud y bienestar. 
+
+Estas necesidades se pueden satisfacer con: 
+Una aplicación web interactiva que permita registrar planes alimenticios, llevar control del progreso del paciente y visualizar datos mediante gráficos y reportes, además de ofrecer dashboards con información agregada para organizaciones. 
+
+Nuestros clientes iniciales son: 
+Personas interesadas en mejorar sus hábitos alimenticios (pacientes) y organizaciones que buscan monitorear el bienestar de sus colaboradores mediante herramientas digitales. 
+
+El valor más importante que un cliente quiere de nuestros servicios es: 
+Contar con información clara, accesible y actualizada sobre su estado nutricional o el de sus colaboradores, presentada de forma sencilla y comprensible. 
+
+El cliente también va a obtener estos beneficios adicionales: 
+Mejor organización de su información, seguimiento continuo de su progreso, visualización de resultados mediante gráficos, reducción del uso de registros manuales y apoyo en la toma de decisiones relacionadas con la salud. 
+
+Vamos a adquirir la mayoría de nuestros clientes a través de: 
+Redes sociales, campañas digitales, demostraciones del sistema y propuestas dirigidas a organizaciones interesadas en programas de bienestar. 
+
+Haremos dinero a través de: 
+Suscripciones mensuales o anuales para el acceso a la plataforma, tanto para usuarios individuales como para organizaciones. 
+
+Nuestra competencia principal en el mercado será: 
+Aplicaciones de seguimiento de salud, registros manuales y herramientas básicas como hojas de cálculo que no permiten un monitoreo centralizado ni visualización avanzada. 
+
+Vamos a tener ventaja frente a nuestra competencia debido a: 
+Una plataforma simple, accesible desde cualquier dispositivo, con visualización clara de datos y enfoque en la centralización de la información nutricional en un solo sistema. 
+
+El mayor riesgo del servicio es que: 
+Los usuarios no adopten la plataforma por costumbre de usar métodos tradicionales o por falta de interés en registrar información de manera constante. 
+
+Eliminaremos los riesgos: 
+Diseñando una interfaz sencilla e intuitiva, reduciendo la complejidad del registro de datos y mostrando de forma clara los beneficios del seguimiento continuo mediante gráficos y reportes. 
+
+User Outcomes 
+
+¿Quién es nuestro usuario? 
+Los usuarios principales son pacientes que desean mejorar su alimentación y organizaciones que buscan monitorear el bienestar general de sus colaboradores. 
+
+¿Qué problema tiene nuestro producto y cómo se puede resolver? 
+La falta de seguimiento continuo y centralizado se resuelve mediante una plataforma que permite registrar información nutricional y visualizar el progreso de forma clara y accesible. 
+
+¿Dónde encaja nuestro producto en su vida? 
+En la rutina diaria del usuario, al momento de consultar su plan alimenticio, registrar su progreso y revisar su evolución. En el caso de organizaciones, encaja en la gestión de programas de bienestar. 
+
+¿Cómo y cuándo es usado nuestro producto? 
+Se utiliza de forma frecuente, principalmente durante el día, cuando el usuario consulta su plan, registra información o revisa su progreso, y cuando las organizaciones analizan reportes generales. 
+
+¿Qué problemas tiene nuestro producto? 
+Dependencia de que el usuario registre información, posible desinterés en el uso continuo y limitaciones en la precisión de los datos ingresados manualmente. 
+
+¿Qué características son importantes? 
+Interfaz intuitiva, registro sencillo de datos, visualización mediante gráficos, acceso desde cualquier dispositivo, dashboards claros para organizaciones y seguridad en la información.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+Hipótesis 1 (Pacientes – uso general) 
+
+Creemos que los pacientes utilizarán la plataforma de manera constante si pueden registrar y visualizar su progreso nutricional de forma simple y clara. 
+Sabremos que esto es cierto cuando al menos el 70% de los usuarios activos registren sus datos al menos 3 veces por semana. 
+
+Hipótesis 2 (Pacientes – motivación) 
+
+Creemos que mostrar gráficos de evolución aumentará la motivación de los pacientes para seguir su plan alimenticio. 
+Sabremos que esto es cierto cuando el 65% de los usuarios consulten la sección de progreso al menos una vez al día. 
+
+Hipótesis 3 (Facilidad de uso) 
+
+Creemos que una interfaz simple permitirá que los usuarios registren su información sin dificultad. 
+Sabremos que esto es cierto cuando al menos el 80% de los usuarios completen el registro de datos sin abandonar el proceso. 
+
+Hipótesis 4 (Organizaciones – valor del dashboard) 
+
+Creemos que las organizaciones encontrarán útil el dashboard con información agregada de sus colaboradores. 
+Sabremos que esto es cierto cuando el 75% de las organizaciones accedan al dashboard al menos una vez por semana. 
+
+Hipótesis 5 (Organizaciones – toma de decisiones) 
+
+Creemos que la visualización de datos permitirá a las organizaciones tomar mejores decisiones sobre programas de bienestar. 
+Sabremos que esto es cierto cuando al menos el 60% de las organizaciones revisen reportes o gráficos más de una vez por semana. 
+
+Hipótesis 6 (Valor del sistema) 
+
+Creemos que centralizar la información nutricional en una sola plataforma mejorará la experiencia del usuario. 
+Sabremos que esto es cierto cuando el 70% de los usuarios continúen usando la plataforma después de 2 semanas. 
+
+Hipótesis 7 (Registro constante) 
+
+Creemos que los recordatorios ayudarán a que los usuarios registren sus datos de manera constante. 
+Sabremos que esto es cierto cuando el 65% de los usuarios respondan a recordatorios registrando información el mismo día. 
+
+Hipótesis 8 (Percepción de utilidad) 
+  
+Creemos que los usuarios percibirán la plataforma como útil si pueden ver resultados claros de su progreso. 
+Sabremos que esto es cierto cuando al menos el 75% de los usuarios interactúen con la sección de reportes y gráficos.
+
 ##### 1.2.2.4. Lean UX Canvas
+
+<img src="resources/Lean Ux Canva.PNG">
 
 ### 1.3. Segmentos objetivo
 ---
