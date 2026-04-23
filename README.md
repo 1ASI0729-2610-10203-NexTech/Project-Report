@@ -496,13 +496,6 @@ Sabremos que esto es cierto cuando al menos el 75% de los usuarios interactúen 
 #### 2.3.2. User Task Matrix
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
-
-### 2.4. Big Picture EventStorming
-
-El Big Picture EventStorming nos permite explorar el dominio de nuestra plataforma de manera colaborativa, identificando los eventos de negocio clave a lo largo de la línea de tiempo. Hemos dividido este análisis en las siguientes etapas fundamentales:
-
-### Fase 0
-
 ## 2.4. Big Picture EventStorming
 
 
