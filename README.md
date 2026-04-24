@@ -730,8 +730,41 @@ Despliegue: GitHub Pages para la landing page
 Se definieron las extensiones de VSCode para buenas prácticas: ESLint, Prettier, GitLens, JS-sniptes
 
 #### 5.1.2. Source Code Management
+Usuarios de github:
+| Integrantes                         | Usuarios de GitHub |
+|-------------------------------------|--------------------|
+| Villón Amez, Enrique Manuel         | enriquevillon25    |
+
+En el desarollo de cada repositorio usaremos Gitflow como estrategia de control de versiones, conssite en crear ramas por cada feat, fix o choore para tener un trabajo organizado y registrado. Las ramas principales serán Main, Release, Develop, Hotfix, A continuación describiremos las ramas:
+
+Main: Rama principal donde se encunetra la versión estable y oficial del producto
+
+Develop: Rama de desarollo donde se implementan las funcionalides, correciones, es la rama del Desarollador donde puede hacer todas sus pruebas y funcionalidades
+
+Release: Rama de lanzamiento donde se preparan las versiones estables para pasarlas a producción (main)
+
+Hotfix: Rama de correción de errores sirve como emergencia para resolver errores de producción urgentes
+
 #### 5.1.3. Source Code Style Guide & Conventions
+
+Para mantener la calidad del código, el equipo escogió una guía de estilo de codigo y convenciones
+
+Lenguaje Principal: Javascript, Typescript
+Framework: Vue
+Lenguaje de etiquetas: HTML, CSS
+Nombres de variables: camelCase para variables y funciones, PascalCase para componentes
+Comentarios: Se formenta el uso de comentarios calros en bloques complejos de código
+Commits: Convenctión tipo(feat/fix/hotfix/choore): descriptión
+
 #### 5.1.4. Software Deployment Configuration
+
+Para el despligues de la Landing Page y la aplicación se utilizará GitHubPages y con una integración continua aplicando el uso de GitFlow
+
+Landing Page:
+
+El despliegue de la landing page se realizará mediante GitHub Pages, usando las herramientas brindadas ya que tenemos el repositorio y la organización en GitHub
+
+La Landing se ubicará en una carpeta /docs dentro del branch princial del repositorio. GitHub Pages detectará automaticmamente esta estructura para generar y servir el sitio
 
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
