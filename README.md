@@ -1363,7 +1363,7 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 | US24 | Agendar consulta | Como paciente, quiero agendar una consulta, para dar seguimiento. | **Scenario 1: Agendamiento exitoso**<br>Given hay horarios disponibles,<br>When selecciona fecha y confirma,<br>Then se registra la cita.<br><br>**Scenario 2: Sin disponibilidad**<br>Given no hay horarios,<br>When intenta agendar,<br>Then se sugieren alternativas. | EP03 |
 | US25 | Enviar recordatorio de cita | Como Sistema, quiero enviar recordatorios, para reducir inasistencias. | **Scenario 1: Recordatorio enviado**<br>Given hay cita programada,<br>When faltan 24h,<br>Then se envía recordatorio.<br><br>**Scenario 2: Error envío**<br>Given falla envío,<br>When ocurre error,<br>Then se reintenta. | EP03 |
 | US26 | Registrar notas de consulta | Como nutricionista, quiero registrar notas, para mantener historial. | **Scenario 1: Guardado exitoso**<br>Given el nutricionista registra notas,<br>When confirma,<br>Then se guardan.<br><br>**Scenario 2: Campo vacío**<br>Given no hay notas,<br>When intenta guardar,<br>Then muestra error. | EP03 |
-| **EP04** | Progress Tracking & Monitoring | Registro de alimentación, actividad física y seguimiento del progreso. | — | — |
+| **EP04** | Progress Tracking & Monitoring | Registro de alimentación, actividad física y seguimiento del progreso. | 
 | US27 | Registrar consumo de alimentos | Como paciente, quiero registrar mis alimentos, para hacer seguimiento. | **Scenario 1: Registro exitoso**<br>Given el paciente tiene plan activo,<br>When registra alimentos,<br>Then se guarda en historial.<br><br>**Scenario 2: Registro vacío**<br>Given no ingresa datos,<br>When intenta guardar,<br>Then muestra error. | EP04 |
 | US28 | Registrar actividad física | Como paciente, quiero registrar actividad física, para calcular adherencia. | **Scenario 1: Registro válido**<br>Given ingresa datos correctos,<br>When confirma,<br>Then se guarda.<br><br>**Scenario 2: Datos inválidos**<br>Given valores incorrectos,<br>When guarda,<br>Then muestra error. | EP04 |
 | US29 | Actualizar peso semanal | Como paciente, quiero actualizar mi peso, para ver progreso. | **Scenario 1: Actualización exitosa**<br>Given ingresa peso válido,<br>When guarda,<br>Then se actualiza el gráfico.<br><br>**Scenario 2: Valor inválido**<br>Given valor incorrecto,<br>When guarda,<br>Then muestra error. | EP04 |
@@ -1371,7 +1371,7 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 | US31 | Calcular nivel de adherencia al plan | Como Sistema, quiero calcular periódicamente el nivel de adherencia del paciente a su plan nutricional, para identificar a tiempo a los pacientes con bajo cumplimiento. | **Scenario 1: Adherencia calculada**<br>Given el sistema tiene registros de consumo de alimentos y actividad física del paciente,<br>When ejecuta el cálculo de adherencia,<br>Then el sistema determina el nivel de adherencia al plan y lo registra en el perfil del paciente.<br><br>**Regla de negocio:** El nivel de adherencia se calcula comparando los registros reales del paciente contra las metas del plan nutricional activo. | EP04 |
 | US32 | Enviar alerta de bajo cumplimiento al nutricionista | Como Sistema, quiero enviar automáticamente una alerta al nutricionista cuando el nivel de adherencia de un paciente esté por debajo del umbral definido, para que el nutricionista pueda intervenir oportunamente. | **Scenario 1: Alerta enviada por bajo cumplimiento**<br>Given el sistema ha calculado el nivel de adherencia de un paciente,<br>When el nivel de cumplimiento es inferior al umbral establecido por la política del sistema,<br>Then el sistema envía una alerta de bajo cumplimiento al nutricionista vía Email API con el detalle del paciente afectado.<br><br>**Scenario 2: Cumplimiento adecuado**<br>Given el sistema calcula el nivel de adherencia,<br>When el nivel supera el umbral establecido,<br>Then el sistema registra el buen cumplimiento y no genera ninguna alerta. | EP04 |
 | US33 | Generar reporte PDF de evolución del paciente | Como Sistema, quiero generar automáticamente un reporte PDF con la evolución y metas alcanzadas del paciente, para que el nutricionista pueda consultar el progreso de manera consolidada. | **Scenario 1: Reporte generado exitosamente**<br>Given el sistema tiene datos suficientes de seguimiento del paciente (consumo, actividad, peso),<br>When se ejecuta el proceso de generación del reporte de evolución,<br>Then el sistema genera un Reporte PDF de Resultados con las metas alcanzadas y lo pone disponible para el nutricionista.<br><br>**Scenario 2: Datos insuficientes**<br>Given el sistema intenta generar el reporte,<br>When no hay registros suficientes del paciente para generar el reporte,<br>Then el sistema no genera el PDF y notifica que se necesitan más datos de seguimiento para producir el reporte. | EP04 |
-| **EP05** | **Subscriptions & Billing — Contratación de planes individuales B2C y corporativos, procesamiento de pagos, emisión de facturas, renovación automática y gestión de pagos atrasados.** |  |  | — |
+| **EP05** | **Subscriptions & Billing — Contratación de planes individuales B2C y corporativos, procesamiento de pagos, emisión de facturas, renovación automática y gestión de pagos atrasados.** | 
 | US34 | Seleccionar y contratar plan mensual individual (B2C) | Como paciente, quiero seleccionar un plan mensual de suscripción e ingresar mi método de pago, para activar los beneficios del plan y acceder a los servicios de la plataforma. | **Scenario 1: Suscripción B2C activada exitosamente**<br>Given el paciente accede a la sección de planes de suscripción,<br>When selecciona un plan mensual, ingresa su método de pago y el pago es procesado exitosamente por el Pasarela de Pagos API,<br>Then el sistema activa los beneficios del plan, registra la suscripción B2C y muestra el Resumen de Facturación al paciente.<br><br>**Scenario 2: Pago rechazado**<br>Given el paciente intenta contratar un plan mensual,<br>When el Pasarela de Pagos API rechaza el pago,<br>Then el sistema notifica al paciente del rechazo, no activa el plan y solicita un método de pago alternativo. | EP05 |
 | US35 | Visualizar resumen de facturación | Como paciente, quiero visualizar un resumen de mi facturación luego de realizar un pago, para tener constancia del plan contratado, el monto pagado y la fecha de vencimiento. | **Scenario 1: Resumen disponible post-pago**<br>Given el paciente ha completado el proceso de pago exitosamente,<br>When accede al Resumen de Facturación,<br>Then el sistema muestra el detalle del plan contratado, el monto, la fecha de pago y la fecha de próxima renovación.<br><br>**Scenario 2: Sin pagos realizados**<br>Given el paciente no ha realizado ningún pago,<br>When accede al Resumen de Facturación,<br>Then el sistema muestra un mensaje indicando que no hay facturación registrada aún. | EP05 |
 | US36 | Comprar paquete corporativo de licencias | Como Admin Corporativo, quiero comprar un paquete de licencias corporativas, para que el sistema genere la factura correspondiente y habilite los cupos de acceso para mis colaboradores. | **Scenario 1: Compra exitosa y licencias habilitadas**<br>Given el Admin Corporativo accede a la sección de planes corporativos,<br>When selecciona un paquete de licencias, el sistema genera la orden de compra y el pago corporativo es confirmado,<br>Then el sistema emite la factura, registra el pago y habilita los cupos de licencias correspondientes para el Admin.<br><br>**Scenario 2: Pago corporativo rechazado**<br>Given el Admin Corporativo intenta adquirir el paquete corporativo,<br>When el pago corporativo es rechazado,<br>Then el sistema notifica al Admin del rechazo y no habilita ninguna licencia hasta que el pago sea confirmado. | EP05 |
@@ -1386,7 +1386,7 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 | US44 | Visualizar sección para nutricionistas | Como visitante del segmento nutricionista, quiero ver el contenido específico para profesionales de nutrición en la landing page, para entender cómo la plataforma puede apoyar mi práctica profesional. | **Scenario 1: Sección para nutricionistas accesible**<br>Given el visitante del segmento nutricionista navega a la sección correspondiente de la landing page,<br>When accede a dicha sección,<br>Then el sistema muestra las herramientas disponibles para nutricionistas, beneficios de unirse a la plataforma y un CTA para registrarse como profesional.<br><br>**Scenario 2: Navegación a registro desde CTA**<br>Given el visitante nutricionista visualiza el CTA de registro profesional,<br>When hace clic en él,<br>Then el sistema redirige al visitante a la pantalla de registro correspondiente al perfil de nutricionista. | EP06 |
 | US45 | Visualizar planes y precios en la landing page | Como visitante, quiero ver los planes disponibles con sus precios en la landing page, para comparar las opciones y decidir cuál se ajusta mejor a mis necesidades antes de registrarme. | **Scenario 1: Sección de precios visible**<br>Given el visitante accede a la landing page,<br>When navega a la sección de planes y precios,<br>Then el sistema muestra los planes disponibles (individual y corporativo) con sus características, precios y un CTA para contratar cada uno.<br><br>**Scenario 2: CTA de plan redirige a registro**<br>Given el visitante selecciona el CTA de un plan en la sección de precios,<br>When hace clic en "Contratar" o equivalente,<br>Then el sistema redirige al visitante a la pantalla de registro o inicio de sesión para continuar con la contratación. | EP06 |
 | US46 | Navegar entre secciones de la landing page | Como visitante, quiero navegar fácilmente entre las distintas secciones de la landing page mediante un menú de navegación, para acceder rápidamente a la información que me interesa. | **Scenario 1: Navegación por menú**<br>Given el visitante se encuentra en la landing page,<br>When hace clic en un ítem del menú de navegación,<br>Then la página desplaza la vista hasta la sección correspondiente sin necesidad de recargar la página.<br><br>**Scenario 2: Menú responsivo en móvil**<br>Given el visitante accede a la landing page desde un dispositivo móvil,<br>When abre el menú de navegación,<br>Then el menú se muestra en formato adaptado (ej. hamburguesa) con todos los ítems de navegación accesibles. | EP06 |
-| EP07 | RESTful API – Technical Stories — Endpoints del API RESTful que exponen las funcionalidades del sistema para ser consumidas por el frontend u otros clientes autorizados. | — | — | — |
+| EP07 | RESTful API – Technical Stories — Endpoints del API RESTful que exponen las funcionalidades del sistema para ser consumidas por el frontend u otros clientes autorizados. |
 | TS01 | API: Endpoint de registro de usuario | Como Developer, quiero consumir el endpoint de registro de usuario, para integrar la creación de nuevas cuentas desde el cliente frontend. | **Scenario 1: Request válido — 201 Created**<br>Given el Developer envía POST /api/v1/users/register con body JSON válido (nombre, email, contraseña, tipo),<br>When el servidor procesa la solicitud,<br>Then el servidor responde con HTTP 201 y el objeto del usuario creado (sin exponer la contraseña).<br><br>**Scenario 2: Datos inválidos — 400 Bad Request**<br>Given el Developer envía POST /api/v1/users/register con campos faltantes o inválidos,<br>When el servidor procesa la solicitud,<br>Then el servidor responde con HTTP 400 y un body con el detalle de los errores de validación por campo.<br><br>**Scenario 3: Email duplicado — 409 Conflict**<br>Given el Developer envía POST /api/v1/users/register con un email ya registrado,<br>When el servidor verifica la unicidad del email,<br>Then el servidor responde con HTTP 409 y un mensaje indicando que el email ya está en uso. | EP07 |
 | TS02 | API: Endpoint de autenticación y emisión de token | Como Developer, quiero consumir el endpoint de inicio de sesión, para obtener un token JWT de autenticación y gestionar el acceso del usuario en el cliente. | **Scenario 1: Credenciales válidas — 200 OK**<br>Given el Developer envía POST /api/v1/auth/login con email y contraseña válidos,<br>When el servidor verifica las credenciales,<br>Then el servidor responde con HTTP 200 y el token JWT con tiempo de expiración de 24 horas.<br><br>**Scenario 2: Credenciales inválidas — 401 Unauthorized**<br>Given el Developer envía POST /api/v1/auth/login con credenciales incorrectas,<br>When el servidor procesa la solicitud,<br>Then el servidor responde con HTTP 401 y un mensaje de error de autenticación.<br><br>**Scenario 3: Cuenta bloqueada — 403 Forbidden**<br>Given el Developer envía POST /api/v1/auth/login para una cuenta bloqueada temporalmente,<br>When el servidor verifica el estado de la cuenta,<br>Then el servidor responde con HTTP 403 y un mensaje indicando que la cuenta está bloqueada temporalmente. | EP07 |
 | TS03 | API: Endpoint de verificación de correo electrónico | Como Developer, quiero consumir el endpoint de verificación de correo, para que el cliente pueda procesar la validación del token enviado al email del usuario. | **Scenario 1: Token válido — 200 OK**<br>Given el Developer envía GET /api/v1/auth/verify-email?token={token} con un token válido y vigente,<br>When el servidor valida el token,<br>Then el servidor responde con HTTP 200 confirmando que el correo fue verificado y la cuenta activada.<br><br>**Scenario 2: Token expirado — 410 Gone**<br>Given el Developer envía GET /api/v1/auth/verify-email?token={token} con un token expirado (más de 24h),<br>When el servidor valida el token,<br>Then el servidor responde con HTTP 410 y un mensaje indicando que el token ha expirado. | EP07 |
@@ -1405,26 +1405,581 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 
 ### 3.3. Product Backlog
 
-
+| # Orden | User Story Id | Título | Descripción | Story Points |
+|--------|--------------|--------|------------|-------------|
+| 1 | US41 | Visualizar propuesta de valor en la landing page | Como visitante, quiero visualizar la propuesta de valor de la plataforma en la landing page, para entender qué servicios ofrece y decidir si me registro. | 1 |
+| 2 | US46 | Navegar entre secciones de la landing page | Como visitante, quiero navegar fácilmente entre las distintas secciones de la landing page mediante un menú de navegación, para acceder rápidamente a la información que me interesa. | 2 |
+| 3 | US42 | Visualizar sección para pacientes individuales | Como visitante del segmento paciente, quiero ver el contenido específico para pacientes individuales en la landing page, para evaluar si la plataforma cubre mis necesidades de salud y nutrición. | 2 |
+| 4 | US43 | Visualizar sección para empresas corporativas | Como visitante del segmento empresa, quiero ver el contenido específico para organizaciones corporativas en la landing page, para evaluar si la plataforma es adecuada para implementar en mi empresa. | 2 |
+| 5 | US44 | Visualizar sección para nutricionistas | Como visitante del segmento nutricionista, quiero ver el contenido específico para profesionales de nutrición en la landing page, para entender cómo la plataforma puede apoyar mi práctica profesional. | 2 |
+| 6 | US45 | Visualizar planes y precios en la landing page | Como visitante, quiero ver los planes disponibles con sus precios en la landing page, para comparar las opciones y decidir cuál se ajusta mejor a mis necesidades antes de registrarme. | 3 |
+| 7 | US01 | Registrar cuenta de usuario | Como usuario, quiero registrarme en la plataforma ingresando mis datos personales, para acceder a los servicios de BioTrack. | 3 |
+| 8 | US02 | Asignar tipo de cuenta automáticamente | Como sistema, quiero asignar automáticamente el tipo de cuenta (paciente, empresa o nutricionista), para ofrecer funcionalidades adecuadas al usuario. | 2 |
+| 9 | US03 | Recibir correo de verificación | Como usuario, quiero recibir un correo electrónico de verificación tras registrarme, para validar mi identidad y activar mi cuenta. | 2 |
+| 10 | US04 | Validar correo electrónico | Como usuario, quiero validar mi correo electrónico mediante un enlace de verificación, para completar correctamente el proceso de registro. | 2 |
+| 11 | US05 | Reenviar enlace de verificación | Como usuario, quiero solicitar el reenvío del enlace de verificación en caso no haya recibido el correo inicial, para poder activar mi cuenta correctamente. | 2 |
+| 12 | US06 | Activar cuenta de usuario | Como usuario, quiero que mi cuenta sea activada después de validar mi correo electrónico, para poder acceder a la plataforma sin restricciones. | 1 |
+| 13 | US07 | Iniciar sesión en la plataforma | Como usuario, quiero iniciar sesión ingresando mis credenciales, para acceder a mi cuenta y utilizar las funcionalidades de BioTrack. | 2 |
+| 14 | US08 | Bloquear cuenta por intentos fallidos | Como sistema, quiero bloquear temporalmente la cuenta tras varios intentos fallidos de inicio de sesión, para proteger la seguridad del usuario. | 3 |
+| 15 | US09 | Registrar datos de salud | Como paciente, quiero registrar mis datos de salud (peso, altura, edad, etc.), para personalizar mi experiencia dentro de la plataforma. | 3 |
+| 16 | US10 | Seleccionar objetivo nutricional | Como paciente, quiero seleccionar mi objetivo nutricional (bajar de peso, mantener, aumentar masa, etc.), para que el sistema adapte las recomendaciones a mis necesidades. | 2 |
+| 17 | US11 | Registrar restricciones alimentarias | Como paciente, quiero registrar mis restricciones alimentarias (alergias, intolerancias), para evitar recomendaciones que afecten mi salud. | 2 |
+| 18 | US12 | Registrar empresa | Como empresa, quiero registrar los datos de mi organización en la plataforma, para poder gestionar el acceso de mis colaboradores. | 3 |
+| 19 | US13 | Validar RUC de la empresa | Como sistema, quiero validar el RUC ingresado por la empresa, para asegurar la autenticidad de la organización registrada. | 3 |
+| 20 | US14 | Subir lista de colaboradores | Como empresa, quiero cargar la lista de colaboradores en la plataforma, para facilitar su registro y acceso al sistema. | 4 |
+| 21 | US15 | Enviar invitaciones a colaboradores | Como empresa, quiero enviar invitaciones a mis colaboradores mediante correo electrónico, para que puedan registrarse en la plataforma. | 3 |
+| 22 | US16 | Visualizar dashboard corporativo | Como empresa, quiero visualizar un dashboard con métricas de salud y participación de mis colaboradores, para monitorear su bienestar general. | 4 |
+| 23 | US17 | Anonimizar métricas de colaboradores | Como sistema, quiero anonimizar los datos de los colaboradores en los reportes corporativos, para proteger su privacidad. | 5 |
+| 24 | US18 | Asignar nutricionista al paciente | Como sistema, quiero asignar un nutricionista a cada paciente, para garantizar un seguimiento profesional. | 4 |
+| 25 | US19 | Notificar asignación de nutricionista | Como sistema, quiero notificar al paciente sobre la asignación de su nutricionista, para que esté informado y pueda iniciar su proceso. | 2 |
+| 26 | US20 | Evaluar perfil del paciente | Como nutricionista, quiero evaluar el perfil de salud del paciente, para diseñar un plan nutricional adecuado. | 4 |
+| 27 | US21 | Crear plan nutricional personalizado | Como nutricionista, quiero crear un plan nutricional personalizado, para ayudar al paciente a alcanzar sus objetivos de salud. | 5 |
+| 28 | US22 | Aceptar plan nutricional | Como paciente, quiero aceptar el plan nutricional asignado, para comenzar a seguirlo dentro de la plataforma. | 3 |
+| 29 | US23 | Visualizar dieta semanal | Como paciente, quiero ver mi dieta semanal organizada, para saber qué alimentos consumir cada día. | 3 |
+| 30 | US24 | Agendar consulta nutricional | Como paciente, quiero agendar consultas con mi nutricionista, para recibir seguimiento continuo. | 3 |
+| 31 | US25 | Recibir recordatorio de consulta | Como paciente, quiero recibir recordatorios de mis consultas programadas, para no olvidarlas y asistir puntualmente. | 2 |
+| 32 | US26 | Registrar notas de consulta | Como nutricionista, quiero registrar notas de cada consulta realizada, para llevar un historial del paciente. | 3 |
+| 33 | US27 | Registrar consumo de alimentos | Como paciente, quiero registrar los alimentos que consumo diariamente, para llevar un control de mi dieta. | 3 |
+| 34 | US28 | Registrar actividad física | Como paciente, quiero registrar mi actividad física diaria, para complementar el seguimiento de mi salud. | 3 |
+| 35 | US29 | Actualizar peso | Como paciente, quiero registrar y actualizar mi peso periódicamente, para monitorear mi progreso. | 2 |
+| 36 | US30 | Visualizar gráfico de progreso | Como paciente, quiero ver gráficos de mi evolución (peso, hábitos, etc.), para analizar mi avance. | 3 |
+| 37 | US31 | Calcular nivel de adherencia | Como sistema, quiero calcular el nivel de adherencia del paciente a su plan nutricional, para medir su constancia. | 4 |
+| 38 | US32 | Enviar alertas de bajo cumplimiento | Como sistema, quiero enviar alertas cuando el paciente no cumple su plan, para motivarlo a retomar sus hábitos. | 3 |
+| 39 | US33 | Generar reporte de evolución | Como sistema, quiero generar reportes en PDF del progreso del paciente, para facilitar el seguimiento y análisis. | 4 |
+| 40 | US34 | Contratar plan individual | Como usuario, quiero contratar un plan de suscripción individual, para acceder a funcionalidades premium. | 5 |
+| 41 | US35 | Visualizar historial de facturación | Como usuario, quiero visualizar el historial de mis pagos y facturación, para llevar un control de mis suscripciones. | 2 |
+| 42 | US36 | Comprar plan corporativo | Como empresa, quiero adquirir un paquete corporativo de licencias, para brindar acceso a mis colaboradores. | 5 |
+| 43 | US37 | Emitir factura corporativa | Como empresa, quiero recibir una factura por la compra del plan corporativo, para fines administrativos y contables. | 3 |
+| 44 | US38 | Renovación automática de suscripción | Como sistema, quiero renovar automáticamente la suscripción del usuario, para evitar interrupciones en el servicio. | 4 |
+| 45 | US39 | Suspender funciones premium | Como sistema, quiero suspender el acceso a funciones premium cuando no se realice el pago, para controlar el uso del servicio. | 3 |
+| 46 | US40 | Recibir aviso de pago atrasado | Como usuario, quiero recibir notificaciones cuando tenga pagos pendientes, para regularizar mi suscripción. | 2 |
 
 ---
 
 ## 🎨 Capítulo IV: Product Design
 
-### 4.1. Style Guidelines
-#### 4.1.1. General Style Guidelines
-#### 4.1.2. Web Style Guidelines
+## 4.1. Style Guidelines
 
-### 4.2. Information Architecture
-#### 4.2.1. Organization Systems
-#### 4.2.2. Labeling Systems
-#### 4.2.3. SEO Tags and Meta Tags
-#### 4.2.4. Searching Systems
-#### 4.2.5. Navigation Systems
+Esta sección define los lineamientos de estilo que aseguran una identidad visual consistente, accesible y escalable en todas las interfaces de BioTrack (web y móvil). Se establecen criterios de marca, tipografía, paleta de colores, espaciado y grid, así como estados e interacción (focus, hover, error) con enfoque en WCAG 2.1 AA. Los tokens de diseño y reglas responsive facilitan la implementación y el mantenimiento entre equipos de diseño y desarrollo, actuando como fuente única de verdad que garantiza coherencia y calidad a medida que el producto evoluciona.
 
-### 4.3. Landing Page UI Design
-#### 4.3.1. Landing Page Wireframe
-#### 4.3.2. Landing Page Mock-up
+---
+
+### 4.1.1. General Style Guidelines
+
+El sistema de diseño de BioTrack está fundamentado en los principios de claridad, accesibilidad y calidez clínica. La plataforma conecta pacientes, nutricionistas y empresas en un entorno de gestión de bienestar corporativo, por lo que cada decisión visual refuerza confianza profesional, legibilidad en dashboards de datos y una experiencia de uso intuitiva. En la Frontend Web Application, los lineamientos se implementan a través del design system propio de BioTrack, cuyos componentes están alineados con los estándares WCAG 2.1 AA y el principio de diseño inclusivo.
+
+**Paleta de Colores**
+
+- **Colores Primarios**
+
+| **Código HEX** | **Color** | **Descripción** |
+|---|---|---|
+| **#0F4C81** | *(insertar imagen del swatch #0F4C81)* | Color primario de BioTrack. Representa confianza médica y profesionalismo. Se utiliza en encabezados, sidebar de navegación, botones institucionales y gradientes de marca. |
+| **#0A3660** | *(insertar imagen del swatch #0A3660)* | Azul oscuro. Variante del azul principal para gradientes profundos, estados activos y fondo del panel de autenticación. Garantiza contraste máximo. |
+| **#E8F0F9** | *(insertar imagen del swatch #E8F0F9)* | Azul claro. Fondo de chips, badges informativos, estados hover de ítems de menú y tarjetas seleccionadas. Comunica proximidad sin la intensidad del azul primario. |
+| **#10B981** | *(insertar imagen del swatch #10B981)* | Verde principal. Color de acción y confirmación. Botones CTA primarios, indicadores de estado positivo, barras de progreso y métricas de adherencia. Comunica salud y logro. |
+| **#0A9268** | *(insertar imagen del swatch #0A9268)* | Verde oscuro. Estado hover y pressed del botón primario. Asegura contraste WCAG AA en todos los estados de interacción activa. |
+| **#D1FAE5** | *(insertar imagen del swatch #D1FAE5)* | Verde claro. Fondo de alertas de éxito, tarjetas de confirmación y badges de estado "Activo". Complementa al verde principal en notificaciones no intrusivas. |
+
+- **Colores Secundarios y de Estado**
+
+| **Código HEX** | **Color** | **Descripción** |
+|---|---|---|
+| **#1F2937** | *(insertar imagen del swatch #1F2937)* | Gris oscuro. Tipografía principal, encabezados de módulo, elementos de mayor peso visual. Máximo contraste sobre fondos claros. |
+| **#4B5563** | *(insertar imagen del swatch #4B5563)* | Gris medio. Texto secundario, metadatos, subtítulos, descripciones y placeholders. Contraste mínimo 4.5:1 sobre fondos claros. |
+| **#F3F4F6** | *(insertar imagen del swatch #F3F4F6)* | Gris claro. Fondo de tarjetas, campos inactivos, fondos de módulos secundarios y estados disabled. |
+| **#E5E7EB** | *(insertar imagen del swatch #E5E7EB)* | Gris borde. Bordes de tarjetas, divisores de sección, líneas de tabla y contornos de inputs en estado neutro. |
+| **#F8FAFB** | *(insertar imagen del swatch #F8FAFB)* | Fondo de la aplicación. Off-white cálido que evita el deslumbramiento del blanco puro y da amplitud al dashboard. |
+| **#DC3545** | *(insertar imagen del swatch #DC3545)* | Rojo de alerta. Estado de error crítico, campos inválidos, cuenta bloqueada y pago rechazado. Reservado exclusivamente para señales de peligro. |
+| **#FBBF24** | *(insertar imagen del swatch #FBBF24)* | Amarillo. Estrellas de valoración en testimoniales y alertas preventivas de baja adherencia al plan. |
+
+---
+
+**Fonts / Tipografía**
+
+Hemos seleccionado cuidadosamente dos familias tipográficas para BioTrack, buscando un equilibrio entre autoridad clínica y legibilidad funcional en todos los contextos de uso. La combinación de DM Serif Display para títulos y Poppins para textos operativos potencia la jerarquía visual, proyecta una identidad de salud moderna y accesible, y acompaña con coherencia los flujos clave de gestión nutricional, seguimiento de progreso y administración corporativa.
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: imagen de la jerarquía tipográfica mostrando DM Serif Display en H1/H2 y Poppins en H3/body/microcopy con sus tamaños y pesos -->
+  <img src="resources/Chapter-IV/jerarquia_tipografica.png" alt="Jerarquía Tipográfica BioTrack" width="500"/>
+</p>
+
+- **DM Serif Display** fue elegida para los títulos H1 y H2 por su estilo serif elegante con remates refinados que transmite autoridad médica, profesionalismo y calidez humana. Su carácter distintivo diferencia BioTrack de plataformas tecnológicas genéricas y aporta una presencia memorable en encabezados de la landing y módulos de la aplicación.
+
+- **DM Serif Display (Regular — clamp 2.4rem→3.8rem)** garantiza jerarquías nítidas en los encabezados principales (H1), permitiendo que el usuario identifique rápidamente el contexto de cada sección.
+
+- **DM Serif Display (Regular — clamp 1.9rem→2.8rem)** se utiliza en títulos de sección (H2) y métricas destacadas de precio, ofreciendo presencia visual sin saturar la interfaz.
+
+- **Poppins** fue escogida para textos funcionales e interfaces operativas por su geometría limpia, alta legibilidad en densidades de datos y soporte completo de caracteres latinos en múltiples pesos (400, 500, 600, 700), ideal para dashboards de salud con tablas, formularios y métricas en tiempo real.
+
+| **Uso** | **Fuente** | **Tamaño / Peso** | **Responsive (clamp)** |
+|---|---|---|---|
+| Título H1 | DM Serif Display | clamp(2.4rem, 5vw, 3.8rem) / 400 | 38px → 61px |
+| Título H2 | DM Serif Display | clamp(1.9rem, 3.5vw, 2.8rem) / 400 | 30px → 45px |
+| Título H3 / Subtítulo | Poppins | 1.25rem / SemiBold 600 | Fijo — 20px |
+| Eyebrow / Label | Poppins | 0.72rem / Bold 600 · uppercase · ls .12em | Fijo — sin escala |
+| Cuerpo de texto | Poppins | 1rem (16px) / Regular 400 · lh 1.6 | clamp(15px, 0.6vw+12px, 16px) |
+| Texto de apoyo | Poppins | 0.875rem / Regular 400 | clamp(13px, 0.5vw, 14px) |
+| Microcopy / Badge | Poppins | 0.72rem / Bold 600 · uppercase | Fijo — no escala |
+| Precio / Métrica destacada | DM Serif Display | 2.8rem / peso heredado | Por contexto |
+
+---
+
+**Espaciado y márgenes**
+
+BioTrack adopta un sistema de espaciado basado en múltiplos de 8pt para garantizar coherencia matemática y armonía visual:
+
+- **Márgenes generales y contenedores:** 24 px de padding horizontal. Container max-width 1200px centrado.
+- **Separación entre secciones principales (landing):** 100 px de padding vertical.
+- **Gap entre tarjetas y componentes en grids:** 20 px (features, pricing, testimoniales).
+- **Padding interno de tarjetas:** 28–48 px según el tamaño del componente.
+- **Márgenes en botones:** 10 px vertical, 22–30 px horizontal según variante.
+- **Separación ícono–texto:** 8 px fijos en botones e ítems de menú.
+- **Interlineado:** 1.6× el tamaño de fuente base; 1.75× en párrafos descriptivos extensos.
+- **Ritmo 8pt recomendado:** múltiplos de 8 (8/16/24/32/40/48 px) entre bloques de contenido.
+
+---
+
+**Branding y logo**
+
+El diseño visual de BioTrack combina rigor médico con modernidad tecnológica. Sus elementos se definen de la siguiente manera:
+
+- **Isotipo y nombre:** "BioTrack" alude al seguimiento (tracking) biológico y nutricional. Se presenta en Poppins con peso diferenciado: "Bio" en verde-cian
+ (#10B981, bold 700) y "Track" en gris oscuro (#1F2937, medium 500). El isotipo acompañante representa un nodo de actividad vital que sintetiza bienestar y tecnología. El logo-mark es un cuadrado de 34–36px con border-radius 9–10px y gradiente 135deg de azul a verde.
+
+- **Identidad cromática:** La paleta se articula en torno al binomio Azul (#0F4C81) + Verde (#10B981). El azul aporta confianza clínica; el verde comunica salud activa y resultados positivos. Juntos diferencian a BioTrack de plataformas hospitalarias frías y de apps de fitness informales.
+
+- **Gradientes de marca:** Hero landing: `linear-gradient(145deg, #f0f6ff 0%, #f8fafb 60%, #e8f5ef 100%)`. Panel auth: `linear-gradient(160deg, #0a3660 0%, #0F4C81 55%, #1a6aa8 100%)`. CTA final: `linear-gradient(135deg, #0F4C81 0%, #0a3660 100%)`.
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: imagen del logotipo BioTrack completo (isotipo + nombre) en sus variantes: positivo sobre blanco, negativo sobre azul, y versión reducida solo isotipo -->
+  <img src="resources/Chapter-IV/biotrack_logo.jpeg" alt="Logo BioTrack" width="500"/>
+</p>
+
+---
+
+### 4.1.2. Web Style Guidelines
+
+Esta sección establece los estándares visuales y de interacción que rigen la experiencia de escritorio de BioTrack. Los lineamientos definen cómo cada decisión de color, tipografía, iconografía y componente se traduce en patrones concretos para la interfaz web responsiva, garantizando coherencia entre diseño y desarrollo en todos los puntos de contacto digitales.
+
+---
+
+**Estructura de la página**
+
+La interfaz web de BioTrack se articula en tres zonas funcionales: una Navbar fija, un área de contenido central y un Footer informativo. Esta distribución garantiza orientación permanente del usuario, acceso inmediato a las acciones prioritarias y coherencia estructural entre la Landing Page y la Web Application.
+
+| **Ubicación** | **Contenido** |
+|---|---|
+| **Navbar fija (sticky) — altura 68px** | Logotipo BioTrack a la izquierda (enlace al Dashboard o al inicio). Menú principal: Funciones, Segmentos, Cómo funciona, Precios. CTAs: "Iniciar sesión" (btn-outline) y "Comenzar gratis" (btn-primary). Fondo glass-morphism (rgba blanco 88%, blur 12px). Al scroll: borde inferior + shadow-sm activos. |
+| **Zona central — max-width 1200px centrado** | Hero grid 1fr/1fr. Secciones de features en grid 3 columnas. Segmentos con pill tabs. Pasos How it works. Stats band. Pricing grid 3 columnas. Testimoniales. CTA final. Padding horizontal 24px. |
+| **Footer — fondo #1F2937** | Grid 2fr/1fr/1fr/1fr/1fr. Brand column (logo, descripción 280px, social icons). 4 columnas de links (Producto, Segmentos, Recursos, Legal). Footer-bottom flex con copyright y links legales. |
+
+---
+
+**Tipografía (web desktop)**
+
+En la interfaz web de escritorio, la jerarquía tipográfica de BioTrack se aplica con valores fijos para resoluciones ≥ 1025px. DM Serif Display lidera las jerarquías de título; Poppins asegura legibilidad en cuerpos de texto, formularios y microcopy operativo.
+
+| **Uso** | **Fuente** | **Tamaño / Peso** | **Responsive (clamp)** |
+|---|---|---|---|
+| Título H1 | DM Serif Display | 3.8rem / Regular | clamp(2.4rem, 5vw, 3.8rem) |
+| Título H2 | DM Serif Display | 2.8rem / Regular | clamp(1.9rem, 3.5vw, 2.8rem) |
+| Título H3 / Subtítulo | Poppins | 1.25rem / SemiBold 600 | Fijo |
+| Eyebrow label | Poppins | 0.72rem / Bold 600 · uppercase | Fijo — no escala |
+| Cuerpo de texto | Poppins | 1rem / Regular 400 · lh 1.6 | clamp(15px, 0.6vw+12px, 16px) |
+| Texto de apoyo / caption | Poppins | 0.875rem / Regular 400 | clamp(13px, 0.5vw, 14px) |
+| Microcopy / Badge | Poppins | 0.72rem / Bold 600 · uppercase | Fijo — no escala |
+
+---
+
+**Colores (paleta y contraste)**
+
+La aplicación cromática sigue una distribución semántica estricta que refuerza la identidad de marca, la accesibilidad WCAG 2.1 AA y la claridad operativa del usuario.
+
+| **Uso en interfaz web** | **Color / HEX** | **Descripción** |
+|---|---|---|
+| **Botón CTA primario, indicador activo, borde focus** | `#10B981` — Verde principal | Concentra la llamada a la acción. Contraste ≥ 4.5:1 sobre fondos blancos. Hover: #0A9268 con sombra green 35%. |
+| **Navbar, sidebar activo, gradientes institucionales** | `#0F4C81` — Azul principal | Autoridad y confianza institucional. Step numbers, featured cards, botones blue. |
+| **Fondo general de la aplicación** | `#F8FAFB` | Off-white cálido como lienzo principal del dashboard. |
+| **Superficies de tarjeta y formulario** | `#FFFFFF` | Fondo de cards, inputs activos y modales. |
+| **Tipografía principal** | `#1F2937` — Gris oscuro | Máximo contraste en H1–H3, sidebar ítems y encabezados de módulo. |
+| **Texto secundario, placeholders** | `#4B5563` — Gris medio | Fechas, descripciones breves, labels de formulario. Contraste mínimo 4.5:1. |
+| **Bordes de tarjeta, divisores, inputs neutros** | `#E5E7EB` — Gris borde | Delimita estructuralmente sin competir con elementos de acción. |
+| **Estado éxito / adherencia positiva** | `#10B981` / `#D1FAE5` | Verde para indicadores activos; verde claro para fondos de alertas success. |
+| **Estado error / cuenta bloqueada / pago rechazado** | `#DC3545` — Rojo alerta | Exclusivo para errores críticos y estados de peligro. |
+
+---
+
+**Iconografía**
+
+La iconografía de BioTrack sigue un estilo de trazo lineal (outline) coherente con la tipografía Poppins. Los íconos apoyan visualmente cada acción del usuario: registrar datos de salud, revisar el plan nutricional, hacer seguimiento de progreso y navegar entre módulos.
+
+| **Aspecto** | **Especificación** |
+|---|---|
+| **Estilo** | Trazo lineal (stroke/outline), esquinas redondeadas, peso de trazo uniforme de 2px. Familias recomendadas: Lucide Icons, Heroicons o Material Symbols Outlined. |
+| **Tamaños** | 44px en feature cards e íconos de KPI; 24px en sidebar y botones; 20px en campos de formulario; 16–18px en badges y microcopy. |
+| **Color según estado** | `#10B981` en acciones primarias activas; `#0F4C81` en navegación y sidebar activo; `#4B5563` en estados inactivos; `#DC3545` en error; `#10B981` en confirmación. |
+| **Accesibilidad** | Cada ícono interactivo debe incluir `aria-label` descriptivo o texto visible acompañante. Ningún estado puede depender exclusivamente del ícono. |
+| **Espaciado ícono–texto** | 8px fijos entre el ícono y su etiqueta en botones e ítems de menú. |
+
+---
+
+**Componentes clave (web)**
+
+Los siguientes componentes conforman el vocabulario visual interactivo de BioTrack. El Verde (#10B981) y el Azul (#0F4C81) actúan como ejes cromáticos de acción e identidad.
+
+| **Componente** | **Estilo base** | **Variantes / Estados** |
+|---|---|---|
+| **BOTONES** | | |
+| Botón primario (CTA) | Fondo `#10B981` · texto `#FFFFFF` · Poppins 0.9rem SemiBold · border-radius 50px · padding 10px 22px · gap 8px. | **Hover:** fondo `#0A9268` · translateY(-1px) · sombra rgba(16,185,129,.35). **Focus:** outline 3px `#0F4C81`. **Disabled:** fondo `#E5E7EB` · texto `#4B5563`. |
+| Botón outline | Borde 2px `#E5E7EB` · fondo transparente · texto `#1F2937` · Poppins 0.9rem SemiBold · border-radius 50px. | **Hover:** border-color `#10B981` · color `#10B981`. **Focus:** outline 3px `#0F4C81`. |
+| Botón ghost | Sin borde ni fondo · texto `#1F2937` · Poppins 0.9rem. | **Hover:** color `#0F4C81`. Para links y acciones secundarias. |
+| Botón white (sobre azul) | Fondo `#FFFFFF` · texto `#0F4C81` · border-radius 50px. | **Hover:** fondo `#E8F0F9` · translateY(-1px). Uso en CTA final y paneles con gradiente azul. |
+| **FORMULARIOS E INPUTS** | | |
+| Campo de texto (Input) | Borde 1.5px `#E5E7EB` · fondo `#FFFFFF` · Poppins 0.88rem · border-radius 8px · padding 11px 14px. | **Focus:** borde `#0F4C81`. **Error:** borde `#DC3545` · fondo `#FFF5F5` · mensaje error debajo. **OK:** borde `#10B981`. |
+| Selector tipo de cuenta | Display flex de chips pill. Chip inactivo: borde `#E5E7EB`, texto gris. | **Activo:** borde `#0F4C81` · fondo `#E8F0F9` · texto `#0F4C81` · font-weight 600. |
+| **TARJETAS** | | |
+| Tarjeta de feature | Fondo `#F3F4F6` · border-radius 14px · padding 28px 24px · borde 1.5px transparente. | **Hover:** border-color `#E8F0F9` · shadow-md · translateY(-4px). **fc-large:** gradiente azul, span 2 columnas, texto blanco. |
+| Tarjeta KPI (dashboard) | Fondo `#F3F4F6` · valor en DM Serif Display 2rem · label Poppins 0.72rem · ícono 44px. | **mc-primary:** fondo `#0F4C81`, texto blanco. **mc-green:** fondo `#10B981`, texto blanco. |
+| Tarjeta de precio | Fondo `#FFFFFF` · border-radius 24px · padding 36px 28px · borde 1.5px `#E5E7EB`. | **price-featured:** gradiente azul · scale(1.04) · shadow-lg · featured-badge verde. |
+| Tarjeta de testimonial | Fondo `#F3F4F6` · border-radius 14px · padding 28px 24px · borde `#E5E7EB`. | **testi-featured:** gradiente azul, texto blanco. Stars: `#FBBF24`. |
+| **NAVEGACIÓN** | | |
+| Sidebar de la app | Fondo `#FFFFFF` · ancho 240px · borde-right 1px `#E5E7EB` · padding 20px 0. Ítems: Poppins 0.82rem 500, color `#4B5563`, padding 9px 20px. | **Activo:** color `#0F4C81` · fondo `#E8F0F9` · border-left 3px `#0F4C81` · font-weight 600. **Hover:** fondo `#E8F0F9`. |
+| Navbar de la app (topbar) | Fondo `#FFFFFF` · height 60px · borde-bottom 1px `#E5E7EB`. Logo + nav links + notif-btn + user-avatar. | Notif-dot rojo sobre el botón de notificaciones. User-avatar circular con iniciales. |
+| **NOTIFICACIONES Y ALERTAS** | | |
+| Alert / Banner de estado | Padding 14–16px · border-radius 8px · display flex · gap 12px · borde 1px. | **Success:** fondo `#D1FAE5` · borde `#6EE7B7` · texto `#065F46`. **Error:** fondo `#FEE2E2` · borde `#FECACA`. **Warning:** fondo `#FEF3C7` · borde `#FCD34D`. **Info:** fondo `#E8F0F9`. |
+| Badge / Chip | Display inline-flex · gap 4px · padding 3px 10px · border-radius 50px · Poppins 0.72rem Bold. | **Green:** `#D1FAE5` / `#0A9268`. **Blue:** `#E8F0F9` / `#0F4C81`. **Red:** `#FEE2E2` / `#991B1B`. **Gray:** `#F3F4F6` / `#4B5563`. |
+| Progress bar | Height 8px · fondo `#F3F4F6` · border-radius 4px · overflow hidden. | Fill: `#10B981` (verde), `#0F4C81` (azul), `#DC3545` (rojo), `#F59E0B` (naranja). |
+
+---
+
+**Diseño responsivo**
+
+BioTrack adopta un enfoque responsive que asegura una experiencia óptima en escritorio, tablet y móvil.
+
+**Principio general:** Toda funcionalidad disponible en escritorio debe ser accesible en tablet y móvil. Objetivos táctiles mínimos de 44×44px. Separación mínima de 8px entre controles interactivos.
+
+| **Dispositivo** | **Ancho** | **Columnas** | **Gutter** | **Especificaciones clave** |
+|---|---|---|---|---|
+| Mobile | ≤ 640px | 1–2 | 16px | Navbar hamburguesa en overlay. Hero: 1 columna. Features: 1fr. Pricing: 1fr max-width 380px. Footer: 1fr. Hero-actions: flex-direction column. |
+| Tablet | 641–1024px | 2 | 20px | Hero: 1 columna centrado. Features: 2fr con fc-large span 2. Stats: 2fr. Footer: 1fr 1fr. Sidebar colapsable. |
+| Desktop | ≥ 1025px | 12 | 24px | Container max-width 1200px centrado. Hero: 1fr 1fr. Features: 3fr. Pricing: 3fr. Footer: 2fr 1fr 1fr 1fr 1fr. Sidebar fijo 240px. |
+
+| **Requisito** | **Valor / Especificación** |
+|---|---|
+| Objetivos táctiles mínimos | 44×44px en todos los breakpoints. Botones con min-height 40px. |
+| Separación entre controles | Mínimo 8px entre elementos interactivos adyacentes. |
+| Focus visible | `outline 3px #0F4C81` para elementos nativos; sin supresión de outline en ningún componente. |
+| Animaciones | `transition: .25s cubic-bezier(.4,0,.2,1)`. Float 6s ease-in-out en hero mockup. data-reveal con opacity/translateY .6s. |
+
+---
+
+## 4.2. Information Architecture
+
+La arquitectura de información de BioTrack organiza la Landing Page como un recorrido de conversión claro para tres segmentos objetivo: pacientes individuales que buscan mejorar su nutrición, empresas corporativas que desean ofrecer bienestar a sus colaboradores, y nutricionistas que quieren digitalizar su práctica profesional.
+
+### 4.2.1. Organization Systems
+
+Para la Landing Page se emplea una organización **jerárquica y secuencial**. Es jerárquica porque el usuario puede acceder a secciones clave desde la barra de navegación, y secuencial porque el contenido está ordenado como una narrativa de conversión: propuesta de valor → beneficios por segmento → cómo funciona → métricas de impacto → planes → testimonios → llamado a la acción.
+
+| **Nivel** | **Sección** | **Propósito dentro de la arquitectura** |
+|---|---|---|
+| Global | Navbar | Acceso rápido a las secciones principales e inicio de sesión. |
+| Principal | Hero section | Propuesta de valor y CTAs principales de conversión. |
+| Confianza | Trust Band | Logos de empresas que usan BioTrack; reduce fricción. |
+| Funcional | Funcionalidades | Agrupa las features principales: dashboard, plan nutricional, progreso, bienestar corporativo. |
+| Segmentado | Segmentos (tabs) | Contenido diferenciado para Paciente, Empresa y Nutricionista. |
+| Explicativo | Cómo funciona | Proceso de adopción en 4 pasos para reducir percepción de complejidad. |
+| Métricas | Stats / Impacto | Cifras de usuarios activos, adherencia, satisfacción y planes activos. |
+| Comercial | Precios | Planes disponibles (Starter, Profesional, Empresarial) con CTA de contratación. |
+| Confianza | Testimoniales | Opiniones de pacientes y nutricionistas que validan la propuesta. |
+| Conversión | CTA Final | Llamado de cierre para registrarse o agendar una demo. |
+| Cierre | Footer | Navegación secundaria, redes sociales, legal y datos de marca. |
+
+### 4.2.2. Labeling Systems
+
+El sistema de etiquetado utiliza términos breves, directos y orientados a la acción. Las etiquetas evitan lenguaje técnico y priorizan conceptos familiares para cada segmento.
+
+| **Etiqueta** | **Tipo** | **Uso dentro de la landing** |
+|---|---|---|
+| **Funciones** | Navegación principal | Lleva a la sección de características y módulos de la plataforma. |
+| **Segmentos** | Navegación principal | Dirige al contenido diferenciado por perfil de usuario. |
+| **Cómo funciona** | Navegación principal | Explica el proceso de onboarding en pasos simples. |
+| **Precios** | Navegación principal | Permite comparar los planes antes de registrarse. |
+| **Iniciar sesión** | Acción de acceso | Permite que un usuario existente entre a su cuenta. |
+| **Comenzar gratis** | CTA principal | Dirige al flujo de registro de nueva cuenta. |
+| **Ver planes** | CTA secundario | Desplaza al visitante directamente a la sección de precios. |
+| **Plan Starter** | Etiqueta comercial | Plan gratuito con funcionalidades básicas para pacientes. |
+| **Plan Profesional** | Etiqueta comercial | Plan de pago con seguimiento completo y nutricionista asignado. |
+| **Plan Empresarial** | Etiqueta comercial | Plan corporativo con dashboard anónimo y licencias por equipo. |
+| **Paciente** | Tab de segmento | Activa el panel con beneficios y características para pacientes individuales. |
+| **Empresa** | Tab de segmento | Activa el panel con contenido y CTA para administradores corporativos. |
+| **Nutricionista** | Tab de segmento | Activa el panel con herramientas para profesionales de nutrición. |
+| **Comienza tu transformación** | CTA final | Refuerza el cierre de conversión al final del recorrido. |
+
+### 4.2.3. SEO Tags and Meta Tags
+
+La Landing Page incluye metadatos orientados a indexación básica, compatibilidad móvil, carga de recursos visuales y reconocimiento de marca.
+
+**Título de la página:**
+
+```html
+<title>BioTrack | Gestión nutricional y bienestar corporativo</title>
+```
+
+**Codificación de caracteres:**
+
+```html
+<meta charset="UTF-8" />
+```
+
+**Configuración responsive:**
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+**Descripción SEO:**
+
+```html
+<meta
+  name="description"
+  content="BioTrack conecta pacientes, nutricionistas y empresas en una
+  plataforma de bienestar corporativo personalizada. Planes nutricionales,
+  seguimiento de progreso y métricas de salud organizacional."
+/>
+```
+
+**Ícono de marca:**
+
+```html
+<link rel="icon" type="image/png" href="./assets/biotrack-icon.png" />
+```
+
+**Optimización de carga tipográfica:**
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+```
+
+Para producción se recomienda complementar con Open Graph:
+
+```html
+<meta name="author" content="NexTech — UPC" />
+<meta name="copyright" content="BioTrack by NexTech" />
+<meta property="og:title"
+  content="BioTrack | Gestión nutricional y bienestar corporativo" />
+<meta property="og:description"
+  content="Conecta tu equipo con planes de nutrición personalizados.
+  Nutricionistas, pacientes y empresas en una sola plataforma." />
+<meta property="og:type" content="website" />
+```
+
+### 4.2.4. Searching Systems
+
+La Landing Page no incorpora un buscador global porque su profundidad de contenido es baja y su objetivo es guiar al usuario hacia la conversión. Utiliza un sistema de **descubrimiento dirigido**.
+
+| **Mecanismo** | **Funcionamiento** | **Sección relacionada** |
+|---|---|---|
+| Navegación por anchors | Salto directo a secciones clave mediante links internos del navbar. | Funciones, Segmentos, Precios, Testimonios |
+| Tabs de segmento | Filtran el contenido según el perfil del visitante (Paciente / Empresa / Nutricionista). | Sección de Segmentos |
+| Tarjetas de features | Agrupan funcionalidades por tema para facilitar el descubrimiento del valor. | Sección de Funcionalidades |
+| Comparativa de planes | Ayuda al usuario a identificar el plan adecuado comparando características y precios. | Sección de Precios |
+| CTAs contextuales | Dirigen al registro o a los planes según el momento del recorrido del visitante. | Hero, Segmentos, CTA Final |
+
+### 4.2.5. Navigation Systems
+
+El sistema de navegación se basa en una combinación de enlaces internos, CTAs de conversión y accesos transaccionales.
+
+| **Elemento de navegación** | **Destino** | **Función** |
+|---|---|---|
+| Logo BioTrack | `#top` | Retorna al inicio de la landing. |
+| Funciones | `#funciones` | Desplaza a la sección de features principales. |
+| Segmentos | `#segmentos` | Muestra el contenido diferenciado por perfil. |
+| Cómo funciona | `#como-funciona` | Explica el proceso en pasos. |
+| Precios | `#precios` | Navega a la comparativa de planes. |
+| Iniciar sesión | `./login.html` | Acceso para usuarios registrados. |
+| Comenzar gratis | `./register.html` | Flujo de registro de nueva cuenta. |
+| Ver planes | `#precios` | Scroll directo a la sección comercial. |
+| Comienza tu transformación | `./register.html` | CTA de cierre de conversión al final del recorrido. |
+
+| **Flujo** | **Recorrido esperado** |
+|---|---|
+| Visitante nuevo que explora la solución | Hero → Trust Band → Funciones → Segmentos → Cómo funciona → Precios |
+| Visitante que evalúa costo | Hero → Ver planes → Precios → Comenzar gratis |
+| Empresa buscando solución corporativa | Navbar → Segmentos → Tab Empresa → CTA registro corporativo |
+| Nutricionista buscando herramientas | Segmentos → Tab Nutricionista → CTA registro profesional |
+| Usuario existente | Navbar → Iniciar sesión |
+| Usuario listo para registrarse | Hero o CTA Final → Comenzar gratis → Registro |
+
+---
+
+## 4.3. Landing Page UI Design
+
+La Landing Page de BioTrack está diseñada como el primer punto de contacto para visitantes de los tres segmentos objetivo. Su estructura prioriza una comunicación clara de la propuesta de valor diferenciada, beneficios operativos y conversión hacia el registro. El diseño mantiene navegación lineal, secciones de lectura rápida y CTAs visibles para reducir fricción.
+
+### 4.3.1. Landing Page Wireframe
+
+Los wireframes representan la distribución base de cada sección antes de aplicar el acabado visual final. Permiten validar la jerarquía de información, el orden del contenido, la ubicación de los CTAs y la consistencia del recorrido de conversión.
+
+- **Navbar / Header**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe del navbar en escala de grises mostrando logo izquierda, links centro, CTAs derecha y versión mobile hamburguesa -->
+  <img src="resources/Chapter-IV/wireframe-navbar.png" alt="Wireframe Navbar" width="800"/>
+</p>
+
+- **Hero section**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe del hero mostrando grid 2 columnas: texto+CTA izquierda y dashboard mockup derecha, con blobs y grid pattern de fondo -->
+  <img src="resources/Chapter-IV/wireframe-hero.png" alt="Wireframe Hero Section" width="800"/>
+</p>
+
+- **Trust Band**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe de la banda de logos de confianza con label y chips de empresa en fila centrada -->
+  <img src="resources/Chapter-IV/wireframe-trust-band.png" alt="Wireframe Trust Band" width="800"/>
+</p>
+
+- **Sección de Funcionalidades**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe del grid de features con 4 tarjetas estándar y 1 tarjeta fc-large azul de span 2 columnas -->
+  <img src="resources/Chapter-IV/wireframe-funcionalidades.png" alt="Wireframe Funcionalidades" width="800"/>
+</p>
+
+- **Sección de Segmentos (tabs)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe de los tabs de segmento (Paciente / Empresa / Nutricionista) con el panel de contenido activo mostrando grid 2 columnas: info+beneficios y stats -->
+  <img src="resources/Chapter-IV/wireframe-segmentos.png" alt="Wireframe Segmentos" width="800"/>
+</p>
+
+- **Sección Cómo Funciona (4 pasos)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe de los 4 steps verticales con step-number circular, contenido textual y step-connector punteado entre pasos -->
+  <img src="resources/Chapter-IV/wireframe-como-funciona.png" alt="Wireframe Cómo Funciona" width="800"/>
+</p>
+
+- **Sección Stats / Impacto**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe de la banda de stats con fondo azul oscuro y 4 stat-items con cifra grande y label descriptivo en grid de 4 columnas -->
+  <img src="resources/Chapter-IV/wireframe-stats.png" alt="Wireframe Stats" width="800"/>
+</p>
+
+- **Sección de Precios (3 planes)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe del pricing grid de 3 columnas con toggle mensual/anual arriba, plan central destacado a mayor escala y lista de features con checkmarks -->
+  <img src="resources/Chapter-IV/wireframe-precios.png" alt="Wireframe Precios" width="800"/>
+</p>
+
+- **Sección de Testimoniales**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe del grid de 3 testimoniales con estrellas, cita, avatar y nombre/cargo, con la tarjeta central en fondo azul destacado -->
+  <img src="resources/Chapter-IV/wireframe-testimoniales.png" alt="Wireframe Testimoniales" width="800"/>
+</p>
+
+- **CTA Final**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe del CTA final con caja de gradiente azul redondeada, H2, párrafo y 2 botones centrados (btn-white + btn-ghost-white) -->
+  <img src="resources/Chapter-IV/wireframe-cta-final.png" alt="Wireframe CTA Final" width="800"/>
+</p>
+
+- **Footer**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del wireframe del footer con grid 5 columnas: columna brand izquierda más ancha y 4 columnas de links, más footer-bottom con copyright -->
+  <img src="resources/Chapter-IV/wireframe-footer.png" alt="Wireframe Footer" width="800"/>
+</p>
+
+### 4.3.2. Landing Page Mock-up
+
+Los mockups muestran la propuesta visual aplicada sobre la estructura validada en los wireframes. Se integran colores, tipografía, espaciado, jerarquía visual y todos los componentes del design system.
+
+- **Navbar / Header**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del navbar con el logo BioTrack (logo-mark gradient + texto), links Poppins gris con underline verde animado y botones btn-outline + btn-primary verde -->
+  <img src="resources/Chapter-IV/mockup-navbar.png" alt="Mockup Navbar" width="800"/>
+</p>
+
+- **Hero section**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del hero completo con gradiente de fondo azul-verde suave, blobs difusos, grid pattern, eyebrow verde, H1 DM Serif, botones, social proof con avatars y dashboard mockup flotante con animación float y floating badges -->
+  <img src="resources/Chapter-IV/mockup-hero.png" alt="Mockup Hero Section" width="800"/>
+</p>
+
+- **Trust Band**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup de la banda de confianza con fondo #F8FAFB, label uppercase gris y chips de logos con borde #E5E7EB -->
+  <img src="resources/Chapter-IV/mockup-trust-band.png" alt="Mockup Trust Band" width="800"/>
+</p>
+
+- **Sección de Funcionalidades**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del grid de features con tarjetas #F3F4F6 border-radius 14px, feature-icons en azul claro y verde claro, y fc-large con gradiente azul abarcando 2 columnas -->
+  <img src="resources/Chapter-IV/mockup-funcionalidades.png" alt="Mockup Funcionalidades" width="800"/>
+</p>
+
+- **Sección de Segmentos (tabs)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup de los tabs de segmento con pill-tab activa en azul, panel de contenido blanco con shadow-md, persona card, benefits list con SVG checks verdes y stat-cards con cifras azules DM Serif -->
+  <img src="iresources/Chapter-IV/mockup-segmentos.png" alt="Mockup Segmentos" width="800"/>
+</p>
+
+- **Sección Cómo Funciona**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup de los 4 pasos con step-number círculos azules (#0F4C81) con box-shadow, step-connector línea azul claro y step-content con H3 Poppins + párrafo gris -->
+  <img src="resources/Chapter-IV/mockup-como-funciona.png" alt="Mockup Cómo Funciona" width="800"/>
+</p>
+
+- **Sección Stats / Impacto**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup de la banda stats con gradiente linear-gradient(135deg, #0F4C81, #0A3660), 4 stat-items con cifras DM Serif Display blancas de ~3.5rem y labels opacity .75 -->
+  <img src="resources/Chapter-IV/mockup-stats.png" alt="Mockup Stats" width="800"/>
+</p>
+
+- **Sección de Precios (3 planes)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del pricing grid con toggle anual/mensual (switch verde), plan Profesional con gradiente azul price-featured en escala 1.04 con featured-badge verde "Más popular", y plans Starter y Empresarial flanqueando con borde gris -->
+  <img src="resources/Chapter-IV/mockup-precios.png" alt="Mockup Precios" width="800"/>
+</p>
+
+- **Sección de Testimoniales**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del grid de 3 testimoniales: 2 cards con fondo #F3F4F6 y 1 testi-featured con gradiente azul, todas con estrellas #FBBF24 y avatar circular 42px -->
+  <img src="resources/Chapter-IV/mockup-testimoniales.png" alt="Mockup Testimoniales" width="800"/>
+</p>
+
+- **CTA Final**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del CTA final con cta-box gradiente azul border-radius 40px, cta-blob verde decorativo, H2 DM Serif blanco con em en #D1FAE5 y 2 botones (btn-white + btn-ghost-white) -->
+  <img src="resources/Chapter-IV/mockup-cta-final.png" alt="Mockup CTA Final" width="800"/>
+</p>
+
+- **Footer**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/mockup-footer.png" alt="Mockup Footer" width="800"/>
+</p>
 
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
@@ -1439,13 +1994,179 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 #### 4.6.3. Software Architecture Container Diagrams
 #### 4.6.4. Software Architecture Components Diagrams
 
+<p align="center">Generación y Autenticación de Cuenta BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-AuthComponent.png" width="500"/></p>
+
+Este Bounded Context es responsable de la gestión de identidad del usuario dentro del sistema, abarcando tanto el registro como la autenticación. Para ello, integra mecanismos de acceso alternativo mediante Google OAuth, así como un sistema externo de correo para la verificación y vinculación de cuentas.
+A nivel funcional, incluye queries orientados a la lectura de datos de sesión y credenciales, y commands destinados a la creación de cuentas, actualización de información y cambio de contraseña.
+Finalmente, toda la información relacionada con autenticación es persistida en una base de datos MySQL, garantizando la consistencia y seguridad de los datos.
+
+<p align="center">Perfil y Configuración BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-ProfileComponent.png" width="500"/></p>
+
+Este Bounded Context se encarga de la gestión de la información del perfil del usuario y sus preferencias de configuración, tales como zona horaria, idioma, tema de interfaz (UI), notificaciones y foto de perfil.
+Recibe información inicial del usuario desde el Bounded Context de Generación y Autenticación de Cuenta (inbound), lo que le permite construir y mantener el perfil completo.
+Define queries para la lectura de datos del usuario y commands para la actualización de configuraciones y almacenamiento de cambios realizados. Además, puede enviar información configurada hacia otros contextos (outbound), como el idioma del usuario.
+Toda esta información es almacenada en una base de datos MySQL.
+
+<p align="center">Gestión y Proceso de Suscripción BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-SubscriptionComponent.png" width="500"/></p>
+
+Este Bounded Context es responsable de la gestión del ciclo de vida de las suscripciones, incluyendo la creación, renovación, cancelación y cambio de plan.
+Recibe como entrada información del usuario y configuraciones provenientes del Bounded Context de Perfil y Configuración (inbound), lo que le permite adaptar el proceso de suscripción a las preferencias del usuario.
+Cuenta con commands que gestionan las operaciones sobre la suscripción y queries que permiten consultar el estado, datos de facturación y detalles asociados al usuario.
+La información de suscripciones es persistida en una base de datos MySQL, asegurando el control y seguimiento del estado de cada cuenta.
+
+<p align="center">Gestión de Inventario BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-InventoryComponent.png" width="500"/></p>
+
+Este Bounded Context se encarga de la administración del inventario, incluyendo la creación, actualización y eliminación de productos, así como la gestión de lotes asociados.
+Además, incorpora funcionalidades de monitoreo como alertas de stock y caducidad de productos. Para ello, utiliza queries que permiten obtener configuraciones relevantes, como el idioma del usuario desde el Bounded Context de Perfil y Configuración (inbound).
+Asimismo, expone información de productos hacia otros contextos (outbound), como Ventas y Chatbot.
+Incluye commands para la gestión de productos y operaciones relacionadas, y persiste toda la información en una base de datos MySQL.
+
+<p align="center">Pagos BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-PaymentComponent.png" width="500"/></p>
+
+Este Bounded Context es responsable de la gestión de los pagos asociados a las ventas, tanto presenciales como realizadas a través de otros canales como el chatbot.
+Incluye queries para la consulta de información de pagos y commands para la generación y envío de comprobantes. Además, se encarga de validar y confirmar transacciones mediante la integración con servicios externos.
+La información de pagos es almacenada en una base de datos MySQL, permitiendo el seguimiento y control de las transacciones realizadas.
+
+<p align="center">Ventas BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-SalesComponent.png" width="500"/></p>
+
+Este Bounded Context gestiona el proceso de venta presencial, desde la selección de productos hasta la generación del comprobante.
+Para ello, consume información del Bounded Context de Inventario (inbound) para validar disponibilidad de productos y stock, así como del Bounded Context de Pagos para verificar el estado de las transacciones.
+Incluye queries para la consulta de información relevante y commands para registrar las ventas realizadas.
+Toda la información generada es persistida en una base de datos MySQL.
+
+<p align="center">ChatBot BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-ChatbotComponent.png" width="500"/></p>
+
+Este Bounded Context permite la gestión de ventas a través de un canal conversacional basado en WhatsApp.
+Para su funcionamiento, consume información del Bounded Context de Inventario (inbound) para consultar disponibilidad de productos, así como del Bounded Context de Pagos para verificar y confirmar transacciones.
+Incluye queries para la obtención de información necesaria durante la interacción con el usuario y commands para la generación de pedidos y procesamiento de pagos.
+Además, se integra con servicios externos de mensajería (WhatsApp API) y persiste la información en una base de datos MySQL, permitiendo el seguimiento de las conversaciones y transacciones realizadas.
+
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
+<p align="center">Shared BC</p>
+<p align="center"><img src="resources/Chapter-IV/bc_shared.jpeg" width="500"/></p>
 
-### 4.8. Database Design
-#### 4.8.1. Database Diagrams
+<p align="center">Identity & Authentication BC</p>
+<p align="center"><img src="resources/Chapter-IV/bc_identity_authentification.jpeg" width="500"/></p>
+
+<p align="center">Patient Profile BC</p>
+<p align="center"><img src="resources/Chapter-IV/bc_patient_profile.jpeg" width="500"/></p>
+
+<p align="center">Corporate Management BC</p>
+<p align="center"><img src="resources/Chapter-IV/bc_corporate_management.jpeg" width="500"/></p>
+
+<p align="center">Nutritional Planning BC</p>
+<p align="center"><img src="resources/Chapter-IV/bc_nutritional_planning.jpeg" width="500"/></p>
+
+<p align="center">Progress Tracking BC</p>
+<p align="center"><img src="resources/Chapter-IV/bc_progress_tracking.jpeg" width="500"/></p>
+
+<p align="center">Subscription & billing BC</p>
+<p align="center"><img src="resources/Chapter-IV/bc_subscription_billing.jpeg" width="500"/></p>
+
+## 4.8. Database Design
+
+El diseño de base de datos de BioTrack está implementado en *MySQL 8.0* y organizado en cinco categorías funcionales alineadas con los Epics del sistema. El esquema aplica normalización hasta la *Tercera Forma Normal (3FN)*, eliminando redundancias y garantizando la integridad referencial en toda la operación de la plataforma de bienestar corporativo.
+
+El sistema distingue tres actores con responsabilidades claramente separadas: los *Pacientes, quienes registran su consumo alimenticio, actividad física y progreso de salud; los **Nutricionistas, quienes gestionan evaluaciones, planes nutricionales y consultas de control; y los **Administradores Corporativos*, quienes administran el perfil de su empresa, los colaboradores y acceden exclusivamente a métricas grupales anonimizadas — nunca a datos individuales de salud.
+
+Las métricas de bienestar corporativo se gestionan en la tabla metricas_corporativas, cuyo campo publicado solo toma valor TRUE cuando el número de colaboradores con datos registrados supera el umbral mínimo requerido para garantizar el anonimato, protegiendo la privacidad individual en todo momento.
+
+El cálculo del *IMC* se implementa mediante una columna GENERATED ALWAYS AS en perfiles_paciente, derivándose automáticamente de peso_kg y talla_cm registrados por el paciente para evitar inconsistencias entre el valor calculado y los datos fuente. De igual manera, el campo porcentaje_adherencia en adherencia_plan se calcula automáticamente a partir de los días registrados sobre los días objetivo del período.
+
+Las *suscripciones* operan bajo un modelo dual: B2C individual (suscripciones) para pacientes y nutricionistas, y B2B corporativo (suscripciones_corporativas) para empresas con licencias por colaborador. Los pagos se registran en la tabla pagos, que almacena únicamente los últimos 4 dígitos de la tarjeta por cumplimiento PCI-DSS, el código devuelto por la Pasarela de Pagos API y el motivo de rechazo cuando aplica.
+
+Los *tokens de verificación* tienen una vida útil de 24 horas y llevan contador de reenvíos con campo bloqueado_reenvio_hasta para implementar el cooldown por exceso de solicitudes descrito en US05. La seguridad de sesiones se gestiona en sesiones_activas mediante el campo jwt_jti, que permite la revocación individual de tokens JWT sin invalidar toda la sesión.
+
+### 4.8.1. Database Diagrams
+
+<div align="center">
+
+<!-- INSERTAR AQUÍ: el diagrama entidad-relación completo de BioTrack generado desde MySQL Workbench, dbdiagram.io o equivalente. Debe mostrar las 25 tablas con sus columnas principales, tipos de datos y las relaciones (líneas de FK) entre ellas. Exportar como SVG o PNG de alta resolución. -->
+
+![Database Diagram BioTrack](resources/Chapter-IV/database_Biotrack.jpeg)
+
+</div>
+
+El esquema se organiza en las siguientes tablas por categoría:
 
 ---
+
+*Identidad y Acceso:*
+
+- usuarios — tabla central del sistema. Almacena nombre, apellido, email, hash de contraseña (bcrypt), tipo de cuenta asignado automáticamente al registro (paciente, nutricionista, admin_corporativo), estado de la cuenta (pendiente_verificacion, activa, bloqueada, suspendida), contador de intentos fallidos de inicio de sesión, timestamp de bloqueo temporal y flag de verificación de email. El campo tipo_cuenta no puede ser modificado por el usuario una vez asignado, según la regla de negocio de US02.
+
+- tokens_verificacion — tokens de un solo uso para verificación de correo electrónico y recuperación de contraseña. Cada token tiene una expiración de 24 horas (expira_at), un flag usado que se activa al primer uso válido, un contador intentos_reenvio y el campo bloqueado_reenvio_hasta que implementa el bloqueo temporal por exceso de solicitudes de reenvío descrito en US05 Scenario 2.
+
+- sesiones_activas — gestiona las sesiones JWT activas almacenando el jwt_jti (JWT ID claim) para permitir la revocación individual de tokens sin necesidad de invalidar toda la sesión. Incluye IP de origen y User-Agent para auditoría de acceso.
+
+- perfiles_paciente — extiende la tabla usuarios con datos de salud: peso (10–300 kg), talla (50–250 cm), edad (1–120 años), sexo biológico, nivel de actividad, presión arterial sistólica y diastólica, glucosa basal y objetivo nutricional. El campo imc_calculado es una columna GENERATED ALWAYS AS STORED derivada automáticamente de peso y talla. El campo nutricionista_id registra la asignación automática descrita en US18. Todos los rangos numéricos están protegidos por CHECK constraints.
+
+- restricciones_alimentarias — tabla hija de perfiles_paciente que almacena las restricciones alimentarias del paciente (alergias, intolerancias, preferencias dietéticas, exclusiones religiosas) con nivel de severidad para alergias. Implementa US11.
+
+- perfiles_nutricionista — extiende usuarios con especialidad, número de colegiatura, flag de disponibilidad y contador de pacientes actuales vs. máximo permitido. El campo disponible controla si el nutricionista aparece en la cola de asignación automática de US18.
+
+---
+
+*Corporate Management:*
+
+- empresas — almacena el perfil corporativo: razón social, RUC, flag ruc_verificado que se activa tras la validación fiscal exitosa de US13, sector, ciudad y estado de la empresa. La relación con usuarios a través de admin_id garantiza que solo usuarios con tipo_cuenta = 'admin_corporativo' pueden ser administradores de una empresa.
+
+- colaboradores — tabla de gestión de la lista de empleados de cada empresa. Almacena el email pre-cargado desde el archivo CSV (US14), el estado del flujo de invitación (pendiente, enviada, error_envio, aceptada, expirada), el contador de reintentos de envío para el fallback de US15 Scenario 2, y la relación opcional con usuario_id que se establece cuando el colaborador activa su cuenta.
+
+- metricas_corporativas — almacena exclusivamente métricas grupales anonimizadas por período: total de colaboradores activos, porcentaje de adherencia promedio, IMC promedio grupal y distribución de objetivos nutricionales. El campo publicado solo es TRUE cuando minimo_anonimato_ok está activo, implementando la regla de negocio de US17 Scenario 2 que protege la privacidad cuando hay pocos colaboradores. Nunca almacena datos individuales identificables.
+
+---
+
+*Nutritional Planning :*
+
+- evaluaciones_iniciales — registra la evaluación clínica del nutricionista sobre cada paciente: observaciones, recomendaciones, calorías objetivo y distribución de macronutrientes. Incluye un CHECK constraint que valida que proteinas_pct + carbohidratos_pct + grasas_pct = 100.0 cuando los tres campos están completos. El campo estado (borrador, completada) controla que solo se pueda crear un plan nutricional cuando la evaluación esté completada, según US20 Scenario 2.
+
+- planes_nutricionales — ciclo de vida completo de un plan: propuesto por el nutricionista (US21), activado o rechazado por el paciente (US22), con campo observaciones_rechazo obligatorio cuando el paciente rechaza. Puede pasar a finalizado o suspendido por cambio de condiciones. Cada plan está vinculado a una evaluación inicial y tiene fechas de inicio y fin definidas.
+
+- plan_dias — estructura semanal del plan nutricional. Cada registro representa un día de la semana (lunes a domingo) dentro de un plan, con calorías objetivo para ese día. Implementa la Vista de Dieta Semanal de US23.
+
+- plan_comidas — tabla hija de plan_dias que detalla cada comida del día (desayuno, almuerzo, cena, snack mañana, snack tarde) con nombre, descripción, calorías y macronutrientes. Permite al nutricionista diseñar el menú completo del paciente.
+
+- consultas_control — gestiona el agendamiento (US24), el envío automático de recordatorios por Email API (US25) y el registro de notas post-consulta (US26). El campo recordatorio_enviado y recordatorio_error rastrean el estado del envío del aviso. Las notas del nutricionista son validadas como obligatorias al registrar la consulta como realizada.
+
+---
+
+*Progress Tracking & Monitoring:*
+
+- registros_consumo — log diario de alimentación del paciente. Almacena cada comida del día con descripción, calorías y macronutrientes. La restricción UNIQUE (paciente_id, fecha, tipo_comida) garantiza un solo registro por tipo de comida por día. El campo cumple_plan compara el registro contra la plan_comida correspondiente y alimenta el cálculo de adherencia. Implementa US27.
+
+- registros_actividad — log de actividad física con tipo de actividad, duración en minutos (protegida por CHECK duracion_min > 0), intensidad y estimación de calorías quemadas. Implementa US28.
+
+- registros_peso — historial semanal de peso del paciente con restricción UNIQUE (paciente_id, fecha) para un registro por día. El campo imc se calcula al momento del registro utilizando la talla del perfil. Es la fuente de datos para el gráfico de evolución de peso de US30.
+
+- adherencia_plan — calcula y almacena la adherencia semanal al plan nutricional. El campo porcentaje_adherencia es una columna GENERATED ALWAYS AS STORED calculada como (dias_registrados / dias_objetivo) * 100. El campo alerta_enviada controla que la notificación al nutricionista (US32) se envíe una sola vez por período cuando la adherencia cae por debajo de alerta_umbral_pct (valor por defecto: 60%).
+
+- reportes_evolucion — registra los reportes PDF de evolución generados por el nutricionista (US33). Almacena la URL del PDF en el sistema de almacenamiento, el período cubierto, el peso inicial y final del período, y la adherencia promedio. El campo estado maneja el escenario de datos insuficientes de US33 Scenario 2.
+
+---
+
+*Subscriptions & Billing:*
+
+- planes_suscripcion — catálogo de planes disponibles con precio mensual y anual. Contiene el seed inicial con tres planes: *Starter* (gratuito, individual), *Profesional* (S/ 59/mes, individual, con nutricionista y seguimiento completo) y *Empresarial* (S/ 299/mes, corporativo, con dashboard anónimo y hasta 50 licencias).
+
+- suscripciones — gestiona el ciclo de vida de las suscripciones B2C individuales: pendiente_pago → activa → suspendida (cobro fallido, US39) → cancelada o vencida. El campo renovacion_automatica está activado por defecto (US38). El campo cancelacion_programada permite que la suscripción permanezca activa hasta fecha_fin tras solicitar la cancelación.
+
+- suscripciones_corporativas — variante B2B para empresas con licencias_total y licencias_usadas. Un CHECK constraint garantiza que licencias_usadas <= licencias_total. Implementa US36 y US37.
+
+- pagos — registro centralizado de todas las transacciones. Almacena únicamente ultimos_4_digitos de la tarjeta (nunca el número completo, por cumplimiento PCI-DSS), el codigo_transaccion devuelto por la Pasarela de Pagos API, el motivo_rechazo cuando el estado es rechazado (ej: "CARD_EXPIRED" de US34 Scenario 2) y el tipo_pago para distinguir activación, renovación y reactivación.
+
+- facturas — generada automáticamente tras cada pago aprobado. Soporta tanto facturación B2C (vinculada a usuario_id) como B2B (vinculada a empresa_id). El campo numero_factura tiene restricción UNIQUE. Implementa US35 y US37.
+
+- avisos_pago_atrasado — historial de correos de aviso enviados por Email API cuando una suscripción está en estado suspendida por cobro fallido. Registra los intentos de envío y el estado de cada intento para el reintento automático descrito en US40.
+
+---
+
+*Normalización aplicada:* 
+
+La normalización aplicada al esquema de BioTrack se resume en tres puntos fundamentales. La *Primera Forma Normal (1FN)* se cumple con valores atómicos en todas las columnas: los tipos de dato ENUM garantizan dominios controlados en campos como tipo_cuenta, estado, tipo_comida y objetivo_nutricional, y las restricciones alimentarias múltiples se normalizan en la tabla hija restricciones_alimentarias en lugar de una columna de lista. La *Segunda Forma Normal (2FN)* se cumple con claves primarias simples (INT UNSIGNED AUTO_INCREMENT) en todas las tablas, eliminando dependencias parciales. La *Tercera Forma Normal (3FN)* se evidencia en seis decisiones clave de diseño: la separación de perfiles_paciente, perfiles_nutricionista y perfiles_corporativo de la tabla base usuarios elimina dependencias transitivas del tipo de cuenta; la tabla planes_suscripcion centraliza el catálogo de precios evitando que el precio se repita en cada suscripción; la separación de plan_dias y plan_comidas normaliza la estructura jerárquica del plan nutricional; los campos calculados imc_calculado y porcentaje_adherencia usan GENERATED ALWAYS AS en lugar de ser almacenados manualmente para evitar inconsistencias; la tabla metricas_corporativas almacena únicamente datos derivados y anonimizados, separados completamente de los datos individuales; y la separación de pagos y facturas distingue el evento transaccional del documento fiscal generado, siguiendo el principio de responsabilidad única.
+
+
 
 ## 🛠️ Capítulo V: Product Implementation, Validation & Deployment
 
