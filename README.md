@@ -3455,7 +3455,10 @@ Usuarios de github:
 | Integrantes                         | Usuarios de GitHub |
 |-------------------------------------|--------------------|
 | Villón Amez, Enrique Manuel         | enriquevillon25    |
-| Diaz Yurivilca, Sofia         | u20241a195-cmd    |
+| Pacheco Lavado, Rafael Agustin      | RafaelAgustin21    |
+| Mendoza Moreano, Mariel Lucero      | MarielLucero       |
+| Díaz Yurivilca, Sofía               | u20241a195-cmd     |
+| Rengifo Lozano, David               | DavidRengifoLoz    |
 
 
 En el desarollo de cada repositorio usaremos Gitflow como estrategia de control de versiones, conssite en crear ramas por cada feat, fix o choore para tener un trabajo organizado y registrado. Las ramas principales serán Main, Release, Develop, Hotfix, A continuación describiremos las ramas:
@@ -3493,42 +3496,345 @@ La Landing se ubicará en una carpeta /docs dentro del branch princial del repos
 #### 5.2.1. Sprint 1
 El primer Sprint de **BioTrack** se centró en establecer la presencia digital inicial y la infraestructura base de servicios. Se priorizó la creación de la Landing Page para la captación de usuarios y la implementación de los servicios de autenticación y gestión de perfiles de salud, fundamentales para los tres segmentos objetivo.
 ##### 5.2.1.1. Sprint Planning 1
-* **Objetivo del Sprint:** Implementar una Landing Page responsiva con navegación por secciones y desplegar los servicios base de registro, login y configuración de perfil de salud del paciente.
-* **Duración:** 2 semanas (Abril 2026).
-* **Capacidad estimada:** 32 Story Points.
-* **Historias de Usuario seleccionadas:** US41, US46, US45, US01, US03, US07, US09, TS01, TS02.
+A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1. Se discution los objetivos, etapa de tiempo y tareas a realizar.
+
+<div>
+ <table>
+  <thead>
+    <tr>
+      <th>#️⃣ Número</th>
+      <th>Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">Sprint Planning Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>Date</td>
+      <td>2026-04-16</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>20:00 - 21:30</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Google Meet</td>
+    </tr>
+    <tr>
+      <td>Prepared by</td>
+      <td>Pacheco Lavado, Rafael Agustin</td>
+    </tr>
+    <tr>
+      <td>Attendees</td>
+      <td>
+        Pacheco Lavado, Rafael Agustin<br>
+        Mendoza Moreano, Mariel Lucero<br>
+        Díaz Yurivilca, Sofía<br>
+        Rengifo Lozano, David<br>
+        Villón Amez, Enrique
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint n-1 Review Summary</td>
+      <td>No hubo sprint anterior (Inicio del proyecto).</td>
+    </tr>
+    <tr>
+      <td>Sprint n-1 Retrospective Summary</td>
+      <td>No hubo sprint anterior.</td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Goal</td>
+      <td>
+        <strong>Crear la Landing Page y vistas iniciales:</strong><br>
+        Nuestro enfoque es desarrollar una Landing Page responsiva, rápida y funcional que comunique claramente la propuesta de valor de BioTrack para pacientes, empresas y nutricionistas. Incluye la implementación del sistema i18n, maquetación de los formularios de registro/login y el despliegue automático en GitHub Pages para generar confianza en los prospectos.
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Velocity</td>
+      <td>17 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>17 Story Points</td>
+    </tr>
+  </tbody>
+ </table>
+</div>
+
 ##### 5.2.1.2. Aspect Leaders and Collaborators
-| Rol | Responsable |
-| :--- | :--- |
-| **Product Owner** | Villón Amez, Enrique |
-| **Scrum Master** | Pacheco Lavado, Rafael Agustin |
-| **Frontend Developer** | Díaz Yurivilca, Sofía |
-| **Backend Developer** | Rengifo Lozano, David |
-| **QA Engineer** | Mendoza Moreano, Mariel Lucero |
+Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamente entre los 5 miembros.
+
+<table>
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Hero & i18n</th>
+      <th>Segmentos & Funciones</th>
+      <th>Pricing & Testimonios</th>
+      <th>Auth Views (Login/Signup)</th>
+      <th>Contacto & Despliegue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pacheco Lavado, Rafael Agustin</td>
+      <td>RafaelAgustin21</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mendoza Moreano, Mariel Lucero</td>
+      <td>MarielLucero</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Díaz Yurivilca, Sofía</td>
+      <td>u20241a195-cmd</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Rengifo Lozano, David</td>
+      <td>DavidRengifoLoz</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Villón Amez, Enrique</td>
+      <td>enriquevillonupc</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
 ##### 5.2.1.3. Sprint Backlog 1
-| ID | Título | SP | Estado |
-| :--- | :--- | :---: | :--- |
-| US41 | Visualizar propuesta de valor en la landing page | 1 | Finalizado |
-| US46 | Navegar entre secciones de la landing page | 2 | Finalizado |
-| US45 | Visualizar planes y precios en la landing page | 3 | Finalizado |
-| US01 | Registrar cuenta de usuario | 3 | Finalizado |
-| US03 | Recibir correo de verificación | 2 | Finalizado |
-| US07 | Iniciar sesión en la plataforma | 2 | Finalizado |
-| US09 | Registrar datos de salud | 3 | Finalizado |
-| TS01 | API: Endpoint de registro de usuario | 5 | Finalizado |
-| TS02 | API: Endpoint de autenticación y token | 5 | Finalizado |
+Aquí hemos mapeado las US reales de tu Product Backlog que conciernen a este Sprint.
+
+<table>
+  <thead>
+    <tr>
+      <td><strong>Sprint #</strong></td>
+      <td colspan="7"><strong>Sprint 1</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>User Story</strong></td>
+      <td colspan="6"><strong>Work-item / Task</strong></td>
+    </tr>
+    <tr>
+      <td><strong>ID</strong></td>
+      <td><strong>Title</strong></td>
+      <td><strong>ID</strong></td>
+      <td><strong>Title</strong></td>
+      <td><strong>Description</strong></td>
+      <td><strong>Estimation (Hours)</strong></td>
+      <td><strong>Assigned to</strong></td>
+      <td><strong>Status</strong></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US41</td>
+      <td>Visualizar propuesta de valor en landing</td>
+      <td>Task 1</td>
+      <td>Maquetar Hero Section</td>
+      <td>Diseñar e implementar el banner principal con los CTAs y aplicar el sistema i18n (cambio de idioma).</td>
+      <td>3</td>
+      <td>RafaelAgustin21</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US46</td>
+      <td>Navegar entre secciones de la landing</td>
+      <td>Task 2</td>
+      <td>Implementar Navbar Responsivo</td>
+      <td>Crear la barra de navegación superior con menú hamburguesa para móviles y scroll suave.</td>
+      <td>2</td>
+      <td>enriquevillonupc</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US42 / US43 / US44</td>
+      <td>Visualizar secciones por segmentos (Pacientes, Empresas, Nutricionistas)</td>
+      <td>Task 3</td>
+      <td>Desarrollar Tabs de Segmentos</td>
+      <td>Implementar componente interactivo de pestañas para cambiar entre la información B2C y B2B.</td>
+      <td>4</td>
+      <td>MarielLucero</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US45</td>
+      <td>Visualizar planes y precios</td>
+      <td>Task 4</td>
+      <td>Maquetar Pricing Grid</td>
+      <td>Crear las tarjetas de precios con el toggle (interruptor) de facturación mensual/anual.</td>
+      <td>3</td>
+      <td>DavidRengifoLoz</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01 / US07</td>
+      <td>Registrar cuenta e Iniciar sesión</td>
+      <td>Task 5</td>
+      <td>Vistas de Autenticación (UI)</td>
+      <td>Maquetar los archivos login.html y signup.html respetando el diseño limpio de la plataforma.</td>
+      <td>4</td>
+      <td>RafaelAgustin21</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US41</td>
+      <td>Visualizar propuesta de valor</td>
+      <td>Task 6</td>
+      <td>Diseño de Funcionalidades</td>
+      <td>Implementar grilla de tarjetas con iconos SVG para destacar las funciones de salud preventivas.</td>
+      <td>3</td>
+      <td>u20241a195-cmd</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>N/A</td>
+      <td>Configuración de Entorno</td>
+      <td>Task 7</td>
+      <td>Despliegue GitHub Pages</td>
+      <td>Configurar el repositorio y lanzar la versión estática en GitHub Pages para revisión.</td>
+      <td>2</td>
+      <td>enriquevillonupc</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
+
+Repositorio del Landing Page: [[https://github.com/1ASI0729-2610-10203-NexTech/Landing-Page](https://github.com/1ASI0729-2610-10203-NexTech/Landing-Page)]
+
+<table>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama (Branch)</th>
+      <th>Commit ID</th>
+      <th>Mensaje (Conventional Commits)</th>
+      <th>Fecha</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Landing-Page</td>
+      <td>feature/index-html</td>
+      <td>a70d485</td>
+      <td>feat: integrar vistas de auth, i18n, sección contacto y mejoras SEO</td>
+      <td>2026-04-25</td>
+    </tr>
+    <tr>
+      <td>Landing-Page</td>
+      <td>develop</td>
+      <td>2d63e2f</td>
+      <td>feat: add initial website structure and content for BioTrack platform</td>
+      <td>2026-04-24</td>
+    </tr>
+    <tr>
+      <td>Landing-Page</td>
+      <td>feature/pricing-grid</td>
+      <td>417c6e7</td>
+      <td>Embed YouTube video and update script path</td>
+      <td>2026-04-24</td>
+    </tr>
+    <tr>
+      <td>Landing-Page</td>
+      <td>style/responsive-layout</td>
+      <td>1d9f7e3</td>
+      <td>feature: Add main stylesheet for Biotrack application with comprehensive styles and responsive design</td>
+      <td>2026-04-24</td>
+    </tr>
+  </tbody>
+</table>
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+Se presenta la interfaz funcional de la Landing Page de BioTrack, la cual cumple con los objetivos del Sprint 1 al comunicar la propuesta de valor y los beneficios del sistema para pacientes y organizaciones. La implementación asegura una navegación fluida y un diseño adaptable (responsive) que garantiza la correcta visualización en diversos dispositivos móviles y de escritorio.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura X.</strong> <em>Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción.</em>
+  </figcaption>
+  <img src="resources/Chapter-V/biotrack-herosection.jpeg" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura X.</strong> <em>Diseño estático del formulario de autenticación, estructurado con sus campos respectivos.</em>
+  </figcaption>
+  <img src="resources/Chapter-V/biotrack-login.jpg" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura X.</strong> <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos.</em>
+  </figcaption>
+  <img src="resources/Chapter-V/biotrack-signup.jpeg" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+La documentación técnica del incremento de software se centra en la organización modular de los recursos del frontend. Como se observa en la estructura del proyecto, se ha establecido una jerarquía clara para la gestión de activos multimedia en la carpeta de recursos, así como una separación lógica para las vistas de autenticación (pages/) y los scripts de internacionalización (i18n.js). Esta arquitectura permite un mantenimiento eficiente y una escalabilidad adecuada para la integración de futuros servicios de API.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura X.</strong> <em>Estructura de directorios del repositorio de la Landing Page.</em>
+  </figcaption>
+  <img src="resources/Chapter-V/estructura-archivos.jpeg" alt="Evidencias UI Sprint 1" width="300">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia a través de VS Code.
+  </figcaption>
+</figure>
+
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+El despliegue de la Landing Page se realizó de manera exitosa utilizando la plataforma GitHub Pages. Se configuró un flujo de trabajo que permite la actualización automática del sitio cada vez que se confirman cambios en la rama principal, asegurando que la versión pública sea siempre la más reciente.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura X.</strong> <em>Panel de configuración de GitHub Pages evidenciando el despliegue exitoso (Live) del proyecto.</em>
+  </figcaption>
+  <img src="resources/Chapter-V/despliegue.jpeg" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia a través de GitHub.
+  </figcaption>
+</figure>
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
-
-### 5.3. Validation Interviews
-#### 5.3.1. Diseño de Entrevistas
-#### 5.3.2. Registro de Entrevistas
-#### 5.3.3. Evaluaciones según heurísticas
-
-### 5.4. Video About-the-Product
+La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como plataforma central para el control de versiones, siguiendo el modelo de trabajo GitFlow. Este enfoque permitió la creación de ramas de características (feature branches) independientes, facilitando la integración continua de los componentes de la Landing Page sin conflictos de código. Asimismo, se adoptó el estándar de Conventional Commits para mantener un historial de cambios profesional y legible. El seguimiento de las tareas y objetivos del sprint se realizó a través de un tablero de gestión ágil, garantizando la visibilidad del progreso y la integridad del incremento de software producido.
 
 ---
 
