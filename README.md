@@ -1936,7 +1936,7 @@ Los mockups muestran la propuesta visual aplicada sobre la estructura validada e
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de los tabs de segmento con pill-tab activa en azul, panel de contenido blanco con shadow-md, persona card, benefits list con SVG checks verdes y stat-cards con cifras azules DM Serif -->
-  <img src="iresources/Chapter-IV/mockup-segmentos.png" alt="Mockup Segmentos" width="800"/>
+  <img src="resources/Chapter-IV/mockup-segmentos.png" alt="Mockup Segmentos" width="800"/>
 </p>
 
 - **Sección Cómo Funciona**
