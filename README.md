@@ -2892,7 +2892,7 @@ S6 --> S3
 - Imagen del Container de Biotrack :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_container.png" alt="bounded context relacionados" width="800"/>
+  <img src="resources/Chapter-IV/bc_container.png" alt="bounded context container" width="800"/>
 </p>
 
 ---
