@@ -3600,7 +3600,6 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
 </table>
 
 ##### 5.2.1.3. Sprint Backlog 1
-Aquí hemos mapeado las US reales de tu Product Backlog que conciernen a este Sprint.
 
 <table>
   <thead>
@@ -3696,6 +3695,8 @@ Aquí hemos mapeado las US reales de tu Product Backlog que conciernen a este Sp
     </tr>
   </tbody>
 </table>
+
+*(Tabla X.  Tabla de  Sprint Backlog 1  - Elaboración propia.)*
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
