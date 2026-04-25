@@ -3469,10 +3469,10 @@ El primer Sprint de **BioTrack** se centró en establecer la presencia digital i
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 | Rol | Responsable |
 | :--- | :--- |
-| **Product Owner** | Rengifo Lozano, David |
+| **Product Owner** | Villón Amez, Enrique |
 | **Scrum Master** | Pacheco Lavado, Rafael Agustin |
 | **Frontend Developer** | Díaz Yurivilca, Sofía |
-| **Backend Developer** | Villón Amez, Enrique |
+| **Backend Developer** | Rengifo Lozano, David |
 | **QA Engineer** | Mendoza Moreano, Mariel Lucero |
 ##### 5.2.1.3. Sprint Backlog 1
 | ID | Título | SP | Estado |
