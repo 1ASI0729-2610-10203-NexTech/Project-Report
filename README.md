@@ -1988,58 +1988,1203 @@ Los mockups muestran la propuesta visual aplicada sobre la estructura validada e
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping
-### 4.6. Domain-Driven Software Architecture
-#### 4.6.1. Design-Level EventStorming
-#### 4.6.2. Software Architecture Context Diagram
-#### 4.6.3. Software Architecture Container Diagrams
-#### 4.6.4. Software Architecture Components Diagrams
 
-<p align="center">Generación y Autenticación de Cuenta BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-AuthComponent.png" width="500"/></p>
+# 4.6. Domain-Driven Software Architecture
 
-Este Bounded Context es responsable de la gestión de identidad del usuario dentro del sistema, abarcando tanto el registro como la autenticación. Para ello, integra mecanismos de acceso alternativo mediante Google OAuth, así como un sistema externo de correo para la verificación y vinculación de cuentas.
-A nivel funcional, incluye queries orientados a la lectura de datos de sesión y credenciales, y commands destinados a la creación de cuentas, actualización de información y cambio de contraseña.
-Finalmente, toda la información relacionada con autenticación es persistida en una base de datos MySQL, garantizando la consistencia y seguridad de los datos.
+## 4.6.1. Design-Level Event Storming
 
-<p align="center">Perfil y Configuración BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-ProfileComponent.png" width="500"/></p>
+A continuación se presentan los Bounded Contexts identificados a partir del Event Storming, junto con sus respectivos diagramas PlantUML y BC Canvas.
 
-Este Bounded Context se encarga de la gestión de la información del perfil del usuario y sus preferencias de configuración, tales como zona horaria, idioma, tema de interfaz (UI), notificaciones y foto de perfil.
-Recibe información inicial del usuario desde el Bounded Context de Generación y Autenticación de Cuenta (inbound), lo que le permite construir y mantener el perfil completo.
-Define queries para la lectura de datos del usuario y commands para la actualización de configuraciones y almacenamiento de cambios realizados. Además, puede enviar información configurada hacia otros contextos (outbound), como el idioma del usuario.
-Toda esta información es almacenada en una base de datos MySQL.
+---
 
-<p align="center">Gestión y Proceso de Suscripción BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-SubscriptionComponent.png" width="500"/></p>
+### BC01 — Gestión de Identidad y Autenticación
 
-Este Bounded Context es responsable de la gestión del ciclo de vida de las suscripciones, incluyendo la creación, renovación, cancelación y cambio de plan.
-Recibe como entrada información del usuario y configuraciones provenientes del Bounded Context de Perfil y Configuración (inbound), lo que le permite adaptar el proceso de suscripción a las preferencias del usuario.
-Cuenta con commands que gestionan las operaciones sobre la suscripción y queries que permiten consultar el estado, datos de facturación y detalles asociados al usuario.
-La información de suscripciones es persistida en una base de datos MySQL, asegurando el control y seguimiento del estado de cada cuenta.
+**Descripción:** Maneja el registro de usuarios, verificación de correo, activación de cuenta, inicio de sesión con credenciales, bloqueo por intentos fallidos y asignación automática del tipo de cuenta. Es el punto de entrada del sistema para los tres perfiles: Paciente, Nutricionista y Admin Corporativo.
 
-<p align="center">Gestión de Inventario BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-InventoryComponent.png" width="500"/></p>
+```plantuml
+@startuml BC01_IdentidadAutenticacion
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 12
 
-Este Bounded Context se encarga de la administración del inventario, incluyendo la creación, actualización y eliminación de productos, así como la gestión de lotes asociados.
-Además, incorpora funcionalidades de monitoreo como alertas de stock y caducidad de productos. Para ello, utiliza queries que permiten obtener configuraciones relevantes, como el idioma del usuario desde el Bounded Context de Perfil y Configuración (inbound).
-Asimismo, expone información de productos hacia otros contextos (outbound), como Ventas y Chatbot.
-Incluye commands para la gestión de productos y operaciones relacionadas, y persiste toda la información en una base de datos MySQL.
+skinparam rectangle {
+  BackgroundColor #E8F0F9
+  BorderColor #0F4C81
+  FontColor #1F2937
+}
+skinparam actor {
+  BackgroundColor #0F4C81
+  FontColor white
+}
 
-<p align="center">Pagos BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-PaymentComponent.png" width="500"/></p>
+title Bounded Context 01 — Gestión de Identidad y Autenticación
 
-Este Bounded Context es responsable de la gestión de los pagos asociados a las ventas, tanto presenciales como realizadas a través de otros canales como el chatbot.
-Incluye queries para la consulta de información de pagos y commands para la generación y envío de comprobantes. Además, se encarga de validar y confirmar transacciones mediante la integración con servicios externos.
-La información de pagos es almacenada en una base de datos MySQL, permitiendo el seguimiento y control de las transacciones realizadas.
+actor "Usuario\n(any)" as USR
+actor "Email API" as EMAIL
 
-<p align="center">Ventas BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-SalesComponent.png" width="500"/></p>
+rectangle "BC01 — Identidad & Autenticación" {
 
-Este Bounded Context gestiona el proceso de venta presencial, desde la selección de productos hasta la generación del comprobante.
-Para ello, consume información del Bounded Context de Inventario (inbound) para validar disponibilidad de productos y stock, así como del Bounded Context de Pagos para verificar el estado de las transacciones.
-Incluye queries para la consulta de información relevante y commands para registrar las ventas realizadas.
-Toda la información generada es persistida en una base de datos MySQL.
+  rectangle "Commands" #D1FAE5 {
+    [RegistrarUsuario]
+    [AsignarTipoCuenta]
+    [EnviarTokenVerificacion]
+    [ValidarTokenEmail]
+    [ReenviarTokenVerificacion]
+    [ActivarCuenta]
+    [IniciarSesion]
+    [BloquearCuentaTemporal]
+    [CerrarSesion]
+  }
 
-<p align="center">ChatBot BC</p> <p align="center"><img src="resources/Chapter-IV/structurizr-104049-ChatbotComponent.png" width="500"/></p>
+  rectangle "Queries" #E8F0F9 {
+    [ObtenerUsuarioPorEmail]
+    [VerificarEstadoCuenta]
+    [ObtenerSesionActiva]
+    [ConsultarIntentosLogin]
+  }
 
-Este Bounded Context permite la gestión de ventas a través de un canal conversacional basado en WhatsApp.
-Para su funcionamiento, consume información del Bounded Context de Inventario (inbound) para consultar disponibilidad de productos, así como del Bounded Context de Pagos para verificar y confirmar transacciones.
-Incluye queries para la obtención de información necesaria durante la interacción con el usuario y commands para la generación de pedidos y procesamiento de pagos.
-Además, se integra con servicios externos de mensajería (WhatsApp API) y persiste la información en una base de datos MySQL, permitiendo el seguimiento de las conversaciones y transacciones realizadas.
+  rectangle "Domain Events" #FEF3C7 {
+    [UsuarioRegistrado]
+    [TipoCuentaAsignado]
+    [TokenVerificacionEmitido]
+    [EmailVerificado]
+    [CuentaActivada]
+    [SesionIniciada]
+    [CuentaBloqueada]
+  }
+
+  database "MySQL\nautenticacion" as DB #F3F4F6
+}
+
+USR --> [RegistrarUsuario]
+USR --> [IniciarSesion]
+USR --> [ValidarTokenEmail]
+USR --> [ReenviarTokenVerificacion]
+[UsuarioRegistrado] --> EMAIL : dispara envío
+[TokenVerificacionEmitido] --> EMAIL : envía link 24h
+[RegistrarUsuario] --> DB
+[IniciarSesion] --> DB
+[SesionIniciada] ..> [PerfilRegistrado] : outbound\na BC02/BC03
+
+note right of "BC01 — Identidad & Autenticación"
+  US01 · US02 · US03 · US04
+  US05 · US06 · US07 · US08
+end note
+
+@enduml
+```
+- Asi es como quedaria el Bounded Context de Gestion de Identidad y Autenticación :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_identidad_autenticacion.png" alt="bounded context gestion de identidad y autenticacion" width="800"/>
+</p>
+
+---
+
+### BC02 — Perfil y Configuración del Paciente
+
+**Descripción:** Gestiona el registro de datos de salud (peso, talla, IMC, glucosa, presión), la selección del objetivo nutricional, las restricciones alimentarias y el estado de completitud del perfil. Cuando el perfil se completa, emite un evento que dispara la asignación automática de nutricionista en BC03.
+
+```plantuml
+@startuml BC02_PerfilPaciente
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 12
+
+title Bounded Context 02 — Perfil y Configuración del Paciente
+
+actor "Paciente" as PAC
+
+rectangle "BC02 — Perfil & Configuración" {
+
+  rectangle "Commands" #D1FAE5 {
+    [RegistrarDatosSalud]
+    [DefinirObjetivoNutricional]
+    [RegistrarRestriccionesAlimentarias]
+    [MarcarPerfilCompleto]
+    [ActualizarDatosSalud]
+  }
+
+  rectangle "Queries" #E8F0F9 {
+    [ObtenerPerfilPaciente]
+    [ConsultarIMCCalculado]
+    [VerificarPerfilCompleto]
+    [ObtenerObjetivoNutricional]
+  }
+
+  rectangle "Domain Events" #FEF3C7 {
+    [DatosSaludRegistrados]
+    [ObjetivoNutricionalDefinido]
+    [RestriccionesRegistradas]
+    [PerfilPacienteCompleto]
+  }
+
+  database "MySQL\nperfil" as DB #F3F4F6
+}
+
+PAC --> [RegistrarDatosSalud]
+PAC --> [DefinirObjetivoNutricional]
+PAC --> [RegistrarRestriccionesAlimentarias]
+[PerfilPacienteCompleto] ..> [AsignarNutricionistaDisponible] : outbound → BC03
+
+note bottom of "BC02 — Perfil & Configuración"
+  US09 · US10 · US11
+  IMC calculado automáticamente
+  Validación rangos clínicos
+end note
+
+@enduml
+```
+- Asi es como quedaria el Bounded Context de Gestion de Perfil y Configuración del Paciente :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_perfil_configuracion.png" alt="bounded context perfil y configuracion del paciente" width="800"/>
+</p>
+
+---
+
+### BC03 — Gestión Corporativa
+
+**Descripción:** Maneja el registro y validación fiscal de empresas (RUC), la carga de listas de colaboradores, el envío de invitaciones corporativas y la generación/consulta del Dashboard Corporativo con métricas anonimizadas. Aplica estrictamente la regla de negocio: nunca expone datos individuales de salud al Admin Corporativo.
+
+```plantuml
+@startuml BC03_GestionCorporativa
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 12
+
+title Bounded Context 03 — Gestión Corporativa
+
+actor "Admin\nCorporativo" as ADM
+actor "Email API" as EMAIL
+actor "Fiscal API\n(SUNAT)" as SUNAT
+
+rectangle "BC03 — Gestión Corporativa" {
+
+  rectangle "Commands" #D1FAE5 {
+    [RegistrarEmpresa]
+    [ValidarRUCFiscal]
+    [SubirListaColaboradores]
+    [EnviarInvitacionesColaboradores]
+    [HabilitarLicenciaColaborador]
+    [ConsolidarMetricasAnonimas]
+  }
+
+  rectangle "Queries" #E8F0F9 {
+    [ObtenerDashboardCorporativo]
+    [ConsultarEstadoInvitaciones]
+    [VerificarLicenciasDisponibles]
+    [ObtenerMetricasGrupales]
+  }
+
+  rectangle "Domain Events" #FEF3C7 {
+    [EmpresaRegistrada]
+    [RUCVerificado]
+    [ColaboradoresCargados]
+    [InvitacionesEnviadas]
+    [MetricasConsolidadas]
+    [LicenciaActivada]
+  }
+
+  database "MySQL\ncorporativo" as DB #F3F4F6
+}
+
+ADM --> [RegistrarEmpresa]
+ADM --> [SubirListaColaboradores]
+ADM --> [ObtenerDashboardCorporativo]
+[ValidarRUCFiscal] --> SUNAT : consulta REST
+[EnviarInvitacionesColaboradores] --> EMAIL
+[MetricasConsolidadas] --> DB : solo agregados\nanónimos
+
+note right of "BC03 — Gestión Corporativa"
+  US12 · US13 · US14 · US15
+  US16 · US17
+  Regla: NUNCA datos individuales
+  en el Dashboard Corporativo
+end note
+
+@enduml
+```
+- Asi es como quedaria el Bounded Context de Gestion de Gestión Corporativa :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_corporativa.png" alt="bounded context gestion corporativa" width="800"/>
+</p>
+
+---
+
+### BC04 — Planificación Nutricional
+
+**Descripción:** Gestiona la asignación automática de nutricionistas, las evaluaciones iniciales de salud, la creación y ciclo de vida de los planes nutricionales (propuesto → activado/rechazado), la dieta semanal y el agendamiento de consultas de control con recordatorios automáticos.
+
+```plantuml
+@startuml BC04_PlanificacionNutricional
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 12
+
+title Bounded Context 04 — Planificación Nutricional
+
+actor "Nutricionista" as NUT
+actor "Paciente" as PAC
+actor "Email API" as EMAIL
+
+rectangle "BC04 — Planificación Nutricional" {
+
+  rectangle "Commands" #D1FAE5 {
+    [AsignarNutricionistaAlPaciente]
+    [NotificarAsignacionNutricionista]
+    [CompletarEvaluacionInicial]
+    [CrearPlanNutricional]
+    [EnviarPlanAlPaciente]
+    [AceptarPlanNutricional]
+    [RechazarPlanNutricional]
+    [AgendarConsultaControl]
+    [EnviarRecordatorioCita]
+    [RegistrarNotasConsulta]
+  }
+
+  rectangle "Queries" #E8F0F9 {
+    [ObtenerNutricionistaDisponible]
+    [ConsultarPlanActivoPaciente]
+    [ObtenerDietaSemanal]
+    [ListarConsultasAgendadas]
+    [VerificarDisponibilidadNutricionista]
+  }
+
+  rectangle "Domain Events" #FEF3C7 {
+    [NutricionistaAsignado]
+    [EvaluacionCompletada]
+    [PlanNutricionalPropuesto]
+    [PlanNutricionalActivado]
+    [PlanNutricionalRechazado]
+    [ConsultaAgendada]
+    [RecordatorioCitaEnviado]
+    [NotasConsultaRegistradas]
+  }
+
+  database "MySQL\nplanificacion" as DB #F3F4F6
+}
+
+NUT --> [CompletarEvaluacionInicial]
+NUT --> [CrearPlanNutricional]
+NUT --> [RegistrarNotasConsulta]
+PAC --> [AceptarPlanNutricional]
+PAC --> [RechazarPlanNutricional]
+PAC --> [AgendarConsultaControl]
+[NutricionistaAsignado] --> EMAIL : notifica al paciente
+[RecordatorioCitaEnviado] --> EMAIL
+[PlanNutricionalActivado] ..> [IniciarSeguimiento] : outbound → BC05
+
+note right of "BC04 — Planificación Nutricional"
+  US18 · US19 · US20 · US21
+  US22 · US23 · US24 · US25 · US26
+  Inbound desde BC02:
+  PerfilPacienteCompleto
+end note
+
+@enduml
+```
+- Asi es como quedaria el Bounded Context de Gestion de Gestión Corporativa :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_planificacion.png" alt="bounded context planificacion nutricional" width="800"/>
+</p>
+
+---
+
+### BC05 — Seguimiento y Monitoreo del Progreso
+
+**Descripción:** Gestiona el registro diario de consumo de alimentos, actividad física y peso semanal. Calcula automáticamente el porcentaje de adherencia al plan nutricional, envía alertas al nutricionista cuando el cumplimiento cae por debajo del umbral y genera reportes PDF de evolución.
+
+```plantuml
+@startuml BC05_SeguimientoProgreso
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 12
+
+title Bounded Context 05 — Seguimiento y Monitoreo del Progreso
+
+actor "Paciente" as PAC
+actor "Nutricionista" as NUT
+actor "Email API" as EMAIL
+actor "PDF Service" as PDF
+
+rectangle "BC05 — Seguimiento & Monitoreo" {
+
+  rectangle "Commands" #D1FAE5 {
+    [RegistrarConsumoAlimentos]
+    [RegistrarActividadFisica]
+    [ActualizarPesoSemanal]
+    [CalcularAdherenciaSemanal]
+    [EnviarAlertaBajoCumplimiento]
+    [GenerarReportePDFEvolucion]
+  }
+
+  rectangle "Queries" #E8F0F9 {
+    [ObtenerHistorialConsumo]
+    [ConsultarGraficoProgresoPeso]
+    [ObtenerAdherenciaSemanal]
+    [ListarReportesEvolucion]
+    [VerificarRegistrosDiarios]
+  }
+
+  rectangle "Domain Events" #FEF3C7 {
+    [ConsumoRegistrado]
+    [ActividadRegistrada]
+    [PesoActualizado]
+    [AdherenciaCalculada]
+    [AlertaBajoCumplimientoEnviada]
+    [ReportePDFGenerado]
+    [MetricasListasParaConsolidar]
+  }
+
+  database "MySQL\nseguimiento" as DB #F3F4F6
+}
+
+PAC --> [RegistrarConsumoAlimentos]
+PAC --> [RegistrarActividadFisica]
+PAC --> [ActualizarPesoSemanal]
+[AdherenciaCalculada] --> EMAIL : si % < umbral → alerta NUT
+[AlertaBajoCumplimientoEnviada] --> NUT
+[GenerarReportePDFEvolucion] --> PDF
+[MetricasListasParaConsolidar] ..> [ConsolidarMetricasAnonimas] : outbound → BC03
+
+note right of "BC05 — Seguimiento & Monitoreo"
+  US27 · US28 · US29 · US30
+  US31 · US32 · US33
+  Inbound desde BC04:
+  PlanNutricionalActivado
+end note
+
+@enduml
+```
+- Asi es como quedaria el Bounded Context de Seguimiento y Monitoreo del Progreso :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_seguimiento.png" alt="bounded context seguimiento y monitoreo del progreso" width="800"/>
+</p>
+
+---
+
+### BC06 — Suscripciones y Facturación
+
+**Descripción:** Gestiona la contratación de planes individuales B2C y corporativos B2B, el procesamiento de pagos vía Pasarela de Pagos API, la emisión automática de facturas, la renovación automática mensual y el manejo de pagos atrasados con suspensión y avisos por correo.
+
+```plantuml
+@startuml BC06_SuscripcionesFacturacion
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 12
+
+title Bounded Context 06 — Suscripciones y Facturación
+
+actor "Paciente" as PAC
+actor "Admin Corp." as ADM
+actor "Pasarela\nPagos API" as PAGO
+actor "Email API" as EMAIL
+
+rectangle "BC06 — Suscripciones & Facturación" {
+
+  rectangle "Commands" #D1FAE5 {
+    [SeleccionarPlanIndividual]
+    [ProcesarPagoB2C]
+    [ActivarSuscripcionB2C]
+    [ComprarPaqueteCorporativo]
+    [ProcesarPagoB2B]
+    [HabilitarLicenciasCorporativas]
+    [EmitirFactura]
+    [ProcesarRenovacionAutomatica]
+    [SuspenderSuscripcionPorPagoFallido]
+    [EnviarAvisoPagoAtrasado]
+    [ReactivarSuscripcion]
+  }
+
+  rectangle "Queries" #E8F0F9 {
+    [ObtenerResumenFacturacion]
+    [ConsultarEstadoSuscripcion]
+    [ListarHistorialPagos]
+    [VerificarLicenciasActivas]
+    [ObtenerProximaRenovacion]
+  }
+
+  rectangle "Domain Events" #FEF3C7 {
+    [SuscripcionB2CActivada]
+    [PagoAprobado]
+    [PagoRechazado]
+    [FacturaEmitida]
+    [SuscripcionCorporativaActivada]
+    [RenovacionProcesada]
+    [SuscripcionSuspendida]
+    [AvisoPagoAtrasadoEnviado]
+    [SuscripcionReactivada]
+  }
+
+  database "MySQL\nfacturacion" as DB #F3F4F6
+}
+
+PAC --> [SeleccionarPlanIndividual]
+ADM --> [ComprarPaqueteCorporativo]
+[ProcesarPagoB2C] --> PAGO
+[ProcesarPagoB2B] --> PAGO
+[FacturaEmitida] --> EMAIL : envía PDF factura
+[AvisoPagoAtrasadoEnviado] --> EMAIL
+[SuscripcionB2CActivada] ..> [HabilitarFuncionalidades] : outbound → BC02/BC04
+
+note right of "BC06 — Suscripciones & Facturación"
+  US34 · US35 · US36 · US37
+  US38 · US39 · US40
+  Solo últimos 4 dígitos de tarjeta
+  (cumplimiento PCI-DSS)
+end note
+
+@enduml
+```
+- Asi es como quedaria el Bounded Context de suscripcion y facturación :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_suscripcion_facturacion.png" alt="bounded context suscripciones y facturación" width="800"/>
+</p>
+
+---
+
+### Unión de Bounded Contexts
+
+```plantuml
+@startuml Union_BoundedContexts
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title BioTrack — Mapa de Bounded Contexts y Relaciones
+
+skinparam rectangle {
+  RoundCorner 12
+}
+
+rectangle "BC01\nIdentidad &\nAutenticación" as BC01 #E8F0F9
+rectangle "BC02\nPerfil &\nConfiguración" as BC02 #D1FAE5
+rectangle "BC03\nGestión\nCorporativa" as BC03 #FEF3C7
+rectangle "BC04\nPlanificación\nNutricional" as BC04 #E8F0F9
+rectangle "BC05\nSeguimiento &\nMonitoreo" as BC05 #D1FAE5
+rectangle "BC06\nSuscripciones &\nFacturación" as BC06 #FEF3C7
+
+actor "Email API" as EMAIL #lightgrey
+actor "Pasarela\nPagos API" as PAGO #lightgrey
+actor "Fiscal API\n(SUNAT)" as SUNAT #lightgrey
+actor "PDF Service" as PDF #lightgrey
+
+BC01 --> BC02 : UsuarioRegistrado\n(tipo: paciente)
+BC01 --> BC03 : UsuarioRegistrado\n(tipo: admin_corp)
+BC01 --> BC04 : UsuarioRegistrado\n(tipo: nutricionista)
+
+BC02 --> BC04 : PerfilPacienteCompleto\n→ AsignarNutricionista
+BC02 --> BC06 : PerfilCompleto\n→ habilitarPlanes
+
+BC03 <-- BC05 : MetricasListasParaConsolidar
+BC03 --> SUNAT : ValidarRUC
+
+BC04 --> BC05 : PlanNutricionalActivado\n→ IniciarSeguimiento
+BC04 --> EMAIL : Notificaciones y\nrecordatorios
+
+BC05 --> BC03 : MetricasAgregadas\n(anónimas)
+BC05 --> PDF  : GenerarReportePDF
+BC05 --> EMAIL : AlertaBajoCumplimiento
+
+BC06 --> BC04 : SuscripcionActiva\n→ HabilitarPlanificacion
+BC06 --> BC03 : LicenciaCorporativaActiva
+BC06 --> PAGO : ProcesarPago
+BC06 --> EMAIL : Facturas y avisos
+
+@enduml
+```
+- Aqui todos los Bounded Contexts relacionados entre sí :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_relaciones.png" alt="bounded context relacionados" width="800"/>
+</p>
+
+---
+
+### Flujo: Registro y Activación de Cuenta (BC01 → BC02)
+
+```plantuml
+@startuml Flujo_RegistroActivacion
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title Flujo — Registro, Verificación de Email y Activación de Cuenta
+
+actor "Usuario" as USR
+participant "BC01\nIdentidad &\nAutenticación" as BC01 #E8F0F9
+participant "Email API" as EMAIL #lightgrey
+participant "BC02\nPerfil &\nConfig." as BC02 #D1FAE5
+participant "BC06\nSuscripciones" as BC06 #FEF3C7
+
+USR -> BC01 : RegistrarUsuario(nombre, email, password, tipo)
+BC01 -> BC01 : ValidarEmailUnico()
+BC01 -> BC01 : AsignarTipoCuenta()
+BC01 -> BC01 : CrearTokenVerificacion(24h)
+BC01 -> EMAIL : EnviarEmailVerificacion(token)
+BC01 --> USR : ConfirmacionRegistro(revisar bandeja)
+
+USR -> BC01 : ValidarTokenEmail(token)
+alt Token válido (< 24h)
+  BC01 -> BC01 : MarcarEmailVerificado()
+  BC01 -> BC01 : ActivarCuenta()
+  BC01 -> BC02 : emit UsuarioRegistrado(id, tipo)
+  BC02 -> BC02 : CrearPerfilVacio()
+  BC06 -> BC06 : AsignarPlanStarter()
+  BC01 --> USR : RedirigirAlDashboard()
+else Token expirado
+  BC01 --> USR : ErrorTokenExpirado()
+  USR -> BC01 : ReenviarTokenVerificacion()
+  BC01 -> EMAIL : NuevoToken()
+end
+
+@enduml
+```
+- Imagen del flujo 1 :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_flujo1.png" alt="flujo de registro, verificación de Email y activación de cuenta" width="800"/>
+</p>
+
+---
+
+### Flujo: Planificación Nutricional (BC02 → BC04 → BC05)
+
+```plantuml
+@startuml Flujo_PlanificacionNutricional
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title Flujo — Perfil Completo → Asignación → Plan → Seguimiento
+
+actor "Paciente" as PAC
+actor "Nutricionista" as NUT
+participant "BC02\nPerfil" as BC02 #D1FAE5
+participant "BC04\nPlanificación" as BC04 #E8F0F9
+participant "BC05\nSeguimiento" as BC05 #D1FAE5
+participant "Email API" as EMAIL #lightgrey
+
+PAC -> BC02 : RegistrarDatosSalud(peso, talla, edad...)
+PAC -> BC02 : DefinirObjetivoNutricional()
+PAC -> BC02 : RegistrarRestriccionesAlimentarias()
+BC02 -> BC02 : CalcularIMC()
+BC02 -> BC02 : MarcarPerfilCompleto()
+BC02 -> BC04 : emit PerfilPacienteCompleto(paciente_id)
+
+BC04 -> BC04 : BuscarNutricionistaDisponible()
+alt Nutricionista disponible
+  BC04 -> BC04 : AsignarNutricionistaAlPaciente()
+  BC04 -> EMAIL : NotificarAsignacion(paciente, nutricionista)
+  BC04 --> PAC  : DatosNutricionistaAsignado()
+else Sin disponibilidad
+  BC04 -> BC04 : EncolaPaciente()
+end
+
+NUT -> BC04 : CompletarEvaluacionInicial(observaciones, kcal, macros)
+NUT -> BC04 : CrearPlanNutricional(dias, comidas)
+BC04 -> BC04 : EstadoPlan = "propuesto"
+BC04 --> PAC  : NotificarPlanDisponible()
+
+PAC -> BC04 : AceptarPlanNutricional()
+BC04 -> BC04 : EstadoPlan = "activado"
+BC04 -> BC05 : emit PlanNutricionalActivado(plan_id, paciente_id)
+BC05 -> BC05 : IniciarSeguimiento()
+
+loop cada semana
+  PAC -> BC05 : RegistrarConsumoAlimentos()
+  PAC -> BC05 : RegistrarActividadFisica()
+  PAC -> BC05 : ActualizarPesoSemanal()
+  BC05 -> BC05 : CalcularAdherenciaSemanal()
+  alt Adherencia < 60%
+    BC05 -> EMAIL : EnviarAlertaBajoCumplimiento(nutricionista)
+  end
+end
+
+@enduml
+```
+- Imagen del flujo 2 :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_flujo2.png" alt="bounded context Perfil, Asignación, Plan y Seguimiento" width="800"/>
+</p>
+
+---
+
+### Flujo: Suscripción B2C (BC06 → BC04)
+
+```plantuml
+@startuml Flujo_SuscripcionB2C
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title Flujo — Contratación de Plan B2C y Activación de Servicios
+
+actor "Paciente" as PAC
+participant "BC06\nSuscripciones &\nFacturación" as BC06 #FEF3C7
+participant "Pasarela\nPagos API" as PAGO #lightgrey
+participant "Email API" as EMAIL #lightgrey
+participant "BC04\nPlanificación" as BC04 #E8F0F9
+
+PAC -> BC06 : SeleccionarPlanProfesional()
+PAC -> BC06 : IngresarMetodoPago(tarjeta)
+BC06 -> PAGO : ProcesarPago(monto, tarjeta)
+
+alt Pago aprobado
+  PAGO --> BC06 : PagoAprobado(codigo_transaccion)
+  BC06 -> BC06 : ActivarSuscripcionB2C()
+  BC06 -> BC06 : EmitirFactura()
+  BC06 -> EMAIL : EnviarFacturaPDF(paciente)
+  BC06 -> BC04  : emit SuscripcionActiva(paciente_id, plan)
+  BC04 -> BC04  : HabilitarPlanificacionNutricional()
+  BC06 --> PAC  : MostrarResumenFacturacion()
+else Pago rechazado
+  PAGO --> BC06 : PagoRechazado(motivo)
+  BC06 --> PAC  : NotificarRechazo(motivo)
+  BC06 --> PAC  : SolicitarMetodoPagoAlternativo()
+end
+
+note over BC06
+  Renovación automática mensual:
+  BC06 ejecuta ProcesarRenovacion()
+  al llegar fecha_fin de suscripción.
+  Si falla: SuspenderSuscripcion()
+  + EnviarAvisoPagoAtrasado()
+end note
+
+@enduml
+```
+- Imagen del flujo 3 :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_flujo3.png" alt="bounded context relacionados" width="800"/>
+</p>
+
+---
+
+### Flujo: Dashboard Corporativo Anónimo (BC05 → BC03)
+
+```plantuml
+@startuml Flujo_DashboardCorporativo
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title Flujo — Consolidación Anónima y Dashboard Corporativo
+
+participant "BC05\nSeguimiento" as BC05 #D1FAE5
+participant "BC03\nGestión\nCorporativa" as BC03 #FEF3C7
+actor "Admin\nCorporativo" as ADM
+
+BC05 -> BC05 : FinalizarPeriodoCálculo()
+BC05 -> BC03 : emit MetricasListasParaConsolidar(empresa_id, datos_agregados)
+
+BC03 -> BC03 : VerificarMinimoAnonimato()
+alt colaboradores_activos >= umbral_minimo
+  BC03 -> BC03 : ConsolidarMetricasGrupales()
+  BC03 -> BC03 : AnonimizarDatos()
+  BC03 -> BC03 : PublicarEnDashboard(publicado=TRUE)
+  ADM -> BC03 : ObtenerDashboardCorporativo()
+  BC03 --> ADM : MetricasAgregadas(adherencia_prom, imc_prom, distribución_objetivos)
+else Datos insuficientes
+  BC03 -> BC03 : OmitirPublicacion(publicado=FALSE)
+  ADM -> BC03  : ObtenerDashboardCorporativo()
+  BC03 --> ADM : MensajeDatosInsuficientes()
+end
+
+note over BC03
+  REGLA DE NEGOCIO CRÍTICA:
+  El Admin Corporativo NUNCA
+  puede ver datos individuales
+  de salud de sus colaboradores.
+  Solo métricas grupales agregadas.
+end note
+
+@enduml
+```
+- Imagen del flujo 4 :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_flujo4.png" alt="bounded context relacionados" width="800"/>
+</p>
+
+---
+
+## 4.6.2. Software Architecture Context Diagram
+
+```plantuml
+@startuml Structurizr_ContextDiagram
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 12
+
+skinparam rectangle {
+  RoundCorner 16
+}
+
+title BioTrack — System Context Diagram
+
+actor "Paciente" as PAC #0F4C81
+actor "Nutricionista" as NUT #0F4C81
+actor "Admin\nCorporativo" as ADM #0F4C81
+
+rectangle "BioTrack\nPlataforma de gestión nutricional\ny bienestar corporativo" as SYS #10B981 {
+}
+
+rectangle "Email API\n[Sistema externo]\nSendGrid / AWS SES" as EMAIL #E5E7EB
+rectangle "Pasarela de Pagos API\n[Sistema externo]\nStripe / Culqi" as PAGO #E5E7EB
+rectangle "Fiscal API — SUNAT\n[Sistema externo]\nValidación de RUC" as SUNAT #E5E7EB
+rectangle "PDF Service\n[Sistema externo]\nGeneración de reportes" as PDF #E5E7EB
+
+PAC --> SYS : Registra datos de salud,\nsigue plan nutricional,\nregistra consumo y progreso
+NUT --> SYS : Evalúa pacientes,\ncrea planes nutricionales,\nagenda consultas
+ADM --> SYS : Gestiona empresa,\ncarga colaboradores,\nconsulta métricas anónimas
+
+SYS --> EMAIL : Envía verificaciones,\nrecordatorios, alertas y facturas
+SYS --> PAGO : Procesa pagos B2C y\nB2B de suscripciones
+SYS --> SUNAT : Valida RUC fiscal\nde empresas (US13)
+SYS --> PDF : Genera reportes PDF\nde evolución (US33)
+
+@enduml
+```
+- Imagen del flujo 5 :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_flujo5.png" alt="bounded context relacionados" width="800"/>
+</p>
+
+---
+
+## 4.6.3. Software Architecture Container Diagram
+
+```plantuml
+@startuml Structurizr_ContainerDiagram
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title BioTrack — Container Diagram
+
+actor "Paciente /\nNutricionista /\nAdmin Corp." as USR #0F4C81
+
+rectangle "BioTrack System" {
+
+  rectangle "Web Application\n[Vue 3 / React]\nSingle Page Application\nservida desde CDN" as SPA #E8F0F9
+
+  rectangle "API Gateway\n[Node.js / Express]\nAutenticación JWT,\nrate limiting, routing" as GW #D1FAE5
+
+  rectangle "BC01 — Auth Service\n[Node.js]\nRegistro, login,\ntokens, sesiones" as S1 #E8F0F9
+  rectangle "BC02 — Profile Service\n[Node.js]\nPerfil paciente,\nobjetivo, restricciones" as S2 #E8F0F9
+  rectangle "BC03 — Corporate Service\n[Node.js]\nEmpresas, colaboradores,\nmétricas anónimas" as S3 #E8F0F9
+  rectangle "BC04 — Planning Service\n[Node.js]\nEvaluaciones, planes,\nconsultas de control" as S4 #E8F0F9
+  rectangle "BC05 — Tracking Service\n[Node.js]\nConsumo, actividad,\npeso, adherencia" as S5 #E8F0F9
+  rectangle "BC06 — Billing Service\n[Node.js]\nSuscripciones, pagos,\nfacturas, renovación" as S6 #E8F0F9
+
+  database "DB Auth\n[MySQL 8.0]" as DB1 #F3F4F6
+  database "DB Profile\n[MySQL 8.0]" as DB2 #F3F4F6
+  database "DB Corporate\n[MySQL 8.0]" as DB3 #F3F4F6
+  database "DB Planning\n[MySQL 8.0]" as DB4 #F3F4F6
+  database "DB Tracking\n[MySQL 8.0]" as DB5 #F3F4F6
+  database "DB Billing\n[MySQL 8.0]" as DB6 #F3F4F6
+
+  rectangle "Message Bus\n[RabbitMQ / Redis Pub/Sub]\nComunicación asíncrona\nentre servicios" as BUS #FEF3C7
+}
+
+rectangle "Email API\n[SendGrid]" as EMAIL #lightgrey
+rectangle "Pasarela Pagos API\n[Stripe/Culqi]" as PAGO #lightgrey
+rectangle "Fiscal API\n[SUNAT]" as SUNAT #lightgrey
+rectangle "PDF Service\n[PDFKit/Puppeteer]" as PDF #lightgrey
+rectangle "File Storage\n[AWS S3 / Cloudinary]" as S3 #lightgrey
+
+USR --> SPA : HTTPS
+SPA --> GW  : REST / JSON
+GW --> S1
+GW --> S2
+GW --> S3
+GW --> S4
+GW --> S5
+GW --> S6
+
+S1 --> DB1
+S2 --> DB2
+S3 --> DB3
+S4 --> DB4
+S5 --> DB5
+S6 --> DB6
+
+S1 --> BUS : emit eventos
+S2 --> BUS
+S3 --> BUS
+S4 --> BUS
+S5 --> BUS
+S6 --> BUS
+
+S1 --> EMAIL
+S4 --> EMAIL
+S5 --> EMAIL
+S6 --> EMAIL
+S6 --> PAGO
+S3 --> SUNAT
+S5 --> PDF
+S5 --> S3
+S6 --> S3
+
+@enduml
+```
+- Imagen del Container de Biotrack :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_container.png" alt="bounded context relacionados" width="800"/>
+</p>
+
+---
+
+## 4.6.4. Software Architecture Components Diagrams
+
+### BC01 — Auth Service: Components
+
+```plantuml
+@startuml Component_BC01_Auth
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title BC01 — Auth Service: Component Diagram
+
+rectangle "BC01 — Auth Service" {
+
+  rectangle "AuthController\n[REST Controller]\nPOST /register\nPOST /login\nPOST /verify-email\nPOST /resend-verification\nPOST /logout" as CTRL #E8F0F9
+
+  rectangle "AuthApplicationService\n[Application Layer]\nOrquesta los comandos\nde autenticación" as APP #D1FAE5
+
+  rectangle "UserRepository\n[Infrastructure]\nCRUD sobre tabla usuarios\ny sesiones_activas" as REPO #F3F4F6
+
+  rectangle "TokenService\n[Domain Service]\nGenera / valida JWT\ny tokens de verificación" as TOKEN #D1FAE5
+
+  rectangle "PasswordService\n[Domain Service]\nbcrypt hash/verify" as PWD #D1FAE5
+
+  rectangle "AuthEventPublisher\n[Infrastructure]\nEmite UsuarioRegistrado,\nCuentaActivada al Message Bus" as PUB #FEF3C7
+
+  rectangle "EmailApiAdapter\n[Infrastructure]\nIntegración con SendGrid\npara verificación y recovery" as MAIL #lightgrey
+
+  database "MySQL Auth DB" as DB #F3F4F6
+}
+
+CTRL --> APP
+APP --> REPO
+APP --> TOKEN
+APP --> PWD
+APP --> PUB
+APP --> MAIL
+REPO --> DB
+
+note bottom of CTRL
+  US01 · US02 · US03 · US04
+  US05 · US06 · US07 · US08
+end note
+
+@enduml
+```
+
+---
+
+### BC02 — Profile Service: Components
+
+```plantuml
+@startuml Component_BC02_Profile
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title BC02 — Profile Service: Component Diagram
+
+rectangle "BC02 — Profile Service" {
+
+  rectangle "ProfileController\n[REST Controller]\nPUT /profile/health-data\nPUT /profile/goal\nPUT /profile/restrictions\nGET /profile/:id" as CTRL #E8F0F9
+
+  rectangle "ProfileApplicationService\n[Application Layer]\nOrquesta registro de\ndatos de salud y objetivos" as APP #D1FAE5
+
+  rectangle "ProfileRepository\n[Infrastructure]\nCRUD sobre perfiles_paciente\ny restricciones_alimentarias" as REPO #F3F4F6
+
+  rectangle "IMCCalculator\n[Domain Service]\nCalcula IMC a partir\nde peso y talla" as IMC #D1FAE5
+
+  rectangle "ProfileValidator\n[Domain Service]\nValida rangos clínicos:\nUS09 CHECKs de dominio" as VAL #D1FAE5
+
+  rectangle "ProfileEventPublisher\n[Infrastructure]\nEmite PerfilPacienteCompleto\nhacia BC04 vía Message Bus" as PUB #FEF3C7
+
+  database "MySQL Profile DB" as DB #F3F4F6
+}
+
+CTRL --> APP
+APP --> REPO
+APP --> IMC
+APP --> VAL
+APP --> PUB
+REPO --> DB
+
+note bottom of CTRL
+  US09 · US10 · US11
+  IMC calculado automáticamente
+end note
+
+@enduml
+```
+
+---
+
+### BC03 — Corporate Service: Components
+
+```plantuml
+@startuml Component_BC03_Corporate
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title BC03 — Corporate Service: Component Diagram
+
+rectangle "BC03 — Corporate Service" {
+
+  rectangle "CorporateController\n[REST Controller]\nPOST /company\nPOST /collaborators/upload\nGET /dashboard/metrics" as CTRL #E8F0F9
+
+  rectangle "CorporateApplicationService\n[Application Layer]\nOrquesta registro de empresa,\ncarga de colaboradores y métricas" as APP #D1FAE5
+
+  rectangle "CompanyRepository\n[Infrastructure]\nCRUD sobre empresas\ny colaboradores" as REPO #F3F4F6
+
+  rectangle "AnonymizationService\n[Domain Service]\nConsolida y anonimiza\nmétricas grupales (US17)" as ANON #D1FAE5
+
+  rectangle "RucValidatorAdapter\n[Infrastructure]\nIntegración con\nFiscal API SUNAT (US13)" as RUC #lightgrey
+
+  rectangle "InvitationEmailAdapter\n[Infrastructure]\nEnvío masivo de invitaciones\nvía Email API (US15)" as MAIL #lightgrey
+
+  rectangle "MetricsRepository\n[Infrastructure]\nCRUD sobre\nmetricas_corporativas" as MREP #F3F4F6
+
+  rectangle "MetricsEventConsumer\n[Infrastructure]\nEscucha MetricasListasParaConsolidar\ndesde BC05 vía Message Bus" as CONS #FEF3C7
+
+  database "MySQL Corporate DB" as DB #F3F4F6
+}
+
+CTRL --> APP
+APP --> REPO
+APP --> ANON
+APP --> RUC
+APP --> MAIL
+APP --> MREP
+CONS --> APP
+REPO --> DB
+MREP --> DB
+
+note bottom of CTRL
+  US12 · US13 · US14 · US15 · US16 · US17
+  NUNCA expone datos individuales
+end note
+
+@enduml
+```
+
+---
+
+### BC04 — Planning Service: Components
+
+```plantuml
+@startuml Component_BC04_Planning
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title BC04 — Planning Service: Component Diagram
+
+rectangle "BC04 — Planning Service" {
+
+  rectangle "PlanningController\n[REST Controller]\nPOST /evaluation\nPOST /plan\nPUT /plan/:id/accept\nPOST /appointment\nGET /weekly-diet" as CTRL #E8F0F9
+
+  rectangle "PlanningApplicationService\n[Application Layer]\nOrquesta evaluación,\ncreación de plan y consultas" as APP #D1FAE5
+
+  rectangle "NutritionistAssignmentService\n[Domain Service]\nBusca nutricionista disponible\ny encola si no hay (US18)" as ASSIGN #D1FAE5
+
+  rectangle "PlanRepository\n[Infrastructure]\nCRUD planes_nutricionales,\nplan_dias, plan_comidas" as PREP #F3F4F6
+
+  rectangle "EvaluationRepository\n[Infrastructure]\nCRUD evaluaciones_iniciales\ny consultas_control" as EREP #F3F4F6
+
+  rectangle "ReminderScheduler\n[Infrastructure]\nCron job: envía recordatorios\n24h antes de la cita (US25)" as CRON #D1FAE5
+
+  rectangle "PlanningEventPublisher\n[Infrastructure]\nEmite PlanActivado\nhacia BC05 vía Message Bus" as PUB #FEF3C7
+
+  rectangle "ProfileEventConsumer\n[Infrastructure]\nEscucha PerfilPacienteCompleto\ndesde BC02" as CONS #FEF3C7
+
+  rectangle "EmailApiAdapter\n[Infrastructure]\nNotificaciones de asignación\ny recordatorios de cita" as MAIL #lightgrey
+
+  database "MySQL Planning DB" as DB #F3F4F6
+}
+
+CTRL --> APP
+APP --> ASSIGN
+APP --> PREP
+APP --> EREP
+APP --> CRON
+APP --> PUB
+APP --> MAIL
+CONS --> APP
+PREP --> DB
+EREP --> DB
+
+note bottom of CTRL
+  US18 · US19 · US20 · US21
+  US22 · US23 · US24 · US25 · US26
+end note
+
+@enduml
+```
+
+---
+
+### BC05 — Tracking Service: Components
+
+```plantuml
+@startuml Component_BC05_Tracking
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title BC05 — Tracking Service: Component Diagram
+
+rectangle "BC05 — Tracking Service" {
+
+  rectangle "TrackingController\n[REST Controller]\nPOST /consumption\nPOST /activity\nPUT /weight\nGET /progress-chart\nGET /report/:id" as CTRL #E8F0F9
+
+  rectangle "TrackingApplicationService\n[Application Layer]\nOrquesta registro de consumo,\nactividad, peso y adherencia" as APP #D1FAE5
+
+  rectangle "AdherenceCalculator\n[Domain Service]\nCalcula % semanal:\n(dias_registrados/dias_objetivo)*100" as ADH #D1FAE5
+
+  rectangle "TrackingRepository\n[Infrastructure]\nCRUD registros_consumo,\nactividad, peso, adherencia" as REPO #F3F4F6
+
+  rectangle "ReportGenerator\n[Domain Service]\nGenera reporte PDF\nde evolución (US33)" as RPT #D1FAE5
+
+  rectangle "AlertService\n[Domain Service]\nEnvía alerta al nutricionista\nsi adherencia < umbral (US32)" as ALERT #D1FAE5
+
+  rectangle "TrackingEventPublisher\n[Infrastructure]\nEmite MetricasListasParaConsolidar\nhacia BC03" as PUB #FEF3C7
+
+  rectangle "PlanEventConsumer\n[Infrastructure]\nEscucha PlanNutricionalActivado\ndesde BC04" as CONS #FEF3C7
+
+  rectangle "PdfServiceAdapter\n[Infrastructure]\nIntegración con PDF Service\nexterno (Puppeteer/PDFKit)" as PDF #lightgrey
+
+  rectangle "EmailApiAdapter\n[Infrastructure]\nEnvía alertas de bajo\ncumplimiento al nutricionista" as MAIL #lightgrey
+
+  database "MySQL Tracking DB" as DB #F3F4F6
+}
+
+CTRL --> APP
+APP --> ADH
+APP --> REPO
+APP --> RPT
+APP --> ALERT
+APP --> PUB
+CONS --> APP
+RPT --> PDF
+ALERT --> MAIL
+REPO --> DB
+
+note bottom of CTRL
+  US27 · US28 · US29 · US30
+  US31 · US32 · US33
+end note
+
+@enduml
+```
+
+---
+
+### BC06 — Billing Service: Components
+
+```plantuml
+@startuml Component_BC06_Billing
+!theme plain
+skinparam backgroundColor #F8FAFB
+skinparam defaultFontName Poppins
+skinparam defaultFontSize 11
+
+title BC06 — Billing Service: Component Diagram
+
+rectangle "BC06 — Billing Service" {
+
+  rectangle "BillingController\n[REST Controller]\nPOST /subscriptions\nPOST /subscriptions/corporate\nGET /billing/summary\nPOST /subscriptions/:id/cancel" as CTRL #E8F0F9
+
+  rectangle "BillingApplicationService\n[Application Layer]\nOrquesta suscripciones,\npagos y facturación" as APP #D1FAE5
+
+  rectangle "SubscriptionRepository\n[Infrastructure]\nCRUD suscripciones,\nsuscripciones_corporativas" as SREP #F3F4F6
+
+  rectangle "PaymentRepository\n[Infrastructure]\nCRUD pagos y facturas\n(solo 4 últimos dígitos)" as PREP #F3F4F6
+
+  rectangle "RenewalScheduler\n[Infrastructure]\nCron job: procesa renovaciones\nautomáticas al vencer (US38)" as CRON #D1FAE5
+
+  rectangle "InvoiceService\n[Domain Service]\nGenera factura PDF tras\npago aprobado (US35/US37)" as INV #D1FAE5
+
+  rectangle "PaymentGatewayAdapter\n[Infrastructure]\nIntegración con Stripe/Culqi\npara cobros B2C y B2B" as PAY #lightgrey
+
+  rectangle "BillingEventPublisher\n[Infrastructure]\nEmite SuscripcionActivada\nhacia BC04 y BC03" as PUB #FEF3C7
+
+  rectangle "EmailApiAdapter\n[Infrastructure]\nFacturas, avisos de pago\natrasado y confirmaciones" as MAIL #lightgrey
+
+  database "MySQL Billing DB" as DB #F3F4F6
+}
+
+CTRL --> APP
+APP --> SREP
+APP --> PREP
+APP --> INV
+APP --> CRON
+APP --> PAY
+APP --> PUB
+APP --> MAIL
+INV --> MAIL
+SREP --> DB
+PREP --> DB
+
+note bottom of CTRL
+  US34 · US35 · US36 · US37
+  US38 · US39 · US40
+  PCI-DSS: solo 4 últimos dígitos
+end note
+
+@enduml
+```
+
+---
+
+## Conclusiones
+
+El desarrollo del presente informe permitió construir, de manera integral y trazable, la propuesta de solución tecnológica BioTrack: una plataforma HealthTech que conecta pacientes individuales, nutricionistas y empresas corporativas en un ecosistema unificado de gestión nutricional y bienestar organizacional. Desde el análisis del entorno competitivo hasta el diseño de la arquitectura de software, cada etapa del trabajo estuvo fundamentada en evidencia empírica recogida directamente de los segmentos objetivo, lo que garantizó que las decisiones tomadas respondan a necesidades reales y no a supuestos.
+
+El proceso de needfinding confirmó que los tres segmentos identificados —pacientes que buscan acompañamiento nutricional personalizado, empresas que necesitan gestionar el bienestar de sus colaboradores con datos anonimizados, y nutricionistas que requieren digitalizar su práctica profesional— enfrentan una problemática común: la inexistencia de una herramienta que integre seguimiento clínico, planificación nutricional y métricas organizacionales en un solo punto de acceso. Las entrevistas realizadas, los User Personas construidos y los Journey Maps elaborados evidenciaron fricciones concretas en los flujos actuales, como la dependencia de hojas de cálculo para el seguimiento, la imposibilidad de medir el impacto de programas de bienestar a nivel grupal sin comprometer la privacidad individual, y la falta de herramientas que automaticen la asignación de nutricionistas y el cálculo de adherencia.
+
+El diseño de la solución abordó estas fricciones con decisiones técnicas justificadas. La adopción de una arquitectura orientada a dominios con seis Bounded Contexts diferenciados —Identidad, Perfil, Gestión Corporativa, Planificación Nutricional, Seguimiento y Facturación— permitió aislar responsabilidades, reducir el acoplamiento entre módulos y garantizar que reglas de negocio críticas, como la privacidad absoluta de los datos individuales en el Dashboard Corporativo y la validación de rangos clínicos en el perfil del paciente, queden protegidas dentro de sus propios límites de dominio. El diseño de la base de datos en MySQL 8.0, normalizado hasta la Tercera Forma Normal con veinticinco tablas, cuarenta y un claves foráneas y columnas calculadas automáticamente mediante `GENERATED ALWAYS AS` para el IMC y la adherencia, asegura consistencia de datos sin intervención manual y elimina redundancias que en sistemas de salud pueden traducirse en errores clínicos.
+
+El Product Design articuló un sistema de diseño coherente basado en las tipografías DM Serif Display y Poppins, una paleta cromática de azul institucional y verde de acción, y un conjunto de componentes reutilizables con especificaciones WCAG 2.1 AA que garantizan accesibilidad para todos los perfiles de usuario. Los wireframes, mockups y prototipos de la Landing Page y la aplicación web —organizados en seis epics y más de cuarenta user stories con criterios de aceptación en formato Gherkin— evidencian que la experiencia de usuario fue diseñada desde la arquitectura de información y no como una capa superficial añadida al final del proceso.
+
+Finalmente, el ejercicio de modelado con Event Storming, los diagramas de componentes en PlantUML, los class diagrams en C# y el Structurizr DSL para los diagramas de contexto y contenedores conforman una documentación arquitectónica que no solo describe el sistema como fue concebido, sino que actúa como contrato técnico entre el equipo de diseño y el de desarrollo, reduciendo la ambigüedad en la implementación futura. BioTrack parte, así, de una base sólida: un problema validado, una arquitectura justificada, una interfaz accesible y una base de datos íntegra, aspectos que en conjunto hacen de esta plataforma una propuesta técnicamente viable, escalable y alineada con los estándares del desarrollo de software profesional.
 
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
