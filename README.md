@@ -1159,9 +1159,46 @@ Finalmente, solo Beltrán destacó la necesidad de una **integración directa co
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
+<strong>Segmento Objetivo #1:</strong>
+
+<img src="resources/Chapter-II/Ximena Núñez.png">
+
+<strong>Segmento Objetivo #2:</strong>
+
+<img src="resources/Chapter-II/Eduardo Arévalos.png">
+
 #### 2.3.2. User Task Matrix
+
+En este cuadro presentaremos nuestros segmentos objetivos: Pacientes y Organizaciones. Consideraremos las tareas escenciales que realizarán.
+
+<img src="resources/Chapter-II/taskmatrix.PNG">
+
+Al comparar ambos segmentos, se observa una diferencia clara en prioridades y forma de uso. Ximena Núñez utiliza con mayor frecuencia funcionalidades operativas como visualizar planes de alimentación y registrar su progreso, dándoles además alta importancia, lo que refleja un enfoque práctico y constante en el seguimiento personal. Sin embargo, acciones más analíticas como revisar reportes o tomar decisiones basadas en datos tienen una frecuencia menor para ella. En cambio, Eduardo Arévalos muestra un patrón distinto: usa con alta frecuencia herramientas de análisis como el dashboard general y los reportes, asignándoles también alta importancia, lo que evidencia un enfoque más estratégico y orientado a la toma de decisiones. En resumen, mientras Ximena prioriza el registro y seguimiento diario, Eduardo se centra en el análisis e interpretación de la información para actuar.
+
 #### 2.3.3. User Journey Mapping
+
+<strong>Segmento Objetivo #1:</strong>
+
+Este journey representa la experiencia actual de Ximena al intentar mejorar su alimentación, evidenciando la falta de constancia, organización y seguimiento en su rutina diaria. 
+
+<img src="resources/Chapter-II/Sales rep journey map.png">
+
+<strong>Segmento Objetivo #2:</strong>
+
+Este journey representa cómo Eduardo gestiona actualmente iniciativas de bienestar nutricional en su empresa, mostrando un proceso fragmentado, manual y con poca visibilidad de resultados. 
+
+<img src="resources/Chapter-II/Sales rep journey map 2.png">
+
 #### 2.3.4. Empathy Mapping
+
+<strong>Segmento Objetivo #1:</strong>
+
+<img src="resources/Chapter-II/Empathy map.png">
+
+<strong>Segmento Objetivo #2:</strong>
+
+<img src="resources/Chapter-II/Empathy map (1).png">
+
 ## 2.4. Big Picture EventStorming
 
 
