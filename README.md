@@ -478,6 +478,53 @@ Sabremos que esto es cierto cuando al menos el 75% de los usuarios interactúen 
 <img src="resources/Lean Ux Canva.PNG">
 
 ### 1.3. Segmentos objetivo
+
+### Segmento Objetivo #1: Paciente (jóvenes y adultos: 18 a 60+ años) 
+
+Este segmento incluye personas entre 18 y más de 60 años interesados en mejorar sus hábitos alimenticios y llevar un control de su salud. 
+
+#### Características demográficas: 
+
+- Edad: 18 a 60+ años  
+
+- Ubicación: zonas urbanas con acceso a internet  
+
+- Nivel socioeconómico: medio y medio-alto  
+
+- Acceso a smartphones o computadoras  
+
+#### Características relevantes: 
+
+- Interés en bienestar, nutrición y prevención de enfermedades  
+
+- Falta de constancia en el seguimiento de hábitos saludables  
+
+- Uso frecuente de aplicaciones móviles o plataformas digitales 
+
+### Segmento Objetivo #2: Organizaciones 
+
+Este segmento incluye empresas que buscan mejorar la salud, el bienestar y la productividad de sus colaboradores mediante la implementación de programas de bienestar corporativo basados en datos. Dentro de estas organizaciones, los principales usuarios del sistema suelen ser responsables del área de recursos humanos o bienestar, quienes requieren herramientas para monitorear y analizar información relacionada con la salud de los empleados. 
+
+#### Características demográficas: 
+
+  - Tipo: empresas medianas y grandes  
+
+  - Sector: corporativo, servicios, tecnología e industria  
+
+  - Ubicación: principalmente en entornos urbanos  
+
+  - Nivel de digitalización: medio a alto  
+
+#### Características relevantes: 
+
+  - Interés en reducir el ausentismo laboral  
+
+  - Necesidad de monitorear el bienestar de sus colaboradores  
+
+  - Inversión en programas de salud ocupacional  
+
+  - Búsqueda de soluciones tecnológicas para la toma de decisiones
+
 ---
 
 ## Capitulo II: Requirements Elicitation & Analysis 
