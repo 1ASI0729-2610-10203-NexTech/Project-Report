@@ -3460,9 +3460,32 @@ La Landing se ubicará en una carpeta /docs dentro del branch princial del repos
 
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
+El primer Sprint de **BioTrack** se centró en establecer la presencia digital inicial y la infraestructura base de servicios. Se priorizó la creación de la Landing Page para la captación de usuarios y la implementación de los servicios de autenticación y gestión de perfiles de salud, fundamentales para los tres segmentos objetivo.
 ##### 5.2.1.1. Sprint Planning 1
+* **Objetivo del Sprint:** Implementar una Landing Page responsiva con navegación por secciones y desplegar los servicios base de registro, login y configuración de perfil de salud del paciente.
+* **Duración:** 2 semanas (Abril 2026).
+* **Capacidad estimada:** 32 Story Points.
+* **Historias de Usuario seleccionadas:** US41, US46, US45, US01, US03, US07, US09, TS01, TS02.
 ##### 5.2.1.2. Aspect Leaders and Collaborators
+| Rol | Responsable |
+| :--- | :--- |
+| **Product Owner** | Rengifo Lozano, David |
+| **Scrum Master** | Pacheco Lavado, Rafael Agustin |
+| **Frontend Developer** | Díaz Yurivilca, Sofía |
+| **Backend Developer** | Villón Amez, Enrique |
+| **QA Engineer** | Mendoza Moreano, Mariel Lucero |
 ##### 5.2.1.3. Sprint Backlog 1
+| ID | Título | SP | Estado |
+| :--- | :--- | :---: | :--- |
+| US41 | Visualizar propuesta de valor en la landing page | 1 | Finalizado |
+| US46 | Navegar entre secciones de la landing page | 2 | Finalizado |
+| US45 | Visualizar planes y precios en la landing page | 3 | Finalizado |
+| US01 | Registrar cuenta de usuario | 3 | Finalizado |
+| US03 | Recibir correo de verificación | 2 | Finalizado |
+| US07 | Iniciar sesión en la plataforma | 2 | Finalizado |
+| US09 | Registrar datos de salud | 3 | Finalizado |
+| TS01 | API: Endpoint de registro de usuario | 5 | Finalizado |
+| TS02 | API: Endpoint de autenticación y token | 5 | Finalizado |
 ##### 5.2.1.4. Development Evidence for Sprint Review
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
