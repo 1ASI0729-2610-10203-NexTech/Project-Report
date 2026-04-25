@@ -1171,7 +1171,7 @@ Finalmente, solo Beltrán destacó la necesidad de una **integración directa co
 
 En este cuadro presentaremos nuestros segmentos objetivos: Pacientes y Organizaciones. Consideraremos las tareas escenciales que realizarán.
 
-<img src="resources/Chapter-II/taskmatrix.PNG">
+<img src="resources/Chapter-II/taskmatrix.PNG" style="display: block; margin: 0 auto;">
 
 Al comparar ambos segmentos, se observa una diferencia clara en prioridades y forma de uso. Ximena Núñez utiliza con mayor frecuencia funcionalidades operativas como visualizar planes de alimentación y registrar su progreso, dándoles además alta importancia, lo que refleja un enfoque práctico y constante en el seguimiento personal. Sin embargo, acciones más analíticas como revisar reportes o tomar decisiones basadas en datos tienen una frecuencia menor para ella. En cambio, Eduardo Arévalos muestra un patrón distinto: usa con alta frecuencia herramientas de análisis como el dashboard general y los reportes, asignándoles también alta importancia, lo que evidencia un enfoque más estratégico y orientado a la toma de decisiones. En resumen, mientras Ximena prioriza el registro y seguimiento diario, Eduardo se centra en el análisis e interpretación de la información para actuar.
 
