@@ -161,6 +161,95 @@ A continuación se presentaran los commit realizados por los contribuidores:
 
 ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 <div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Nombre</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Criterio 1 -->
+    <tr>
+      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td>Pacheco Lavado, Rafael Agustin</td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Texto<br>
+      </td>
+      <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
+    </tr>
+    <tr>
+      <td>Mendoza Moreano, Mariel Lucero </td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Texto
+        <br>
+      </td>
+    </tr>
+    <tr>
+      <td>Díaz Yurivilca, Sofía </td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Desarrollo del capiyulo 2 los competidores, las entrevistas y el capitulo 3 los user stories impact mapping y product backlog <br>
+      </td>
+    </tr>
+    <tr>
+      <td>Rengifo Lozano, David </td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Texto<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Villón Amez, Enrique</td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Texto<br>
+      </td>
+    </tr>
+    <!-- Criterio 2 -->
+    <tr>
+      <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td>Pacheco Lavado, Rafael Agustin</td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Texto<br>
+      </td>
+      <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
+    </tr>
+    <tr>
+      <td>Mendoza Moreano, Mariel Lucero </td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Texto<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Díaz Yurivilca, Sofía</td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Desarrollo todo el capitulo 4 <br>
+      </td>
+    </tr>
+    <tr>
+      <td>Rengifo Lozano, David</td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Texto<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Villón Amez, Enrique</td>
+      <td>
+        <strong>ℹ️ AV1:</strong><br>
+        Texto<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
   <table>
     <thead>
       <tr>
@@ -185,7 +274,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <td>Mendoza Moreano, Mariel Lucero </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto
+          Contribuí al trabajo en equipo asumiendo liderazgo compartido en la definición del enfoque de diseño centrado en el usuario. Desarrollé el Lean UX Process como base metodológica del proyecto. Además, elaboré el User Persona, User Task Matrix, User Journey Mapping y Empathy Mapping para comprender mejor las necesidades del usuario. Estos aportes ayudaron a orientar las decisiones del equipo durante el diseño de la solución.
           <br>
         </td>
       </tr>
@@ -224,7 +313,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <td>Mendoza Moreano, Mariel Lucero </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Participé en el desarrollo del proyecto cumpliendo con las tareas asignadas dentro del equipo. Contribuí a la elaboración de entregables clave como el Lean UX Process y los análisis de usuario. Apoyé en la organización de las actividades relacionadas al diseño centrado en el usuario. Cumplí con los objetivos asignados dentro de los plazos establecidos.<br>
         </td>
       </tr>
       <tr>
@@ -277,7 +366,7 @@ El servicio opera bajo un modelo de suscripción escalable, adaptado a clientes 
 | Foto | Integrante | Carrera | Descripción |
 | :---: | :--- | :--- | :--- |
 | <img src="resources/Chapter-I/rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos técnicos en desarrollo web, empleando tecnologías como HTML, CSS, JavaScript, Astro y Tailwind CSS. Asimismo, puedo contribuir al equipo con habilidades sólidas en trabajo colaborativo, organización, resolución de problemas y la estructuración de interfaces de usuario escalables. |
-| <img src="resources/team/mariel.png" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Carrera | Texto |
+| <img src="resources/Chapter-I/Mariel.jpeg/" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Carrera | Mi nombre es Mariel Lucero Mendoza Moreano, tengo 20 años y actualmente estudio Ingeniería de Software en la Universidad de Ciencias Aplicadas. Cuento con conocimientos en HTML, CSS y C++, los cuales he ido desarrollando a través de mis estudios y proyectos académicos. Me considero una persona responsable, proactiva y con disposición para colaborar y brindar apoyo cuando se requiere. Además, me interesa aprender constantemente nuevas tecnologías y mejorar mis habilidades para aportar de manera efectiva en proyectos de desarrollo de software. |
 | <img src="resources/Chapter-I/Sofia.png" width="100"> | **Díaz Yurivilca, Sofía**<br>(U20241A195) | Ingeniería de Software | Soy estudiante del quinto ciclo. Me considero responsable, proactivo y con motivación por aprender. En el curso de Aplicaciones Web, busco desarrollar una solución orientada al sector HealthTech a través del proyecto BioTrack, una plataforma web de gestión nutricional dirigida a pacientes y organizaciones. |
 | <img src="resources/team/david.png" width="100"> | **Rengifo Lozano, David**<br>(U20221022) | Carrera | Texto |
 | <img src="resources/team/enrique.png" width="100"> | **Villón Amez, Enrique**<br>(U20161a304) | Carrera | Texto |
@@ -2462,9 +2551,313 @@ Los mockups muestran la propuesta visual aplicada sobre la estructura validada e
 </p>
 
 ### 4.4. Web Applications UX/UI Design
+
+El diseño UX/UI de la aplicación web de BioTrack responde directamente a las necesidades identificadas durante las entrevistas con los dos segmentos objetivo: pacientes que buscan mejorar su gestión nutricional y organizaciones interesadas en monitorear la salud y bienestar de sus colaboradores. Todo el trabajo visual fue desarrollado en Figma, disponible en el siguiente enlace:
+
+ https://www.figma.com/design/MHxkI1RGjQLuO8hUSnuiHP/biotrack-landingpage?node-id=0-1&t=eTPgEw67OrgoEiGR-1
+
+El proceso de diseño se organizó en dos fases complementarias. En la primera fase se construyeron los wireframes en escala de grises, priorizando la estructura, la jerarquía de la información y la disposición de los componentes sin la influencia del color. En la segunda fase se desarrollaron los mock-ups en color, aplicando el Design System definido en las Style Guidelines del capítulo 4.1. Esta progresión asegura que cada decisión visual esté alineada con la arquitectura de la información y los flujos de usuario previamente definidos.
+
 #### 4.4.1. Web Applications Wireframes
+
+Los wireframes de **BioTrack** representan la estructura esquemática de cada pantalla de la aplicación web, elaborados en escala de grises para separar las decisiones estructurales de las decisiones estéticas. En cada pantalla se aplicaron principios de diseño inclusivo (WCAG 2.1 AA), una jerarquía visual clara, proximidad semántica entre elementos relacionados y consistencia en los patrones de interfaz, con el fin de que tanto pacientes como organizaciones puedan utilizar la plataforma de manera intuitiva desde el primer uso.
+
+La paleta monocromática utilizada en esta fase emplea Blanco puro (#FFFFFF) como superficie base, Gris claro (#EEEEEE) para fondos de sección y tarjetas, Gris medio (#CCCCCC) para bordes, divisores y estados inactivos, y Gris carbón (#212121) para tipografía, íconos y elementos de mayor peso visual. Esta distribución permite identificar con claridad la jerarquía del contenido y diferenciar las zonas interactivas de las informativas.
+
+La estructura global de la aplicación se organiza en torno a tres zonas funcionales persistentes en todas las pantallas: el sidebar de navegación fijo a la izquierda (220 px de ancho) con acceso a los módulos principales (gestión de pacientes, planes nutricionales, reportes y dashboards), el encabezado superior sticky con información del usuario activo, y el área de contenido principal, que se adapta dinámicamente según el módulo seleccionado.
+
+**Wireframe Landing Page**
+
+![Wireflow 1 – Registro y acceso BioTrack](resources/Chapter-IV/wireframe_Landing.png)
+
+*Ilustración – Web Application Wireframe: Dashboard Principal*
+
+El Dashboard Corporativo es el centro de control para el monitoreo del bienestar de los colaboradores dentro de BioTrack. Su wireframe adopta la estructura de tres zonas funcionales descritas previamente (sidebar, encabezado superior y área de contenido principal) y organiza la información en dos niveles de lectura.
+
+En el nivel superior, se presenta una fila de tarjetas KPI que muestran métricas clave del estado de salud organizacional: "Colaboradores activos", "Adherencia promedio", "IMC promedio grupal" y "Licencias utilizadas". Cada tarjeta incluye una cifra principal destacada, una etiqueta descriptiva y elementos visuales de apoyo como barras de progreso o indicadores comparativos respecto a periodos anteriores, facilitando una lectura rápida y efectiva.
+
+En el nivel secundario, el wireframe incluye módulos de análisis visual como la "Evolución de adherencia mensual", que permite observar tendencias en el tiempo, y la "Distribución de objetivos", donde se representan de forma agregada las metas de los colaboradores (bajar de peso, mantener peso o ganar masa). Ambos componentes priorizan la visualización clara de datos anonimizados para apoyar la toma de decisiones a nivel corporativo.
+
+La distribución sigue una estructura ordenada y consistente, aplicando espaciado uniforme entre bloques y padding interno en tarjetas, lo que contribuye a una experiencia visual limpia y fácil de interpretar.
+
+**Wireframes:** Dashboard Corporativo
+
+![Wireflow 1 – Registro y acceso BioTrack](resources/Chapter-IV/dashboard.png)
+
+El módulo de Perfil de Salud representa el punto de entrada para la configuración personalizada del usuario dentro de BioTrack. Su wireframe mantiene la estructura de tres zonas funcionales (sidebar, encabezado superior y área de contenido principal) y organiza la información en dos niveles de interacción.
+
+En el nivel principal, se presenta un formulario estructurado de datos biométricos que permite registrar información clave como peso, talla, edad, sexo biológico, nivel de actividad, presión arterial y glucosa basal. Los campos están organizados en una grilla clara y consistente, facilitando la lectura y el ingreso de datos sin fricción, siguiendo principios de jerarquía visual y proximidad semántica.
+
+En el nivel complementario, se muestran tarjetas informativas que calculan automáticamente métricas relevantes como el IMC y las calorías diarias recomendadas. Estas tarjetas incluyen valores destacados, descripciones interpretativas (por ejemplo, “Sobrepeso leve”) y barras visuales que refuerzan la comprensión del estado del usuario.
+
+Finalmente, el wireframe incorpora un flujo guiado mediante un botón de acción principal (“Siguiente: Objetivo nutricional”), orientando al usuario dentro del proceso de onboarding. La distribución mantiene un espaciado uniforme y padding consistente, asegurando una experiencia ordenada, intuitiva y centrada en la toma de decisiones informadas.
+
+**Wireframes:** Módulo Perfil de Salud
+
+![Wireflow 1 – Registro y acceso BioTrack](resources/Chapter-IV/perfil.png)
+
+El módulo de Evaluación Inicial permite al nutricionista registrar y analizar el estado de salud del paciente como base para la creación de un plan nutricional personalizado. Su wireframe mantiene la estructura de tres zonas funcionales (sidebar, encabezado superior y área de contenido principal) y organiza la información en dos niveles de interacción.
+
+En el nivel principal, se presenta un bloque de datos del paciente que incluye información clave como peso actual, talla, IMC, objetivo declarado y nivel de actividad. Estos campos se disponen en una grilla clara y consistente, facilitando la lectura rápida y la validación de datos relevantes para la evaluación nutricional.
+
+En el nivel secundario, se incorporan áreas de texto para el registro de observaciones clínicas y recomendaciones iniciales, permitiendo al nutricionista documentar el diagnóstico y las primeras indicaciones del tratamiento. Este bloque prioriza la claridad y el espacio suficiente para contenido descriptivo, asegurando una adecuada interpretación posterior.
+
+Complementariamente, el wireframe incluye tarjetas informativas que muestran métricas calculadas como las calorías recomendadas, junto con indicadores de estado de la evaluación (por ejemplo, “Completada”). Finalmente, se incorpora un botón de acción principal (“Crear plan nutricional”), que guía al usuario hacia el siguiente paso del flujo de atención.
+
+La distribución mantiene un espaciado uniforme, jerarquía visual clara y consistencia en los componentes, facilitando una experiencia intuitiva y centrada en la toma de decisiones clínicas.
+
+**Wireframes:** Módulo Evaluación Inicial
+
+![Wireflow 1 – Registro y acceso BioTrack](resources/Chapter-IV/evaluar_perfil.png)
+
+El módulo de Revisión de Plan Nutricional permite al paciente visualizar y validar el plan alimenticio propuesto por el nutricionista. Su wireframe mantiene la estructura de tres zonas funcionales (sidebar, encabezado superior y área de contenido principal) y organiza la información en dos niveles de lectura.
+
+En el nivel principal, se presenta el detalle del plan nutricional correspondiente a una semana, incluyendo la distribución de comidas por día y una vista resumida de los alimentos asignados. Este bloque prioriza la claridad en la presentación del contenido, permitiendo al usuario comprender fácilmente su dieta sin sobrecarga de información. Además, se incluye un estado del plan (por ejemplo, “Propuesto” o “Aceptado”) y un mensaje de confirmación que refuerza la acción realizada.
+
+En el nivel secundario, el wireframe incorpora tarjetas informativas que muestran métricas clave como las calorías diarias recomendadas y la distribución de macronutrientes (proteínas, carbohidratos y grasas). Estas visualizaciones utilizan barras proporcionales para facilitar la interpretación de los datos nutricionales.
+
+Finalmente, se incluyen acciones principales como “Ver mi dieta semanal”, que permite acceder al detalle completo del plan, y estados visuales que indican si el plan ya ha sido activado. La distribución mantiene consistencia en el espaciado, jerarquía visual y componentes, asegurando una experiencia clara, intuitiva y centrada en el usuario.
+
+**Wireframes:** Módulo Revisión de Plan Nutricional
+
+![Wireflow 1 – Registro y acceso BioTrack](resources/Chapter-IV/aceptaplan.png)
+
+El módulo de Progreso permite al usuario visualizar la evolución de sus indicadores de salud a lo largo del tiempo, facilitando el seguimiento de sus metas nutricionales. Su wireframe mantiene la estructura de tres zonas funcionales (sidebar, encabezado superior y área de contenido principal) y organiza la información en dos niveles de lectura.
+
+En el nivel principal, se presenta un gráfico de evolución de peso correspondiente a las últimas semanas, el cual permite identificar tendencias, variaciones y avances respecto a los objetivos planteados. Este componente prioriza la claridad visual mediante ejes simples y una representación continua de los datos, facilitando la interpretación incluso para usuarios sin conocimientos técnicos.
+
+En el nivel secundario, se incluyen tarjetas informativas que muestran métricas clave como peso inicial, peso actual y meta, permitiendo comparar el estado actual con el objetivo final. Asimismo, se presentan indicadores complementarios como adherencia promedio, actividad semanal, días registrados y semanas activas, los cuales brindan un contexto integral del progreso del usuario.
+
+Adicionalmente, el módulo incorpora opciones de filtrado (por ejemplo, peso, adherencia o actividad), permitiendo personalizar la visualización de la información según las necesidades del usuario. La distribución mantiene consistencia en el espaciado, jerarquía visual clara y uso de componentes reutilizables, asegurando una experiencia intuitiva y orientada al análisis del progreso.
+
+**Wireframes:** Módulo Progreso
+
+![Wireflow 1 – Registro y acceso BioTrack](resources/Chapter-IV/graficoprog.png)
+
+El módulo de Contratación de Plan permite al usuario seleccionar y gestionar su suscripción dentro de BioTrack. Su wireframe mantiene la estructura de tres zonas funcionales (sidebar, encabezado superior y área de contenido principal) y organiza la información en dos niveles de lectura.
+
+En el nivel principal, se presentan tarjetas comparativas de planes (Básico, Profesional y Premium), cada una con su precio mensual, una breve descripción del servicio y un botón de acción para su selección. El plan actualmente activo se destaca visualmente mediante mayor contraste, etiquetas de estado (“Plan activo”) y un botón deshabilitado o marcado como activo, facilitando la identificación inmediata por parte del usuario.
+
+En el nivel secundario, el wireframe incluye un bloque informativo que muestra el estado de la suscripción, confirmando la activación del plan, la fecha de vencimiento y detalles del pago procesado. Este componente permite al usuario tener claridad sobre su situación actual sin necesidad de navegar a otros módulos.
+
+Adicionalmente, se incorpora una acción complementaria como “Ver factura”, permitiendo acceder a comprobantes o detalles de facturación. La distribución mantiene una jerarquía visual clara, espaciado uniforme y consistencia en los componentes, asegurando una experiencia intuitiva, transparente y orientada a la toma de decisiones.
+
+**Wireframes:** Módulo Contratación de Plan
+
+![Wireflow 1 – Registro y acceso BioTrack](resources/Chapter-IV/suscripcionact.png)
+
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+ Wireflow 1 – User Goal: Registro y acceso a la plataforma BioTrack
+
+**Descripción del flujo:** El usuario descubre la plataforma BioTrack a través de la landing page, decide crear una cuenta y completa el proceso de onboarding hasta iniciar sesión por primera vez.
+
+![Wireflow 1 – Registro y acceso BioTrack](resources/Chapter-IV/wireflow1.png)
+
+#### Flujo de Registro (Sign Up)
+
+Al hacer clic en el CTA principal, el usuario es llevado al flujo de creación de cuenta:
+
+1. **Pantalla "Crea tu cuenta en BioTrack" (Paso 1):**  
+   Formulario con campos de nombre, correo electrónico y contraseña. Botón "Continuar" para avanzar.
+
+2. **Pantalla de método de pago / confirmación (Paso 2):**  
+   Modal o pantalla intermedia donde el usuario selecciona plan o confirma datos antes de continuar.
+
+3. **Pantalla "Crea tu cuenta en BioTrack" (Paso 2 – datos adicionales):**  
+   Formulario extendido con campos adicionales requeridos para completar el perfil (ej. fecha de nacimiento, objetivo de salud, etc.).
+
+4. **Pantalla "¿Cómo te enteraste de BioTrack?":**  
+   Paso de origen/referido. El usuario selecciona entre opciones (redes sociales, recomendación, búsqueda, etc.). Botón "Continuar".
+
+5. **Pantalla "Bienvenido de nuevo a BioTrack" + Login:**  
+   Una vez completado el registro, el sistema redirige al usuario al dashboard de bienvenida. Si regresa en otra sesión, se muestra el formulario de **inicio de sesión** con correo y contraseña. Botón "Iniciar sesión".
+
+#### Wireflow 2 – User Goal: Verificación de correo electrónico durante el registro en BioTrack
+
+**Descripción del flujo:** El usuario completa el formulario de registro y debe verificar su correo electrónico antes de poder acceder a la plataforma. El flujo contempla dos escenarios: código válido y código expirado.
+
+![Wireflow 2 – Verificación de correo BioTrack](resources/Chapter-IV/wireflow2.png)
+
+---
+
+#### Flujo principal de Registro (pasos compartidos con Wireflow 1)
+
+1. **Pantalla "Crea tu cuenta en BioTrack" (Paso 1):**  
+   Formulario inicial con nombre, correo y contraseña.
+
+2. **Pantalla de selección de plan / método de pago:**  
+   El usuario elige su plan antes de continuar.
+
+3. **Pantalla "Crea tu cuenta en BioTrack" (Paso 2):**  
+   Datos adicionales del perfil. Botón "Continuar".
+
+4. **Pantalla "Revisa tu correo electrónico":**  
+   El sistema envía un código de verificación al correo registrado. La pantalla informa al usuario que revise su bandeja de entrada e ingrese el código recibido.
+
+5. **Pantalla "Verifica tu cuenta":**  
+   El usuario introduce el código de verificación de 6 dígitos. A partir de aquí, el flujo se bifurca en dos escenarios.
+
+---
+
+#### Escenario 1 – Código de verificación válido (ruta superior)
+
+6. **Pantalla "El código de verificación expiró":**  
+   Si el usuario tardó demasiado, el sistema detecta que el código ya no es válido y muestra este mensaje de error con opción de reenviar un nuevo código.
+
+7. **Pantalla "Código de verificación válido":**  
+   Si el código fue ingresado correctamente y dentro del tiempo límite, el sistema confirma la verificación exitosa.
+
+8. **Pantalla "Ya puedes iniciar sesión":**  
+   Mensaje de confirmación indicando que la cuenta fue verificada. Se muestra un botón para ir al login.
+
+9. **Pantalla de inicio de sesión (Login):**  
+   El usuario ingresa su correo y contraseña para acceder a la plataforma por primera vez.
+
+---
+
+#### Escenario 2 – Código de verificación expirado / reenvío (ruta inferior)
+
+6. **Pantalla "¿Correo verificado?":**  
+   El sistema consulta si el usuario ya realizó la verificación o si necesita un nuevo código.
+
+7. **Pantalla "¿Correo verificado?" (confirmación):**  
+   Paso intermedio de confirmación del estado de verificación antes de proceder.
+
+8. **Pantalla "Crea tu cuenta en BioTrack" (reintento):**  
+   Si la verificación no fue completada, el sistema redirige al usuario de vuelta al formulario de registro o al paso de reenvío de código para reiniciar el proceso.
+
+9. **Pantalla "Cómo está tu salud" / onboarding:**  
+   Una vez verificada la cuenta exitosamente por cualquiera de las dos rutas, el usuario es llevado al onboarding de salud para personalizar su experiencia en la plataforma.
+
+  ## Wireflow 3 – User Goal: Recuperación de contraseña en BioTrack
+
+**Descripción del flujo:** El usuario olvidó su contraseña e inicia el proceso de recuperación desde la landing page, pasando por validación de correo, ingreso de código OTP y creación de una nueva contraseña hasta volver a tener acceso activo a su cuenta.
+
+![Wireflow 3 – Recuperación de contraseña BioTrack](resources/Chapter-IV/wireflow3.png)
+
+---
+
+#### Flujo de Recuperación de Contraseña
+
+1. **Pantalla "Credenciales incorrectas":**  
+   El sistema detecta que el correo o contraseña ingresados no coinciden con ningún registro. Se muestra un mensaje de error indicando credenciales incorrectas y se ofrece la opción de recuperar el acceso.
+
+2. **Pantalla "Iniciar sesión" (con opción de recuperación):**  
+   Modal o pantalla de login donde el usuario puede hacer clic en el enlace de recuperación. Se solicita ingresar el correo electrónico asociado a la cuenta para enviar el código de restablecimiento.
+
+3. **Pantalla "Datos incorrectos / Datos incorrectos de cuenta":**  
+   Si el correo ingresado no existe en el sistema (Scenario alternativo), se muestra un mensaje indicando que los datos no corresponden a ninguna cuenta registrada, invitando al usuario a verificar el correo o crear una cuenta nueva.
+
+4. **Pantalla "Acceso bloqueado temporalmente" + Código OTP:**  
+   Si el correo sí existe, el sistema envía un código OTP de 6 dígitos al correo del usuario. La pantalla muestra el campo para ingresar dicho código y un aviso de que el acceso está bloqueado temporalmente mientras no se complete la verificación. Se muestra el temporizador de expiración del código.
+
+5. **Pantalla "Cuenta bloqueada temporalmente":**  
+   Si el usuario ingresa un código incorrecto o el código expira sin ser usado, el sistema bloquea el acceso temporalmente y muestra este mensaje de error. Se ofrece la opción de reenviar un nuevo código o esperar el tiempo de desbloqueo.
+
+6. **Pantalla "Tu cuenta ya está activa":**  
+   Una vez ingresado el código OTP correctamente, el sistema desbloquea la cuenta y confirma que el acceso ha sido restablecido exitosamente.
+
+7. **Pantalla "Cuenta activada" + Login:**  
+   Mensaje de confirmación final. El usuario es redirigido al formulario de inicio de sesión para ingresar con su nueva contraseña y acceder a la plataforma con normalidad.
+
+#### Wireflow 4 – User Goal: Registro de métricas de salud en el dashboard de BioTrack
+
+**Descripción del flujo:** El usuario ya autenticado accede al dashboard principal de BioTrack y registra sus métricas de salud (peso, presión arterial, glucosa u otros indicadores), visualiza el historial y gestiona entradas con validación de datos incorrectos.
+
+![Wireflow 4 – Registro de métricas de salud BioTrack](resources/Chapter-IV/wireflow4.png)
+
+---
+
+#### Flujo de Registro de Métricas
+
+1. **Pantalla "Dashboard principal" (vista general):**  
+   El usuario accede al panel principal donde visualiza un resumen de sus métricas recientes, gráficas de progreso y accesos rápidos a los módulos de salud. Desde aquí selecciona el módulo de registro de métricas o hace clic en el botón de agregar nueva entrada.
+
+2. **Pantalla "Registrar métricas" (formulario de entrada):**  
+   Se despliega el formulario de registro con campos para ingresar los valores de salud (ej. peso, presión sistólica/diastólica, glucosa en sangre, frecuencia cardíaca, etc.). El usuario completa los campos y presiona el botón **"Guardar"** o **"Agregar"**.  
+   - Si el usuario intenta guardar con campos vacíos o con valores fuera del rango permitido: el sistema resalta los campos con error en color rojo/naranja y muestra un mensaje de validación indicando el dato incorrecto (Scenario de error visible en la pantalla con el campo destacado).
+
+3. **Pantalla "Publicaciones o entradas guardadas" (confirmación + historial):**  
+   Tras un registro exitoso, el sistema confirma la acción y muestra el historial actualizado de métricas del usuario en formato de lista o tabla, ordenado por fecha descendente. Cada entrada muestra la fecha, el tipo de métrica y el valor registrado.
+
+4. **Pantalla "Editar o eliminar entrada" (gestión de registros):**  
+   El usuario puede seleccionar una entrada existente del historial para editarla o eliminarla. Al hacer clic en una entrada, se abre un panel lateral o modal con los datos de esa medición y botones de acción:  
+   - **Editar:** Precarga los valores en el formulario para modificarlos y volver a guardar.  
+   - **Eliminar:** Solicita confirmación antes de borrar el registro de forma permanente.
+
+5. **Pantalla "Confirmación / Estado actualizado":**  
+   Tras editar o eliminar exitosamente una entrada, el sistema actualiza la lista del historial en tiempo real y muestra un mensaje de confirmación (toast o banner) indicando que la acción fue completada correctamente. El dashboard refleja los nuevos valores en las gráficas y resúmenes.
+
+#### Wireflow 5 – User Goal: Visualización y seguimiento de métricas de salud en el dashboard de BioTrack
+
+**Descripción del flujo:** El usuario autenticado accede al dashboard de BioTrack para visualizar el historial de sus métricas de salud, explorar su perfil de salud detallado y hacer seguimiento de sus indicadores a lo largo del tiempo mediante gráficas y tablas.
+
+![Wireflow 5 – Visualización de métricas de salud BioTrack](resources/Chapter-IV/wireflow5.png)
+
+---
+
+#### Flujo de Visualización de Métricas
+
+1. **Pantalla "Dashboard principal" (vista general con métricas recientes):**  
+   El usuario llega al panel principal donde visualiza un resumen de sus indicadores de salud más recientes. El dashboard presenta cards con los últimos valores registrados, accesos rápidos a los distintos módulos y una barra de navegación lateral. Desde aquí el usuario puede dirigirse al módulo de métricas o al perfil de salud.
+
+2. **Pantalla "Registro de métricas" (listado + filtros):**  
+   El usuario accede al módulo de métricas donde se muestra la tabla o lista completa de todas sus entradas registradas, ordenadas por fecha. Dispone de:
+   - **Filtros por tipo de métrica** (peso, presión, glucosa, etc.) y por rango de fechas.
+   - **Botón de nueva entrada** para agregar un registro adicional.
+   - Vista previa de valores con indicadores de tendencia (subida/bajada respecto al registro anterior).
+
+3. **Pantalla "Registro expandido / Detalle de entrada":**  
+   Al seleccionar una entrada específica de la lista, el sistema despliega el detalle completo de esa medición, mostrando todos los campos registrados, la fecha y hora exacta, y notas adicionales si las hubiera. Se ofrecen las opciones de **Editar** o **Eliminar** el registro.
+
+4. **Pantalla "Perfil de salud" (vista de indicadores consolidados):**  
+   El usuario navega al módulo de **Perfil de salud** donde visualiza un resumen consolidado de todos sus indicadores organizados por categoría. Cada categoría muestra el último valor registrado, el rango de referencia saludable y un indicador visual de estado (normal, atención, alerta).
+
+5. **Pantalla "Perfil de salud – Detalle de indicador":**  
+   Al hacer clic en un indicador específico (ej. presión arterial o glucosa), el sistema muestra la vista detallada de esa métrica con:
+   - **Gráfica de evolución temporal** que representa todos los valores registrados a lo largo del tiempo.
+   - **Tabla de historial** con cada medición, fecha y variación porcentual.
+   - **Valor actual destacado** junto al rango de referencia clínica para que el usuario pueda interpretar su estado de salud de forma clara.
+   - Opción de exportar o compartir el reporte de esa métrica.
+
+#### Wireflow 6 – User Goal: Gestión de citas médicas en BioTrack
+
+**Descripción del flujo:** El usuario autenticado accede al módulo de citas médicas para agendar, consultar, editar o cancelar una cita con su médico o especialista, pasando por la selección de disponibilidad, confirmación y gestión del historial de citas.
+
+![Wireflow 6 – Gestión de citas médicas BioTrack](resources/Chapter-IV/wireflow6.png)
+
+---
+
+#### Flujo de Gestión de Citas
+
+1. **Pantalla "Consultas / Citas Médicas" (vista principal del módulo):**  
+   El usuario llega al panel de citas donde visualiza un listado de sus citas próximas y pasadas. La pantalla incluye un botón prominente **"Nueva cita"** o **"Agendar cita"** y filtros por estado (pendiente, confirmada, cancelada) y por fecha. Si no hay citas registradas, se muestra un estado vacío con un CTA para agendar la primera.
+
+2. **Pantalla "Agendar nueva cita" (formulario de selección):**  
+   El usuario accede al formulario de agendamiento donde debe completar:
+   - **Tipo de consulta** (medicina general, nutrición, cardiología, etc.).
+   - **Selección de médico o especialista** disponible en la plataforma.
+   - **Fecha y hora** mediante un selector de calendario con los horarios disponibles resaltados.
+   - **Motivo de la consulta** (campo de texto libre u opciones predefinidas).
+   - **Modalidad** (presencial o teleconsulta).  
+   Al completar todos los campos, el usuario presiona **"Confirmar cita"**.
+
+3. **Pantalla "Confirmación de cita" (resumen + modal de confirmación):**  
+   El sistema muestra un resumen completo de la cita agendada: especialista, fecha, hora, modalidad y motivo. Se despliega un modal o banner de confirmación solicitando al usuario que valide los datos antes de guardar. El usuario confirma y el sistema registra la cita.
+
+4. **Pantalla "Detalle de cita agendada" (vista de cita existente):**  
+   Al seleccionar una cita del listado, el usuario accede a su ficha de detalle completa con toda la información registrada. Desde aquí dispone de las opciones:
+   - **Editar cita:** Permite modificar fecha, hora o motivo si la cita aún no ha ocurrido.
+   - **Cancelar cita:** Solicita confirmación antes de proceder con la cancelación, mostrando un aviso sobre la política de cancelación.
+   - **Ver historial médico asociado:** Si la cita ya ocurrió, muestra el resumen o notas del médico vinculadas a esa consulta.
+
+5. **Pantalla "Historial de citas" (vista consolidada):**  
+   El usuario puede acceder a la vista de historial completo donde se listan todas las citas pasadas con su estado final (completada, cancelada, no asistió). Cada entrada del historial es seleccionable para ver el detalle o las notas clínicas asociadas, permitiendo al usuario hacer seguimiento de su trayectoria médica dentro de la plataforma.
+  
+
 #### 4.4.3. Web Applications Mock-ups
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping
