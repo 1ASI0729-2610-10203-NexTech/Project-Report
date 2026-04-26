@@ -276,7 +276,7 @@ El servicio opera bajo un modelo de suscripción escalable, adaptado a clientes 
 
 | Foto | Integrante | Carrera | Descripción |
 | :---: | :--- | :--- | :--- |
-| <img src="resources/Chapter-I/rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos técnicos en desarrollo web, empleando tecnologías como HTML, CSS, JavaScript, Astro y Tailwind CSS. Asimismo, puedo contribuir al equipo con habilidades sólidas en trabajo colaborativo, organización, resolución de problemas y la estructuración de interfaces de usuario escalables. |
+| <img src="resources/team/rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Software | Texto |
 | <img src="resources/team/mariel.png" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Carrera | Texto |
 | <img src="resources/Chapter-I/Sofia.png" width="100"> | **Díaz Yurivilca, Sofía**<br>(U20241A195) | Ingeniería de Software | Soy estudiante del quinto ciclo. Me considero responsable, proactivo y con motivación por aprender. En el curso de Aplicaciones Web, busco desarrollar una solución orientada al sector HealthTech a través del proyecto BioTrack, una plataforma web de gestión nutricional dirigida a pacientes y organizaciones. |
 | <img src="resources/team/david.png" width="100"> | **Rengifo Lozano, David**<br>(U20221022) | Carrera | Texto |
