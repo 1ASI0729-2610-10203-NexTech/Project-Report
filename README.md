@@ -161,95 +161,6 @@ A continuación se presentaran los commit realizados por los contribuidores:
 
 ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 <div>
-<table>
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Nombre</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Criterio 1 -->
-    <tr>
-      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
-      <td>Pacheco Lavado, Rafael Agustin</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-      <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
-    </tr>
-    <tr>
-      <td>Mendoza Moreano, Mariel Lucero </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto
-        <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Díaz Yurivilca, Sofía </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Desarrollo del capiyulo 2 los competidores, las entrevistas y el capitulo 3 los user stories impact mapping y product backlog <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Rengifo Lozano, David </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Villón Amez, Enrique</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <!-- Criterio 2 -->
-    <tr>
-      <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
-      <td>Pacheco Lavado, Rafael Agustin</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-      <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
-    </tr>
-    <tr>
-      <td>Mendoza Moreano, Mariel Lucero </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Díaz Yurivilca, Sofía</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Desarrollo todo el capitulo 4 <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Rengifo Lozano, David</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Villón Amez, Enrique</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-  </tbody>
-</table>
   <table>
     <thead>
       <tr>
@@ -260,7 +171,6 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </tr>
     </thead>
     <tbody>
-      <!-- Criterio 1 -->
       <tr>
         <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
         <td>Pacheco Lavado, Rafael Agustin</td>
@@ -274,38 +184,36 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <td>Mendoza Moreano, Mariel Lucero </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Contribuí al trabajo en equipo asumiendo liderazgo compartido en la definición del enfoque de diseño centrado en el usuario. Desarrollé el Lean UX Process como base metodológica del proyecto. Además, elaboré el User Persona, User Task Matrix, User Journey Mapping y Empathy Mapping para comprender mejor las necesidades del usuario. Estos aportes ayudaron a orientar las decisiones del equipo durante el diseño de la solución.
-          <br>
+          Contribuí al trabajo en equipo asumiendo liderazgo compartido en la definición del enfoque de diseño centrado en el usuario. Desarrollé el Lean UX Process como base metodológica del proyecto. Además, elaboré el User Persona, User Task Matrix, User Journey Mapping y Empathy Mapping para comprender mejor las necesidades del usuario.
         </td>
       </tr>
       <tr>
         <td>Díaz Yurivilca, Sofía </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Lideré el diseño de la arquitectura del sistema mediante el modelo C4, elaborando los diagramas de Contexto y Contenedores. Proporcioné dirección técnica al equipo al definir la estructura de la solución web, asegurando que la arquitectura orientada a servicios fuera escalable y cumpliera con los requisitos no funcionales del proyecto.
         </td>
       </tr>
       <tr>
         <td>Rengifo Lozano, David </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Asumí la responsabilidad del liderazgo técnico en la configuración del entorno de desarrollo inicial. Establecí la estructura base del proyecto utilizando el lenguaje C# y el framework .NET, facilitando la integración de los componentes de software de mis compañeros y asegurando la coherencia técnica desde el inicio del sprint.
         </td>
       </tr>
       <tr>
         <td>Villón Amez, Enrique</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Lideré la gestión del flujo de trabajo en el repositorio de GitHub mediante la implementación de GitFlow. Definí la política de ramas y las reglas de integración de código, orientando al equipo en el uso correcto de Pull Requests para mantener la estabilidad de la rama Develop y asegurar una entrega continua sin conflictos.
         </td>
       </tr>
-      <!-- Criterio 2 -->
       <tr>
         <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
         <td>Pacheco Lavado, Rafael Agustin</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Establecí las guías de estilo generales para el equipo y documenté íntegramente la sección 5.2 de implementación. En el desarrollo técnico, cumplí con los objetivos del sprint al implementar la Landing Page con soporte multilingüe (i18n), el formulario de contacto y las vistas de autenticación, integrando además las métricas de colaboración de GitHub.<br>
+          Establecí las guías de estilo generales para el equipo y documenté íntegramente la sección 5.2 de implementación. En el desarrollo técnico, cumplí con los objetivos del sprint al implementar la Landing Page con soporte multilingüe (i18n), el formulario de contacto y las vistas de autenticación, integrando además las métricas de colaboración de GitHub.
         </td>
         <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
       </tr>
@@ -313,28 +221,28 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <td>Mendoza Moreano, Mariel Lucero </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Participé en el desarrollo del proyecto cumpliendo con las tareas asignadas dentro del equipo. Contribuí a la elaboración de entregables clave como el Lean UX Process y los análisis de usuario. Apoyé en la organización de las actividades relacionadas al diseño centrado en el usuario. Cumplí con los objetivos asignados dentro de los plazos establecidos.<br>
+          Participé en el desarrollo del proyecto cumpliendo con las tareas asignadas dentro del equipo. Contribuí a la elaboración de entregables clave como el Lean UX Process y los análisis de usuario. Apoyé en la organización de las actividades relacionadas al diseño centrado en el usuario. Cumplí con los objetivos asignados dentro de los plazos establecidos.
         </td>
       </tr>
       <tr>
         <td>Díaz Yurivilca, Sofía</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Fomenté un entorno colaborativo mediante la documentación detallada de la arquitectura técnica (Capítulo 3). Planifiqué las tareas de diseño de bases de datos y cumplí con los objetivos del sprint al entregar los diagramas de clases y de dominio, asegurando que el equipo tuviera una guía clara para la implementación.
         </td>
       </tr>
       <tr>
         <td>Rengifo Lozano, David</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Cumplí con los objetivos de desarrollo al configurar el backend inicial y las dependencias del proyecto. Colaboré en la estimación de tareas durante el Sprint Planning y documenté los avances técnicos en el reporte de implementación, asegurando que las metas del sprint se cumplieran según lo planificado en el backlog.
         </td>
       </tr>
       <tr>
         <td>Villón Amez, Enrique</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Aseguré el cumplimiento de los objetivos de despliegue mediante la configuración de GitHub Pages. Monitoreé la integración continua del código y verifiqué la estabilidad de la Landing Page en producción. Colaboré con el equipo al resolver dudas sobre el control de versiones, facilitando un entorno de trabajo fluido y sin interrupciones técnicas.
         </td>
       </tr>
     </tbody>
@@ -366,10 +274,10 @@ El servicio opera bajo un modelo de suscripción escalable, adaptado a clientes 
 | Foto | Integrante | Carrera | Descripción |
 | :---: | :--- | :--- | :--- |
 | <img src="resources/Chapter-I/rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos técnicos en desarrollo web, empleando tecnologías como HTML, CSS, JavaScript, Astro y Tailwind CSS. Asimismo, puedo contribuir al equipo con habilidades sólidas en trabajo colaborativo, organización, resolución de problemas y la estructuración de interfaces de usuario escalables. |
-| <img src="resources/Chapter-I/Mariel.jpeg/" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Carrera | Mi nombre es Mariel Lucero Mendoza Moreano, tengo 20 años y actualmente estudio Ingeniería de Software en la Universidad de Ciencias Aplicadas. Cuento con conocimientos en HTML, CSS y C++, los cuales he ido desarrollando a través de mis estudios y proyectos académicos. Me considero una persona responsable, proactiva y con disposición para colaborar y brindar apoyo cuando se requiere. Además, me interesa aprender constantemente nuevas tecnologías y mejorar mis habilidades para aportar de manera efectiva en proyectos de desarrollo de software. |
-| <img src="resources/Chapter-I/Sofia.png" width="100"> | **Díaz Yurivilca, Sofía**<br>(U20241A195) | Ingeniería de Software | Soy estudiante del quinto ciclo. Me considero responsable, proactivo y con motivación por aprender. En el curso de Aplicaciones Web, busco desarrollar una solución orientada al sector HealthTech a través del proyecto BioTrack, una plataforma web de gestión nutricional dirigida a pacientes y organizaciones. |
-| <img src="resources/team/david.png" width="100"> | **Rengifo Lozano, David**<br>(U20221022) | Carrera | Texto |
-| <img src="resources/team/enrique.png" width="100"> | **Villón Amez, Enrique**<br>(U20161a304) | Carrera | Texto |
+| <img src="resources/Chapter-I/Mariel.jpeg/" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Ingeniería de Software | Mi nombre es Mariel Lucero Mendoza Moreano, tengo 20 años y actualmente estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en HTML, CSS y C++, los cuales he ido desarrollando a través de mis estudios y proyectos académicos. Me considero una persona responsable, proactiva y con disposición para colaborar y brindar apoyo cuando se requiere. Además, me interesa aprender constantemente nuevas tecnologías y mejorar mis habilidades para aportar de manera efectiva en proyectos de desarrollo de software. |
+| <img src="resources/Chapter-I/Sofia.png" width="100"> | **Díaz Yurivilca, Sofía**<br>(U20241A195) | Ingeniería de Software | Soy estudiante del quinto ciclo. Me considero responsable, proactiva y con motivación por aprender. En el curso de Aplicaciones Web, busco desarrollar una solución orientada al sector HealthTech a través del proyecto BioTrack, una plataforma web de gestión nutricional dirigida a pacientes y organizaciones. |
+| <img src="resources/Chapter-I/user.jpeg" width="100"> | **Rengifo Lozano, David**<br>(U20221022) | Ingeniería de Software | Mi enfoque principal en el proyecto radica en la construcción de la lógica del lado del servidor utilizando C# y el framework .NET. Me destaco por ser una persona analítica y orientada a resultados, buscando siempre establecer bases arquitectónicas sólidas. Mi objetivo es asegurar que nuestra plataforma cuente con servicios backend seguros, eficientes y escalables para soportar las funcionalidades requeridas. |
+| <img src="resources/Chapter-I/user.jpeg" width="100"> | **Villón Amez, Enrique**<br>(U20161a304) | Ingeniería de Software | Aporto al equipo mi experiencia en la gestión de repositorios y el ciclo de vida del software. Me encargo de garantizar un flujo de trabajo ordenado mediante el uso de GitFlow y la configuración del despliegue continuo en plataformas como GitHub Pages. Soy detallista y comprometido con mantener la estabilidad del código, facilitando así un entorno de integración fluida para todos los desarrolladores del proyecto. |
 
 *(Tabla 1. Tabla de Perfiles de integrantes del equipo - Elaboracion propia.)*
 
