@@ -249,6 +249,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
     </tr>
   </tbody>
 </table>
+
 </div>
 
 ---
@@ -281,7 +282,7 @@ El servicio opera bajo un modelo de suscripción escalable, adaptado a clientes 
 | <img src="resources/team/david.png" width="100"> | **Rengifo Lozano, David**<br>(U20221022) | Carrera | Texto |
 | <img src="resources/team/enrique.png" width="100"> | **Villón Amez, Enrique**<br>(U20161a304) | Carrera | Texto |
 
-*(Tabla 1. Perfiles integrantes de equipo - Elaboración propia. Nota: En esta tabla se aprecian los perfiles de los integrantes del equipo.)*
+*(Tabla 1. Tabla de Perfiles de integrantes del equipo - Elaboracion propia.)*
 
 ### 1.2. Solution Profile
 #### 1.2.1 Antecedentes y problemática
@@ -475,7 +476,15 @@ Sabremos que esto es cierto cuando al menos el 75% de los usuarios interactúen 
 
 ##### 1.2.2.4. Lean UX Canvas
 
-<img src="resources/Lean Ux Canva.PNG">
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 1.</strong> <em>Evidencia de Lean Ux Canvas</em>
+  </figcaption>
+  <img src="resources/Lean Ux Canva.PNG" alt="Lean Ux Canva" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 ### 1.3. Segmentos objetivo
 
@@ -651,6 +660,8 @@ Este segmento incluye empresas que buscan mejorar la salud, el bienestar y la pr
     <td valign="top">App gratuita, premium S/37–55/mes aprox. ($9.99–$14.99/mes), adicional costo de dispositivos.</td>
   </tr>
 </table>
+
+*(Tabla 2. Tabla de Análisis competitivo - Elaboracion propia.)*
 
 ## 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -828,6 +839,8 @@ Ahora sí, comenzamos:
   </tr>
 </table>
 
+*(Tabla 3. Tabla de Registro de entrevistas - Elaboracion propia.)*
+
 <table>
   <tr>
     <th colspan="2">Entrevista 2:</th>
@@ -873,6 +886,8 @@ Ahora sí, comenzamos:
   </tr>
 </table>
 
+*(Tabla 4. Tabla de Registro de entrevistas - Elaboracion propia.)*
+
 <table>
   <tr>
     <th colspan="2">Entrevista 1:</th>
@@ -913,6 +928,8 @@ Ahora sí, comenzamos:
      En cuanto a motivación, busca mejorar su salud tras haber tenido malos hábitos en el pasado, aunque a veces se desmotiva por restricciones alimenticias. Valora positivamente una plataforma que permita monitoreo en tiempo real y estaría dispuesto a usarla si se adapta a sus necesidades. Prefiere una combinación de recomendaciones automatizadas y asesoría profesional. Además, estaría dispuesto a pagar una suscripción si ofrece beneficios claros. Finalmente, destaca como características clave el escaneo de códigos de barras, un buscador de alimentos, estimaciones con IA y validación profesional.
   </tr>
 </table>
+
+*(Tabla 5. Tabla de Registro de entrevistas - Elaboracion propia.)*
 
 #### **Segmento #2: Empresas**
 
@@ -958,6 +975,8 @@ Ahora sí, comenzamos:
     Asimismo, muestra alta disposición a invertir en una solución como BioTrack, siempre que sea efectiva, fácil de usar y aporte valor tangible. Considera indispensables funcionalidades como monitoreo en tiempo real, reportes automatizados, personalización, interfaz intuitiva y altos estándares de seguridad de datos.
   </tr>
 </table>
+
+*(Tabla 6. Tabla de Segmento #2: Empresas - Elaboracion propia.)*
 
  <table>
   <tr>
@@ -1005,6 +1024,8 @@ Ahora sí, comenzamos:
 
   </tr>
 </table>
+
+*(Tabla 7. Tabla de Segmento #2: Empresas - Elaboracion propia.)*
 
  <table>
   <tr>
@@ -1054,6 +1075,8 @@ Ahora sí, comenzamos:
   </tr>
 </table>
 
+*(Tabla 8. Tabla de Segmento #2: Empresas - Elaboracion propia.)*
+
 ## 2.2.3. Análisis de entrevistas  
 
 #### **Primer Segmento Objetivo: Usuarios con interés en nutrición personal**  
@@ -1066,10 +1089,15 @@ El **100% de los entrevistados** mencionó la **falta de constancia** como dific
 
 **DISTRIBUCIÓN DE DIFICULTADES MENCIONADAS**
 
-<div align="center">
-  <img src="resources/Chapter-II/Grafico1.png" alt="Gráfico de dificultades" width="100%
-  "/>
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 2.</strong> <em>Evidencia de Gráfico de dificultades</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Grafico1.png" alt="Gráfico de dificultades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 #### **¿Has utilizado alguna aplicación o servicio para mejorar tu alimentación? ¿Cómo fue tu experiencia?**  
 
@@ -1081,10 +1109,15 @@ Por otro lado, Gonzalo tuvo una experiencia regular, mencionando que la aplicaci
 
 #### **CALIFICACIÓN DE EXPERIENCIA PREVIA CON APPS DE NUTRICIÓN**  
 
-<div align="center">
-  <img src="resources/Chapter-II/Grafico2.png" alt="Gráfico de dificultades" width="100%
-  "/>
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 3.</strong> <em>Evidencia de Gráfico de dificultades</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Grafico2.png" alt="Gráfico de dificultades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 #### **¿Confías en recomendaciones nutricionales automatizadas o prefieres siempre un especialista?**  
 
@@ -1096,10 +1129,15 @@ Por otro lado, Gonzalo indicó que confiaría más en la automatización por su 
 
 #### **PREFERENCIA SOBRE FUENTE DE RECOMENDACIONES NUTRICIONALES**  
 
-<div align="center">
-  <img src="resources/Chapter-II/Grafico3.png" alt="Gráfico de dificultades" width="100%
-  "/>
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 4.</strong> <em>Evidencia de Gráfico de dificultades</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Grafico3.png" alt="Gráfico de dificultades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 #### **¿Qué características consideras indispensables en una app de nutrición para que realmente la uses?**  
 
@@ -1113,10 +1151,15 @@ Finalmente, solo Sebastián destacó el **escaneo de código de barras** como un
 
 #### **CARACTERÍSTICAS INDISPENSABLES — % DE ENTREVISTADOS QUE LA MENCIONARON** 
 
-<div align="center">
-  <img src="resources/Chapter-II/Grafico4.png" alt="Gráfico de dificultades" width="100%
-  "/>
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 5.</strong> <em>Evidencia de Gráfico de dificultades</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Grafico4.png" alt="Gráfico de dificultades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 **Segundo Segmento Objetivo: Empresas que gestionan el bienestar de sus colaboradores**  
 
@@ -1145,10 +1188,15 @@ En general, **ninguna empresa cuenta con una plataforma integral de monitoreo de
 
 **HERRAMIENTA DIGITAL ACTUALMENTE USADA PARA SEGUIMIENTO DE BIENESTAR**  
 
-<div align="center">
-  <img src="resources/Chapter-II/Grafico5.png" alt="Gráfico de dificultades" width="100%
-  "/>
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 6.</strong> <em>Evidencia de Gráfico de dificultades</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Grafico5.png" alt="Gráfico de dificultades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 **¿Qué problemas han identificado relacionados con la alimentación o salud de su personal?**  
 
@@ -1162,10 +1210,15 @@ Por su parte, Geldres fue el único en detallar el **exceso de sodio** en la ali
 
 **PROBLEMAS DE SALUD IDENTIFICADOS EN EL PERSONAL — % DE EMPRESAS**  
 
-<div align="center">
-  <img src="resources/Chapter-II/Grafico6.png" alt="Gráfico de dificultades" width="100%
-  "/>
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 7.</strong> <em>Evidencia de Gráfico de dificultades</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Grafico6.png" alt="Gráfico de dificultades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 **¿Qué dificultades encuentran al implementar programas de bienestar o nutrición?**  
 
@@ -1179,10 +1232,15 @@ Por su parte, Geldres destacó específicamente el reto de que el personal **res
 
 **PRINCIPALES DIFICULTADES AL IMPLEMENTAR PROGRAMAS DE BIENESTAR — % DE EMPRESAS**  
 
-<div align="center">
-  <img src="resources/Chapter-II/Grafico7.png" alt="Gráfico de dificultades" width="100%
-  "/>
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 8.</strong> <em>Evidencia de Gráfico de dificultades</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Grafico7.png" alt="Gráfico de dificultades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 **¿Qué características consideran indispensables en una solución como BioTrack?**  
 
@@ -1199,28 +1257,55 @@ Finalmente, solo Beltrán destacó la necesidad de una **integración directa co
 
 **CARACTERÍSTICAS INDISPENSABLES EN BIOTRACK — % DE EMPRESAS QUE LA MENCIONARON**  
 
-<div align="center">
-  <img src="resources/Chapter-II/Grafico8.png" alt="Gráfico de dificultades" width="100%
-  "/>
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 9.</strong> <em>Evidencia de Gráfico de dificultades</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Grafico8.png" alt="Gráfico de dificultades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 <strong>Segmento Objetivo #1:</strong>
 
-<img src="resources/Chapter-II/Ximena Núñez.png">
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 10.</strong> <em>Evidencia de Ximena Núñez</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Ximena Núñez.png" alt="Ximena Núñez" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <strong>Segmento Objetivo #2:</strong>
 
-<img src="resources/Chapter-II/Eduardo Arévalos.png">
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 11.</strong> <em>Evidencia de Eduardo Arévalos</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Eduardo Arévalos.png" alt="Eduardo Arévalos" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 #### 2.3.2. User Task Matrix
 
 En este cuadro presentaremos nuestros segmentos objetivos: Pacientes y Organizaciones. Consideraremos las tareas escenciales que realizarán.
 
-<p align="center">
-  <img src="resources/Chapter-II/taskmatrix.PNG" />
-</p>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 12.</strong> <em>Evidencia de taskmatrix</em>
+  </figcaption>
+  <img src="resources/Chapter-II/taskmatrix.PNG" alt="taskmatrix" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 Al comparar ambos segmentos, se observa una diferencia clara en prioridades y forma de uso. Ximena Núñez utiliza con mayor frecuencia funcionalidades operativas como visualizar planes de alimentación y registrar su progreso, dándoles además alta importancia, lo que refleja un enfoque práctico y constante en el seguimiento personal. Sin embargo, acciones más analíticas como revisar reportes o tomar decisiones basadas en datos tienen una frecuencia menor para ella. En cambio, Eduardo Arévalos muestra un patrón distinto: usa con alta frecuencia herramientas de análisis como el dashboard general y los reportes, asignándoles también alta importancia, lo que evidencia un enfoque más estratégico y orientado a la toma de decisiones. En resumen, mientras Ximena prioriza el registro y seguimiento diario, Eduardo se centra en el análisis e interpretación de la información para actuar.
 
@@ -1230,23 +1315,55 @@ Al comparar ambos segmentos, se observa una diferencia clara en prioridades y fo
 
 Este journey representa la experiencia actual de Ximena al intentar mejorar su alimentación, evidenciando la falta de constancia, organización y seguimiento en su rutina diaria. 
 
-<img src="resources/Chapter-II/Sales rep journey map.png">
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 13.</strong> <em>Estructura de Sales rep journey map</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Sales rep journey map.png" alt="Sales rep journey map" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <strong>Segmento Objetivo #2:</strong>
 
 Este journey representa cómo Eduardo gestiona actualmente iniciativas de bienestar nutricional en su empresa, mostrando un proceso fragmentado, manual y con poca visibilidad de resultados. 
 
-<img src="resources/Chapter-II/Sales rep journey map 2.png">
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 14.</strong> <em>Estructura de Sales rep journey map 2</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Sales rep journey map 2.png" alt="Sales rep journey map 2" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 #### 2.3.4. Empathy Mapping
 
 <strong>Segmento Objetivo #1:</strong>
 
-<img src="resources/Chapter-II/Empathy map.png">
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 15.</strong> <em>Estructura de Empathy map</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Empathy map.png" alt="Empathy map" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <strong>Segmento Objetivo #2:</strong>
 
-<img src="resources/Chapter-II/Empathy map (1).png">
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 16.</strong> <em>Estructura de Empathy map (1)</em>
+  </figcaption>
+  <img src="resources/Chapter-II/Empathy map (1).png" alt="Empathy map (1)" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 ## 2.4. Big Picture EventStorming
 
@@ -1259,37 +1376,52 @@ El Big Picture EventStorming nos permite explorar el dominio de BioTrack de mane
 El siguiente apartado presenta el descubrimiento inicial de los eventos de negocio de BioTrack. Se identifican cronológicamente los eventos de dominio que ocurren a lo largo del ciclo de vida de los usuarios, abarcando desde el registro y activación de cuentas hasta la configuración del perfil de salud, la gestión corporativa, la planificación nutricional, el seguimiento del progreso y la facturación. En esta fase, los eventos —representados en notas de color naranja— son colocados en el orden en que ocurren dentro del negocio, sin aún vincularlos a comandos ni actores específicos.
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-fase0-1.png" alt="Big Picture EventStorming - Fase 0 - Identity & Profile Management" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 17.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Identity & Profile Management</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-fase0-1.png" alt="Big Picture EventStorming - Fase 0 - Identity & Profile Management" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En esta figura se observan los eventos de dominio correspondientes a la gestión de identidad y perfil del usuario. Se identifican los hitos del ciclo de vida de la cuenta: el registro, la asignación del tipo de cuenta, el envío del correo de verificación, la validación del correo electrónico y la activación de la cuenta. Adicionalmente, se incluyen los eventos de error como la expiración del token de verificación y el bloqueo temporal por credenciales inválidas, junto con el inicio de sesión exitoso. En la fila inferior se presentan los eventos del perfil de salud del paciente: el registro de datos básicos, la definición del objetivo nutricional y el guardado de restricciones alimentarias.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-fase0-2.png" alt="Big Picture EventStorming - Fase 0 - Corporate Management" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 18.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Corporate Management</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-fase0-2.png" alt="Big Picture EventStorming - Fase 0 - Corporate Management" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En la imagen se presentan los eventos de dominio del módulo de gestión corporativa. La fila superior muestra los eventos relacionados con el alta de una organización en la plataforma: la creación del perfil corporativo, la verificación de la organización y el procesamiento de la lista de colaboradores. La fila inferior comprende los eventos derivados de dicho procesamiento: la consolidación de datos grupales de salud, la actualización de métricas de bienestar y el envío de invitaciones corporativas a los colaboradores.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-fase0-3.png" alt="Big Picture EventStorming - Fase 0 - Nutritional Planning" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 19.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Nutritional Planning</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-fase0-3.png" alt="Big Picture EventStorming - Fase 0 - Nutritional Planning" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. Se observan los eventos de dominio correspondientes al módulo de planificación nutricional. La primera fila recoge los eventos del inicio del proceso clínico: la asignación del nutricionista al paciente, la notificación de dicha asignación y la propuesta del plan nutricional. La segunda fila muestra los eventos de la evaluación y activación: la evaluación inicial completada, el plan nutricional activado y el guardado de notas de control post-consulta. La fila inferior presenta los eventos de seguimiento: la consulta agendada y el envío del recordatorio de cita.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-fase0-4.png" alt="Big Picture EventStorming - Fase 0 - Progress Tracking & Monitoring" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 20.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Progress Tracking & Monitoring</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-fase0-4.png" alt="Big Picture EventStorming - Fase 0 - Progress Tracking & Monitoring" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En esta figura se identifican los eventos de dominio del módulo de seguimiento del progreso. La fila superior muestra los eventos de registro continuo del paciente: el consumo diario registrado, la actividad física guardada y las medidas corporales actualizadas. La fila inferior presenta los eventos de monitoreo automatizado: el cálculo del nivel de adherencia al plan, el envío de la notificación de bajo cumplimiento al nutricionista y la generación del reporte de metas alcanzadas.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-fase0-5.png" alt="Big Picture EventStorming - Fase 0 - Subscriptions & Billing" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 21.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Subscriptions & Billing</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-fase0-5.png" alt="Big Picture EventStorming - Fase 0 - Subscriptions & Billing" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. Se observan los eventos de dominio del módulo de suscripciones y facturación. La fila superior recoge los eventos del flujo de pago individual B2C y corporativo B2B: el plan seleccionado, el intento de cobro iniciado, el pago procesado exitosamente, la suscripción B2C activada y el lote de licencias B2B habilitado. La fila intermedia presenta los eventos del ciclo de facturación corporativa y renovación: la orden de compra generada, el cobro automático exitoso, la factura emitida, el pago corporativo confirmado y la suscripción renovada. La fila inferior recoge los eventos del flujo de cobro fallido: el cobro automático fallido, el acceso al nutricionista revocado y el aviso de pago atrasado enviado.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
@@ -1306,37 +1438,52 @@ En conjunto, los eventos presentados en la Fase 0 evidencian un dominio de negoc
 El presente apartado introduce la segunda y tercera fase del Big Picture EventStorming de BioTrack, en la cual se añaden los comandos que desencadenan cada evento y se identifican los actores o sistemas responsables de ejecutarlos. Esta capa de análisis permite comprender no solo qué ocurre en el dominio, sino también quién lo provoca y bajo qué condición, revelando la lógica operativa de cada bounded context. A continuación, se presentan los flujos enriquecidos con comandos y actores para cada módulo de la plataforma.
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa12-identity.png" alt="Big Picture EventStorming - Identity & Profile Management" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 22.</strong> <em>Estructura de Big Picture EventStorming - Identity & Profile Management</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa12-identity.png" alt="Big Picture EventStorming - Identity & Profile Management" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En esta figura se observa el flujo de Identity & Profile Management con comandos y actores. El usuario ejecuta el comando de registrar cuenta, desencadenando la asignación del tipo de cuenta y el envío del correo de verificación mediante una política que invoca el servicio de Email. Según la acción del usuario al validar el correo, se activa la cuenta o, ante la inacción, expira el token a las 24 horas. El módulo de inicio de sesión bifurca entre el acceso exitoso al Dashboard Principal y el bloqueo temporal por credenciales inválidas, regido por una política de seguridad. En la sección inferior, el paciente registra sus datos de salud, selecciona su objetivo nutricional y registra sus restricciones alimentarias, las cuales quedan guardadas en su perfil.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa12-corporate.png" alt="Big Picture EventStorming - Corporate Management" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 23.</strong> <em>Estructura de Big Picture EventStorming - Corporate Management</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa12-corporate.png" alt="Big Picture EventStorming - Corporate Management" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En la imagen se presenta el flujo de Corporate Management con comandos y actores identificados. El Admin Corporativo ejecuta el comando de registrar datos de empresa, lo que genera el perfil corporativo y activa una política de verificación de identidad fiscal (RUC). Una vez verificada la organización, el administrador sube la lista de colaboradores, cuyo procesamiento activa una política que genera los accesos y envía las invitaciones corporativas a través del servicio de Email. Paralelamente, el sistema consolida las métricas de salud grupales de forma anónima y las publica en el Dashboard Corporativo Anónimo.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa12-nutrition.png" alt="Big Picture EventStorming - Nutritional Planning" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 24.</strong> <em>Estructura de Big Picture EventStorming - Nutritional Planning</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa12-nutrition.png" alt="Big Picture EventStorming - Nutritional Planning" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. Se observa el flujo de Nutritional Planning con su capa de comandos y actores. El sistema asigna automáticamente un nutricionista disponible al paciente, notificando a ambas partes vía Email. El nutricionista evalúa el perfil de salud del paciente y ejecuta el comando de crear plan nutricional, lo que genera una propuesta que debe ser aceptada por el paciente mediante una política de aprobación, activando el plan. En el flujo de seguimiento, el paciente agenda una consulta de control, lo que dispara el envío de un recordatorio y posteriormente habilita al nutricionista para registrar las notas de la consulta, las cuales quedan guardadas en el sistema.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa12-tracking.png" alt="Big Picture EventStorming - Progress Tracking & Monitoring" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 25.</strong> <em>Estructura de Big Picture EventStorming - Progress Tracking & Monitoring</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa12-tracking.png" alt="Big Picture EventStorming - Progress Tracking & Monitoring" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En esta figura se detalla el flujo de Progress Tracking & Monitoring con comandos y actores. El paciente registra su consumo de alimentos y su actividad física diaria, y actualiza su peso semanal, datos que alimentan el Gráfico de Progreso. De forma paralela, el sistema calcula el nivel de adherencia al plan y, ante un valor bajo, una política activa el envío de una alerta al nutricionista vía Email con una notificación de bajo cumplimiento. Adicionalmente, el sistema genera periódicamente el reporte de evolución con las metas alcanzadas, disponible como Reporte PDF de Resultados.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa12-billing.png" alt="Big Picture EventStorming - Subscriptions & Billing" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 26.</strong> <em>Estructura de Big Picture EventStorming - Subscriptions & Billing</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa12-billing.png" alt="Big Picture EventStorming - Subscriptions & Billing" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. Se observa el flujo de Subscriptions & Billing con su capa de comandos y actores. El paciente selecciona un plan mensual e ingresa su método de pago, iniciando el intento de cobro a través de la Pasarela de Pagos. Ante un pago exitoso, una política activa los beneficios del plan y genera el Resumen de Facturación B2C. En el flujo corporativo, el Admin Corporativo compra un paquete de licencias, generando una orden de compra que desencadena la emisión de una factura; confirmado el pago, se habilita el lote de licencias B2B. El sistema procesa mensualmente las renovaciones automáticas, bifurcando entre la extensión del plan ante cobro exitoso y la suspensión de funciones premium con aviso de pago atrasado ante cobro fallido.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
@@ -1353,37 +1500,52 @@ En conjunto, los flujos presentados revelan una plataforma con una lógica de ne
 La siguiente etapa presenta la vista final del Big Picture EventStorming de BioTrack, en la cual los eventos, comandos, actores y políticas quedan agrupados en sus respectivos Bounded Contexts o contextos delimitados. Esta organización permite definir las fronteras naturales del dominio y establecer la base sobre la cual se construirá la arquitectura de software orientada al dominio (DDD). A continuación, se presentan los cinco bounded contexts identificados para la plataforma.
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa3-identity.png" alt="Big Picture EventStorming - Etapa 3 Identity & Profile Management" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 27.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Identity & Profile Management</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa3-identity.png" alt="Big Picture EventStorming - Etapa 3 Identity & Profile Management" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En esta figura se observa el Bounded Context de Identity & Profile Management. Agrupa todos los eventos, comandos y políticas relacionados con el registro de usuarios, la verificación de correo electrónico, la activación de cuentas, el inicio de sesión con sus flujos de error y el registro del perfil de salud del paciente incluyendo objetivo nutricional y restricciones alimentarias.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa3-corporate.png" alt="Big Picture EventStorming - Etapa 3 Corporate Management" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 28.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Corporate Management</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa3-corporate.png" alt="Big Picture EventStorming - Etapa 3 Corporate Management" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En la imagen se presenta el Bounded Context de Corporate Management. Consolida los flujos de registro y verificación de empresas, la gestión de colaboradores mediante la carga masiva de listas y el envío de invitaciones corporativas, y la publicación anónima de métricas de bienestar grupal en el Dashboard Corporativo.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa3-nutrition.png" alt="Big Picture EventStorming - Etapa 3 Nutritional Planning" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 29.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Nutritional Planning</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa3-nutrition.png" alt="Big Picture EventStorming - Etapa 3 Nutritional Planning" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. Se observa el Bounded Context de Nutritional Planning. Abarca la asignación del nutricionista al paciente, la evaluación del perfil de salud, la creación y aprobación del plan nutricional, el agendamiento de consultas de control con recordatorios automáticos y el registro de notas clínicas post-consulta.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa3-tracking.png" alt="Big Picture EventStorming - Etapa 3 Progress Tracking & Monitoring" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 30.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Progress Tracking & Monitoring</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa3-tracking.png" alt="Big Picture EventStorming - Etapa 3 Progress Tracking & Monitoring" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. En esta figura se identifica el Bounded Context de Progress Tracking & Monitoring. Concentra los eventos de registro de consumo alimentario, actividad física y peso semanal, el cálculo automático de adherencia al plan con sus alertas de bajo cumplimiento al nutricionista, y la generación periódica de reportes de evolución y metas alcanzadas.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="resources/Chapter-II/bigpicture-etapa3-billing.png" alt="Big Picture EventStorming - Etapa 3 Subscriptions & Billing" width="1000">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 31.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Subscriptions & Billing</em>
+  </figcaption>
+  <img src="resources/Chapter-II/bigpicture-etapa3-billing.png" alt="Big Picture EventStorming - Etapa 3 Subscriptions & Billing" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura X. Se observa el Bounded Context de Subscriptions & Billing. Engloba los flujos de suscripción individual B2C y corporativa B2B, incluyendo el procesamiento de pagos, la emisión de facturas, la habilitación de licencias, la renovación automática mensual y los flujos de cobro fallido con suspensión de acceso y notificación de pago atrasado.</em>
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
@@ -1409,7 +1571,7 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 | 10 | **Nutritional Risk (Riesgo Nutricional)** | Identificación de condiciones o hábitos que pueden comprometer la salud del paciente si no se intervienen de manera oportuna. |
 | 11 | **Corporate Subscriber (Suscriptor Corporativo)** | Organización que adquiere los servicios de monitoreo nutricional preventivo para ofrecerlos como beneficio laboral a su personal. |
 
-*(Tabla 10. Ubiquitous Languages - Elaboración propia.)*
+*(Tabla 9. Tabla de Ubiquitous Language - Elaboracion propia.)*
 
 ---
 
@@ -1483,11 +1645,19 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 | TS08 | API: Endpoint de generación de reporte de evolución | Como Developer, quiero consumir el endpoint de generación de reporte de evolución, para obtener el reporte PDF con el progreso del paciente. | **Scenario 1: Reporte — 200 PDF**<br><br>**Scenario 2: Datos insuficientes — 422** | EP07 |
 | TS09 | API: Endpoint de gestión corporativa de colaboradores | Como Developer, quiero consumir los endpoints de gestión corporativa, para registrar empresas, subir listas de colaboradores y consultar métricas grupales. | **Scenario 1: Subida — 202**<br><br>**Scenario 2: Métricas — 200**<br><br>**Scenario 3: Sin datos — 204** | EP07 |
 
+*(Tabla 10. Tabla de User Stories - Elaboracion propia.)*
+
 ### 3.2. Impact Mapping
 
 <figure style="text-align: center; margin-bottom: 40px;">
-    <img src="resources\Chapter-III\ImpactMap.png" alt="Impact mapping biotrack" width="1000">
-    </figure>
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 32.</strong> <em>Estructura de Impact mapping biotrack</em>
+  </figcaption>
+  <img src="resources\Chapter-III\ImpactMap.png" alt="Impact mapping biotrack" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 ### 3.3. Product Backlog
 
@@ -1540,6 +1710,8 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 | 45 | US39 | Suspender funciones premium | Como sistema, quiero suspender el acceso a funciones premium cuando no se realice el pago, para controlar el uso del servicio. | 3 |
 | 46 | US40 | Recibir aviso de pago atrasado | Como usuario, quiero recibir notificaciones cuando tenga pagos pendientes, para regularizar mi suscripción. | 2 |
 
+*(Tabla 11. Tabla de Product Backlog - Elaboracion propia.)*
+
 ---
 
 ## 🎨 Capítulo IV: Product Design
@@ -1567,6 +1739,8 @@ El sistema de diseño de BioTrack está fundamentado en los principios de clarid
 | **#0A9268** | *(insertar imagen del swatch #0A9268)* | Verde oscuro. Estado hover y pressed del botón primario. Asegura contraste WCAG AA en todos los estados de interacción activa. |
 | **#D1FAE5** | *(insertar imagen del swatch #D1FAE5)* | Verde claro. Fondo de alertas de éxito, tarjetas de confirmación y badges de estado "Activo". Complementa al verde principal en notificaciones no intrusivas. |
 
+*(Tabla 12. Tabla de General Style Guidelines - Elaboracion propia.)*
+
 - **Colores Secundarios y de Estado**
 
 | **Código HEX** | **Color** | **Descripción** |
@@ -1579,6 +1753,8 @@ El sistema de diseño de BioTrack está fundamentado en los principios de clarid
 | **#DC3545** | *(insertar imagen del swatch #DC3545)* | Rojo de alerta. Estado de error crítico, campos inválidos, cuenta bloqueada y pago rechazado. Reservado exclusivamente para señales de peligro. |
 | **#FBBF24** | *(insertar imagen del swatch #FBBF24)* | Amarillo. Estrellas de valoración en testimoniales y alertas preventivas de baja adherencia al plan. |
 
+*(Tabla 13. Tabla de General Style Guidelines - Elaboracion propia.)*
+
 ---
 
 **Fonts / Tipografía**
@@ -1587,7 +1763,15 @@ Hemos seleccionado cuidadosamente dos familias tipográficas para BioTrack, busc
 
 <p align="center">
   <!-- INSERTAR AQUÍ: imagen de la jerarquía tipográfica mostrando DM Serif Display en H1/H2 y Poppins en H3/body/microcopy con sus tamaños y pesos -->
-  <img src="resources/Chapter-IV/jerarquia_tipografica.png" alt="Jerarquía Tipográfica BioTrack" width="500"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 33.</strong> <em>Evidencia de Jerarquía Tipográfica BioTrack</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/jerarquia_tipografica.png" alt="Jerarquía Tipográfica BioTrack" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **DM Serif Display** fue elegida para los títulos H1 y H2 por su estilo serif elegante con remates refinados que transmite autoridad médica, profesionalismo y calidez humana. Su carácter distintivo diferencia BioTrack de plataformas tecnológicas genéricas y aporta una presencia memorable en encabezados de la landing y módulos de la aplicación.
@@ -1608,6 +1792,8 @@ Hemos seleccionado cuidadosamente dos familias tipográficas para BioTrack, busc
 | Texto de apoyo | Poppins | 0.875rem / Regular 400 | clamp(13px, 0.5vw, 14px) |
 | Microcopy / Badge | Poppins | 0.72rem / Bold 600 · uppercase | Fijo — no escala |
 | Precio / Métrica destacada | DM Serif Display | 2.8rem / peso heredado | Por contexto |
+
+*(Tabla 14. Tabla de General Style Guidelines - Elaboracion propia.)*
 
 ---
 
@@ -1639,7 +1825,15 @@ El diseño visual de BioTrack combina rigor médico con modernidad tecnológica.
 
 <p align="center">
   <!-- INSERTAR AQUÍ: imagen del logotipo BioTrack completo (isotipo + nombre) en sus variantes: positivo sobre blanco, negativo sobre azul, y versión reducida solo isotipo -->
-  <img src="resources/Chapter-IV/biotrack_logo.jpeg" alt="Logo BioTrack" width="500"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 34.</strong> <em>Evidencia de Logo BioTrack</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/biotrack_logo.jpeg" alt="Logo BioTrack" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -1660,6 +1854,8 @@ La interfaz web de BioTrack se articula en tres zonas funcionales: una Navbar fi
 | **Zona central — max-width 1200px centrado** | Hero grid 1fr/1fr. Secciones de features en grid 3 columnas. Segmentos con pill tabs. Pasos How it works. Stats band. Pricing grid 3 columnas. Testimoniales. CTA final. Padding horizontal 24px. |
 | **Footer — fondo #1F2937** | Grid 2fr/1fr/1fr/1fr/1fr. Brand column (logo, descripción 280px, social icons). 4 columnas de links (Producto, Segmentos, Recursos, Legal). Footer-bottom flex con copyright y links legales. |
 
+*(Tabla 15. Tabla de Web Style Guidelines - Elaboracion propia.)*
+
 ---
 
 **Tipografía (web desktop)**
@@ -1675,6 +1871,8 @@ En la interfaz web de escritorio, la jerarquía tipográfica de BioTrack se apli
 | Cuerpo de texto | Poppins | 1rem / Regular 400 · lh 1.6 | clamp(15px, 0.6vw+12px, 16px) |
 | Texto de apoyo / caption | Poppins | 0.875rem / Regular 400 | clamp(13px, 0.5vw, 14px) |
 | Microcopy / Badge | Poppins | 0.72rem / Bold 600 · uppercase | Fijo — no escala |
+
+*(Tabla 16. Tabla de Web Style Guidelines - Elaboracion propia.)*
 
 ---
 
@@ -1694,6 +1892,8 @@ La aplicación cromática sigue una distribución semántica estricta que refuer
 | **Estado éxito / adherencia positiva** | `#10B981` / `#D1FAE5` | Verde para indicadores activos; verde claro para fondos de alertas success. |
 | **Estado error / cuenta bloqueada / pago rechazado** | `#DC3545` — Rojo alerta | Exclusivo para errores críticos y estados de peligro. |
 
+*(Tabla 17. Tabla de Web Style Guidelines - Elaboracion propia.)*
+
 ---
 
 **Iconografía**
@@ -1707,6 +1907,8 @@ La iconografía de BioTrack sigue un estilo de trazo lineal (outline) coherente 
 | **Color según estado** | `#10B981` en acciones primarias activas; `#0F4C81` en navegación y sidebar activo; `#4B5563` en estados inactivos; `#DC3545` en error; `#10B981` en confirmación. |
 | **Accesibilidad** | Cada ícono interactivo debe incluir `aria-label` descriptivo o texto visible acompañante. Ningún estado puede depender exclusivamente del ícono. |
 | **Espaciado ícono–texto** | 8px fijos entre el ícono y su etiqueta en botones e ítems de menú. |
+
+*(Tabla 18. Tabla de Web Style Guidelines - Elaboracion propia.)*
 
 ---
 
@@ -1737,6 +1939,8 @@ Los siguientes componentes conforman el vocabulario visual interactivo de BioTra
 | Badge / Chip | Display inline-flex · gap 4px · padding 3px 10px · border-radius 50px · Poppins 0.72rem Bold. | **Green:** `#D1FAE5` / `#0A9268`. **Blue:** `#E8F0F9` / `#0F4C81`. **Red:** `#FEE2E2` / `#991B1B`. **Gray:** `#F3F4F6` / `#4B5563`. |
 | Progress bar | Height 8px · fondo `#F3F4F6` · border-radius 4px · overflow hidden. | Fill: `#10B981` (verde), `#0F4C81` (azul), `#DC3545` (rojo), `#F59E0B` (naranja). |
 
+*(Tabla 19. Tabla de Web Style Guidelines - Elaboracion propia.)*
+
 ---
 
 **Diseño responsivo**
@@ -1751,12 +1955,16 @@ BioTrack adopta un enfoque responsive que asegura una experiencia óptima en esc
 | Tablet | 641–1024px | 2 | 20px | Hero: 1 columna centrado. Features: 2fr con fc-large span 2. Stats: 2fr. Footer: 1fr 1fr. Sidebar colapsable. |
 | Desktop | ≥ 1025px | 12 | 24px | Container max-width 1200px centrado. Hero: 1fr 1fr. Features: 3fr. Pricing: 3fr. Footer: 2fr 1fr 1fr 1fr 1fr. Sidebar fijo 240px. |
 
+*(Tabla 20. Tabla de Web Style Guidelines - Elaboracion propia.)*
+
 | **Requisito** | **Valor / Especificación** |
 |---|---|
 | Objetivos táctiles mínimos | 44×44px en todos los breakpoints. Botones con min-height 40px. |
 | Separación entre controles | Mínimo 8px entre elementos interactivos adyacentes. |
 | Focus visible | `outline 3px #0F4C81` para elementos nativos; sin supresión de outline en ningún componente. |
 | Animaciones | `transition: .25s cubic-bezier(.4,0,.2,1)`. Float 6s ease-in-out en hero mockup. data-reveal con opacity/translateY .6s. |
+
+*(Tabla 21. Tabla de Web Style Guidelines - Elaboracion propia.)*
 
 ---
 
@@ -1782,6 +1990,8 @@ Para la Landing Page se emplea una organización **jerárquica y secuencial**. E
 | Conversión | CTA Final | Llamado de cierre para registrarse o agendar una demo. |
 | Cierre | Footer | Navegación secundaria, redes sociales, legal y datos de marca. |
 
+*(Tabla 22. Tabla de Organization Systems - Elaboracion propia.)*
+
 ### 4.2.2. Labeling Systems
 
 El sistema de etiquetado utiliza términos breves, directos y orientados a la acción. Las etiquetas evitan lenguaje técnico y priorizan conceptos familiares para cada segmento.
@@ -1802,6 +2012,8 @@ El sistema de etiquetado utiliza términos breves, directos y orientados a la ac
 | **Empresa** | Tab de segmento | Activa el panel con contenido y CTA para administradores corporativos. |
 | **Nutricionista** | Tab de segmento | Activa el panel con herramientas para profesionales de nutrición. |
 | **Comienza tu transformación** | CTA final | Refuerza el cierre de conversión al final del recorrido. |
+
+*(Tabla 23. Tabla de Labeling Systems - Elaboracion propia.)*
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -1874,6 +2086,8 @@ La Landing Page no incorpora un buscador global porque su profundidad de conteni
 | Comparativa de planes | Ayuda al usuario a identificar el plan adecuado comparando características y precios. | Sección de Precios |
 | CTAs contextuales | Dirigen al registro o a los planes según el momento del recorrido del visitante. | Hero, Segmentos, CTA Final |
 
+*(Tabla 24. Tabla de Searching Systems - Elaboracion propia.)*
+
 ### 4.2.5. Navigation Systems
 
 El sistema de navegación se basa en una combinación de enlaces internos, CTAs de conversión y accesos transaccionales.
@@ -1890,6 +2104,8 @@ El sistema de navegación se basa en una combinación de enlaces internos, CTAs 
 | Ver planes | `#precios` | Scroll directo a la sección comercial. |
 | Comienza tu transformación | `./register.html` | CTA de cierre de conversión al final del recorrido. |
 
+*(Tabla 25. Tabla de Navigation Systems - Elaboracion propia.)*
+
 | **Flujo** | **Recorrido esperado** |
 |---|---|
 | Visitante nuevo que explora la solución | Hero → Trust Band → Funciones → Segmentos → Cómo funciona → Precios |
@@ -1898,6 +2114,8 @@ El sistema de navegación se basa en una combinación de enlaces internos, CTAs 
 | Nutricionista buscando herramientas | Segmentos → Tab Nutricionista → CTA registro profesional |
 | Usuario existente | Navbar → Iniciar sesión |
 | Usuario listo para registrarse | Hero o CTA Final → Comenzar gratis → Registro |
+
+*(Tabla 26. Tabla de Navigation Systems - Elaboracion propia.)*
 
 ---
 
@@ -1913,77 +2131,165 @@ Los wireframes representan la distribución base de cada sección antes de aplic
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del navbar en escala de grises mostrando logo izquierda, links centro, CTAs derecha y versión mobile hamburguesa -->
-  <img src="resources/Chapter-IV/wireframe-navbar.png" alt="Wireframe Navbar" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 35.</strong> <em>Interfaz de Wireframe Navbar</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-navbar.png" alt="Wireframe Navbar" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Hero section**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del hero mostrando grid 2 columnas: texto+CTA izquierda y dashboard mockup derecha, con blobs y grid pattern de fondo -->
-  <img src="resources/Chapter-IV/wireframe-hero.png" alt="Wireframe Hero Section" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 36.</strong> <em>Interfaz de Wireframe Hero Section</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-hero.png" alt="Wireframe Hero Section" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Trust Band**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe de la banda de logos de confianza con label y chips de empresa en fila centrada -->
-  <img src="resources/Chapter-IV/wireframe-trust-band.png" alt="Wireframe Trust Band" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 37.</strong> <em>Interfaz de Wireframe Trust Band</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-trust-band.png" alt="Wireframe Trust Band" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección de Funcionalidades**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del grid de features con 4 tarjetas estándar y 1 tarjeta fc-large azul de span 2 columnas -->
-  <img src="resources/Chapter-IV/wireframe-funcionalidades.png" alt="Wireframe Funcionalidades" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 38.</strong> <em>Interfaz de Wireframe Funcionalidades</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-funcionalidades.png" alt="Wireframe Funcionalidades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección de Segmentos (tabs)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe de los tabs de segmento (Paciente / Empresa / Nutricionista) con el panel de contenido activo mostrando grid 2 columnas: info+beneficios y stats -->
-  <img src="resources/Chapter-IV/wireframe-segmentos.png" alt="Wireframe Segmentos" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 39.</strong> <em>Interfaz de Wireframe Segmentos</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-segmentos.png" alt="Wireframe Segmentos" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección Cómo Funciona (4 pasos)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe de los 4 steps verticales con step-number circular, contenido textual y step-connector punteado entre pasos -->
-  <img src="resources/Chapter-IV/wireframe-como-funciona.png" alt="Wireframe Cómo Funciona" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 40.</strong> <em>Interfaz de Wireframe Cómo Funciona</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-como-funciona.png" alt="Wireframe Cómo Funciona" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección Stats / Impacto**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe de la banda de stats con fondo azul oscuro y 4 stat-items con cifra grande y label descriptivo en grid de 4 columnas -->
-  <img src="resources/Chapter-IV/wireframe-stats.png" alt="Wireframe Stats" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 41.</strong> <em>Interfaz de Wireframe Stats</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-stats.png" alt="Wireframe Stats" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección de Precios (3 planes)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del pricing grid de 3 columnas con toggle mensual/anual arriba, plan central destacado a mayor escala y lista de features con checkmarks -->
-  <img src="resources/Chapter-IV/wireframe-precios.png" alt="Wireframe Precios" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 42.</strong> <em>Interfaz de Wireframe Precios</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-precios.png" alt="Wireframe Precios" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección de Testimoniales**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del grid de 3 testimoniales con estrellas, cita, avatar y nombre/cargo, con la tarjeta central en fondo azul destacado -->
-  <img src="resources/Chapter-IV/wireframe-testimoniales.png" alt="Wireframe Testimoniales" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 43.</strong> <em>Interfaz de Wireframe Testimoniales</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-testimoniales.png" alt="Wireframe Testimoniales" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **CTA Final**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del CTA final con caja de gradiente azul redondeada, H2, párrafo y 2 botones centrados (btn-white + btn-ghost-white) -->
-  <img src="resources/Chapter-IV/wireframe-cta-final.png" alt="Wireframe CTA Final" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 44.</strong> <em>Interfaz de Wireframe CTA Final</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-cta-final.png" alt="Wireframe CTA Final" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Footer**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del footer con grid 5 columnas: columna brand izquierda más ancha y 4 columnas de links, más footer-bottom con copyright -->
-  <img src="resources/Chapter-IV/wireframe-footer.png" alt="Wireframe Footer" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 45.</strong> <em>Interfaz de Wireframe Footer</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/wireframe-footer.png" alt="Wireframe Footer" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ### 4.3.2. Landing Page Mock-up
@@ -1994,77 +2300,165 @@ Los mockups muestran la propuesta visual aplicada sobre la estructura validada e
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del navbar con el logo BioTrack (logo-mark gradient + texto), links Poppins gris con underline verde animado y botones btn-outline + btn-primary verde -->
-  <img src="resources/Chapter-IV/mockup-navbar.png" alt="Mockup Navbar" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 46.</strong> <em>Interfaz de Mockup Navbar</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-navbar.png" alt="Mockup Navbar" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Hero section**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del hero completo con gradiente de fondo azul-verde suave, blobs difusos, grid pattern, eyebrow verde, H1 DM Serif, botones, social proof con avatars y dashboard mockup flotante con animación float y floating badges -->
-  <img src="resources/Chapter-IV/mockup-hero.png" alt="Mockup Hero Section" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 47.</strong> <em>Interfaz de Mockup Hero Section</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-hero.png" alt="Mockup Hero Section" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Trust Band**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de la banda de confianza con fondo #F8FAFB, label uppercase gris y chips de logos con borde #E5E7EB -->
-  <img src="resources/Chapter-IV/mockup-trust-band.png" alt="Mockup Trust Band" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 48.</strong> <em>Interfaz de Mockup Trust Band</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-trust-band.png" alt="Mockup Trust Band" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección de Funcionalidades**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del grid de features con tarjetas #F3F4F6 border-radius 14px, feature-icons en azul claro y verde claro, y fc-large con gradiente azul abarcando 2 columnas -->
-  <img src="resources/Chapter-IV/mockup-funcionalidades.png" alt="Mockup Funcionalidades" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 49.</strong> <em>Interfaz de Mockup Funcionalidades</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-funcionalidades.png" alt="Mockup Funcionalidades" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección de Segmentos (tabs)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de los tabs de segmento con pill-tab activa en azul, panel de contenido blanco con shadow-md, persona card, benefits list con SVG checks verdes y stat-cards con cifras azules DM Serif -->
-  <img src="resources/Chapter-IV/mockup-segmentos.png" alt="Mockup Segmentos" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 50.</strong> <em>Interfaz de Mockup Segmentos</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-segmentos.png" alt="Mockup Segmentos" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección Cómo Funciona**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de los 4 pasos con step-number círculos azules (#0F4C81) con box-shadow, step-connector línea azul claro y step-content con H3 Poppins + párrafo gris -->
-  <img src="resources/Chapter-IV/mockup-como-funciona.png" alt="Mockup Cómo Funciona" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 51.</strong> <em>Interfaz de Mockup Cómo Funciona</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-como-funciona.png" alt="Mockup Cómo Funciona" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección Stats / Impacto**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de la banda stats con gradiente linear-gradient(135deg, #0F4C81, #0A3660), 4 stat-items con cifras DM Serif Display blancas de ~3.5rem y labels opacity .75 -->
-  <img src="resources/Chapter-IV/mockup-stats.png" alt="Mockup Stats" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 52.</strong> <em>Interfaz de Mockup Stats</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-stats.png" alt="Mockup Stats" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección de Precios (3 planes)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del pricing grid con toggle anual/mensual (switch verde), plan Profesional con gradiente azul price-featured en escala 1.04 con featured-badge verde "Más popular", y plans Starter y Empresarial flanqueando con borde gris -->
-  <img src="resources/Chapter-IV/mockup-precios.png" alt="Mockup Precios" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 53.</strong> <em>Interfaz de Mockup Precios</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-precios.png" alt="Mockup Precios" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Sección de Testimoniales**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del grid de 3 testimoniales: 2 cards con fondo #F3F4F6 y 1 testi-featured con gradiente azul, todas con estrellas #FBBF24 y avatar circular 42px -->
-  <img src="resources/Chapter-IV/mockup-testimoniales.png" alt="Mockup Testimoniales" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 54.</strong> <em>Interfaz de Mockup Testimoniales</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-testimoniales.png" alt="Mockup Testimoniales" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **CTA Final**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del CTA final con cta-box gradiente azul border-radius 40px, cta-blob verde decorativo, H2 DM Serif blanco con em en #D1FAE5 y 2 botones (btn-white + btn-ghost-white) -->
-  <img src="resources/Chapter-IV/mockup-cta-final.png" alt="Mockup CTA Final" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 55.</strong> <em>Interfaz de Mockup CTA Final</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-cta-final.png" alt="Mockup CTA Final" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 - **Footer**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/mockup-footer.png" alt="Mockup Footer" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 56.</strong> <em>Interfaz de Mockup Footer</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/mockup-footer.png" alt="Mockup Footer" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ### 4.4. Web Applications UX/UI Design
@@ -2163,7 +2557,15 @@ end note
 - Asi es como quedaria el Bounded Context de Gestion de Identidad y Autenticación :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_identidad_autenticacion.png" alt="bounded context gestion de identidad y autenticacion" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 57.</strong> <em>Estructura de bounded context gestion de identidad y autenticacion</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_identidad_autenticacion.png" alt="bounded context gestion de identidad y autenticacion" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2226,7 +2628,15 @@ end note
 - Asi es como quedaria el Bounded Context de Gestion de Perfil y Configuración del Paciente :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_perfil_configuracion.png" alt="bounded context perfil y configuracion del paciente" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 58.</strong> <em>Estructura de bounded context perfil y configuracion del paciente</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_perfil_configuracion.png" alt="bounded context perfil y configuracion del paciente" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2297,7 +2707,15 @@ end note
 - Asi es como quedaria el Bounded Context de Gestion de Gestión Corporativa :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_corporativa.png" alt="bounded context gestion corporativa" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 59.</strong> <em>Estructura de bounded context gestion corporativa</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_corporativa.png" alt="bounded context gestion corporativa" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2378,7 +2796,15 @@ end note
 - Asi es como quedaria el Bounded Context de Gestion de Gestión Corporativa :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_planificacion.png" alt="bounded context planificacion nutricional" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 60.</strong> <em>Estructura de bounded context planificacion nutricional</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_planificacion.png" alt="bounded context planificacion nutricional" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2453,7 +2879,15 @@ end note
 - Asi es como quedaria el Bounded Context de Seguimiento y Monitoreo del Progreso :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_seguimiento.png" alt="bounded context seguimiento y monitoreo del progreso" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 61.</strong> <em>Estructura de bounded context seguimiento y monitoreo del progreso</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_seguimiento.png" alt="bounded context seguimiento y monitoreo del progreso" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2535,7 +2969,15 @@ end note
 - Asi es como quedaria el Bounded Context de suscripcion y facturación :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_suscripcion_facturacion.png" alt="bounded context suscripciones y facturación" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 62.</strong> <em>Estructura de bounded context suscripciones y facturación</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_suscripcion_facturacion.png" alt="bounded context suscripciones y facturación" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2594,7 +3036,15 @@ BC06 --> EMAIL : Facturas y avisos
 - Aqui todos los Bounded Contexts relacionados entre sí :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_relaciones.png" alt="bounded context relacionados" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 63.</strong> <em>Estructura de bounded context relacionados</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_relaciones.png" alt="bounded context relacionados" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2642,7 +3092,15 @@ end
 - Imagen del flujo 1 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_flujo1.png" alt="flujo de registro, verificación de Email y activación de cuenta" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 64.</strong> <em>Estructura de flujo de registro, verificación de Email y activación de cuenta</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_flujo1.png" alt="flujo de registro, verificación de Email y activación de cuenta" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2706,7 +3164,15 @@ end
 - Imagen del flujo 2 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_flujo2.png" alt="bounded context Perfil, Asignación, Plan y Seguimiento" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 65.</strong> <em>Estructura de bounded context Perfil, Asignación, Plan y Seguimiento</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_flujo2.png" alt="bounded context Perfil, Asignación, Plan y Seguimiento" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2759,7 +3225,15 @@ end note
 - Imagen del flujo 3 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_flujo3.png" alt="bounded context relacionados" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 66.</strong> <em>Estructura de bounded context relacionados</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_flujo3.png" alt="bounded context relacionados" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2808,7 +3282,15 @@ end note
 - Imagen del flujo 4 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_flujo4.png" alt="bounded context relacionados" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 67.</strong> <em>Estructura de bounded context relacionados</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_flujo4.png" alt="bounded context relacionados" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2854,7 +3336,15 @@ SYS --> PDF : Genera reportes PDF\nde evolución (US33)
 - Imagen del flujo 5 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_relaciones.png" alt="bounded context relacionados" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 68.</strong> <em>Estructura de bounded context relacionados</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_relaciones.png" alt="bounded context relacionados" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -2939,7 +3429,15 @@ S6 --> S3
 - Imagen del Container de Biotrack :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-  <img src="resources/Chapter-IV/bc_container.png" alt="bounded context container" width="800"/>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 69.</strong> <em>Estructura de bounded context container</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_container.png" alt="bounded context container" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 </p>
 
 ---
@@ -3305,25 +3803,81 @@ Finalmente, el ejercicio de modelado con Event Storming, los diagramas de compon
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 <p align="center">Shared BC</p>
-<p align="center"><img src="resources/Chapter-IV/bc_shared.jpeg" width="500"/></p>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 70.</strong> <em>Evidencia de bc shared</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_shared.jpeg" alt="bc shared" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <p align="center">Identity & Authentication BC</p>
-<p align="center"><img src="resources/Chapter-IV/bc_identity_authentification.jpeg" width="500"/></p>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 71.</strong> <em>Evidencia de bc identity authentification</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_identity_authentification.jpeg" alt="bc identity authentification" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <p align="center">Patient Profile BC</p>
-<p align="center"><img src="resources/Chapter-IV/bc_patient_profile.jpeg" width="500"/></p>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 72.</strong> <em>Evidencia de bc patient profile</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_patient_profile.jpeg" alt="bc patient profile" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <p align="center">Corporate Management BC</p>
-<p align="center"><img src="resources/Chapter-IV/bc_corporate_management.jpeg" width="500"/></p>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 73.</strong> <em>Evidencia de bc corporate management</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_corporate_management.jpeg" alt="bc corporate management" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <p align="center">Nutritional Planning BC</p>
-<p align="center"><img src="resources/Chapter-IV/bc_nutritional_planning.jpeg" width="500"/></p>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 74.</strong> <em>Evidencia de bc nutritional planning</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_nutritional_planning.jpeg" alt="bc nutritional planning" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <p align="center">Progress Tracking BC</p>
-<p align="center"><img src="resources/Chapter-IV/bc_progress_tracking.jpeg" width="500"/></p>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 75.</strong> <em>Evidencia de bc progress tracking</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_progress_tracking.jpeg" alt="bc progress tracking" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 <p align="center">Subscription & billing BC</p>
-<p align="center"><img src="resources/Chapter-IV/bc_subscription_billing.jpeg" width="500"/></p>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 76.</strong> <em>Evidencia de bc subscription billing</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/bc_subscription_billing.jpeg" alt="bc subscription billing" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 ## 4.8. Database Design
 
@@ -3345,7 +3899,15 @@ Los *tokens de verificación* tienen una vida útil de 24 horas y llevan contado
 
 <!-- INSERTAR AQUÍ: el diagrama entidad-relación completo de BioTrack generado desde MySQL Workbench, dbdiagram.io o equivalente. Debe mostrar las 25 tablas con sus columnas principales, tipos de datos y las relaciones (líneas de FK) entre ellas. Exportar como SVG o PNG de alta resolución. -->
 
-![Database Diagram BioTrack](resources/Chapter-IV/database_Biotrack.jpeg)
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 77.</strong> <em>Estructura de Database Diagram BioTrack</em>
+  </figcaption>
+  <img src="resources/Chapter-IV/database_Biotrack.jpeg" alt="Database Diagram BioTrack" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
+</figure>
 
 </div>
 
@@ -3460,6 +4022,7 @@ Usuarios de github:
 | Díaz Yurivilca, Sofía               | u20241a195-cmd     |
 | Rengifo Lozano, David               | DavidRengifoLoz    |
 
+*(Tabla 27. Tabla de Source Code Management - Elaboracion propia.)*
 
 En el desarollo de cada repositorio usaremos Gitflow como estrategia de control de versiones, conssite en crear ramas por cada feat, fix o choore para tener un trabajo organizado y registrado. Las ramas principales serán Main, Release, Develop, Hotfix, A continuación describiremos las ramas:
 
@@ -3564,6 +4127,9 @@ A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1.
     </tr>
   </tbody>
  </table>
+
+*(Tabla 28. Tabla de Sprint Planning 1 - Elaboracion propia.)*
+
 </div>
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
@@ -3630,8 +4196,9 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
   </tbody>
 </table>
 
+*(Tabla 29. Tabla de Aspect Leaders and Collaborators - Elaboracion propia.)*
+
 ##### 5.2.1.3. Sprint Backlog 1
-Aquí hemos mapeado las US reales de tu Product Backlog que conciernen a este Sprint.
 
 <table>
   <thead>
@@ -3728,6 +4295,8 @@ Aquí hemos mapeado las US reales de tu Product Backlog que conciernen a este Sp
   </tbody>
 </table>
 
+*(Tabla 30. Tabla de Sprint Backlog 1 - Elaboracion propia.)*
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
 Repositorio del Landing Page: [[https://github.com/1ASI0729-2610-10203-NexTech/Landing-Page](https://github.com/1ASI0729-2610-10203-NexTech/Landing-Page)]
@@ -3774,14 +4343,16 @@ Repositorio del Landing Page: [[https://github.com/1ASI0729-2610-10203-NexTech/L
   </tbody>
 </table>
 
+*(Tabla 31. Tabla de Development Evidence for Sprint Review - Elaboracion propia.)*
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 Se presenta la interfaz funcional de la Landing Page de BioTrack, la cual cumple con los objetivos del Sprint 1 al comunicar la propuesta de valor y los beneficios del sistema para pacientes y organizaciones. La implementación asegura una navegación fluida y un diseño adaptable (responsive) que garantiza la correcta visualización en diversos dispositivos móviles y de escritorio.
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <figcaption style="margin-bottom: 10px;">
-    <strong>Figura X.</strong> <em>Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción.</em>
+    <strong>Figura 78.</strong> <em>Evidencia de biotrack herosection</em>
   </figcaption>
-  <img src="resources/Chapter-V/biotrack-herosection.jpeg" alt="Evidencias UI Sprint 1" width="800">
+  <img src="resources/Chapter-V/biotrack-herosection.jpeg" alt="biotrack herosection" width="800">
   <figcaption style="margin-top: 10px;">
     <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
@@ -3789,9 +4360,9 @@ Se presenta la interfaz funcional de la Landing Page de BioTrack, la cual cumple
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <figcaption style="margin-bottom: 10px;">
-    <strong>Figura X.</strong> <em>Diseño estático del formulario de autenticación, estructurado con sus campos respectivos.</em>
+    <strong>Figura 79.</strong> <em>Evidencia de biotrack login</em>
   </figcaption>
-  <img src="resources/Chapter-V/biotrack-login.jpg" alt="Evidencias UI Sprint 1" width="800">
+  <img src="resources/Chapter-V/biotrack-login.jpg" alt="biotrack login" width="800">
   <figcaption style="margin-top: 10px;">
     <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
@@ -3799,9 +4370,9 @@ Se presenta la interfaz funcional de la Landing Page de BioTrack, la cual cumple
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <figcaption style="margin-bottom: 10px;">
-    <strong>Figura X.</strong> <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos.</em>
+    <strong>Figura 80.</strong> <em>Evidencia de biotrack signup</em>
   </figcaption>
-  <img src="resources/Chapter-V/biotrack-signup.jpeg" alt="Evidencias UI Sprint 1" width="800">
+  <img src="resources/Chapter-V/biotrack-signup.jpeg" alt="biotrack signup" width="800">
   <figcaption style="margin-top: 10px;">
     <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
@@ -3812,11 +4383,11 @@ La documentación técnica del incremento de software se centra en la organizaci
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <figcaption style="margin-bottom: 10px;">
-    <strong>Figura X.</strong> <em>Estructura de directorios del repositorio de la Landing Page.</em>
+    <strong>Figura 81.</strong> <em>Estructura de estructura archivos</em>
   </figcaption>
-  <img src="resources/Chapter-V/estructura-archivos.jpeg" alt="Evidencias UI Sprint 1" width="300">
+  <img src="resources/Chapter-V/estructura-archivos.jpeg" alt="estructura archivos" width="800">
   <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia a través de VS Code.
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
@@ -3825,11 +4396,11 @@ El despliegue de la Landing Page se realizó de manera exitosa utilizando la pla
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <figcaption style="margin-bottom: 10px;">
-    <strong>Figura X.</strong> <em>Panel de configuración de GitHub Pages evidenciando el despliegue exitoso (Live) del proyecto.</em>
+    <strong>Figura 82.</strong> <em>Evidencia de despliegue</em>
   </figcaption>
-  <img src="resources/Chapter-V/despliegue.jpeg" alt="Evidencias UI Sprint 1" width="800">
+  <img src="resources/Chapter-V/despliegue.jpeg" alt="despliegue" width="800">
   <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia a través de GitHub.
+    <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
 </figure>
 
@@ -3839,6 +4410,13 @@ La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como 
 ---
 
 ## 💡 Conclusiones
+
+### Conclusiones y recomendaciones
+
+Durante este primer sprint, el equipo logró sentar una base sólida tanto en la arquitectura técnica como en la dinámica de trabajo colaborativo. Nos enfocamos en contrastar los artefactos del proceso Lean UX con el modelado del negocio mediante EventStorming, lo que nos permitió definir Bounded Contexts funcionales y confirmar que la desconexión entre pacientes, nutricionistas y organizaciones constituye una barrera real para la salud preventiva. A nivel técnico, se preparó el entorno de desarrollo definiendo el stack principal con Vue.js para el frontend y C# con .NET para el backend, sentando las bases para la futura integración de servicios RESTful. Asimismo, se alcanzó un primer hito relevante con el diseño, maquetación y despliegue exitoso de la Landing Page en GitHub Pages, incorporando un diseño responsivo y soporte multilingüe mediante i18n. Además, se fortaleció la organización interna al trabajar con GitFlow, adoptar Conventional Commits como convención de cambios y gestionar el flujo de tareas mediante un tablero ágil, asegurando un repositorio ordenado y visibilidad sobre el avance del equipo.
+
+Como recomendaciones para los siguientes sprints, se sugiere iniciar la conexión progresiva entre el frontend y los servicios backend, priorizando la implementación de los primeros endpoints del Bounded Context de Gestión de Identidad y Autenticación. De cara a la evolución del producto, también se recomienda planificar la integración con dispositivos IoT o wearables, en coherencia con la propuesta de monitoreo en tiempo real planteada en el informe, con el fin de enriquecer el seguimiento del paciente y reducir la dependencia del registro manual. Asimismo, resulta pertinente consolidar el flujo de asignación automática de nutricionistas ya modelado en la arquitectura del sistema, de modo que pueda implementarse de forma consistente en los siguientes incrementos. Finalmente, para fortalecer el modelo B2B, se recomienda investigar integraciones con sistemas de Recursos Humanos existentes que faciliten la gestión organizacional y la consulta de métricas agregadas, manteniendo siempre la privacidad de los datos individuales.
+
 ## 📚 Bibliografía
 
 - Bejarano Roncancio, J. J., & Díaz Beltrán, M. D. P. (2012). ALIMENTACIÓN LABORAL UNA ESTRATEGIA PARA LA PROMOCIÓN DE LA SALUD DEL TRABAJADOR: a strategy for promoting workers' health. Revista de la Facultad de Medicina, 60, 87-97. Recuperado de [http://scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-00112012000500009](http://scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-00112012000500009)
@@ -3848,3 +4426,126 @@ La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como 
 - Patel, M. L., Hopkins, C. M., Brooks, T. L., & Bennett, G. G. (2019). Comparing self-monitoring strategies for weight loss in a smartphone app: randomized controlled trial. JMIR mHealth and uHealth, 7(2), e12209. Recuperado de [https://mhealth.jmir.org/2019/2/e12209](https://mhealth.jmir.org/2019/2/e12209)
 
 ## 📎 Anexos
+
+- **Miro:** 
+https://miro.com/welcomeonboard/ZXZtR2J2Q3poTU9vU3hzUGdZTDkwUzlFeHpKWjR0bjg2Q1c2N0xIekRjRURiQUVvaTNBOUJ3dWhiT2w2TWMwSEV4VGhxWGhlSVQ4MlI4bmpPYkMxVTY5VUJuOHVNK0U5RVNLZjYzVG9CMk5SdUIrS0VQbWNzaFl5NlBaci9DN0xBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=147191554325
+
+- **Pagina Web:**  
+https://1asi0729-2610-10203-nextech.github.io/Landing-Page/index.html#
+
+### Índice de Figuras
+1. Figura 1. Evidencia de Lean Ux Canva.
+2. Figura 2. Evidencia de Gráfico de dificultades.
+3. Figura 3. Evidencia de Gráfico de dificultades.
+4. Figura 4. Evidencia de Gráfico de dificultades.
+5. Figura 5. Evidencia de Gráfico de dificultades.
+6. Figura 6. Evidencia de Gráfico de dificultades.
+7. Figura 7. Evidencia de Gráfico de dificultades.
+8. Figura 8. Evidencia de Gráfico de dificultades.
+9. Figura 9. Evidencia de Gráfico de dificultades.
+10. Figura 10. Evidencia de Ximena Núñez.
+11. Figura 11. Evidencia de Eduardo Arévalos.
+12. Figura 12. Evidencia de taskmatrix.
+13. Figura 13. Estructura de Sales rep journey map.
+14. Figura 14. Estructura de Sales rep journey map 2.
+15. Figura 15. Estructura de Empathy map.
+16. Figura 16. Estructura de Empathy map (1).
+17. Figura 17. Estructura de Big Picture EventStorming - Fase 0 - Identity & Profile Management.
+18. Figura 18. Estructura de Big Picture EventStorming - Fase 0 - Corporate Management.
+19. Figura 19. Estructura de Big Picture EventStorming - Fase 0 - Nutritional Planning.
+20. Figura 20. Estructura de Big Picture EventStorming - Fase 0 - Progress Tracking & Monitoring.
+21. Figura 21. Estructura de Big Picture EventStorming - Fase 0 - Subscriptions & Billing.
+22. Figura 22. Estructura de Big Picture EventStorming - Identity & Profile Management.
+23. Figura 23. Estructura de Big Picture EventStorming - Corporate Management.
+24. Figura 24. Estructura de Big Picture EventStorming - Nutritional Planning.
+25. Figura 25. Estructura de Big Picture EventStorming - Progress Tracking & Monitoring.
+26. Figura 26. Estructura de Big Picture EventStorming - Subscriptions & Billing.
+27. Figura 27. Estructura de Big Picture EventStorming - Etapa 3 Identity & Profile Management.
+28. Figura 28. Estructura de Big Picture EventStorming - Etapa 3 Corporate Management.
+29. Figura 29. Estructura de Big Picture EventStorming - Etapa 3 Nutritional Planning.
+30. Figura 30. Estructura de Big Picture EventStorming - Etapa 3 Progress Tracking & Monitoring.
+31. Figura 31. Estructura de Big Picture EventStorming - Etapa 3 Subscriptions & Billing.
+32. Figura 32. Estructura de Impact mapping biotrack.
+33. Figura 33. Evidencia de Jerarquía Tipográfica BioTrack.
+34. Figura 34. Evidencia de Logo BioTrack.
+35. Figura 35. Interfaz de Wireframe Navbar.
+36. Figura 36. Interfaz de Wireframe Hero Section.
+37. Figura 37. Interfaz de Wireframe Trust Band.
+38. Figura 38. Interfaz de Wireframe Funcionalidades.
+39. Figura 39. Interfaz de Wireframe Segmentos.
+40. Figura 40. Interfaz de Wireframe Cómo Funciona.
+41. Figura 41. Interfaz de Wireframe Stats.
+42. Figura 42. Interfaz de Wireframe Precios.
+43. Figura 43. Interfaz de Wireframe Testimoniales.
+44. Figura 44. Interfaz de Wireframe CTA Final.
+45. Figura 45. Interfaz de Wireframe Footer.
+46. Figura 46. Interfaz de Mockup Navbar.
+47. Figura 47. Interfaz de Mockup Hero Section.
+48. Figura 48. Interfaz de Mockup Trust Band.
+49. Figura 49. Interfaz de Mockup Funcionalidades.
+50. Figura 50. Interfaz de Mockup Segmentos.
+51. Figura 51. Interfaz de Mockup Cómo Funciona.
+52. Figura 52. Interfaz de Mockup Stats.
+53. Figura 53. Interfaz de Mockup Precios.
+54. Figura 54. Interfaz de Mockup Testimoniales.
+55. Figura 55. Interfaz de Mockup CTA Final.
+56. Figura 56. Interfaz de Mockup Footer.
+57. Figura 57. Estructura de bounded context gestion de identidad y autenticacion.
+58. Figura 58. Estructura de bounded context perfil y configuracion del paciente.
+59. Figura 59. Estructura de bounded context gestion corporativa.
+60. Figura 60. Estructura de bounded context planificacion nutricional.
+61. Figura 61. Estructura de bounded context seguimiento y monitoreo del progreso.
+62. Figura 62. Estructura de bounded context suscripciones y facturación.
+63. Figura 63. Estructura de bounded context relacionados.
+64. Figura 64. Estructura de flujo de registro, verificación de Email y activación de cuenta.
+65. Figura 65. Estructura de bounded context Perfil, Asignación, Plan y Seguimiento.
+66. Figura 66. Estructura de bounded context relacionados.
+67. Figura 67. Estructura de bounded context relacionados.
+68. Figura 68. Estructura de bounded context relacionados.
+69. Figura 69. Estructura de bounded context container.
+70. Figura 70. Evidencia de bc shared.
+71. Figura 71. Evidencia de bc identity authentification.
+72. Figura 72. Evidencia de bc patient profile.
+73. Figura 73. Evidencia de bc corporate management.
+74. Figura 74. Evidencia de bc nutritional planning.
+75. Figura 75. Evidencia de bc progress tracking.
+76. Figura 76. Evidencia de bc subscription billing.
+77. Figura 77. Estructura de Database Diagram BioTrack.
+78. Figura 78. Evidencia de biotrack herosection.
+79. Figura 79. Evidencia de biotrack login.
+80. Figura 80. Evidencia de biotrack signup.
+81. Figura 81. Estructura de estructura archivos.
+82. Figura 82. Evidencia de despliegue.
+
+### Índice de Tablas
+1. Tabla 1. Tabla de Perfiles de integrantes del equipo.
+2. Tabla 2. Tabla de Análisis competitivo.
+3. Tabla 3. Tabla de Registro de entrevistas.
+4. Tabla 4. Tabla de Registro de entrevistas.
+5. Tabla 5. Tabla de Registro de entrevistas.
+6. Tabla 6. Tabla de Segmento #2: Empresas.
+7. Tabla 7. Tabla de Segmento #2: Empresas.
+8. Tabla 8. Tabla de Segmento #2: Empresas.
+9. Tabla 9. Tabla de Ubiquitous Language.
+10. Tabla 10. Tabla de User Stories.
+11. Tabla 11. Tabla de Product Backlog.
+12. Tabla 12. Tabla de General Style Guidelines.
+13. Tabla 13. Tabla de General Style Guidelines.
+14. Tabla 14. Tabla de General Style Guidelines.
+15. Tabla 15. Tabla de Web Style Guidelines.
+16. Tabla 16. Tabla de Web Style Guidelines.
+17. Tabla 17. Tabla de Web Style Guidelines.
+18. Tabla 18. Tabla de Web Style Guidelines.
+19. Tabla 19. Tabla de Web Style Guidelines.
+20. Tabla 20. Tabla de Web Style Guidelines.
+21. Tabla 21. Tabla de Web Style Guidelines.
+22. Tabla 22. Tabla de Organization Systems.
+23. Tabla 23. Tabla de Labeling Systems.
+24. Tabla 24. Tabla de Searching Systems.
+25. Tabla 25. Tabla de Navigation Systems.
+26. Tabla 26. Tabla de Navigation Systems.
+27. Tabla 27. Tabla de Source Code Management.
+28. Tabla 28. Tabla de Sprint Planning 1.
+29. Tabla 29. Tabla de Aspect Leaders and Collaborators.
+30. Tabla 30. Tabla de Sprint Backlog 1.
+31. Tabla 31. Tabla de Development Evidence for Sprint Review.
