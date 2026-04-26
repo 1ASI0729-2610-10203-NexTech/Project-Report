@@ -80,14 +80,15 @@ Abril del 2026 🗓️
 
 ## 🤝 Project Report Collaboration Insights
 
-**URL del Repositorio:** [https://github.com/1ASI0729-2610-10203-NexTech/Project-Report](https://github.com/1ASI0729-2610-10203-NexTech/Project-Report)
+[![Insights link](https://img.shields.io/badge/Insights-contributors-%230E2148?style=for-the-badge&color=%230E2148)](https://github.com/1ASI0729-2610-10203-NexTech/Project-Report/graphs/contributors)
 
+A continuación se presentaran los commit realizados por los contribuidores:
 
-A continuación se presentarán los commits realizados por los miembros del equipo:
+- ⏩ Avance del **AV1**
 
-### ⏩ Avance del **AV1**
+![Contributors TB1](resources/contributors-all.jpeg)
 
-
+![Commits TB1](resources/commits.jpeg)
 
 ---
 
@@ -4407,6 +4408,24 @@ El despliegue de la Landing Page se realizó de manera exitosa utilizando la pla
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como plataforma central para el control de versiones, siguiendo el modelo de trabajo GitFlow. Este enfoque permitió la creación de ramas de características (feature branches) independientes, facilitando la integración continua de los componentes de la Landing Page sin conflictos de código. Asimismo, se adoptó el estándar de Conventional Commits para mantener un historial de cambios profesional y legible. El seguimiento de las tareas y objetivos del sprint se realizó a través de un tablero de gestión ágil, garantizando la visibilidad del progreso y la integridad del incremento de software producido.
 
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 83.</strong> <em> Gráfico de actividad Commits over time</em>
+  </figcaption>
+  <img src="resources/Chapter-V/contributors-github-all.jpeg" alt="despliegue" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <figcaption style="margin-bottom: 10px;">
+    <strong>Figura 84.</strong> <em> Panel de estadísticas de los colaboradores</em>
+  </figcaption>
+  <img src="resources/Chapter-V/contributors-github.jpeg" alt="despliegue" width="800">
+  <figcaption style="margin-top: 10px;">
+    <strong>Fuente:</strong> Elaboración propia.
+</figure>
+
 ---
 
 ## 💡 Conclusiones
@@ -4516,6 +4535,8 @@ https://1asi0729-2610-10203-nextech.github.io/Landing-Page/index.html#
 80. Figura 80. Evidencia de biotrack signup.
 81. Figura 81. Estructura de estructura archivos.
 82. Figura 82. Evidencia de despliegue.
+83. Figura 83. Gráfico de actividad Commits over time
+83. Figura 84. Panel de estadísticas de los colaboradores
 
 ### Índice de Tablas
 1. Tabla 1. Tabla de Perfiles de integrantes del equipo.
