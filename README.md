@@ -185,7 +185,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <td>Mendoza Moreano, Mariel Lucero </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto
+          Contribuí al trabajo en equipo asumiendo liderazgo compartido en la definición del enfoque de diseño centrado en el usuario. Desarrollé el Lean UX Process como base metodológica del proyecto. Además, elaboré el User Persona, User Task Matrix, User Journey Mapping y Empathy Mapping para comprender mejor las necesidades del usuario. Estos aportes ayudaron a orientar las decisiones del equipo durante el diseño de la solución.
           <br>
         </td>
       </tr>
@@ -224,7 +224,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <td>Mendoza Moreano, Mariel Lucero </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Participé en el desarrollo del proyecto cumpliendo con las tareas asignadas dentro del equipo. Contribuí a la elaboración de entregables clave como el Lean UX Process y los análisis de usuario. Apoyé en la organización de las actividades relacionadas al diseño centrado en el usuario. Cumplí con los objetivos asignados dentro de los plazos establecidos.<br>
         </td>
       </tr>
       <tr>
@@ -277,7 +277,7 @@ El servicio opera bajo un modelo de suscripción escalable, adaptado a clientes 
 | Foto | Integrante | Carrera | Descripción |
 | :---: | :--- | :--- | :--- |
 | <img src="resources/Chapter-I/rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos técnicos en desarrollo web, empleando tecnologías como HTML, CSS, JavaScript, Astro y Tailwind CSS. Asimismo, puedo contribuir al equipo con habilidades sólidas en trabajo colaborativo, organización, resolución de problemas y la estructuración de interfaces de usuario escalables. |
-| <img src="resources/team/mariel.png" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Carrera | Texto |
+| <img src="resources/Chapter-I/Mariel.jpeg/" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Carrera | Mi nombre es Mariel Lucero Mendoza Moreano, tengo 20 años y actualmente estudio Ingeniería de Software en la Universidad de Ciencias Aplicadas. Cuento con conocimientos en HTML, CSS y C++, los cuales he ido desarrollando a través de mis estudios y proyectos académicos. Me considero una persona responsable, proactiva y con disposición para colaborar y brindar apoyo cuando se requiere. Además, me interesa aprender constantemente nuevas tecnologías y mejorar mis habilidades para aportar de manera efectiva en proyectos de desarrollo de software. |
 | <img src="resources/Chapter-I/Sofia.png" width="100"> | **Díaz Yurivilca, Sofía**<br>(U20241A195) | Ingeniería de Software | Soy estudiante del quinto ciclo. Me considero responsable, proactivo y con motivación por aprender. En el curso de Aplicaciones Web, busco desarrollar una solución orientada al sector HealthTech a través del proyecto BioTrack, una plataforma web de gestión nutricional dirigida a pacientes y organizaciones. |
 | <img src="resources/team/david.png" width="100"> | **Rengifo Lozano, David**<br>(U20221022) | Carrera | Texto |
 | <img src="resources/team/enrique.png" width="100"> | **Villón Amez, Enrique**<br>(U20161a304) | Carrera | Texto |
