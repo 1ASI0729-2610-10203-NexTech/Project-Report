@@ -4386,7 +4386,7 @@ La documentación técnica del incremento de software se centra en la organizaci
   <figcaption style="margin-bottom: 10px;">
     <strong>Figura 81.</strong> <em>Estructura de estructura archivos</em>
   </figcaption>
-  <img src="resources/Chapter-V/estructura-archivos.jpeg" alt="estructura archivos" width="800">
+  <img src="resources/Chapter-V/estructura-archivos.jpeg" alt="estructura archivos" width="300">
   <figcaption style="margin-top: 10px;">
     <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
@@ -4415,6 +4415,7 @@ La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como 
   <img src="resources/Chapter-V/contributors-github-all.jpeg" alt="despliegue" width="800">
   <figcaption style="margin-top: 10px;">
     <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
@@ -4424,6 +4425,7 @@ La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como 
   <img src="resources/Chapter-V/contributors-github.jpeg" alt="despliegue" width="800">
   <figcaption style="margin-top: 10px;">
     <strong>Fuente:</strong> Elaboración propia.
+  </figcaption>
 </figure>
 
 ---
