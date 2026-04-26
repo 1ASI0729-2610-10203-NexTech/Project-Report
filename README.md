@@ -2856,11 +2856,681 @@ Al hacer clic en el CTA principal, el usuario es llevado al flujo de creación d
    El usuario puede acceder a la vista de historial completo donde se listan todas las citas pasadas con su estado final (completada, cancelada, no asistió). Cada entrada del historial es seleccionable para ver el detalle o las notas clínicas asociadas, permitiendo al usuario hacer seguimiento de su trayectoria médica dentro de la plataforma.
   
 
-#### 4.4.3. Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups
 
-#### 4.4.4. Web Applications User Flow Diagrams
+Los mock-ups de alta fidelidad de BioTrack representan el diseño visual final de cada pantalla de la aplicación web, aplicando íntegramente el Design System definido en la sección 4.1: paleta de colores azul (#0F4C81) y verde (#10B981), tipografías DM Serif Display para títulos y Poppins para textos funcionales, sistema de espaciado de 8pt, componentes de badge, alert, card, progress bar y sidebar con sus estados de interacción documentados. Cada pantalla evidencia los principios de diseño inclusivo WCAG 2.1 AA, jerarquía visual clara y arquitectura de información definida para la plataforma.
+
+La aplicación web de BioTrack está organizada en tres vistas estructurales: las **pantallas de autenticación y onboarding** (sin sidebar, layout de dos columnas con panel izquierdo azul institucional y formulario derecho), las **pantallas de la aplicación del paciente** (con sidebar de navegación de 240px, topbar de 60px y área principal sobre fondo #F8FAFB), y las **pantallas de administración corporativa y nutricionista** (mismo shell de aplicación con sidebar adaptado al perfil del usuario activo). La etiqueta de escenario en la esquina inferior derecha de cada pantalla identifica el User Story y el escenario correspondiente para facilitar la trazabilidad entre requerimientos y diseño.
+
+---
+
+#### EP01 — Identity & Profile Management
+
+**US01 — Registro de cuenta**
+
+El formulario de registro presenta el layout de dos columnas característico de las pantallas de onboarding: panel izquierdo con gradiente azul institucional (BC01), indicador de progreso en 4 pasos y propuesta de valor; panel derecho con el formulario sobre tarjeta blanca con sombra. Los chips de selección de tipo de cuenta (Paciente / Nutricionista / Corporativo) son el primer elemento interactivo, seguidos por los campos de nombre, apellido, email, contraseña y confirmación con validación inline por campo.
+
+- **Escenario 1 — Registro exitoso:** Los campos muestran borde verde (#10B981) confirmando validación. Banner de éxito verde con los pasos completados y pendientes, botón primario "Ir a verificar correo".
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US01_S1_registro_exitoso.html — pantalla de registro con campos completados en verde, banner de éxito y paso 1 marcado como completado en el indicador de progreso izquierdo. -->
+  <img src="resources/Chapter-IV/Us01 s1 registro exitoso.png" alt="US01 S1 — Registro exitoso" width="800"/>
+</p>
+
+- **Escenario 2 — Campos incompletos:** Los campos obligatorios vacíos muestran borde rojo (#DC3545) con mensaje de error debajo de cada uno. El botón principal aparece deshabilitado (fondo #E5E7EB) con texto explicativo. Banner de error rojo en la parte superior con lista de campos faltantes.
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US01_S2_campos_incompletos.html — pantalla de registro con campos de nombre y contraseña en estado de error (borde rojo, mensaje debajo), botón deshabilitado y banner de error con lista de errores. -->
+  <img src="resources/Chapter-IV/Us01 s2 campos incompletos.png" alt="US01 S2 — Campos incompletos" width="800"/>
+</p>
+
+- **Escenario 3 — Email ya registrado:** El campo de email muestra borde rojo con mensaje específico "Este correo ya está en uso". Banner naranja (#EA580C) con botones de acción "Iniciar sesión" y "Recuperar contraseña". El botón de crear cuenta permanece deshabilitado.
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US01_S3_email_duplicado.html — pantalla de registro con el campo email en estado de conflicto, banner naranja con opciones de login y recuperación, y botón principal deshabilitado. -->
+  <img src="resources/Chapter-IV/Us01 s3 email duplicado.png" alt="US01 S3 — Email duplicado" width="800"/>
+</p>
+
+---
+
+**US02 — Asignación de tipo de cuenta**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US02_S1_tipo_cuenta_asignado.html — pantalla de perfil mostrando los tres chips de tipo de cuenta con el chip "Paciente" activo en azul y los otros en gris deshabilitado, con nota explicativa de que el tipo no puede modificarse. -->
+  <img src="resources/Chapter-IV/Us02 s1 tipo cuenta asignado.png" alt="US02 S1 — Tipo de cuenta asignado" width="800"/>
+</p>
+
+---
+
+**US03 — Envío de correo de verificación**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US03_S1_verificar_email.html — pantalla post-registro con panel izquierdo azul mostrando instrucciones y panel derecho con banner de éxito verde, ícono de sobre, dirección de email destacada, botón "Abrir cliente de correo" y link de reenvío. -->
+  <img src="resources/Chapter-IV/Us03 s1 verificar email.png" alt="US03 S1 — Verificación enviada" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US03_S2_fallo_envio_correo.html — pantalla de error con banner rojo, detalles del intento fallido (código EMAIL_API_503), botón "Solicitar reenvío" y link de soporte. -->
+  <img src="resources/Chapter-IV/Us03 s2 fallo envio correo.png" alt="US03 S2 — Fallo en envío de correo" width="800"/>
+</p>
+
+---
+
+**US04 — Validación de correo electrónico**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US04_S1_email_validado.html — pantalla centrada con ícono de check verde grande, título "¡Cuenta activada!", badges de estado (Activa, Verificado, Paciente) y botón azul "Iniciar sesión". -->
+  <img src="resources/Chapter-IV/Us04 s1 email validado.png" alt="US04 S1 — Email validado" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US04_S2_token_expirado.html — pantalla con banner de advertencia amarillo, detalles del token (generado y vencido), campo de email pre-rellenado y botón "Enviar nuevo enlace". -->
+  <img src="resources/Chapter-IV/Us04 S2 token expirado.png" alt="US04 S2 — Token expirado" width="800"/>
+</p>
+
+---
+
+**US05 — Reenvío de token de verificación**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US05_S1_reenvio_exitoso.html — pantalla con banner de éxito verde, ícono de sobre azul, confirmación del correo de destino y nota de que el enlace anterior fue invalidado. -->
+  <img src="resources/Chapter-IV/Us05 s1 reenvio exitoso.png" alt="US05 S1 — Reenvío exitoso" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US05_S2_limite_reenvios.html — pantalla con banner de error rojo, countdown grande (28:45) indicando el tiempo restante de bloqueo y botón deshabilitado "Reenvío no disponible". -->
+  <img src="resources/Chapter-IV/Us05 s2 limite reenvios.png" alt="US05 S2 — Límite de reenvíos" width="800"/>
+</p>
+
+---
+
+**US06 — Activación de cuenta**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US06_S1_activacion_exitosa.html — pantalla centrada con check verde, grid de 3 badges (Activa / Verificado / Paciente) y botón "Iniciar sesión". -->
+  <img src="resources/Chapter-IV/Us06 S1 activacion exitosa.png" alt="US06 S1 — Cuenta activada" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US06_S2_cuenta_ya_activa.html — pantalla informativa con ícono de usuario azul, banner info, grid de badges de estado y botón "Ir a iniciar sesión". -->
+  <img src="resources/Chapter-IV/Us06 S2 cuenta ya activa.png" alt="US06 S2 — Cuenta ya activa" width="800"/>
+</p>
+
+---
+
+**US07 — Inicio de sesión**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US07_S1_login_exitoso.html — formulario de login con campos en verde y banner de éxito con spinner de carga "Ingresando al dashboard...". -->
+  <img src="resources/Chapter-IV/Us07 S1 login exitoso.png" alt="US07 S1 — Login exitoso" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US07_S2_credenciales_invalidas.html — formulario de login con campos en rojo, banner de error indicando "Intento 2 de 5" y botón de "Reintentar". -->
+  <img src="resources/Chapter-IV/Us07 S2 credenciales invalidas.png" alt="US07 S2 — Credenciales inválidas" width="800"/>
+</p>
+
+---
+
+**US08 — Bloqueo temporal de cuenta**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US08_S1_cuenta_bloqueada.html — pantalla de login con banner de error rojo, ícono de candado, countdown grande (29:52), botón deshabilitado y link de soporte. -->
+  <img src="resources/Chapter-IV/Us08 S1 cuenta bloqueada.png" alt="US08 S1 — Cuenta bloqueada" width="800"/>
+</p>
+
+---
+
+**US09 — Registro de datos de salud**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US09_S1_datos_salud_exitoso.html — vista de la app con sidebar de paciente activo en "Mi Perfil", formulario de datos biométricos con campos en verde, card de IMC calculado (25.5) y calorías recomendadas (2,180 kcal). -->
+  <img src="resources/Chapter-IV/Us09 S1 datos salud exitoso.png" alt="US09 S1 — Datos de salud guardados" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US09_S2_valores_fuera_rango.html — mismo formulario con campos de peso (350 kg) y presión en estado de error (borde rojo), panel lateral de errores y botón deshabilitado. -->
+  <img src="resources/Chapter-IV/Us09 S2 valores fuera rango.png" alt="US09 S2 — Valores fuera de rango" width="800"/>
+</p>
+
+---
+
+**US10 — Selección de objetivo nutricional**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US10_S1_objetivo_seleccionado.html — tres tarjetas de objetivo con "Bajar de peso" activa (fondo azul con check verde), banner de éxito y botón "Confirmar objetivo". -->
+  <img src="resources/Chapter-IV/Us10 S1 objetivo seleccionado.png" alt="US10 S1 — Objetivo seleccionado" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US10_S2_sin_objetivo.html — tres tarjetas con borde punteado sin selección activa, banner de error y botón deshabilitado "Selecciona una opción". -->
+  <img src="resources/Chapter-IV/Us10 S2 sin objetivo.png" alt="US10 S2 — Sin objetivo" width="800"/>
+</p>
+
+---
+
+**US11 — Restricciones alimentarias**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US11_S1_restricciones_guardadas.html — lista de restricciones registradas (Alergia severa: Mariscos / Intolerancia: Lactosa / Preferencia: Sin gluten) con badges de color y botón de agregar más. -->
+  <img src="resources/Chapter-IV/Us11 S1 restricciones guardadas.png" alt="US11 S1 — Restricciones guardadas" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US11_S2_sin_restricciones.html — área de contenido con ilustración de check verde, mensaje "Sin restricciones" y botón "Agregar más tarde". -->
+  <img src="resources/Chapter-IV/Us11 S2 sin restricciones.png" alt="US11 S2 — Sin restricciones" width="800"/>
+</p>
+
+---
+
+#### EP02 — Corporate Management
+
+**US12 — Registro de empresa**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US12_S1_registro_empresa.html — app con sidebar corporativo, formulario de empresa con campos completados en verde, card de estado "Pendiente verificación" y botón "Validar RUC". -->
+  <img src="resources/Chapter-IV/Us12 S1 registro empresa.png" alt="US12 S1 — Empresa registrada" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US12_S2_datos_incompletos_empresa.html — formulario corporativo con campos de razón social y RUC en error (borde rojo) y botón deshabilitado. -->
+  <img src="resources/Chapter-IV/Us12S S2 datos incompletos empresa.png" alt="US12 S2 — Datos incompletos empresa" width="800"/>
+</p>
+
+---
+
+**US13 — Validación fiscal de la empresa (RUC)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US13_S1_ruc_validado.html — tabla con resultado de consulta SUNAT mostrando RUC, razón social, estado ACTIVO y condición HABIDO en badges verdes, card verde "TechCorp S.A.C. verificada". -->
+  <img src="resources/Chapter-IV/Us13 S1 ruc validado.png" alt="US13 S1 — RUC validado" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US13_S2_ruc_invalido.html — campo de RUC en error con código RUC_NOT_FOUND, campo de nuevo RUC vacío y requisitos de formato. -->
+  <img src="resources/Chapter-IV/Us13 S2 ruc invalido.png" alt="US13 S2 — RUC inválido" width="800"/>
+</p>
+
+---
+
+**US14 — Carga de lista de colaboradores**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US14_S1_colaboradores_cargados.html — dashboard con 2 métricas (48 cargados, 48 invitaciones pendientes) y tabla con primeros colaboradores con badge "Inv. pendiente" y acceso generado. -->
+  <img src="resources/Chapter-IV/Us14 S1 colaboradores cargados.png" alt="US14 S1 — Colaboradores cargados" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US14_S2_formato_incorrecto.html — zona de drop con borde rojo punteado mostrando "colaboradores.xlsx — Formato no soportado", ejemplo de CSV correcto y botón de selección de archivo. -->
+  <img src="resources/Chapter-IV/Us14 S2 formato incorrecto.png" alt="US14 S2 — Formato incorrecto" width="800"/>
+</p>
+
+---
+
+**US15 — Envío de invitaciones corporativas**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US15_S1_invitaciones_enviadas.html — 4 métricas (45 OK, 3 error, en curso, 0 aceptadas) y tabla con filas de error mostrando email inválido y API timeout con botones de acción individuales. -->
+  <img src="resources/Chapter-IV/Us15 S1 invitaciones enviadas.png" alt="US15 S1 — Invitaciones enviadas" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US15_S2_error_envio_invitaciones.html — 4 métricas mostrando 3 errores, tabla de filas fallidas con códigos de error y botón "Reintentar todos". -->
+  <img src="resources/Chapter-IV/Us15 S2 error envio invitaciones.png" alt="US15 S2 — Error en envíos" width="800"/>
+</p>
+
+---
+
+**US16 — Dashboard Corporativo**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US16_S1_dashboard_corporativo.html — 4 métricas azul/verde (247 activos, 72% adherencia, 24.8 IMC, 247/300 licencias), gráfico de barras de evolución y gráfico de distribución de objetivos con progress bars. -->
+  <img src="resources/Chapter-IV/Us16 S1 dashboard corporativo.png" alt="US16 S1 — Dashboard corporativo con datos" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US16_S2_dashboard_sin_datos.html — 4 métricas con 3 en gris opaco, área principal con ilustración y texto "3 de 10 perfiles completados", progress bar naranja y botón de acción. -->
+  <img src="resources/Chapter-IV/Us16 S2 dashboard sin datos.png" alt="US16 S2 — Sin datos suficientes" width="800"/>
+</p>
+
+---
+
+**US17 — Consolidación de métricas anónimas**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US17_S1_consolidacion_exitosa.html — tabla de consolidación con filas mostrando 247 datos procesados, umbral de anonimato (10), datos individuales expuestos (0 — NINGUNO en badge rojo) y período consolidado. -->
+  <img src="resources/Chapter-IV/Us17 S1 consolidacion exitosa.png" alt="US17 S1 — Consolidación exitosa" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US17_S2_datos_insuficientes_anonimato.html — tabla mostrando 6 perfiles vs mínimo de 10, progress bar al 60% en naranja y card explicativa de la regla de privacidad. -->
+  <img src="resources/Chapter-IV/Us17 S2 datos insuficientes anonimato.png" alt="US17 S2 — Datos insuficientes para anonimizar" width="800"/>
+</p>
+
+---
+
+#### EP03 — Nutritional Planning
+
+**US18 — Asignación de nutricionista**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US18_S1_nutricionista_asignado.html — card azul claro con avatar "AT", nombre "Dra. Ana Torres", especialidad, email y fecha de asignación, card azul oscuro "Evaluación pendiente" y lista de próximos pasos. -->
+  <img src="resources/Chapter-IV/Us18 S1 nutricionista asignado.png" alt="US18 S1 — Nutricionista asignada" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US18_S2_en_cola_espera.html — card de espera con número de posición "#4", estimación de espera "1-3 días hábiles" y banner info de notificación por email. -->
+  <img src="resources/Chapter-IV/Us18 S2 en cola espera.png" alt="US18 S2 — En cola de espera" width="800"/>
+</p>
+
+---
+
+**US19 — Notificación de asignación**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US19_S1_notificacion_asignacion.html — vista previa del correo enviado (remitente, asunto, cuerpo con datos de la Dra. Torres) y card de estado de la notificación con badge "Enviado". -->
+  <img src="resources/Chapter-IV/Us19 S1 notificacion asignacion.png" alt="US19 S1 — Notificación enviada" width="800"/>
+</p>
+
+---
+
+**US20 — Evaluación inicial del paciente (vista nutricionista)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US20_S1_evaluar_perfil.html — vista con sidebar de nutricionista, datos biométricos del paciente (78 kg, 175 cm, IMC 25.5), área de observaciones con texto completado en verde, calorías objetivo y macros. -->
+  <img src="resources/Chapter-IV/Us20 S1 evaluar perfil.png" alt="US20 S1 — Evaluación completada" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US20_S2_evaluacion_incompleta.html — textarea de observaciones en rojo con mensaje de error y campo de calorías vacío en error, botón Guardar deshabilitado. -->
+  <img src="resources/Chapter-IV/Us20 S2 evaluacion incompleta.png" alt="US20 S2 — Evaluación incompleta" width="800"/>
+</p>
+
+---
+
+**US21 — Creación del plan nutricional (vista nutricionista)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US21_S1_plan_propuesto.html — grid de 4 días con comidas resumidas (Avena / Pollo / Ensalada), card azul con 1,850 kcal y barras de macronutrientes, badge "Propuesto" y alerta info de espera de aceptación. -->
+  <img src="resources/Chapter-IV/Us21 S1 plan propuesto.png" alt="US21 S1 — Plan propuesto" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US21_S2_plan_incompleto.html — campos de título y calorías en rojo, área de días vacía con borde punteado rojo y botón "Agregar primer día". -->
+  <img src="resources/Chapter-IV/Us21 S2 plan incompleto.png" alt="US21 S2 — Plan incompleto" width="800"/>
+</p>
+
+---
+
+**US22 — Aceptación/rechazo del plan (vista paciente)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US22_S1_acepta_plan.html — grid de días del plan con badge "Activado ✓", card verde con calorías y barras de macros, banner de éxito y botón "Ver mi dieta semanal". -->
+  <img src="resources/Chapter-IV/Us22 S1 acepta plan.png" alt="US22 S1 — Plan aceptado" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US22_S2_rechazo_plan.html — card con texto del rechazo en cursiva con borde rojo izquierdo, badge "Rechazado" y nota informativa de próximo plan. -->
+  <img src="resources/Chapter-IV/Us22 S2 rechazo plan.png" alt="US22 S2 — Plan rechazado" width="800"/>
+</p>
+
+---
+
+**US23 — Vista de Dieta Semanal**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US23_S1_dieta_semanal.html — grid de 7 días con el día jueves activo en azul mostrando las comidas del plan (desayuno, almuerzo, merienda, cena) y las calorías de cada día. -->
+  <img src="resources/Chapter-IV/Us23 S1 dieta semanal.png" alt="US23 S1 — Dieta semanal" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US23_S2_sin_plan_activo.html — área vacía con ícono de plan, lista de pasos del proceso (1 y 2 completados con check verde, 3 y 4 pendientes), alerta info de la nutricionista notificada. -->
+  <img src="resources/Chapter-IV/Us23 S2 sin plan activo.png" alt="US23 S2 — Sin plan activo" width="800"/>
+</p>
+
+---
+
+**US24 — Agendar consulta de control**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US24_S1_consulta_agendada.html — card azul con fecha "Mié 30 Abr · 10:00 AM · Videollamada", card de próximas consultas con badge "Confirmada" y alerta info de recordatorio. -->
+  <img src="resources/Chapter-IV/Us24 S1 consulta agendada.png" alt="US24 S1 — Consulta agendada" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US24_S2_sin_disponibilidad.html — calendario semanal con martes en rojo y miércoles/jueves en azul, lista de horarios disponibles con botones "Agendar" en verde. -->
+  <img src="resources/Chapter-IV/Us24 S2 sin disponibilidad.png" alt="US24 S2 — Sin disponibilidad" width="800"/>
+</p>
+
+---
+
+**US25 — Recordatorio de cita**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US25_S1_recordatorio_enviado.html — vista previa del correo de recordatorio con fecha, hora y link de videollamada, card de estado con badge "Enviado" y botón "Cancelar consulta". -->
+  <img src="resources/Chapter-IV/Us25 S1 recordatorio enviado.png" alt="US25 S1 — Recordatorio enviado" width="800"/>
+</p>
+
+---
+
+**US26 — Notas de consulta (vista nutricionista)**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US26_S1_notas_guardadas.html — textarea con notas completadas en verde (adherencia 82%, ajuste de merienda, déficit mantenido), campos de fecha y modalidad, card con datos de progreso del paciente. -->
+  <img src="resources/Chapter-IV/Us26 S1 notas guardadas.png" alt="US26 S1 — Notas guardadas" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US26_S2_notas_vacias.html — textarea en estado de error con mensaje "Campo obligatorio" y botón deshabilitado "Guardar — campo obligatorio vacío". -->
+  <img src="resources/Chapter-IV/Us26 S2 notas vacias.png" alt="US26 S2 — Notas vacías" width="800"/>
+</p>
+
+---
+
+#### EP04 — Progress Tracking & Monitoring
+
+**US27 — Registro de consumo diario**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US27_S1_registro_consumo.html — lista de comidas del día con badges verdes de completadas (desayuno 380 kcal, almuerzo 620 kcal, merienda 230 kcal, cena 380 kcal), card azul con total 1,610/1,850 kcal y card verde con 94% de adherencia del día. -->
+  <img src="resources/Chapter-IV/Us27 S1 registro consumo.png" alt="US27 S1 — Consumo registrado" width="800"/>
+</p>
+
+---
+
+**US28 — Registro de actividad física**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US28_S1_actividad_registrada.html — campos de actividad (Caminata rápida), intensidad (Moderada), duración (45 min) y calorías quemadas (~280 kcal) en verde, card verde con calorías y mini-chart semanal con 4 días activos. -->
+  <img src="resources/Chapter-IV/Us28 S1 actividad registrada.png" alt="US28 S1 — Actividad registrada" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US28_S2_datos_invalidos_actividad.html — campo de duración (-30) en rojo con "Debe ser mayor a 0" y campo de calorías (-500) en rojo con "Valor negativo". -->
+  <img src="resources/Chapter-IV/Us28 S2 datos invalidos actividad.png" alt="US28 S2 — Datos inválidos" width="800"/>
+</p>
+
+---
+
+**US29 — Actualización de peso semanal**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US29_S1_peso_actualizado.html — campo de peso (78.0 kg) en verde, dos cards con peso anterior (79.2 kg) y variación (−1.2 kg en verde), card azul "78.0 kg" con meta y tabla de evolución de las últimas semanas. -->
+  <img src="resources/Chapter-IV/Us29 S1 peso actualizado.png" alt="US29 S1 — Peso actualizado" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US29_S2_peso_invalido.html — campo de peso con valor "5" en rojo, mensaje "Mínimo 10 kg · Máximo 300 kg" y botón deshabilitado. -->
+  <img src="resources/Chapter-IV/Us29 S2 peso invalido.png" alt="US29 S2 — Peso inválido" width="800"/>
+</p>
+
+---
+
+**US30 — Gráfico de progreso**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US30_S1_grafico_progreso.html — gráfico de barras de evolución de peso (8 semanas, última barra azul sólida), 3 cards de métricas (81.2 kg inicial / 78.0 kg actual / 72.0 kg meta) y 4 cards de indicadores en la fila inferior. -->
+  <img src="resources/Chapter-IV/Us30 S1 grafico progreso.png" alt="US30 S1 — Gráfico de progreso" width="800"/>
+</p>
+
+---
+
+**US31 — Cálculo de adherencia al plan**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US31_S1_adherencia_calculada.html — 4 métricas (82% adherencia semanal, 6/7 días registrados, 87% comidas según plan, alerta no enviada), gráfico de barras por día con colores según porcentaje (azul ≥80%, verde ≥60%, rojo bajo). -->
+  <img src="resources/Chapter-IV/Us31 S1 adherencia calculada.png" alt="US31 S1 — Adherencia calculada" width="800"/>
+</p>
+
+---
+
+**US32 — Alerta de bajo cumplimiento**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US32_S1_alerta_bajo_cumplimiento.html — card roja con avatar "CL", nombre "Carlos López" y badge "35% adherencia", 3 métricas (2/7 días, umbral 60%, 2 semanas consecutivas), card de notificación enviada con badge verde y card de recomendación en amarillo. -->
+  <img src="resources/Chapter-IV/Us32 S1 alerta bajo cumplimiento.png" alt="US32 S1 — Alerta enviada" width="800"/>
+</p>
+
+---
+
+**US33 — Generación de reporte PDF de evolución**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US33_S1_reporte_generado.html — dos cards de peso (81.2 kg inicial / 78.0 kg con -3.2 kg), card azul de archivo PDF con nombre y tamaño, card azul oscuro con variación total y botón "Descargar PDF". -->
+  <img src="resources/Chapter-IV/Us33 S1 reporte generado.png" alt="US33 S1 — Reporte generado" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US33_S2_datos_insuficientes_reporte.html — ícono de documento amarillo, mensaje "PDF no generado", progress bar al 21% (3 de 14 días mínimos) y card con botón "Recordar al paciente". -->
+  <img src="resources/Chapter-IV/Us33 S2 datos insuficientes reporte.png" alt="US33 S2 — Datos insuficientes" width="800"/>
+</p>
+
+---
+
+#### EP05 — Subscriptions & Billing
+
+**US34 — Contratación de plan B2C**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US34_S1_suscripcion_activada.html — grid de 3 planes con Plan Profesional en gradiente azul y escala 1.04, badge verde "Plan activo", plans flanqueantes en gris. Banner de éxito y detalle de pago en fondo verde claro. -->
+  <img src="resources/Chapter-IV/Us34 S1 suscripcion activada.png" alt="US34 S1 — Suscripción activada" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US34_S2_pago_rechazado.html — formulario de pago con campo de tarjeta en rojo (CARD_EXPIRED), card roja "0/50 licencias" y botones "Usar otra tarjeta" / "Transferencia". -->
+  <img src="resources/Chapter-IV/Us34 S2 pago rechazado.png" alt="US34 S2 — Pago rechazado" width="800"/>
+</p>
+
+---
+
+**US35 — Resumen de facturación**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US35_S1_resumen_facturacion.html — 4 métricas (Plan Profesional, Activa, 24 Mayo próxima renovación, S/59.00 pagado), tabla con fila de pago aprobado y link a factura F-2026-0001. -->
+  <img src="resources/Chapter-IV/Us35 S1 resumen facturacion.png" alt="US35 S1 — Resumen de facturación" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US35_S2_sin_pagos.html — área vacía con ícono de tarjeta gris, mensaje "Plan Starter (Gratuito)", texto explicativo y botón "Ver planes disponibles". -->
+  <img src="resources/Chapter-IV/Us35 S2 sin pagos.png" alt="US35 S2 — Sin pagos" width="800"/>
+</p>
+
+---
+
+**US36 — Paquete corporativo B2B**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US36_S1_paquete_corporativo.html — 4 métricas corporativas (50 licencias, 50 disponibles, S/299.00, 24 Mayo), tabla con fila de la orden y link a factura FC-2026-0001. -->
+  <img src="resources/Chapter-IV/Us36 S1 paquete corporativo.png" alt="US36 S1 — Paquete corporativo adquirido" width="800"/>
+</p>
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US36_S2_pago_corporativo_rechazado.html — formulario con campo de tarjeta en rojo (INSUFFICIENT_FUNDS), card roja "0/50 licencias" y card de motivo del rechazo. -->
+  <img src="resources/Chapter-IV/Us36 S2 pago corporativo rechazado.png" alt="US36 S2 — Pago corporativo rechazado" width="800"/>
+</p>
+
+---
+
+**US37 — Factura corporativa**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US37_S1_factura_corporativa.html — documento de factura con encabezado BioTrack / NexTech, datos de TechCorp S.A.C., tabla con línea de Plan Empresarial (50 licencias × S/5.98 = S/299.00) y desglose subtotal/IGV/total. -->
+  <img src="resources/Chapter-IV/Us37 S1 factura corporativa.png" alt="US37 S1 — Factura corporativa" width="800"/>
+</p>
+
+---
+
+**US38 — Renovación automática**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US38_S1_renovacion_automatica.html — tabla de detalle de renovación con plan, monto, tarjeta, fecha y nueva vigencia hasta 24/06/2026 en fondo verde claro, card verde "Plan Profesional activo" y botones de gestión. -->
+  <img src="resources/Chapter-IV/Us38 S1 renovacion automatica.png" alt="US38 S1 — Renovación automática" width="800"/>
+</p>
+
+---
+
+**US39 — Suspensión por cobro fallido**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US39_S1_premium_suspendido.html — formulario de nuevo método de pago, card roja "Sin activar" con monto adeudado, lista de funcionalidades bloqueadas con íconos ✕ y botón "Regularizar pago". -->
+  <img src="resources/Chapter-IV/Us39 S1 premium suspendido.png" alt="US39 S1 — Premium suspendido" width="800"/>
+</p>
+
+---
+
+**US40 — Aviso de pago atrasado**
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup US40_S1_aviso_pago_atrasado.html — vista previa del correo de aviso (remitente pagos@biotrack.pe, monto S/59.00, motivo CARD_EXPIRED, fecha límite 31/05), card roja con monto adeudado y botón rojo "Regularizar pago". -->
+  <img src="resources/Chapter-IV/Us40 S1 aviso pago atrasado.png" alt="US40 S1 — Aviso de pago atrasado" width="800"/>
+</p>
+
+---
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+Los User Flow Diagrams presentan de forma integrada las pantallas de la aplicación web junto con las rutas de navegación que el usuario sigue para alcanzar un objetivo específico. A diferencia de los Wireflow Diagrams, los User Flows incorporan los mock-ups finales de cada pantalla en el recorrido, los nodos de decisión con sus condiciones booleanas y las rutas alternativas ante errores o condiciones de excepción, constituyendo el mapa completo de la experiencia de uso real.
+
+Cada User Flow define un **User Goal** concreto, identifica el perfil de usuario que lo ejecuta (Paciente, Nutricionista o Admin Corporativo), detalla las pantallas involucradas con sus estados de éxito y error, y especifica las respuestas del sistema ante cada acción del usuario. Los diagramas fueron elaborados tomando como base los Task Flows correspondientes de cada User Story, priorizando la trazabilidad entre requerimientos y experiencia de usuario.
+
+---
+
+**User Flow 1 — Registro, verificación y configuración del perfil**
+
+*User Goal: El paciente desea crear su cuenta, verificar su correo electrónico y completar su perfil de salud para ser asignado a un nutricionista.*
+
+El flujo comienza en la pantalla de registro (US01) donde el usuario selecciona el tipo de cuenta Paciente, completa sus datos y envía el formulario. Si los campos son inválidos (US01 S2) o el email ya está registrado (US01 S3), el sistema muestra los errores inline y bloquea el avance. Ante un registro exitoso (US01 S1) el sistema asigna el tipo de cuenta automáticamente (US02 S1) y envía el correo de verificación (US03 S1), o notifica el fallo de envío (US03 S2). El usuario valida su correo (US04 S1) o solicita el reenvío si el token expiró (US04 S2, US05 S1), con bloqueo temporal si supera el límite de reintentos (US05 S2). Tras la activación (US06 S1) el usuario accede a la aplicación y completa el perfil ingresando datos de salud (US09), objetivo nutricional (US10) y restricciones alimentarias (US11) hasta que el perfil queda marcado como completo.
+
+**Happy Path:** US01 S1 → US02 S1 → US03 S1 → US04 S1 → US06 S1 → US09 S1 → US10 S1 → US11 S1/S2 → Perfil completo → BC04
+
+**Unhappy Paths:** Campos vacíos (US01 S2) · Email duplicado (US01 S3) · Token expirado (US04 S2) → reenvío (US05 S1) · Límite de reenvíos (US05 S2) · Datos fuera de rango (US09 S2) · Sin objetivo seleccionado (US10 S2)
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del User Flow Diagram 1 generado en LucidChart mostrando el recorrido completo desde el formulario de registro hasta el perfil de salud completado, con los mockups de cada pantalla en los nodos y las conexiones de decisión (campos inválidos, email duplicado, token expirado, datos fuera de rango). -->
+  <img src="resources/Chapter-IV/userflow_01_registro_perfil.png" alt="User Flow 1 — Registro, verificación y perfil" width="800"/>
+</p>
+
+---
+
+**User Flow 2 — Inicio de sesión y acceso al dashboard**
+
+*User Goal: El usuario registrado y verificado desea iniciar sesión en la plataforma y acceder a su dashboard principal.*
+
+El flujo inicia en la pantalla de login donde el usuario ingresa sus credenciales. Si son correctas (US07 S1) el sistema autentica mediante JWT, genera la sesión y redirige al dashboard. Si son incorrectas (US07 S2) el sistema muestra error genérico sin indicar qué campo falló e incrementa el contador de intentos. Al alcanzar cinco intentos fallidos (US08 S1) la cuenta se bloquea temporalmente durante 30 minutos con countdown visible, y el usuario no puede intentar nuevamente hasta que el tiempo expire.
+
+**Happy Path:** Login → US07 S1 → Dashboard principal
+
+**Unhappy Paths:** Credenciales inválidas (US07 S2, contador 1–4) · Cuenta bloqueada tras 5 intentos (US08 S1) con espera de 30 minutos
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del User Flow Diagram 2 mostrando la pantalla de login, el nodo de decisión de credenciales válidas, el contador de intentos fallidos y la pantalla de cuenta bloqueada con countdown. -->
+  <img src="resources/Chapter-IV/userflow_02_login.png" alt="User Flow 2 — Inicio de sesión" width="800"/>
+</p>
+
+---
+
+**User Flow 3 — Asignación de nutricionista y planificación nutricional**
+
+*User Goal: El paciente con perfil completo desea ser asignado a un nutricionista, recibir su evaluación y aceptar el plan nutricional para iniciar el seguimiento.*
+
+El flujo es disparado automáticamente cuando el sistema detecta el evento `PerfilPacienteCompleto`. Si hay nutricionistas disponibles (US18 S1) el sistema asigna al profesional, notifica al paciente (US19 S1) y el nutricionista completa la evaluación inicial (US20 S1). Si la evaluación tiene campos vacíos (US20 S2) no puede guardarse. El nutricionista crea el plan nutricional (US21 S1) y lo propone al paciente; si el plan está incompleto (US21 S2) tampoco puede enviarse. El paciente revisa el plan y puede aceptarlo (US22 S1), lo que activa el plan y habilita la dieta semanal (US23 S1), o rechazarlo con observaciones obligatorias (US22 S2). Si no hay disponibilidad de nutricionistas (US18 S2) el paciente entra en cola de espera.
+
+**Happy Path:** US18 S1 → US19 S1 → US20 S1 → US21 S1 → US22 S1 → US23 S1 → BC05
+
+**Unhappy Paths:** Sin disponibilidad de nutricionistas (US18 S2) · Evaluación incompleta (US20 S2) · Plan incompleto (US21 S2) · Plan rechazado (US22 S2) · Sin plan activo (US23 S2)
+
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del User Flow Diagram 3 mostrando el flujo de asignación automática, cola de espera, evaluación del nutricionista, creación y propuesta del plan, aceptación o rechazo del paciente y activación de la dieta semanal. -->
+  <img src="resources/Chapter-IV/userflow_03_planificacion.png" alt="User Flow 3 — Planificación nutricional" width="800"/>
+</p>
+
+---
+
+**User Flow 4 — Seguimiento diario y monitoreo del progreso**
+
+*User Goal: El paciente activo desea registrar su consumo diario, actividad física y peso semanal para mantener el seguimiento de su plan nutricional.*
+
+El paciente accede a la sección de Seguimiento donde registra cada tipo de comida del día (US27 S1), con al menos una descripción requerida. Registra también su actividad física con duración válida mayor a cero (US28 S1), con validación de valores negativos (US28 S2). Semanalmente actualiza su peso dentro del rango clínico permitido (US29 S1), con rechazo de valores inválidos (US29 S2). El sistema calcula automáticamente la adherencia semanal (US31 S1) y si supera el umbral muestra el gráfico de progreso actualizado (US30 S1). Si la adherencia cae bajo el 60%, el sistema envía automáticamente una alerta al nutricionista (US32 S1). Cuando hay suficientes datos acumulados, el nutricionista puede generar el reporte PDF de evolución (US33 S1) o recibir mensaje de datos insuficientes (US33 S2).
+
+**Happy Path:** US27 S1 → US28 S1 → US29 S1 → US31 S1 → US30 S1 → US33 S1
+
+**Unhappy Paths:** Duración de actividad inválida (US28 S2) · Peso fuera de rango (US29 S2) · Alerta de bajo cumplimiento (US32 S1) · Datos insuficientes para reporte (US33 S2)
+
+
+---
+
+**User Flow 5 — Gestión de consultas de control**
+
+*User Goal: El paciente desea agendar una consulta de control con su nutricionista, recibir el recordatorio automático y que el nutricionista registre las notas de la sesión.*
+
+El paciente accede a la sección de Consultas y selecciona una fecha disponible (US24 S1). Si la fecha seleccionada no tiene disponibilidad (US24 S2) el sistema sugiere alternativas automáticamente. Veinticuatro horas antes de la cita el sistema envía el recordatorio automático al correo del paciente (US25 S1). Tras la realización de la consulta el nutricionista registra las notas clínicas obligatorias (US26 S1), con validación que impide guardar sin contenido (US26 S2). Las notas quedan vinculadas al historial del paciente y son visibles en su perfil.
+
+**Happy Path:** US24 S1 → US25 S1 → US26 S1
+
+**Unhappy Paths:** Fecha sin disponibilidad (US24 S2) con alternativas sugeridas · Notas vacías (US26 S2)
+
+
+---
+
+**User Flow 6 — Registro y gestión corporativa**
+
+*User Goal: El Administrador Corporativo desea registrar su empresa, validarla fiscalmente, cargar su lista de colaboradores y acceder al Dashboard Corporativo con métricas de bienestar.*
+
+El admin corporativo registra los datos de su empresa (US12 S1) con validación de campos obligatorios (US12 S2). El sistema valida el RUC automáticamente contra la API de SUNAT (US13 S1) o informa el error si el RUC no es válido (US13 S2). Verificada la empresa, el admin sube el archivo CSV de colaboradores (US14 S1) con rechazo si el formato no es correcto (US14 S2). El sistema envía las invitaciones de acceso individuales (US15 S1) y notifica los errores parciales con opción de reintento (US15 S2). Una vez hay suficientes colaboradores activos, el Dashboard Corporativo muestra las métricas grupales anonimizadas (US16 S1); si no se alcanza el umbral mínimo de anonimato, el dashboard muestra el mensaje de datos insuficientes (US16 S2, US17 S2).
+
+**Happy Path:** US12 S1 → US13 S1 → US14 S1 → US15 S1 → US16 S1 → US17 S1
+
+**Unhappy Paths:** Datos incompletos (US12 S2) · RUC inválido (US13 S2) · Formato CSV incorrecto (US14 S2) · Errores de envío (US15 S2) · Sin datos suficientes (US16 S2, US17 S2)
+
+
+---
+
+**User Flow 7 — Suscripción y facturación B2C**
+
+*User Goal: El paciente o nutricionista desea contratar el Plan Profesional, gestionar su facturación y mantener activa su suscripción mediante renovación automática.*
+
+El usuario accede a la sección de Facturación donde selecciona el Plan Profesional con ciclo mensual o anual (US34). Si el pago es aprobado (US34 S1) la suscripción queda activa, se emite la factura automáticamente y el historial de facturación refleja el pago (US35 S1). Si el pago es rechazado (US34 S2) el usuario recibe el motivo y puede corregir sus datos. Mensualmente el sistema procesa la renovación automática (US38 S1) sin interrupción del servicio. Si el cobro de renovación falla, la suscripción es suspendida (US39 S1) y el usuario recibe el aviso de pago atrasado (US40 S1) con instrucciones para regularizar. El historial de facturación muestra el estado de cada transacción (US35 S1) o indica que no hay pagos si el usuario está en Plan Starter (US35 S2).
+
+**Happy Path:** US34 S1 → US35 S1 → US38 S1 (mensual)
+
+**Unhappy Paths:** Pago rechazado (US34 S2) · Sin historial de pagos (US35 S2) · Cobro de renovación fallido → suspensión (US39 S1) → aviso (US40 S1)
+
+
+---
+
+**User Flow 8 — Suscripción corporativa B2B**
+
+*User Goal: El Administrador Corporativo desea adquirir el paquete de licencias empresariales, obtener la factura corporativa y habilitar el acceso de sus colaboradores.*
+
+El admin accede a Facturación y selecciona el paquete corporativo con el número de licencias requerido (US36). Si el pago es aprobado (US36 S1) las licencias quedan habilitadas inmediatamente, se emite la factura corporativa con datos de la empresa y desglose de IGV (US37 S1) y el sistema confirma el paquete activo. Si el pago corporativo es rechazado (US36 S2) ninguna licencia se habilita y el admin recibe el motivo del rechazo para gestionar con su área de finanzas.
+
+**Happy Path:** US36 S1 → US37 S1 → Licencias activas → BC03
+
+**Unhappy Paths:** Pago corporativo rechazado (US36 S2)
+
+
 
 ### 4.5. Web Applications Prototyping
+
+### Descripción general de la Landing Page y Prototipo
+
+El prototipo de **BioTrack** integra tanto la landing page como la navegación inicial de la aplicación web, permitiendo visualizar de forma completa la propuesta de valor y los principales flujos de uso del sistema.
+
+La landing page inicia con un **header de navegación** que incluye secciones como “¿Para quién?”, “¿Cómo funciona?”, “Planes” y “Testimonios”, además de accesos directos a “Iniciar sesión” y “Comenzar gratis”. En la sección principal se presenta el eslogan del producto, acompañado de una breve descripción que destaca el enfoque de BioTrack en la gestión nutricional basada en datos reales, dirigida tanto a pacientes como a organizaciones.
+
+A lo largo de la página se incorporan elementos de confianza como organizaciones referentes, así como secciones de funcionalidades clave: planes nutricionales personalizados, seguimiento en tiempo real, dashboards corporativos, gestión de nutricionistas, generación de reportes automáticos y sistema de notificaciones mediante alertas y recordatorios.
+
+Asimismo, se definen claramente los **segmentos objetivo** (pacientes y empresas), resaltando cómo la plataforma contribuye a mejorar hábitos de salud, combatir el sedentarismo y fomentar una alimentación constante mediante seguimiento continuo.
+
+La sección “¿Cómo funciona?” describe el flujo principal del usuario: creación de cuenta, configuración del perfil, asignación de un plan nutricional y seguimiento del progreso. También se presentan métricas generales del sistema, como pacientes activos, organizaciones registradas, adherencia promedio y satisfacción de usuarios.
+
+En la parte comercial, se incluye la sección de **planes y precios**, donde se muestran tres niveles (Básico, Premium y Empresarial), cada uno adaptado a diferentes necesidades y con funcionalidades progresivas.
+
+Finalmente, la landing incorpora testimonios de usuarios, un llamado a la acción para comenzar gratuitamente y un footer con información adicional.
+
+El prototipo continúa con el flujo de la aplicación, incluyendo registro e inicio de sesión, verificación de cuenta y acceso al dashboard. Dentro del sistema, el usuario puede interactuar con módulos como perfil de salud, gestión de pacientes, plan nutricional, seguimiento de progreso y facturación, consolidando una experiencia integral orientada al monitoreo y mejora del bienestar.
+
+![Wireflow 6 – Gestión de citas médicas BioTrack](resources/Chapter-IV/prototype-video.png)
 
 # 4.6. Domain-Driven Software Architecture
 
