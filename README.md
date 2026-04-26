@@ -161,96 +161,95 @@ A continuación se presentaran los commit realizados por los contribuidores:
 
 ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 <div>
-<table>
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Nombre</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Criterio 1 -->
-    <tr>
-      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
-      <td>Pacheco Lavado, Rafael Agustin</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-      <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
-    </tr>
-    <tr>
-      <td>Mendoza Moreano, Mariel Lucero </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto
-        <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Díaz Yurivilca, Sofía </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Rengifo Lozano, David </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Villón Amez, Enrique</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <!-- Criterio 2 -->
-    <tr>
-      <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
-      <td>Pacheco Lavado, Rafael Agustin</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-      <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
-    </tr>
-    <tr>
-      <td>Mendoza Moreano, Mariel Lucero </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Díaz Yurivilca, Sofía</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Rengifo Lozano, David</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Villón Amez, Enrique</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+  <table>
+    <thead>
+      <tr>
+        <th>Criterio específico</th>
+        <th>Nombre</th>
+        <th>Acciones realizadas</th>
+        <th>Conclusiones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Criterio 1 -->
+      <tr>
+        <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+        <td>Pacheco Lavado, Rafael Agustin</td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Participé activamente en la definición estratégica del proyecto mediante la descripción de la Startup y el análisis de antecedentes. Asimismo, aporté al análisis técnico durante las sesiones de Big Picture EventStorming y la definición del Ubiquitous Language, asegurando que los conceptos de negocio se tradujeran correctamente al modelo de dominio.
+        </td>
+        <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
+      </tr>
+      <tr>
+        <td>Mendoza Moreano, Mariel Lucero </td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Texto
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td>Díaz Yurivilca, Sofía </td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Texto<br>
+        </td>
+      </tr>
+      <tr>
+        <td>Rengifo Lozano, David </td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Texto<br>
+        </td>
+      </tr>
+      <tr>
+        <td>Villón Amez, Enrique</td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Texto<br>
+        </td>
+      </tr>
+      <!-- Criterio 2 -->
+      <tr>
+        <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+        <td>Pacheco Lavado, Rafael Agustin</td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Establecí las guías de estilo generales para el equipo y documenté íntegramente la sección 5.2 de implementación. En el desarrollo técnico, cumplí con los objetivos del sprint al implementar la Landing Page con soporte multilingüe (i18n), el formulario de contacto y las vistas de autenticación, integrando además las métricas de colaboración de GitHub.<br>
+        </td>
+        <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
+      </tr>
+      <tr>
+        <td>Mendoza Moreano, Mariel Lucero </td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Texto<br>
+        </td>
+      </tr>
+      <tr>
+        <td>Díaz Yurivilca, Sofía</td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Texto<br>
+        </td>
+      </tr>
+      <tr>
+        <td>Rengifo Lozano, David</td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Texto<br>
+        </td>
+      </tr>
+      <tr>
+        <td>Villón Amez, Enrique</td>
+        <td>
+          <strong>ℹ️ AV1:</strong><br>
+          Texto<br>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ---
