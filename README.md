@@ -3340,7 +3340,7 @@ SYS --> PDF : Genera reportes PDF\nde evolución (US33)
   <figcaption style="margin-bottom: 10px;">
     <strong>Figura 68.</strong> <em>Estructura de bounded context relacionados</em>
   </figcaption>
-  <img src="resources/Chapter-IV/bc_flujo5.png" alt="bounded context relacionados" width="800">
+  <img src="resources/Chapter-IV/bc_relaciones.png" alt="bounded context relacionados" width="800">
   <figcaption style="margin-top: 10px;">
     <strong>Fuente:</strong> Elaboración propia.
   </figcaption>
@@ -3489,6 +3489,11 @@ end note
 
 @enduml
 ```
+- Imagen del BC: auth service component de Biotrack :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_auth.png" alt="bounded context component" width="800"/>
+</p>
 
 ---
 
@@ -3534,6 +3539,11 @@ end note
 
 @enduml
 ```
+- Imagen del BC: profile service component de Biotrack :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_profileserv.png" alt="bounded context component" width="800"/>
+</p>
 
 ---
 
@@ -3586,6 +3596,11 @@ end note
 
 @enduml
 ```
+- Imagen del BC: corporate  service component de Biotrack :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_corporatesev.png" alt="bounded context component" width="800"/>
+</p>
 
 ---
 
@@ -3641,6 +3656,11 @@ end note
 
 @enduml
 ```
+- Imagen del Container de Biotrack :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_planningsev.png" alt="bounded context component" width="800"/>
+</p>
 
 ---
 
@@ -3698,6 +3718,11 @@ end note
 
 @enduml
 ```
+- - Imagen del BC: tracking service component de Biotrack :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_trackingsev.png" alt="bounded context component" width="800"/>
+</p>
 
 ---
 
@@ -3755,6 +3780,11 @@ end note
 
 @enduml
 ```
+- Imagen del BC: billing service component de Biotrack :
+<p align="center">
+  <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
+  <img src="resources/Chapter-IV/bc_billing.png" alt="bounded context component" width="800"/>
+</p>
 
 ---
 
@@ -3960,7 +3990,6 @@ El esquema se organiza en las siguientes tablas por categoría:
 La normalización aplicada al esquema de BioTrack se resume en tres puntos fundamentales. La *Primera Forma Normal (1FN)* se cumple con valores atómicos en todas las columnas: los tipos de dato ENUM garantizan dominios controlados en campos como tipo_cuenta, estado, tipo_comida y objetivo_nutricional, y las restricciones alimentarias múltiples se normalizan en la tabla hija restricciones_alimentarias en lugar de una columna de lista. La *Segunda Forma Normal (2FN)* se cumple con claves primarias simples (INT UNSIGNED AUTO_INCREMENT) en todas las tablas, eliminando dependencias parciales. La *Tercera Forma Normal (3FN)* se evidencia en seis decisiones clave de diseño: la separación de perfiles_paciente, perfiles_nutricionista y perfiles_corporativo de la tabla base usuarios elimina dependencias transitivas del tipo de cuenta; la tabla planes_suscripcion centraliza el catálogo de precios evitando que el precio se repita en cada suscripción; la separación de plan_dias y plan_comidas normaliza la estructura jerárquica del plan nutricional; los campos calculados imc_calculado y porcentaje_adherencia usan GENERATED ALWAYS AS en lugar de ser almacenados manualmente para evitar inconsistencias; la tabla metricas_corporativas almacena únicamente datos derivados y anonimizados, separados completamente de los datos individuales; y la separación de pagos y facturas distingue el evento transaccional del documento fiscal generado, siguiendo el principio de responsabilidad única.
 
 
-
 ## 🛠️ Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1. Software Configuration Management
@@ -4028,6 +4057,7 @@ La Landing se ubicará en una carpeta /docs dentro del branch princial del repos
 
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
+El primer Sprint de **BioTrack** se centró en establecer la presencia digital inicial y la infraestructura base de servicios. Se priorizó la creación de la Landing Page para la captación de usuarios y la implementación de los servicios de autenticación y gestión de perfiles de salud, fundamentales para los tres segmentos objetivo.
 ##### 5.2.1.1. Sprint Planning 1
 A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1. Se discution los objetivos, etapa de tiempo y tareas a realizar.
 
