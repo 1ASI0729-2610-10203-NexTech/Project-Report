@@ -4186,7 +4186,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
     </tr>
     <tr>
       <td>Villón Amez, Enrique</td>
-      <td>enriquevillonupc</td>
+      <td>enriquevillon25</td>
       <td>C</td>
       <td>C</td>
       <td>C</td>
@@ -4239,7 +4239,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
       <td>Implementar Navbar Responsivo</td>
       <td>Crear la barra de navegación superior con menú hamburguesa para móviles y scroll suave.</td>
       <td>2</td>
-      <td>enriquevillonupc</td>
+      <td>enriquevillon25</td>
       <td>Done</td>
     </tr>
     <tr>
@@ -4289,7 +4289,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
       <td>Despliegue GitHub Pages</td>
       <td>Configurar el repositorio y lanzar la versión estática en GitHub Pages para revisión.</td>
       <td>2</td>
-      <td>enriquevillonupc</td>
+      <td>enriquevillon25</td>
       <td>Done</td>
     </tr>
   </tbody>
