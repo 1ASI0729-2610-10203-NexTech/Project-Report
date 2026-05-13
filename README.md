@@ -1658,65 +1658,78 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 
 ### 3.3. Product Backlog
 
+El Product Backlog de BioTrack presenta las User Stories y Technical Stories priorizadas según el valor que aportan al modelo de negocio digital. En primer lugar, se consideran las historias relacionadas con la Landing Page, debido a que permiten comunicar la propuesta de valor, captar visitantes y dirigir a los segmentos objetivo hacia la Web Application desde el primer Sprint. Luego, se priorizan las funcionalidades centrales del producto, como el registro de datos de salud, la planificación nutricional, el seguimiento del progreso, el dashboard corporativo y la contratación de planes. Finalmente, se incorporan historias de soporte, autenticación, facturación avanzada y Technical Stories del RESTful API.
+
+Las estimaciones se realizaron utilizando la escala Fibonacci permitida para Story Points: 1, 2, 3, 5 y 8. Asimismo, se incluyeron Technical Stories relacionadas con el RESTful API, ya que el proyecto requiere una Web Application integrada con servicios internos.
+
+**Herramienta utilizada para el Product Backlog:** Jira 
+
+**URL pública del Product Backlog:** https://sdyurivilca.atlassian.net/jira/software/projects/BIO/boards/1/backlog?atlOrigin=eyJpIjoiYjdhMzlmODkxNzY5NDNiYTg3MmNiZTg5OTFiYjBkODEiLCJwIjoiaiJ9 
+
+**Evidencia del Product Backlog:**  
+
+![Backlog](resources/Chapter-III/productbacklog.png)
+
 | # Orden | User Story Id | Título | Descripción | Story Points |
-|--------|--------------|--------|------------|-------------|
+|---:|---|---|---|---:|
 | 1 | US41 | Visualizar propuesta de valor en la landing page | Como visitante, quiero visualizar la propuesta de valor de la plataforma en la landing page, para entender qué servicios ofrece y decidir si me registro. | 1 |
 | 2 | US46 | Navegar entre secciones de la landing page | Como visitante, quiero navegar fácilmente entre las distintas secciones de la landing page mediante un menú de navegación, para acceder rápidamente a la información que me interesa. | 2 |
 | 3 | US42 | Visualizar sección para pacientes individuales | Como visitante del segmento paciente, quiero ver el contenido específico para pacientes individuales en la landing page, para evaluar si la plataforma cubre mis necesidades de salud y nutrición. | 2 |
 | 4 | US43 | Visualizar sección para empresas corporativas | Como visitante del segmento empresa, quiero ver el contenido específico para organizaciones corporativas en la landing page, para evaluar si la plataforma es adecuada para implementar en mi empresa. | 2 |
-| 5 | US44 | Visualizar sección para nutricionistas | Como visitante del segmento nutricionista, quiero ver el contenido específico para profesionales de nutrición en la landing page, para entender cómo la plataforma puede apoyar mi práctica profesional. | 2 |
-| 6 | US45 | Visualizar planes y precios en la landing page | Como visitante, quiero ver los planes disponibles con sus precios en la landing page, para comparar las opciones y decidir cuál se ajusta mejor a mis necesidades antes de registrarme. | 3 |
-| 7 | US01 | Registrar cuenta de usuario | Como usuario, quiero registrarme en la plataforma ingresando mis datos personales, para acceder a los servicios de BioTrack. | 3 |
-| 8 | US02 | Asignar tipo de cuenta automáticamente | Como sistema, quiero asignar automáticamente el tipo de cuenta (paciente, empresa o nutricionista), para ofrecer funcionalidades adecuadas al usuario. | 2 |
-| 9 | US03 | Recibir correo de verificación | Como usuario, quiero recibir un correo electrónico de verificación tras registrarme, para validar mi identidad y activar mi cuenta. | 2 |
-| 10 | US04 | Validar correo electrónico | Como usuario, quiero validar mi correo electrónico mediante un enlace de verificación, para completar correctamente el proceso de registro. | 2 |
-| 11 | US05 | Reenviar enlace de verificación | Como usuario, quiero solicitar el reenvío del enlace de verificación en caso no haya recibido el correo inicial, para poder activar mi cuenta correctamente. | 2 |
-| 12 | US06 | Activar cuenta de usuario | Como usuario, quiero que mi cuenta sea activada después de validar mi correo electrónico, para poder acceder a la plataforma sin restricciones. | 1 |
-| 13 | US07 | Iniciar sesión en la plataforma | Como usuario, quiero iniciar sesión ingresando mis credenciales, para acceder a mi cuenta y utilizar las funcionalidades de BioTrack. | 2 |
-| 14 | US08 | Bloquear cuenta por intentos fallidos | Como sistema, quiero bloquear temporalmente la cuenta tras varios intentos fallidos de inicio de sesión, para proteger la seguridad del usuario. | 3 |
-| 15 | US09 | Registrar datos de salud | Como paciente, quiero registrar mis datos de salud (peso, altura, edad, etc.), para personalizar mi experiencia dentro de la plataforma. | 3 |
-| 16 | US10 | Seleccionar objetivo nutricional | Como paciente, quiero seleccionar mi objetivo nutricional (bajar de peso, mantener, aumentar masa, etc.), para que el sistema adapte las recomendaciones a mis necesidades. | 2 |
-| 17 | US11 | Registrar restricciones alimentarias | Como paciente, quiero registrar mis restricciones alimentarias (alergias, intolerancias), para evitar recomendaciones que afecten mi salud. | 2 |
-| 18 | US12 | Registrar empresa | Como empresa, quiero registrar los datos de mi organización en la plataforma, para poder gestionar el acceso de mis colaboradores. | 3 |
-| 19 | US13 | Validar RUC de la empresa | Como sistema, quiero validar el RUC ingresado por la empresa, para asegurar la autenticidad de la organización registrada. | 3 |
-| 20 | US14 | Subir lista de colaboradores | Como empresa, quiero cargar la lista de colaboradores en la plataforma, para facilitar su registro y acceso al sistema. | 5 |
-| 21 | US15 | Enviar invitaciones a colaboradores | Como empresa, quiero enviar invitaciones a mis colaboradores mediante correo electrónico, para que puedan registrarse en la plataforma. | 3 |
-| 22 | US16 | Visualizar dashboard corporativo | Como empresa, quiero visualizar un dashboard con métricas de salud y participación de mis colaboradores, para monitorear su bienestar general. | 5 |
-| 23 | US17 | Anonimizar métricas de colaboradores | Como sistema, quiero anonimizar los datos de los colaboradores en los reportes corporativos, para proteger su privacidad. | 5 |
-| 24 | US18 | Asignar nutricionista al paciente | Como sistema, quiero asignar un nutricionista a cada paciente, para garantizar un seguimiento profesional. | 5 |
-| 25 | US19 | Notificar asignación de nutricionista | Como sistema, quiero notificar al paciente sobre la asignación de su nutricionista, para que esté informado y pueda iniciar su proceso. | 2 |
-| 26 | US20 | Evaluar perfil del paciente | Como nutricionista, quiero evaluar el perfil de salud del paciente, para diseñar un plan nutricional adecuado. | 5 |
-| 27 | US21 | Crear plan nutricional personalizado | Como nutricionista, quiero crear un plan nutricional personalizado, para ayudar al paciente a alcanzar sus objetivos de salud. | 5 |
-| 28 | US22 | Aceptar plan nutricional | Como paciente, quiero aceptar el plan nutricional asignado, para comenzar a seguirlo dentro de la plataforma. | 3 |
-| 29 | US23 | Visualizar dieta semanal | Como paciente, quiero ver mi dieta semanal organizada, para saber qué alimentos consumir cada día. | 3 |
-| 30 | US24 | Agendar consulta nutricional | Como paciente, quiero agendar consultas con mi nutricionista, para recibir seguimiento continuo. | 3 |
-| 31 | US25 | Recibir recordatorio de consulta | Como paciente, quiero recibir recordatorios de mis consultas programadas, para no olvidarlas y asistir puntualmente. | 2 |
-| 32 | US26 | Registrar notas de consulta | Como nutricionista, quiero registrar notas de cada consulta realizada, para llevar un historial del paciente. | 3 |
-| 33 | US27 | Registrar consumo de alimentos | Como paciente, quiero registrar los alimentos que consumo diariamente, para llevar un control de mi dieta. | 3 |
-| 34 | US28 | Registrar actividad física | Como paciente, quiero registrar mi actividad física diaria, para complementar el seguimiento de mi salud. | 3 |
-| 35 | US29 | Actualizar peso | Como paciente, quiero registrar y actualizar mi peso periódicamente, para monitorear mi progreso. | 2 |
-| 36 | US30 | Visualizar gráfico de progreso | Como paciente, quiero ver gráficos de mi evolución (peso, hábitos, etc.), para analizar mi avance. | 3 |
-| 37 | US31 | Calcular nivel de adherencia | Como sistema, quiero calcular el nivel de adherencia del paciente a su plan nutricional, para medir su constancia. | 5 |
-| 38 | US32 | Enviar alertas de bajo cumplimiento | Como sistema, quiero enviar alertas cuando el paciente no cumple su plan, para motivarlo a retomar sus hábitos. | 3 |
-| 39 | US33 | Generar reporte de evolución | Como sistema, quiero generar reportes en PDF del progreso del paciente, para facilitar el seguimiento y análisis. | 5 |
-| 40 | US34 | Contratar plan individual | Como usuario, quiero contratar un plan de suscripción individual, para acceder a funcionalidades premium. | 5 |
-| 41 | US35 | Visualizar historial de facturación | Como usuario, quiero visualizar el historial de mis pagos y facturación, para llevar un control de mis suscripciones. | 2 |
-| 42 | US36 | Comprar plan corporativo | Como empresa, quiero adquirir un paquete corporativo de licencias, para brindar acceso a mis colaboradores. | 5 |
-| 43 | US37 | Emitir factura corporativa | Como empresa, quiero recibir una factura por la compra del plan corporativo, para fines administrativos y contables. | 3 |
-| 44 | US38 | Renovación automática de suscripción | Como sistema, quiero renovar automáticamente la suscripción del usuario, para evitar interrupciones en el servicio. | 3 |
-| 45 | US39 | Suspender funciones premium | Como sistema, quiero suspender el acceso a funciones premium cuando no se realice el pago, para controlar el uso del servicio. | 3 |
-| 46 | US40 | Recibir aviso de pago atrasado | Como usuario, quiero recibir notificaciones cuando tenga pagos pendientes, para regularizar mi suscripción. | 2 |
-| 47 | TS01 | API: Endpoint de registro de usuario | Como desarrollador, quiero implementar el endpoint de registro de usuario, para almacenar de forma segura las credenciales en la base de datos. | 3 |
-| 48 | TS02 | API: Endpoint de autenticación y emisión de token | Como desarrollador, quiero implementar el endpoint de autenticación, para emitir y validar tokens JWT en cada petición segura. | 5 |
-| 49 | TS03 | API: Endpoint de verificación de correo electrónico | Como desarrollador, quiero crear el endpoint de verificación, para confirmar la autenticidad de los correos mediante tokens temporales. | 3 |
-| 50 | TS04 | API: Endpoints de gestión del perfil de salud del paciente | Como desarrollador, quiero desarrollar los endpoints del perfil de salud, para permitir operaciones CRUD sobre los datos antropométricos. | 5 |
-| 51 | TS05 | API: Endpoints de gestión de planes nutricionales | Como desarrollador, quiero implementar los endpoints de planes nutricionales, para que la aplicación asigne y recupere las dietas creadas. | 5 |
-| 52 | TS06 | API: Endpoints de registro de progreso del paciente | Como desarrollador, quiero estructurar los endpoints de seguimiento, para persistir el historial diario de peso y actividad física. | 3 |
-| 53 | TS07 | API: Endpoints de suscripciones y pagos | Como desarrollador, quiero integrar los endpoints de facturación, para procesar las transacciones y almacenar el historial de suscripciones. | 5 |
-| 54 | TS08 | API: Endpoint de generación de reporte de evolución | Como desarrollador, quiero construir un endpoint de reportes, para compilar la data del paciente y devolver un archivo PDF. | 5 |
-| 55 | TS09 | API: Endpoint de gestión corporativa de colaboradores | Como desarrollador, quiero crear los endpoints corporativos, para administrar la relación entre empresas y sus empleados registrados. | 5 |
+| 5 | US45 | Visualizar planes y precios en la landing page | Como visitante, quiero ver los planes disponibles con sus precios en la landing page, para comparar las opciones y decidir cuál se ajusta mejor a mis necesidades antes de registrarme. | 2 |
+| 6 | US44 | Visualizar sección para nutricionistas | Como visitante del segmento nutricionista, quiero ver el contenido específico para profesionales de nutrición en la landing page, para entender cómo la plataforma puede apoyar mi práctica profesional. | 2 |
+| 7 | US09 | Registrar datos de salud | Como paciente, quiero registrar mis datos de salud básicos, para que el sistema pueda construir mi perfil nutricional inicial. | 3 |
+| 8 | US10 | Seleccionar objetivo nutricional | Como paciente, quiero seleccionar mi objetivo nutricional, para que el sistema oriente mi seguimiento según mis metas personales. | 3 |
+| 9 | US11 | Registrar restricciones alimentarias | Como paciente, quiero registrar mis restricciones alimentarias, para que el sistema las considere en mi plan nutricional. | 3 |
+| 10 | US18 | Asignar nutricionista | Como Sistema, quiero asignar un nutricionista, para iniciar el acompañamiento nutricional del paciente. | 5 |
+| 11 | US19 | Notificar asignación | Como paciente, quiero recibir una notificación, para saber qué nutricionista fue asignado a mi caso. | 3 |
+| 12 | US20 | Evaluar perfil del paciente | Como nutricionista, quiero evaluar al paciente, para crear un plan nutricional adecuado a sus necesidades. | 5 |
+| 13 | US21 | Crear plan nutricional | Como nutricionista, quiero crear un plan nutricional personalizado, para guiar al paciente según su evaluación. | 8 |
+| 14 | US22 | Aceptar plan nutricional | Como paciente, quiero aceptar el plan propuesto, para iniciar su uso dentro de la plataforma. | 3 |
+| 15 | US23 | Visualizar dieta semanal | Como paciente, quiero ver mi dieta semanal, para saber qué alimentos consumir durante cada día. | 5 |
+| 16 | US27 | Registrar consumo de alimentos | Como paciente, quiero registrar mis alimentos, para hacer seguimiento de mi cumplimiento nutricional. | 5 |
+| 17 | US28 | Registrar actividad física | Como paciente, quiero registrar actividad física, para calcular mi nivel de adherencia al plan. | 3 |
+| 18 | US29 | Actualizar peso semanal | Como paciente, quiero actualizar mi peso, para visualizar mi evolución durante el tratamiento. | 3 |
+| 19 | US30 | Visualizar gráfico de progreso | Como paciente, quiero ver mi progreso, para evaluar mis resultados de manera visual. | 5 |
+| 20 | US31 | Calcular nivel de adherencia al plan | Como Sistema, quiero calcular periódicamente el nivel de adherencia del paciente a su plan nutricional, para identificar a tiempo a los pacientes con bajo cumplimiento. | 8 |
+| 21 | US32 | Enviar alerta de bajo cumplimiento al nutricionista | Como Sistema, quiero enviar automáticamente una alerta al nutricionista cuando el nivel de adherencia de un paciente esté por debajo del umbral definido, para que el nutricionista pueda intervenir oportunamente. | 5 |
+| 22 | US33 | Generar reporte PDF de evolución del paciente | Como Sistema, quiero generar automáticamente un reporte PDF con la evolución y metas alcanzadas del paciente, para que el nutricionista pueda consultar el progreso de manera consolidada. | 5 |
+| 23 | US24 | Agendar consulta | Como paciente, quiero agendar una consulta, para dar seguimiento a mi proceso nutricional. | 5 |
+| 24 | US25 | Enviar recordatorio de cita | Como Sistema, quiero enviar recordatorios, para reducir inasistencias a las consultas programadas. | 3 |
+| 25 | US26 | Registrar notas de consulta | Como nutricionista, quiero registrar notas, para mantener un historial de seguimiento del paciente. | 3 |
+| 26 | US12 | Registrar datos de empresa | Como Admin Corporativo, quiero registrar los datos de mi empresa, para crear el perfil corporativo. | 3 |
+| 27 | US13 | Validar RUC de empresa | Como Admin Corporativo, quiero validar el RUC de mi empresa, para verificar su identidad fiscal. | 5 |
+| 28 | US14 | Subir lista de colaboradores | Como Admin Corporativo, quiero subir una lista de colaboradores, para generar accesos a la plataforma. | 5 |
+| 29 | US15 | Enviar invitaciones a colaboradores | Como Admin Corporativo, quiero enviar invitaciones por correo, para que los colaboradores accedan al sistema. | 3 |
+| 30 | US16 | Visualizar dashboard corporativo | Como Admin Corporativo, quiero visualizar métricas anonimizadas, para tomar decisiones sobre el bienestar de los colaboradores. | 8 |
+| 31 | US17 | Consolidar métricas de salud | Como Sistema, quiero consolidar datos anonimizados, para mostrarlos en el dashboard corporativo. | 8 |
+| 32 | US34 | Seleccionar y contratar plan mensual individual B2C | Como paciente, quiero seleccionar un plan mensual de suscripción e ingresar mi método de pago, para activar los beneficios del plan y acceder a los servicios de la plataforma. | 5 |
+| 33 | US35 | Visualizar resumen de facturación | Como paciente, quiero visualizar un resumen de mi facturación luego de realizar un pago, para tener constancia del plan contratado, el monto pagado y la fecha de vencimiento. | 3 |
+| 34 | US36 | Comprar paquete corporativo de licencias | Como Admin Corporativo, quiero comprar un paquete de licencias corporativas, para que el sistema genere la factura correspondiente y habilite los cupos de acceso para mis colaboradores. | 5 |
+| 35 | US37 | Emitir y limitar factura corporativa | Como Admin Corporativo, quiero recibir una factura detallada por la compra del paquete de licencias, para contar con el documento formal necesario para los registros contables de mi empresa. | 3 |
+| 36 | US38 | Procesar renovación mensual automática exitosa | Como Sistema, quiero procesar automáticamente la renovación mensual de los planes activos cuando el cobro es exitoso, para garantizar la continuidad del servicio sin intervención manual. | 5 |
+| 37 | US39 | Suspender funciones premium por pago atrasado | Como Sistema, quiero suspender automáticamente las funciones premium del usuario cuando el cobro de renovación falla, para gestionar los pagos atrasados y notificar al usuario oportunamente. | 5 |
+| 38 | US40 | Recibir aviso de pago atrasado | Como usuario, quiero recibir un aviso por correo cuando mi pago de renovación haya fallado, para poder regularizar mi situación y evitar la pérdida del acceso a los servicios premium. | 3 |
+| 39 | US01 | Registrar cuenta de usuario | Como usuario, quiero registrar una nueva cuenta en la plataforma, para poder acceder a los servicios del sistema. | 3 |
+| 40 | US02 | Asignar tipo de cuenta automáticamente | Como usuario, quiero que el sistema asigne automáticamente el tipo de cuenta correspondiente a mis datos de registro. | 3 |
+| 41 | US03 | Recibir correo de verificación | Como usuario, quiero recibir un correo electrónico de verificación al registrarme. | 3 |
+| 42 | US04 | Validar correo electrónico | Como usuario, quiero validar mi correo mediante un enlace. | 3 |
+| 43 | US05 | Reenviar enlace de verificación | Como usuario, quiero solicitar un nuevo enlace si el anterior expira. | 2 |
+| 44 | US06 | Activar cuenta | Como usuario, quiero que mi cuenta se active automáticamente al validar mi correo. | 2 |
+| 45 | US07 | Iniciar sesión | Como usuario, quiero iniciar sesión con mi correo y contraseña. | 3 |
+| 46 | US08 | Bloquear cuenta por intentos fallidos | Como usuario, quiero que el sistema bloquee mi cuenta tras múltiples intentos fallidos. | 5 |
+| 47 | TS01 | API: Endpoint de registro de usuario | Como Developer, quiero consumir el endpoint de registro de usuario, para integrar la creación de nuevas cuentas desde el cliente frontend. | 5 |
+| 48 | TS02 | API: Endpoint de autenticación y emisión de token | Como Developer, quiero consumir el endpoint de inicio de sesión, para obtener un token JWT de autenticación y gestionar el acceso del usuario en el cliente. | 5 |
+| 49 | TS03 | API: Endpoint de verificación de correo electrónico | Como Developer, quiero consumir el endpoint de verificación de correo, para que el cliente pueda procesar la validación del token enviado al email del usuario. | 5 |
+| 50 | TS04 | API: Endpoints de gestión del perfil de salud del paciente | Como Developer, quiero consumir los endpoints de perfil de salud del paciente, para registrar, consultar y actualizar los datos de salud, objetivos y restricciones alimentarias desde el cliente. | 8 |
+| 51 | TS05 | API: Endpoints de gestión de planes nutricionales | Como Developer, quiero consumir los endpoints de planes nutricionales, para crear, consultar, actualizar y cambiar el estado de los planes desde el cliente. | 8 |
+| 52 | TS06 | API: Endpoints de registro de progreso del paciente | Como Developer, quiero consumir los endpoints de seguimiento de progreso, para registrar el consumo de alimentos, actividad física y peso semanal del paciente desde el cliente. | 8 |
+| 53 | TS07 | API: Endpoints de suscripciones y pagos | Como Developer, quiero consumir los endpoints de suscripciones y pagos, para gestionar la contratación de planes, el procesamiento de pagos y el estado de las suscripciones desde el cliente. | 8 |
+| 54 | TS08 | API: Endpoint de generación de reporte de evolución | Como Developer, quiero consumir el endpoint de generación de reporte de evolución, para obtener el reporte PDF con el progreso del paciente. | 5 |
+| 55 | TS09 | API: Endpoint de gestión corporativa de colaboradores | Como Developer, quiero consumir los endpoints de gestión corporativa, para registrar empresas, subir listas de colaboradores y consultar métricas grupales. | 8 |
 
-*(Tabla 11. Tabla de Product Backlog - Elaboración propia.)*
+
+*(Tabla 11. Tabla de Product Backlog - Elaboracion propia.)*
 
 ---
 
@@ -5441,6 +5454,82 @@ La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 ---
+
+## 5.2.2. Sprint 2
+
+### 5.2.2.1. Sprint Planning 2
+
+En esta sección se presenta la planificación del Sprint 2 de BioTrack. Durante esta reunión, el equipo NexTech definió el objetivo principal del sprint, seleccionó las User Stories y Technical Stories que serán desarrolladas, asignó responsables y estimó el trabajo mediante Story Points. Asimismo, se consideraron las oportunidades de mejora identificadas en el Sprint anterior, especialmente la necesidad de organizar la gestión del Sprint en Jira y corregir la estimación de historias usando la escala Fibonacci.
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** |  |
+| **Date** | 2026-05-__ |
+| **Time** | __:__ AM/PM |
+| **Location** | Reunión virtual mediante Google Meet |
+| **Prepared By** | Díaz Yurivilca, Sofía |
+| **Attendees (to planning meeting)** | Pacheco Lavado, Rafael Agustin / Mendoza Moreano, Mariel Lucero / Díaz Yurivilca, Sofía / Rengifo Lozano, David / Villón Amez, Enrique |
+| **Sprint n – 1 Review Summary** | Durante el Sprint 1, el equipo avanzó con la implementación de la Landing Page de BioTrack, incluyendo la propuesta de valor, navegación entre secciones, contenido dirigido a pacientes, empresas y nutricionistas, sección de planes y precios, y vistas iniciales relacionadas con autenticación. Además, se realizó el despliegue inicial del sitio web y se identificaron mejoras pendientes en la organización de evidencias, enlaces del footer y gestión del Sprint en Jira. |
+| **Sprint n – 1 Retrospective Summary** | El equipo identificó como oportunidades de mejora la necesidad de utilizar Jira para evidenciar la gestión del Sprint, ordenar correctamente el Product Backlog según valor de negocio, corregir Story Points usando la escala Fibonacci e incluir Technical Stories relacionadas con el RESTful API. También se acordó asignar responsables por historia y registrar el avance mediante estados visibles en el tablero. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint Goal** | Our focus is on enabling patients to register their initial health information and start their nutritional tracking process through BioTrack. We believe it delivers a clearer and more personalized onboarding experience to patients. This will be confirmed when patients can register health data, select nutritional goals, add food restrictions and visualize initial tracking features from the Web Application. |
+| **Sprint n Velocity** | 34 Story Points |
+| **Sum of Story Points** | 34 Story Points |
+
+### 5.2.2.2. Aspect Leaders and Collaborators.
+
+### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 presenta las User Stories y Technical Stories seleccionadas para el segundo Sprint de BioTrack. El objetivo principal de este Sprint es implementar las funcionalidades iniciales del seguimiento nutricional del paciente, permitiendo registrar datos de salud, seleccionar objetivos nutricionales, registrar restricciones alimentarias, visualizar la dieta semanal y revisar información inicial de progreso.
+
+Asimismo, se incluyen Technical Stories relacionadas con el RESTful API, necesarias para soportar la integración entre la Web Application y los servicios internos del sistema. Para la gestión del Sprint, el equipo utilizó Jira, donde se organizaron las historias y tareas en columnas de estado como To-do, In-Process, To-Review y Done.
+
+**Herramienta utilizada:** Jira  
+**URL pública del Sprint Board:** https://sdyurivilca.atlassian.net/jira/software/projects/BIO/boards/1?sprints=6&atlOrigin=eyJpIjoiMTc2M2RmMDYyY2ZjNGE1M2E5MTVhMzBjZTkxOWQ3MzkiLCJwIjoiaiJ9
+
+**Evidencia del Sprint Board:**  
+![Sprint Backlog 2](resources/Chapter-V/sprintbacklog2.png)
+
+| Sprint # | User Story |  | Work-Item / Task |  |  |  |  |  |
+|---|---|---|---|---|---|---:|---|---|
+|  | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| Sprint 2 | US09 | Registrar datos de salud | US09TASK001 | Diseñar formulario de datos de salud | Crear la estructura visual del formulario para que el paciente registre edad, peso, talla y datos básicos de salud. | 4 | Díaz Yurivilca, Sofía | To-do |
+| Sprint 2 | US09 | Registrar datos de salud | US09TASK002 | Implementar campos obligatorios del formulario | Agregar los campos requeridos para registrar los datos básicos de salud del paciente dentro de la Web Application. | 3 | Díaz Yurivilca, Sofía | To-do |
+| Sprint 2 | US09 | Registrar datos de salud | US09TASK003 | Implementar validaciones de datos de salud | Validar que los campos obligatorios estén completos y que los valores ingresados correspondan a rangos permitidos. | 4 | Pacheco Lavado, Rafael Agustin | In-Process |
+| Sprint 2 | US10 | Seleccionar objetivo nutricional | US10TASK001 | Crear selector de objetivo nutricional | Implementar un selector con opciones como bajar de peso, ganar masa muscular, mejorar hábitos o mantener peso. | 3 | Mendoza Moreano, Mariel Lucero | To-do |
+| Sprint 2 | US10 | Seleccionar objetivo nutricional | US10TASK002 | Guardar objetivo nutricional seleccionado | Permitir que el objetivo elegido por el paciente se registre como parte de su perfil inicial. | 3 | Díaz Yurivilca, Sofía | To-do |
+| Sprint 2 | US10 | Seleccionar objetivo nutricional | US10TASK003 | Mostrar mensaje de confirmación del objetivo | Mostrar una confirmación visual cuando el paciente seleccione y guarde correctamente su objetivo nutricional. | 2 | Mendoza Moreano, Mariel Lucero | To-Review |
+| Sprint 2 | US11 | Registrar restricciones alimentarias | US11TASK001 | Crear opciones de restricciones alimentarias | Crear una lista de restricciones frecuentes como alergias, intolerancias o preferencias alimentarias. | 3 | Díaz Yurivilca, Sofía | To-do |
+| Sprint 2 | US11 | Registrar restricciones alimentarias | US11TASK002 | Implementar opción sin restricciones | Permitir que el paciente indique que no posee restricciones alimentarias para continuar con el registro. | 2 | Mendoza Moreano, Mariel Lucero | Done |
+| Sprint 2 | US11 | Registrar restricciones alimentarias | US11TASK003 | Validar registro de restricciones alimentarias | Validar que el paciente pueda guardar correctamente sus restricciones o confirmar que no posee ninguna. | 3 | Pacheco Lavado, Rafael Agustin | In-Process |
+| Sprint 2 | US19 | Notificar asignación | US19TASK001 | Diseñar mensaje de nutricionista asignado | Crear el contenido del mensaje que informa al paciente que ya tiene un nutricionista asignado. | 2 | Villón Amez, Enrique | To-do |
+| Sprint 2 | US19 | Notificar asignación | US19TASK002 | Implementar notificación visual de asignación | Mostrar una notificación dentro de la Web Application cuando el sistema asigne un nutricionista al paciente. | 3 | Villón Amez, Enrique | In-Process |
+| Sprint 2 | US19 | Notificar asignación | US19TASK003 | Validar visualización de notificación | Verificar que la notificación se muestre correctamente cuando exista una asignación de nutricionista. | 2 | Rengifo Lozano, David | To-Review |
+| Sprint 2 | US23 | Visualizar dieta semanal | US23TASK001 | Diseñar vista de dieta semanal | Crear la interfaz donde el paciente pueda visualizar su dieta organizada por días de la semana. | 4 | Mendoza Moreano, Mariel Lucero | To-do |
+| Sprint 2 | US23 | Visualizar dieta semanal | US23TASK002 | Implementar cards por día de la semana | Mostrar la dieta semanal en tarjetas organizadas por lunes, martes, miércoles, jueves, viernes, sábado y domingo. | 4 | Mendoza Moreano, Mariel Lucero | In-Process |
+| Sprint 2 | US23 | Visualizar dieta semanal | US23TASK003 | Mostrar mensaje cuando no exista plan activo | Mostrar un mensaje informativo cuando el paciente aún no tenga una dieta semanal asignada. | 2 | Díaz Yurivilca, Sofía | To-do |
+| Sprint 2 | US27 | Registrar consumo de alimentos | US27TASK001 | Crear formulario de consumo de alimentos | Implementar un formulario para que el paciente registre los alimentos consumidos durante el día. | 4 | Rengifo Lozano, David | To-do |
+| Sprint 2 | US27 | Registrar consumo de alimentos | US27TASK002 | Agregar campos de comida y cantidad | Agregar campos para registrar nombre del alimento, cantidad aproximada, horario y tipo de comida. | 3 | Rengifo Lozano, David | To-do |
+| Sprint 2 | US27 | Registrar consumo de alimentos | US27TASK003 | Validar registro de consumo diario | Validar que el paciente no guarde registros vacíos y que los datos ingresados sean adecuados. | 3 | Pacheco Lavado, Rafael Agustin | In-Process |
+| Sprint 2 | US30 | Visualizar gráfico de progreso | US30TASK001 | Diseñar vista inicial de progreso | Crear la pantalla donde el paciente pueda revisar su evolución nutricional mediante gráficos básicos. | 4 | Villón Amez, Enrique | To-do |
+| Sprint 2 | US30 | Visualizar gráfico de progreso | US30TASK002 | Implementar gráfico de evolución de peso | Agregar un gráfico básico que muestre la evolución del peso del paciente durante el seguimiento. | 4 | Villón Amez, Enrique | In-Process |
+| Sprint 2 | US30 | Visualizar gráfico de progreso | US30TASK003 | Mostrar estado sin registros de progreso | Mostrar un mensaje cuando el paciente aún no tenga datos suficientes para visualizar gráficos de progreso. | 2 | Díaz Yurivilca, Sofía | To-Review |
+| Sprint 2 | TS04 | API Endpoints de gestión del perfil de salud del paciente | TS04TASK001 | Implementar endpoint POST de perfil de salud | Crear el endpoint para registrar los datos iniciales del perfil de salud del paciente. | 5 | Pacheco Lavado, Rafael Agustin | In-Process |
+| Sprint 2 | TS04 | API Endpoints de gestión del perfil de salud del paciente | TS04TASK002 | Implementar endpoint GET de perfil de salud | Crear el endpoint para consultar los datos del perfil de salud del paciente. | 4 | Pacheco Lavado, Rafael Agustin | To-do |
+| Sprint 2 | TS04 | API Endpoints de gestión del perfil de salud del paciente | TS04TASK003 | Implementar endpoint PUT de perfil de salud | Crear el endpoint para actualizar datos de salud, objetivos nutricionales y restricciones alimentarias del paciente. | 5 | Pacheco Lavado, Rafael Agustin | To-do |
+| Sprint 2 | TS04 | API Endpoints de gestión del perfil de salud del paciente | TS04TASK004 | Validar respuestas HTTP del perfil de salud | Verificar respuestas esperadas como 201 Created, 200 OK, 400 Bad Request, 401 Unauthorized y 403 Forbidden. | 3 | Díaz Yurivilca, Sofía | To-Review |
+| Sprint 2 | TS06 | API Endpoints de registro de progreso del paciente | TS06TASK001 | Implementar endpoint de consumo de alimentos | Crear el endpoint para registrar el consumo diario de alimentos del paciente. | 5 | Rengifo Lozano, David | To-do |
+| Sprint 2 | TS06 | API Endpoints de registro de progreso del paciente | TS06TASK002 | Implementar endpoint de actividad física | Crear el endpoint para registrar actividad física como parte del seguimiento del paciente. | 4 | Rengifo Lozano, David | In-Process |
+| Sprint 2 | TS06 | API Endpoints de registro de progreso del paciente | TS06TASK003 | Implementar endpoint de actualización de peso | Crear el endpoint para registrar o actualizar el peso semanal del paciente. | 4 | Pacheco Lavado, Rafael Agustin | To-do |
+| Sprint 2 | TS06 | API Endpoints de registro de progreso del paciente | TS06TASK004 | Probar endpoints de progreso del paciente | Realizar pruebas básicas para validar el registro de consumo de alimentos, actividad física y peso semanal. | 3 | Díaz Yurivilca, Sofía | To-Review |
+
+(Tabla X. Sprint Backlog 2 de BioTrack - Elaboración propia.)
+
+### 5.2.2.4. Development Evidence for Sprint Review. 
+### 5.2.2.5. Execution Evidence for Sprint Review. 
+### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
+### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 ## 💡 Conclusiones
 
