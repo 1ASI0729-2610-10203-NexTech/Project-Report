@@ -1679,13 +1679,13 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 | 17 | US11 | Registrar restricciones alimentarias | Como paciente, quiero registrar mis restricciones alimentarias (alergias, intolerancias), para evitar recomendaciones que afecten mi salud. | 2 |
 | 18 | US12 | Registrar empresa | Como empresa, quiero registrar los datos de mi organización en la plataforma, para poder gestionar el acceso de mis colaboradores. | 3 |
 | 19 | US13 | Validar RUC de la empresa | Como sistema, quiero validar el RUC ingresado por la empresa, para asegurar la autenticidad de la organización registrada. | 3 |
-| 20 | US14 | Subir lista de colaboradores | Como empresa, quiero cargar la lista de colaboradores en la plataforma, para facilitar su registro y acceso al sistema. | 4 |
+| 20 | US14 | Subir lista de colaboradores | Como empresa, quiero cargar la lista de colaboradores en la plataforma, para facilitar su registro y acceso al sistema. | 5 |
 | 21 | US15 | Enviar invitaciones a colaboradores | Como empresa, quiero enviar invitaciones a mis colaboradores mediante correo electrónico, para que puedan registrarse en la plataforma. | 3 |
-| 22 | US16 | Visualizar dashboard corporativo | Como empresa, quiero visualizar un dashboard con métricas de salud y participación de mis colaboradores, para monitorear su bienestar general. | 4 |
+| 22 | US16 | Visualizar dashboard corporativo | Como empresa, quiero visualizar un dashboard con métricas de salud y participación de mis colaboradores, para monitorear su bienestar general. | 5 |
 | 23 | US17 | Anonimizar métricas de colaboradores | Como sistema, quiero anonimizar los datos de los colaboradores en los reportes corporativos, para proteger su privacidad. | 5 |
-| 24 | US18 | Asignar nutricionista al paciente | Como sistema, quiero asignar un nutricionista a cada paciente, para garantizar un seguimiento profesional. | 4 |
+| 24 | US18 | Asignar nutricionista al paciente | Como sistema, quiero asignar un nutricionista a cada paciente, para garantizar un seguimiento profesional. | 5 |
 | 25 | US19 | Notificar asignación de nutricionista | Como sistema, quiero notificar al paciente sobre la asignación de su nutricionista, para que esté informado y pueda iniciar su proceso. | 2 |
-| 26 | US20 | Evaluar perfil del paciente | Como nutricionista, quiero evaluar el perfil de salud del paciente, para diseñar un plan nutricional adecuado. | 4 |
+| 26 | US20 | Evaluar perfil del paciente | Como nutricionista, quiero evaluar el perfil de salud del paciente, para diseñar un plan nutricional adecuado. | 5 |
 | 27 | US21 | Crear plan nutricional personalizado | Como nutricionista, quiero crear un plan nutricional personalizado, para ayudar al paciente a alcanzar sus objetivos de salud. | 5 |
 | 28 | US22 | Aceptar plan nutricional | Como paciente, quiero aceptar el plan nutricional asignado, para comenzar a seguirlo dentro de la plataforma. | 3 |
 | 29 | US23 | Visualizar dieta semanal | Como paciente, quiero ver mi dieta semanal organizada, para saber qué alimentos consumir cada día. | 3 |
@@ -1696,18 +1696,27 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 | 34 | US28 | Registrar actividad física | Como paciente, quiero registrar mi actividad física diaria, para complementar el seguimiento de mi salud. | 3 |
 | 35 | US29 | Actualizar peso | Como paciente, quiero registrar y actualizar mi peso periódicamente, para monitorear mi progreso. | 2 |
 | 36 | US30 | Visualizar gráfico de progreso | Como paciente, quiero ver gráficos de mi evolución (peso, hábitos, etc.), para analizar mi avance. | 3 |
-| 37 | US31 | Calcular nivel de adherencia | Como sistema, quiero calcular el nivel de adherencia del paciente a su plan nutricional, para medir su constancia. | 4 |
+| 37 | US31 | Calcular nivel de adherencia | Como sistema, quiero calcular el nivel de adherencia del paciente a su plan nutricional, para medir su constancia. | 5 |
 | 38 | US32 | Enviar alertas de bajo cumplimiento | Como sistema, quiero enviar alertas cuando el paciente no cumple su plan, para motivarlo a retomar sus hábitos. | 3 |
-| 39 | US33 | Generar reporte de evolución | Como sistema, quiero generar reportes en PDF del progreso del paciente, para facilitar el seguimiento y análisis. | 4 |
+| 39 | US33 | Generar reporte de evolución | Como sistema, quiero generar reportes en PDF del progreso del paciente, para facilitar el seguimiento y análisis. | 5 |
 | 40 | US34 | Contratar plan individual | Como usuario, quiero contratar un plan de suscripción individual, para acceder a funcionalidades premium. | 5 |
 | 41 | US35 | Visualizar historial de facturación | Como usuario, quiero visualizar el historial de mis pagos y facturación, para llevar un control de mis suscripciones. | 2 |
 | 42 | US36 | Comprar plan corporativo | Como empresa, quiero adquirir un paquete corporativo de licencias, para brindar acceso a mis colaboradores. | 5 |
 | 43 | US37 | Emitir factura corporativa | Como empresa, quiero recibir una factura por la compra del plan corporativo, para fines administrativos y contables. | 3 |
-| 44 | US38 | Renovación automática de suscripción | Como sistema, quiero renovar automáticamente la suscripción del usuario, para evitar interrupciones en el servicio. | 4 |
+| 44 | US38 | Renovación automática de suscripción | Como sistema, quiero renovar automáticamente la suscripción del usuario, para evitar interrupciones en el servicio. | 3 |
 | 45 | US39 | Suspender funciones premium | Como sistema, quiero suspender el acceso a funciones premium cuando no se realice el pago, para controlar el uso del servicio. | 3 |
 | 46 | US40 | Recibir aviso de pago atrasado | Como usuario, quiero recibir notificaciones cuando tenga pagos pendientes, para regularizar mi suscripción. | 2 |
+| 47 | TS01 | API: Endpoint de registro de usuario | Como desarrollador, quiero implementar el endpoint de registro de usuario, para almacenar de forma segura las credenciales en la base de datos. | 3 |
+| 48 | TS02 | API: Endpoint de autenticación y emisión de token | Como desarrollador, quiero implementar el endpoint de autenticación, para emitir y validar tokens JWT en cada petición segura. | 5 |
+| 49 | TS03 | API: Endpoint de verificación de correo electrónico | Como desarrollador, quiero crear el endpoint de verificación, para confirmar la autenticidad de los correos mediante tokens temporales. | 3 |
+| 50 | TS04 | API: Endpoints de gestión del perfil de salud del paciente | Como desarrollador, quiero desarrollar los endpoints del perfil de salud, para permitir operaciones CRUD sobre los datos antropométricos. | 5 |
+| 51 | TS05 | API: Endpoints de gestión de planes nutricionales | Como desarrollador, quiero implementar los endpoints de planes nutricionales, para que la aplicación asigne y recupere las dietas creadas. | 5 |
+| 52 | TS06 | API: Endpoints de registro de progreso del paciente | Como desarrollador, quiero estructurar los endpoints de seguimiento, para persistir el historial diario de peso y actividad física. | 3 |
+| 53 | TS07 | API: Endpoints de suscripciones y pagos | Como desarrollador, quiero integrar los endpoints de facturación, para procesar las transacciones y almacenar el historial de suscripciones. | 5 |
+| 54 | TS08 | API: Endpoint de generación de reporte de evolución | Como desarrollador, quiero construir un endpoint de reportes, para compilar la data del paciente y devolver un archivo PDF. | 5 |
+| 55 | TS09 | API: Endpoint de gestión corporativa de colaboradores | Como desarrollador, quiero crear los endpoints corporativos, para administrar la relación entre empresas y sus empleados registrados. | 5 |
 
-*(Tabla 11. Tabla de Product Backlog - Elaboracion propia.)*
+*(Tabla 11. Tabla de Product Backlog - Elaboración propia.)*
 
 ---
 
@@ -5219,7 +5228,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
       <td>Task 3</td>
       <td>Desarrollar Tabs de Segmentos</td>
       <td>Implementar componente interactivo de pestañas para cambiar entre la información B2C y B2B.</td>
-      <td>4</td>
+      <td>3</td>
       <td>MarielLucero</td>
       <td>Done</td>
     </tr>
@@ -5239,7 +5248,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
       <td>Task 5</td>
       <td>Vistas de Autenticación (UI)</td>
       <td>Maquetar los archivos login.html y signup.html respetando el diseño limpio de la plataforma.</td>
-      <td>4</td>
+      <td>3</td>
       <td>RafaelAgustin21</td>
       <td>Done</td>
     </tr>
@@ -5268,7 +5277,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
 
 *(Tabla 30. Tabla de Sprint Backlog 1 - Elaboracion propia.)*
 
-Como parte del marco de trabajo ágil, se utilizó Jira para la planificación y seguimiento del proyecto. En la siguiente captura se observa el estado de las tareas del Sprint 1 y la planificación inicial del Sprint 2.
+Como parte del marco de trabajo ágil, se utilizó Jira para la planificación y seguimiento del proyecto. En la siguiente captura se observa el estado de las tareas del Sprint 1.
 
 
 <p align="center">
