@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # Informe de Trabajo Final
 
@@ -161,95 +161,6 @@ A continuación se presentaran los commit realizados por los contribuidores:
 
 ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 <div>
-<table>
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Nombre</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Criterio 1 -->
-    <tr>
-      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
-      <td>Pacheco Lavado, Rafael Agustin</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-      <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
-    </tr>
-    <tr>
-      <td>Mendoza Moreano, Mariel Lucero </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto
-        <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Díaz Yurivilca, Sofía </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Desarrollo del capiyulo 2 los competidores, las entrevistas y el capitulo 3 los user stories impact mapping y product backlog <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Rengifo Lozano, David </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Villón Amez, Enrique</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <!-- Criterio 2 -->
-    <tr>
-      <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
-      <td>Pacheco Lavado, Rafael Agustin</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-      <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
-    </tr>
-    <tr>
-      <td>Mendoza Moreano, Mariel Lucero </td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Díaz Yurivilca, Sofía</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Desarrollo todo el capitulo 4 <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Rengifo Lozano, David</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Villón Amez, Enrique</td>
-      <td>
-        <strong>ℹ️ AV1:</strong><br>
-        Texto<br>
-      </td>
-    </tr>
-  </tbody>
-</table>
   <table>
     <thead>
       <tr>
@@ -260,7 +171,6 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </tr>
     </thead>
     <tbody>
-      <!-- Criterio 1 -->
       <tr>
         <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
         <td>Pacheco Lavado, Rafael Agustin</td>
@@ -274,38 +184,36 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <td>Mendoza Moreano, Mariel Lucero </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Contribuí al trabajo en equipo asumiendo liderazgo compartido en la definición del enfoque de diseño centrado en el usuario. Desarrollé el Lean UX Process como base metodológica del proyecto. Además, elaboré el User Persona, User Task Matrix, User Journey Mapping y Empathy Mapping para comprender mejor las necesidades del usuario. Estos aportes ayudaron a orientar las decisiones del equipo durante el diseño de la solución.
-          <br>
+          Contribuí al trabajo en equipo asumiendo liderazgo compartido en la definición del enfoque de diseño centrado en el usuario. Desarrollé el Lean UX Process como base metodológica del proyecto. Además, elaboré el User Persona, User Task Matrix, User Journey Mapping y Empathy Mapping para comprender mejor las necesidades del usuario.
         </td>
       </tr>
       <tr>
         <td>Díaz Yurivilca, Sofía </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Lideré el diseño de la arquitectura del sistema mediante el modelo C4, elaborando los diagramas de Contexto y Contenedores. Proporcioné dirección técnica al equipo al definir la estructura de la solución web, asegurando que la arquitectura orientada a servicios fuera escalable y cumpliera con los requisitos no funcionales del proyecto.
         </td>
       </tr>
       <tr>
         <td>Rengifo Lozano, David </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Asumí la responsabilidad del liderazgo técnico en la configuración del entorno de desarrollo inicial. Establecí la estructura base del proyecto utilizando el lenguaje C# y el framework .NET, facilitando la integración de los componentes de software de mis compañeros y asegurando la coherencia técnica desde el inicio del sprint.
         </td>
       </tr>
       <tr>
         <td>Villón Amez, Enrique</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Lideré la gestión del flujo de trabajo en el repositorio de GitHub mediante la implementación de GitFlow. Definí la política de ramas y las reglas de integración de código, orientando al equipo en el uso correcto de Pull Requests para mantener la estabilidad de la rama Develop y asegurar una entrega continua sin conflictos.
         </td>
       </tr>
-      <!-- Criterio 2 -->
       <tr>
         <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
         <td>Pacheco Lavado, Rafael Agustin</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Establecí las guías de estilo generales para el equipo y documenté íntegramente la sección 5.2 de implementación. En el desarrollo técnico, cumplí con los objetivos del sprint al implementar la Landing Page con soporte multilingüe (i18n), el formulario de contacto y las vistas de autenticación, integrando además las métricas de colaboración de GitHub.<br>
+          Establecí las guías de estilo generales para el equipo y documenté íntegramente la sección 5.2 de implementación. En el desarrollo técnico, cumplí con los objetivos del sprint al implementar la Landing Page con soporte multilingüe (i18n), el formulario de contacto y las vistas de autenticación, integrando además las métricas de colaboración de GitHub.
         </td>
         <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
       </tr>
@@ -313,28 +221,28 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <td>Mendoza Moreano, Mariel Lucero </td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Participé en el desarrollo del proyecto cumpliendo con las tareas asignadas dentro del equipo. Contribuí a la elaboración de entregables clave como el Lean UX Process y los análisis de usuario. Apoyé en la organización de las actividades relacionadas al diseño centrado en el usuario. Cumplí con los objetivos asignados dentro de los plazos establecidos.<br>
+          Participé en el desarrollo del proyecto cumpliendo con las tareas asignadas dentro del equipo. Contribuí a la elaboración de entregables clave como el Lean UX Process y los análisis de usuario. Apoyé en la organización de las actividades relacionadas al diseño centrado en el usuario. Cumplí con los objetivos asignados dentro de los plazos establecidos.
         </td>
       </tr>
       <tr>
         <td>Díaz Yurivilca, Sofía</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Fomenté un entorno colaborativo mediante la documentación detallada de la arquitectura técnica (Capítulo 3). Planifiqué las tareas de diseño de bases de datos y cumplí con los objetivos del sprint al entregar los diagramas de clases y de dominio, asegurando que el equipo tuviera una guía clara para la implementación.
         </td>
       </tr>
       <tr>
         <td>Rengifo Lozano, David</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Cumplí con los objetivos de desarrollo al configurar el backend inicial y las dependencias del proyecto. Colaboré en la estimación de tareas durante el Sprint Planning y documenté los avances técnicos en el reporte de implementación, asegurando que las metas del sprint se cumplieran según lo planificado en el backlog.
         </td>
       </tr>
       <tr>
         <td>Villón Amez, Enrique</td>
         <td>
           <strong>ℹ️ AV1:</strong><br>
-          Texto<br>
+          Aseguré el cumplimiento de los objetivos de despliegue mediante la configuración de GitHub Pages. Monitoreé la integración continua del código y verifiqué la estabilidad de la Landing Page en producción. Colaboré con el equipo al resolver dudas sobre el control de versiones, facilitando un entorno de trabajo fluido y sin interrupciones técnicas.
         </td>
       </tr>
     </tbody>
@@ -366,10 +274,10 @@ El servicio opera bajo un modelo de suscripción escalable, adaptado a clientes 
 | Foto | Integrante | Carrera | Descripción |
 | :---: | :--- | :--- | :--- |
 | <img src="resources/Chapter-I/rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos técnicos en desarrollo web, empleando tecnologías como HTML, CSS, JavaScript, Astro y Tailwind CSS. Asimismo, puedo contribuir al equipo con habilidades sólidas en trabajo colaborativo, organización, resolución de problemas y la estructuración de interfaces de usuario escalables. |
-| <img src="resources/Chapter-I/Mariel.jpeg/" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Carrera | Mi nombre es Mariel Lucero Mendoza Moreano, tengo 20 años y actualmente estudio Ingeniería de Software en la Universidad de Ciencias Aplicadas. Cuento con conocimientos en HTML, CSS y C++, los cuales he ido desarrollando a través de mis estudios y proyectos académicos. Me considero una persona responsable, proactiva y con disposición para colaborar y brindar apoyo cuando se requiere. Además, me interesa aprender constantemente nuevas tecnologías y mejorar mis habilidades para aportar de manera efectiva en proyectos de desarrollo de software. |
-| <img src="resources/Chapter-I/Sofia.png" width="100"> | **Díaz Yurivilca, Sofía**<br>(U20241A195) | Ingeniería de Software | Soy estudiante del quinto ciclo. Me considero responsable, proactivo y con motivación por aprender. En el curso de Aplicaciones Web, busco desarrollar una solución orientada al sector HealthTech a través del proyecto BioTrack, una plataforma web de gestión nutricional dirigida a pacientes y organizaciones. |
-| <img src="resources/team/david.png" width="100"> | **Rengifo Lozano, David**<br>(U20221022) | Carrera | Texto |
-| <img src="resources/team/enrique.png" width="100"> | **Villón Amez, Enrique**<br>(U20161a304) | Carrera | Texto |
+| <img src="resources/Chapter-I/Mariel.jpeg/" width="100"> | **Mendoza Moreano, Mariel Lucero**<br>(U20231a418) | Ingeniería de Software | Mi nombre es Mariel Lucero Mendoza Moreano, tengo 20 años y actualmente estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en HTML, CSS y C++, los cuales he ido desarrollando a través de mis estudios y proyectos académicos. Me considero una persona responsable, proactiva y con disposición para colaborar y brindar apoyo cuando se requiere. Además, me interesa aprender constantemente nuevas tecnologías y mejorar mis habilidades para aportar de manera efectiva en proyectos de desarrollo de software. |
+| <img src="resources/Chapter-I/Sofia.png" width="100"> | **Díaz Yurivilca, Sofía**<br>(U20241A195) | Ingeniería de Software | Soy estudiante del quinto ciclo. Me considero responsable, proactiva y con motivación por aprender. En el curso de Aplicaciones Web, busco desarrollar una solución orientada al sector HealthTech a través del proyecto BioTrack, una plataforma web de gestión nutricional dirigida a pacientes y organizaciones. |
+| <img src="resources/Chapter-I/user.jpeg" width="100"> | **Rengifo Lozano, David**<br>(U20221022) | Ingeniería de Software | Mi enfoque principal en el proyecto radica en la construcción de la lógica del lado del servidor utilizando C# y el framework .NET. Me destaco por ser una persona analítica y orientada a resultados, buscando siempre establecer bases arquitectónicas sólidas. Mi objetivo es asegurar que nuestra plataforma cuente con servicios backend seguros, eficientes y escalables para soportar las funcionalidades requeridas. |
+| <img src="resources/Chapter-I/user.jpeg" width="100"> | **Villón Amez, Enrique**<br>(U20161a304) | Ingeniería de Software | Aporto al equipo mi experiencia en la gestión de repositorios y el ciclo de vida del software. Me encargo de garantizar un flujo de trabajo ordenado mediante el uso de GitFlow y la configuración del despliegue continuo en plataformas como GitHub Pages. Soy detallista y comprometido con mantener la estabilidad del código, facilitando así un entorno de integración fluida para todos los desarrolladores del proyecto. |
 
 *(Tabla 1. Tabla de Perfiles de integrantes del equipo - Elaboracion propia.)*
 
@@ -565,15 +473,15 @@ Sabremos que esto es cierto cuando al menos el 75% de los usuarios interactúen 
 
 ##### 1.2.2.4. Lean UX Canvas
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 1.</strong> <em>Evidencia de Lean Ux Canvas</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 1.</strong> <em>Evidencia de Lean Ux Canvas</em>
+</p>
+<p align="center">
   <img src="resources/Lean Ux Canva.PNG" alt="Lean Ux Canva" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ### 1.3. Segmentos objetivo
 
@@ -1178,15 +1086,15 @@ El **100% de los entrevistados** mencionó la **falta de constancia** como dific
 
 **DISTRIBUCIÓN DE DIFICULTADES MENCIONADAS**
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 2.</strong> <em>Evidencia de Gráfico de dificultades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 2.</strong> <em>Evidencia de Gráfico de dificultades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Grafico1.png" alt="Gráfico de dificultades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 #### **¿Has utilizado alguna aplicación o servicio para mejorar tu alimentación? ¿Cómo fue tu experiencia?**  
 
@@ -1198,15 +1106,15 @@ Por otro lado, Gonzalo tuvo una experiencia regular, mencionando que la aplicaci
 
 #### **CALIFICACIÓN DE EXPERIENCIA PREVIA CON APPS DE NUTRICIÓN**  
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 3.</strong> <em>Evidencia de Gráfico de dificultades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 3.</strong> <em>Evidencia de Gráfico de dificultades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Grafico2.png" alt="Gráfico de dificultades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 #### **¿Confías en recomendaciones nutricionales automatizadas o prefieres siempre un especialista?**  
 
@@ -1218,15 +1126,15 @@ Por otro lado, Gonzalo indicó que confiaría más en la automatización por su 
 
 #### **PREFERENCIA SOBRE FUENTE DE RECOMENDACIONES NUTRICIONALES**  
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 4.</strong> <em>Evidencia de Gráfico de dificultades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 4.</strong> <em>Evidencia de Gráfico de dificultades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Grafico3.png" alt="Gráfico de dificultades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 #### **¿Qué características consideras indispensables en una app de nutrición para que realmente la uses?**  
 
@@ -1240,15 +1148,15 @@ Finalmente, solo Sebastián destacó el **escaneo de código de barras** como un
 
 #### **CARACTERÍSTICAS INDISPENSABLES — % DE ENTREVISTADOS QUE LA MENCIONARON** 
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 5.</strong> <em>Evidencia de Gráfico de dificultades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 5.</strong> <em>Evidencia de Gráfico de dificultades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Grafico4.png" alt="Gráfico de dificultades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 **Segundo Segmento Objetivo: Empresas que gestionan el bienestar de sus colaboradores**  
 
@@ -1277,15 +1185,15 @@ En general, **ninguna empresa cuenta con una plataforma integral de monitoreo de
 
 **HERRAMIENTA DIGITAL ACTUALMENTE USADA PARA SEGUIMIENTO DE BIENESTAR**  
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 6.</strong> <em>Evidencia de Gráfico de dificultades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 6.</strong> <em>Evidencia de Gráfico de dificultades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Grafico5.png" alt="Gráfico de dificultades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 **¿Qué problemas han identificado relacionados con la alimentación o salud de su personal?**  
 
@@ -1299,15 +1207,15 @@ Por su parte, Geldres fue el único en detallar el **exceso de sodio** en la ali
 
 **PROBLEMAS DE SALUD IDENTIFICADOS EN EL PERSONAL — % DE EMPRESAS**  
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 7.</strong> <em>Evidencia de Gráfico de dificultades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 7.</strong> <em>Evidencia de Gráfico de dificultades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Grafico6.png" alt="Gráfico de dificultades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 **¿Qué dificultades encuentran al implementar programas de bienestar o nutrición?**  
 
@@ -1321,15 +1229,15 @@ Por su parte, Geldres destacó específicamente el reto de que el personal **res
 
 **PRINCIPALES DIFICULTADES AL IMPLEMENTAR PROGRAMAS DE BIENESTAR — % DE EMPRESAS**  
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 8.</strong> <em>Evidencia de Gráfico de dificultades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 8.</strong> <em>Evidencia de Gráfico de dificultades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Grafico7.png" alt="Gráfico de dificultades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 **¿Qué características consideran indispensables en una solución como BioTrack?**  
 
@@ -1346,55 +1254,55 @@ Finalmente, solo Beltrán destacó la necesidad de una **integración directa co
 
 **CARACTERÍSTICAS INDISPENSABLES EN BIOTRACK — % DE EMPRESAS QUE LA MENCIONARON**  
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 9.</strong> <em>Evidencia de Gráfico de dificultades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 9.</strong> <em>Evidencia de Gráfico de dificultades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Grafico8.png" alt="Gráfico de dificultades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 <strong>Segmento Objetivo #1:</strong>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 10.</strong> <em>Evidencia de Ximena Núñez</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 10.</strong> <em>Evidencia de Ximena Núñez</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Ximena Núñez.png" alt="Ximena Núñez" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <strong>Segmento Objetivo #2:</strong>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 11.</strong> <em>Evidencia de Eduardo Arévalos</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 11.</strong> <em>Evidencia de Eduardo Arévalos</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Eduardo Arévalos.png" alt="Eduardo Arévalos" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 #### 2.3.2. User Task Matrix
 
 En este cuadro presentaremos nuestros segmentos objetivos: Pacientes y Organizaciones. Consideraremos las tareas escenciales que realizarán.
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 12.</strong> <em>Evidencia de taskmatrix</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 12.</strong> <em>Evidencia de taskmatrix</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/taskmatrix.PNG" alt="taskmatrix" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 Al comparar ambos segmentos, se observa una diferencia clara en prioridades y forma de uso. Ximena Núñez utiliza con mayor frecuencia funcionalidades operativas como visualizar planes de alimentación y registrar su progreso, dándoles además alta importancia, lo que refleja un enfoque práctico y constante en el seguimiento personal. Sin embargo, acciones más analíticas como revisar reportes o tomar decisiones basadas en datos tienen una frecuencia menor para ella. En cambio, Eduardo Arévalos muestra un patrón distinto: usa con alta frecuencia herramientas de análisis como el dashboard general y los reportes, asignándoles también alta importancia, lo que evidencia un enfoque más estratégico y orientado a la toma de decisiones. En resumen, mientras Ximena prioriza el registro y seguimiento diario, Eduardo se centra en el análisis e interpretación de la información para actuar.
 
@@ -1404,55 +1312,55 @@ Al comparar ambos segmentos, se observa una diferencia clara en prioridades y fo
 
 Este journey representa la experiencia actual de Ximena al intentar mejorar su alimentación, evidenciando la falta de constancia, organización y seguimiento en su rutina diaria. 
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 13.</strong> <em>Estructura de Sales rep journey map</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 13.</strong> <em>Estructura de Sales rep journey map</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Sales rep journey map.png" alt="Sales rep journey map" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <strong>Segmento Objetivo #2:</strong>
 
 Este journey representa cómo Eduardo gestiona actualmente iniciativas de bienestar nutricional en su empresa, mostrando un proceso fragmentado, manual y con poca visibilidad de resultados. 
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 14.</strong> <em>Estructura de Sales rep journey map 2</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 14.</strong> <em>Estructura de Sales rep journey map 2</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Sales rep journey map 2.png" alt="Sales rep journey map 2" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 #### 2.3.4. Empathy Mapping
 
 <strong>Segmento Objetivo #1:</strong>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 15.</strong> <em>Estructura de Empathy map</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 15.</strong> <em>Estructura de Empathy map</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Empathy map.png" alt="Empathy map" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <strong>Segmento Objetivo #2:</strong>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 16.</strong> <em>Estructura de Empathy map (1)</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 16.</strong> <em>Estructura de Empathy map (1)</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/Empathy map (1).png" alt="Empathy map (1)" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ## 2.4. Big Picture EventStorming
 
@@ -1464,55 +1372,55 @@ El Big Picture EventStorming nos permite explorar el dominio de BioTrack de mane
 
 El siguiente apartado presenta el descubrimiento inicial de los eventos de negocio de BioTrack. Se identifican cronológicamente los eventos de dominio que ocurren a lo largo del ciclo de vida de los usuarios, abarcando desde el registro y activación de cuentas hasta la configuración del perfil de salud, la gestión corporativa, la planificación nutricional, el seguimiento del progreso y la facturación. En esta fase, los eventos —representados en notas de color naranja— son colocados en el orden en que ocurren dentro del negocio, sin aún vincularlos a comandos ni actores específicos.
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 17.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Identity & Profile Management</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 17.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Identity & Profile Management</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-fase0-1.png" alt="Big Picture EventStorming - Fase 0 - Identity & Profile Management" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 18.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Corporate Management</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 18.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Corporate Management</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-fase0-2.png" alt="Big Picture EventStorming - Fase 0 - Corporate Management" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 19.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Nutritional Planning</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 19.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Nutritional Planning</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-fase0-3.png" alt="Big Picture EventStorming - Fase 0 - Nutritional Planning" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 20.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Progress Tracking & Monitoring</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 20.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Progress Tracking & Monitoring</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-fase0-4.png" alt="Big Picture EventStorming - Fase 0 - Progress Tracking & Monitoring" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 21.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Subscriptions & Billing</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 21.</strong> <em>Estructura de Big Picture EventStorming - Fase 0 - Subscriptions & Billing</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-fase0-5.png" alt="Big Picture EventStorming - Fase 0 - Subscriptions & Billing" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p style="text-align: center;">
   <em>Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) de la plataforma BioTrack, representados en notas de color naranja.</em>
@@ -1526,55 +1434,55 @@ En conjunto, los eventos presentados en la Fase 0 evidencian un dominio de negoc
 
 El presente apartado introduce la segunda y tercera fase del Big Picture EventStorming de BioTrack, en la cual se añaden los comandos que desencadenan cada evento y se identifican los actores o sistemas responsables de ejecutarlos. Esta capa de análisis permite comprender no solo qué ocurre en el dominio, sino también quién lo provoca y bajo qué condición, revelando la lógica operativa de cada bounded context. A continuación, se presentan los flujos enriquecidos con comandos y actores para cada módulo de la plataforma.
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 22.</strong> <em>Estructura de Big Picture EventStorming - Identity & Profile Management</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 22.</strong> <em>Estructura de Big Picture EventStorming - Identity & Profile Management</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa12-identity.png" alt="Big Picture EventStorming - Identity & Profile Management" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 23.</strong> <em>Estructura de Big Picture EventStorming - Corporate Management</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 23.</strong> <em>Estructura de Big Picture EventStorming - Corporate Management</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa12-corporate.png" alt="Big Picture EventStorming - Corporate Management" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 24.</strong> <em>Estructura de Big Picture EventStorming - Nutritional Planning</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 24.</strong> <em>Estructura de Big Picture EventStorming - Nutritional Planning</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa12-nutrition.png" alt="Big Picture EventStorming - Nutritional Planning" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 25.</strong> <em>Estructura de Big Picture EventStorming - Progress Tracking & Monitoring</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 25.</strong> <em>Estructura de Big Picture EventStorming - Progress Tracking & Monitoring</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa12-tracking.png" alt="Big Picture EventStorming - Progress Tracking & Monitoring" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 26.</strong> <em>Estructura de Big Picture EventStorming - Subscriptions & Billing</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 26.</strong> <em>Estructura de Big Picture EventStorming - Subscriptions & Billing</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa12-billing.png" alt="Big Picture EventStorming - Subscriptions & Billing" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p style="text-align: center;">
   <em>Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores y sistemas (notas amarillas y rosadas) que los ejecutan, así como las políticas (notas moradas) que rigen las decisiones de negocio dentro de cada bounded context.</em>
@@ -1588,55 +1496,55 @@ En conjunto, los flujos presentados revelan una plataforma con una lógica de ne
 
 La siguiente etapa presenta la vista final del Big Picture EventStorming de BioTrack, en la cual los eventos, comandos, actores y políticas quedan agrupados en sus respectivos Bounded Contexts o contextos delimitados. Esta organización permite definir las fronteras naturales del dominio y establecer la base sobre la cual se construirá la arquitectura de software orientada al dominio (DDD). A continuación, se presentan los cinco bounded contexts identificados para la plataforma.
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 27.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Identity & Profile Management</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 27.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Identity & Profile Management</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa3-identity.png" alt="Big Picture EventStorming - Etapa 3 Identity & Profile Management" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 28.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Corporate Management</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 28.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Corporate Management</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa3-corporate.png" alt="Big Picture EventStorming - Etapa 3 Corporate Management" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 29.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Nutritional Planning</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 29.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Nutritional Planning</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa3-nutrition.png" alt="Big Picture EventStorming - Etapa 3 Nutritional Planning" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 30.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Progress Tracking & Monitoring</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 30.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Progress Tracking & Monitoring</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa3-tracking.png" alt="Big Picture EventStorming - Etapa 3 Progress Tracking & Monitoring" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 31.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Subscriptions & Billing</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 31.</strong> <em>Estructura de Big Picture EventStorming - Etapa 3 Subscriptions & Billing</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-II/bigpicture-etapa3-billing.png" alt="Big Picture EventStorming - Etapa 3 Subscriptions & Billing" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p style="text-align: center;">
   <em>Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que encapsulan las reglas de negocio y se agrupan los eventos en sus cinco Bounded Contexts: Identity & Profile Management, Corporate Management, Nutritional Planning, Progress Tracking & Monitoring, y Subscriptions & Billing.</em>
@@ -1738,15 +1646,15 @@ En síntesis, la Etapa 3 del Big Picture EventStorming de BioTrack establece con
 
 ### 3.2. Impact Mapping
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 32.</strong> <em>Estructura de Impact mapping biotrack</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 32.</strong> <em>Estructura de Impact mapping biotrack</em>
+</p>
+<p align="center">
   <img src="resources\Chapter-III\ImpactMap.png" alt="Impact mapping biotrack" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ### 3.3. Product Backlog
 
@@ -1874,15 +1782,15 @@ Hemos seleccionado cuidadosamente dos familias tipográficas para BioTrack, busc
 
 <p align="center">
   <!-- INSERTAR AQUÍ: imagen de la jerarquía tipográfica mostrando DM Serif Display en H1/H2 y Poppins en H3/body/microcopy con sus tamaños y pesos -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 33.</strong> <em>Evidencia de Jerarquía Tipográfica BioTrack</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 33.</strong> <em>Evidencia de Jerarquía Tipográfica BioTrack</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/jerarquia_tipografica.png" alt="Jerarquía Tipográfica BioTrack" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **DM Serif Display** fue elegida para los títulos H1 y H2 por su estilo serif elegante con remates refinados que transmite autoridad médica, profesionalismo y calidez humana. Su carácter distintivo diferencia BioTrack de plataformas tecnológicas genéricas y aporta una presencia memorable en encabezados de la landing y módulos de la aplicación.
@@ -1936,15 +1844,15 @@ El diseño visual de BioTrack combina rigor médico con modernidad tecnológica.
 
 <p align="center">
   <!-- INSERTAR AQUÍ: imagen del logotipo BioTrack completo (isotipo + nombre) en sus variantes: positivo sobre blanco, negativo sobre azul, y versión reducida solo isotipo -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 34.</strong> <em>Evidencia de Logo BioTrack</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 34.</strong> <em>Evidencia de Logo BioTrack</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/biotrack_logo.jpeg" alt="Logo BioTrack" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -2242,165 +2150,165 @@ Los wireframes representan la distribución base de cada sección antes de aplic
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del navbar en escala de grises mostrando logo izquierda, links centro, CTAs derecha y versión mobile hamburguesa -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 35.</strong> <em>Interfaz de Wireframe Navbar</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 35.</strong> <em>Interfaz de Wireframe Navbar</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-navbar.png" alt="Wireframe Navbar" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Hero section**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del hero mostrando grid 2 columnas: texto+CTA izquierda y dashboard mockup derecha, con blobs y grid pattern de fondo -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 36.</strong> <em>Interfaz de Wireframe Hero Section</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 36.</strong> <em>Interfaz de Wireframe Hero Section</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-hero.png" alt="Wireframe Hero Section" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Trust Band**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe de la banda de logos de confianza con label y chips de empresa en fila centrada -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 37.</strong> <em>Interfaz de Wireframe Trust Band</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 37.</strong> <em>Interfaz de Wireframe Trust Band</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-trust-band.png" alt="Wireframe Trust Band" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección de Funcionalidades**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del grid de features con 4 tarjetas estándar y 1 tarjeta fc-large azul de span 2 columnas -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 38.</strong> <em>Interfaz de Wireframe Funcionalidades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 38.</strong> <em>Interfaz de Wireframe Funcionalidades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-funcionalidades.png" alt="Wireframe Funcionalidades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección de Segmentos (tabs)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe de los tabs de segmento (Paciente / Empresa / Nutricionista) con el panel de contenido activo mostrando grid 2 columnas: info+beneficios y stats -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 39.</strong> <em>Interfaz de Wireframe Segmentos</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 39.</strong> <em>Interfaz de Wireframe Segmentos</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-segmentos.png" alt="Wireframe Segmentos" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección Cómo Funciona (4 pasos)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe de los 4 steps verticales con step-number circular, contenido textual y step-connector punteado entre pasos -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 40.</strong> <em>Interfaz de Wireframe Cómo Funciona</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 40.</strong> <em>Interfaz de Wireframe Cómo Funciona</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-como-funciona.png" alt="Wireframe Cómo Funciona" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección Stats / Impacto**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe de la banda de stats con fondo azul oscuro y 4 stat-items con cifra grande y label descriptivo en grid de 4 columnas -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 41.</strong> <em>Interfaz de Wireframe Stats</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 41.</strong> <em>Interfaz de Wireframe Stats</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-stats.png" alt="Wireframe Stats" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección de Precios (3 planes)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del pricing grid de 3 columnas con toggle mensual/anual arriba, plan central destacado a mayor escala y lista de features con checkmarks -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 42.</strong> <em>Interfaz de Wireframe Precios</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 42.</strong> <em>Interfaz de Wireframe Precios</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-precios.png" alt="Wireframe Precios" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección de Testimoniales**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del grid de 3 testimoniales con estrellas, cita, avatar y nombre/cargo, con la tarjeta central en fondo azul destacado -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 43.</strong> <em>Interfaz de Wireframe Testimoniales</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 43.</strong> <em>Interfaz de Wireframe Testimoniales</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-testimoniales.png" alt="Wireframe Testimoniales" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **CTA Final**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del CTA final con caja de gradiente azul redondeada, H2, párrafo y 2 botones centrados (btn-white + btn-ghost-white) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 44.</strong> <em>Interfaz de Wireframe CTA Final</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 44.</strong> <em>Interfaz de Wireframe CTA Final</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-cta-final.png" alt="Wireframe CTA Final" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Footer**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del wireframe del footer con grid 5 columnas: columna brand izquierda más ancha y 4 columnas de links, más footer-bottom con copyright -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 45.</strong> <em>Interfaz de Wireframe Footer</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 45.</strong> <em>Interfaz de Wireframe Footer</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/wireframe-footer.png" alt="Wireframe Footer" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ### 4.3.2. Landing Page Mock-up
@@ -2411,165 +2319,165 @@ Los mockups muestran la propuesta visual aplicada sobre la estructura validada e
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del navbar con el logo BioTrack (logo-mark gradient + texto), links Poppins gris con underline verde animado y botones btn-outline + btn-primary verde -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 46.</strong> <em>Interfaz de Mockup Navbar</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 46.</strong> <em>Interfaz de Mockup Navbar</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-navbar.png" alt="Mockup Navbar" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Hero section**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del hero completo con gradiente de fondo azul-verde suave, blobs difusos, grid pattern, eyebrow verde, H1 DM Serif, botones, social proof con avatars y dashboard mockup flotante con animación float y floating badges -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 47.</strong> <em>Interfaz de Mockup Hero Section</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 47.</strong> <em>Interfaz de Mockup Hero Section</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-hero.png" alt="Mockup Hero Section" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Trust Band**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de la banda de confianza con fondo #F8FAFB, label uppercase gris y chips de logos con borde #E5E7EB -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 48.</strong> <em>Interfaz de Mockup Trust Band</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 48.</strong> <em>Interfaz de Mockup Trust Band</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-trust-band.png" alt="Mockup Trust Band" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección de Funcionalidades**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del grid de features con tarjetas #F3F4F6 border-radius 14px, feature-icons en azul claro y verde claro, y fc-large con gradiente azul abarcando 2 columnas -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 49.</strong> <em>Interfaz de Mockup Funcionalidades</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 49.</strong> <em>Interfaz de Mockup Funcionalidades</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-funcionalidades.png" alt="Mockup Funcionalidades" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección de Segmentos (tabs)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de los tabs de segmento con pill-tab activa en azul, panel de contenido blanco con shadow-md, persona card, benefits list con SVG checks verdes y stat-cards con cifras azules DM Serif -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 50.</strong> <em>Interfaz de Mockup Segmentos</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 50.</strong> <em>Interfaz de Mockup Segmentos</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-segmentos.png" alt="Mockup Segmentos" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección Cómo Funciona**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de los 4 pasos con step-number círculos azules (#0F4C81) con box-shadow, step-connector línea azul claro y step-content con H3 Poppins + párrafo gris -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 51.</strong> <em>Interfaz de Mockup Cómo Funciona</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 51.</strong> <em>Interfaz de Mockup Cómo Funciona</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-como-funciona.png" alt="Mockup Cómo Funciona" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección Stats / Impacto**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup de la banda stats con gradiente linear-gradient(135deg, #0F4C81, #0A3660), 4 stat-items con cifras DM Serif Display blancas de ~3.5rem y labels opacity .75 -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 52.</strong> <em>Interfaz de Mockup Stats</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 52.</strong> <em>Interfaz de Mockup Stats</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-stats.png" alt="Mockup Stats" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección de Precios (3 planes)**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del pricing grid con toggle anual/mensual (switch verde), plan Profesional con gradiente azul price-featured en escala 1.04 con featured-badge verde "Más popular", y plans Starter y Empresarial flanqueando con borde gris -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 53.</strong> <em>Interfaz de Mockup Precios</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 53.</strong> <em>Interfaz de Mockup Precios</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-precios.png" alt="Mockup Precios" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Sección de Testimoniales**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del grid de 3 testimoniales: 2 cards con fondo #F3F4F6 y 1 testi-featured con gradiente azul, todas con estrellas #FBBF24 y avatar circular 42px -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 54.</strong> <em>Interfaz de Mockup Testimoniales</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 54.</strong> <em>Interfaz de Mockup Testimoniales</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-testimoniales.png" alt="Mockup Testimoniales" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **CTA Final**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del CTA final con cta-box gradiente azul border-radius 40px, cta-blob verde decorativo, H2 DM Serif blanco con em en #D1FAE5 y 2 botones (btn-white + btn-ghost-white) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 55.</strong> <em>Interfaz de Mockup CTA Final</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 55.</strong> <em>Interfaz de Mockup CTA Final</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-cta-final.png" alt="Mockup CTA Final" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 - **Footer**
 
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 56.</strong> <em>Interfaz de Mockup Footer</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 56.</strong> <em>Interfaz de Mockup Footer</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/mockup-footer.png" alt="Mockup Footer" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ### 4.4. Web Applications UX/UI Design
@@ -3642,15 +3550,15 @@ end note
 - Asi es como quedaria el Bounded Context de Gestion de Identidad y Autenticación :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 57.</strong> <em>Estructura de bounded context gestion de identidad y autenticacion</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 57.</strong> <em>Estructura de bounded context gestion de identidad y autenticacion</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_identidad_autenticacion.png" alt="bounded context gestion de identidad y autenticacion" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -3713,15 +3621,15 @@ end note
 - Asi es como quedaria el Bounded Context de Gestion de Perfil y Configuración del Paciente :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 58.</strong> <em>Estructura de bounded context perfil y configuracion del paciente</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 58.</strong> <em>Estructura de bounded context perfil y configuracion del paciente</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_perfil_configuracion.png" alt="bounded context perfil y configuracion del paciente" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -3792,15 +3700,15 @@ end note
 - Asi es como quedaria el Bounded Context de Gestion de Gestión Corporativa :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 59.</strong> <em>Estructura de bounded context gestion corporativa</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 59.</strong> <em>Estructura de bounded context gestion corporativa</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_corporativa.png" alt="bounded context gestion corporativa" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -3881,15 +3789,15 @@ end note
 - Asi es como quedaria el Bounded Context de Gestion de Gestión Corporativa :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 60.</strong> <em>Estructura de bounded context planificacion nutricional</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 60.</strong> <em>Estructura de bounded context planificacion nutricional</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_planificacion.png" alt="bounded context planificacion nutricional" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -3964,15 +3872,15 @@ end note
 - Asi es como quedaria el Bounded Context de Seguimiento y Monitoreo del Progreso :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 61.</strong> <em>Estructura de bounded context seguimiento y monitoreo del progreso</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 61.</strong> <em>Estructura de bounded context seguimiento y monitoreo del progreso</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_seguimiento.png" alt="bounded context seguimiento y monitoreo del progreso" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4054,15 +3962,15 @@ end note
 - Asi es como quedaria el Bounded Context de suscripcion y facturación :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 62.</strong> <em>Estructura de bounded context suscripciones y facturación</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 62.</strong> <em>Estructura de bounded context suscripciones y facturación</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_suscripcion_facturacion.png" alt="bounded context suscripciones y facturación" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4121,15 +4029,15 @@ BC06 --> EMAIL : Facturas y avisos
 - Aqui todos los Bounded Contexts relacionados entre sí :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 63.</strong> <em>Estructura de bounded context relacionados</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 63.</strong> <em>Estructura de bounded context relacionados</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_relaciones.png" alt="bounded context relacionados" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4177,15 +4085,15 @@ end
 - Imagen del flujo 1 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 64.</strong> <em>Estructura de flujo de registro, verificación de Email y activación de cuenta</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 64.</strong> <em>Estructura de flujo de registro, verificación de Email y activación de cuenta</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_flujo1.png" alt="flujo de registro, verificación de Email y activación de cuenta" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4249,15 +4157,15 @@ end
 - Imagen del flujo 2 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 65.</strong> <em>Estructura de bounded context Perfil, Asignación, Plan y Seguimiento</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 65.</strong> <em>Estructura de bounded context Perfil, Asignación, Plan y Seguimiento</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_flujo2.png" alt="bounded context Perfil, Asignación, Plan y Seguimiento" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4310,15 +4218,15 @@ end note
 - Imagen del flujo 3 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 66.</strong> <em>Estructura de bounded context relacionados</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 66.</strong> <em>Estructura de bounded context relacionados</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_flujo3.png" alt="bounded context relacionados" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4367,15 +4275,15 @@ end note
 - Imagen del flujo 4 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 67.</strong> <em>Estructura de bounded context relacionados</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 67.</strong> <em>Estructura de bounded context relacionados</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_flujo4.png" alt="bounded context relacionados" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4421,15 +4329,15 @@ SYS --> PDF : Genera reportes PDF\nde evolución (US33)
 - Imagen del flujo 5 :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 68.</strong> <em>Estructura de bounded context relacionados</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 68.</strong> <em>Estructura de bounded context relacionados</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_relaciones.png" alt="bounded context relacionados" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4514,15 +4422,15 @@ S6 --> S3
 - Imagen del Container de Biotrack :
 <p align="center">
   <!-- INSERTAR AQUÍ: captura del mockup del footer con fondo #1F2937, logo BioTrack en versión negativa, descripción en rgba(255,255,255,.75), social icons circulares con hover verde, columnas de links con hover verde y footer-bottom en rgba(255,255,255,.45) -->
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 69.</strong> <em>Estructura de bounded context container</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 69.</strong> <em>Estructura de bounded context container</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_container.png" alt="bounded context container" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 </p>
 
 ---
@@ -4888,81 +4796,81 @@ Finalmente, el ejercicio de modelado con Event Storming, los diagramas de compon
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 <p align="center">Shared BC</p>
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 70.</strong> <em>Evidencia de bc shared</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 70.</strong> <em>Evidencia de bc shared</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_shared.jpeg" alt="bc shared" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p align="center">Identity & Authentication BC</p>
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 71.</strong> <em>Evidencia de bc identity authentification</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 71.</strong> <em>Evidencia de bc identity authentification</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_identity_authentification.jpeg" alt="bc identity authentification" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p align="center">Patient Profile BC</p>
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 72.</strong> <em>Evidencia de bc patient profile</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 72.</strong> <em>Evidencia de bc patient profile</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_patient_profile.jpeg" alt="bc patient profile" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p align="center">Corporate Management BC</p>
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 73.</strong> <em>Evidencia de bc corporate management</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 73.</strong> <em>Evidencia de bc corporate management</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_corporate_management.jpeg" alt="bc corporate management" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p align="center">Nutritional Planning BC</p>
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 74.</strong> <em>Evidencia de bc nutritional planning</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 74.</strong> <em>Evidencia de bc nutritional planning</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_nutritional_planning.jpeg" alt="bc nutritional planning" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p align="center">Progress Tracking BC</p>
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 75.</strong> <em>Evidencia de bc progress tracking</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 75.</strong> <em>Evidencia de bc progress tracking</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_progress_tracking.jpeg" alt="bc progress tracking" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 <p align="center">Subscription & billing BC</p>
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 76.</strong> <em>Evidencia de bc subscription billing</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 76.</strong> <em>Evidencia de bc subscription billing</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/bc_subscription_billing.jpeg" alt="bc subscription billing" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ## 4.8. Database Design
 
@@ -4984,15 +4892,15 @@ Los *tokens de verificación* tienen una vida útil de 24 horas y llevan contado
 
 <!-- INSERTAR AQUÍ: el diagrama entidad-relación completo de BioTrack generado desde MySQL Workbench, dbdiagram.io o equivalente. Debe mostrar las 25 tablas con sus columnas principales, tipos de datos y las relaciones (líneas de FK) entre ellas. Exportar como SVG o PNG de alta resolución. -->
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 77.</strong> <em>Estructura de Database Diagram BioTrack</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 77.</strong> <em>Estructura de Database Diagram BioTrack</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-IV/database_Biotrack.jpeg" alt="Database Diagram BioTrack" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 </div>
 
@@ -5271,7 +5179,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
     </tr>
     <tr>
       <td>Villón Amez, Enrique</td>
-      <td>enriquevillonupc</td>
+      <td>enriquevillon25</td>
       <td>C</td>
       <td>C</td>
       <td>C</td>
@@ -5324,7 +5232,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
       <td>Implementar Navbar Responsivo</td>
       <td>Crear la barra de navegación superior con menú hamburguesa para móviles y scroll suave.</td>
       <td>2</td>
-      <td>enriquevillonupc</td>
+      <td>enriquevillon25</td>
       <td>Done</td>
     </tr>
     <tr>
@@ -5333,7 +5241,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
       <td>Task 3</td>
       <td>Desarrollar Tabs de Segmentos</td>
       <td>Implementar componente interactivo de pestañas para cambiar entre la información B2C y B2B.</td>
-      <td>4</td>
+      <td>3</td>
       <td>MarielLucero</td>
       <td>Done</td>
     </tr>
@@ -5353,7 +5261,7 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
       <td>Task 5</td>
       <td>Vistas de Autenticación (UI)</td>
       <td>Maquetar los archivos login.html y signup.html respetando el diseño limpio de la plataforma.</td>
-      <td>4</td>
+      <td>3</td>
       <td>RafaelAgustin21</td>
       <td>Done</td>
     </tr>
@@ -5374,13 +5282,26 @@ Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamen
       <td>Despliegue GitHub Pages</td>
       <td>Configurar el repositorio y lanzar la versión estática en GitHub Pages para revisión.</td>
       <td>2</td>
-      <td>enriquevillonupc</td>
+      <td>enriquevillon25</td>
       <td>Done</td>
     </tr>
   </tbody>
 </table>
 
 *(Tabla 30. Tabla de Sprint Backlog 1 - Elaboracion propia.)*
+
+Como parte del marco de trabajo ágil, se utilizó Jira para la planificación y seguimiento del proyecto. En la siguiente captura se observa el estado de las tareas del Sprint 1.
+
+
+<p align="center">
+  <strong>Figura 78.</strong> <em>Tablero Jira - Sprint 1</em>
+</p>
+<p align="center">
+  <img src="resources/Chapter-V/evidencia-jira.png" alt="Evidencia de Jira" width="800">
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -5433,84 +5354,104 @@ Repositorio del Landing Page: [[https://github.com/1ASI0729-2610-10203-NexTech/L
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 Se presenta la interfaz funcional de la Landing Page de BioTrack, la cual cumple con los objetivos del Sprint 1 al comunicar la propuesta de valor y los beneficios del sistema para pacientes y organizaciones. La implementación asegura una navegación fluida y un diseño adaptable (responsive) que garantiza la correcta visualización en diversos dispositivos móviles y de escritorio.
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 78.</strong> <em>Evidencia de biotrack herosection</em>
-  </figcaption>
-  <img src="resources/Chapter-V/biotrack-herosection.jpeg" alt="biotrack herosection" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 79.</strong> <em>Evidencia de biotrack login</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 79.</strong> <em>Tablero Jira - Sprint 1</em>
+</p>
+<p align="center">
+  <img src="resources/Chapter-V/biotrack-herosection.jpeg" alt="Evidencia de Jira" width="800">
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
+
+<p align="center">
+  <strong>Figura 80.</strong> <em>Evidencia de biotrack login</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-V/biotrack-login.jpg" alt="biotrack login" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 80.</strong> <em>Evidencia de biotrack signup</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 81.</strong> <em>Evidencia de biotrack signup</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-V/biotrack-signup.jpeg" alt="biotrack signup" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 La documentación técnica del incremento de software se centra en la organización modular de los recursos del frontend. Como se observa en la estructura del proyecto, se ha establecido una jerarquía clara para la gestión de activos multimedia en la carpeta de recursos, así como una separación lógica para las vistas de autenticación (pages/) y los scripts de internacionalización (i18n.js). Esta arquitectura permite un mantenimiento eficiente y una escalabilidad adecuada para la integración de futuros servicios de API.
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 81.</strong> <em>Estructura de estructura archivos</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 82.</strong> <em>Estructura de estructura archivos</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-V/estructura-archivos.jpeg" alt="estructura archivos" width="300">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 El despliegue de la Landing Page se realizó de manera exitosa utilizando la plataforma GitHub Pages. Se configuró un flujo de trabajo que permite la actualización automática del sitio cada vez que se confirman cambios en la rama principal, asegurando que la versión pública sea siempre la más reciente.
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 82.</strong> <em>Evidencia de despliegue</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 83.</strong> <em>Evidencia de despliegue</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-V/despliegue.jpeg" alt="despliegue" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como plataforma central para el control de versiones, siguiendo el modelo de trabajo GitFlow. Este enfoque permitió la creación de ramas de características (feature branches) independientes, facilitando la integración continua de los componentes de la Landing Page sin conflictos de código. Asimismo, se adoptó el estándar de Conventional Commits para mantener un historial de cambios profesional y legible. El seguimiento de las tareas y objetivos del sprint se realizó a través de un tablero de gestión ágil, garantizando la visibilidad del progreso y la integridad del incremento de software producido.
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 83.</strong> <em> Gráfico de actividad Commits over time</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 84.</strong> <em> Gráfico de actividad Commits over time</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-V/contributors-github-all.jpeg" alt="despliegue" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <figcaption style="margin-bottom: 10px;">
-    <strong>Figura 84.</strong> <em> Panel de estadísticas de los colaboradores</em>
-  </figcaption>
+<p align="center">
+  <strong>Figura 85.</strong> <em> Panel de estadísticas de los colaboradores</em>
+</p>
+<p align="center">
   <img src="resources/Chapter-V/contributors-github.jpeg" alt="despliegue" width="800">
-  <figcaption style="margin-top: 10px;">
-    <strong>Fuente:</strong> Elaboración propia.
-  </figcaption>
-</figure>
+</p>
+<p align="center">
+  <strong>Fuente:</strong> Elaboración propia.
+</p>
+
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+#### 5.2.2.3. Sprint Backlog 2
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 
 ---
 
@@ -5613,6 +5554,9 @@ https://miro.com/welcomeonboard/ZXZtR2J2Q3poTU9vU3hzUGdZTDkwUzlFeHpKWjR0bjg2Q1c2
 
 - **Pagina Web:**  
 https://1asi0729-2610-10203-nextech.github.io/Landing-Page/index.html#
+
+- **Jira - Sprint 1:**  
+https://sdyurivilca.atlassian.net/jira/software/projects/BIO/boards/1?jql=Sprint%20%3D%201&sprints=1
 
 ### Índice de Figuras
 1. Figura 1. Evidencia de Lean Ux Canva.
