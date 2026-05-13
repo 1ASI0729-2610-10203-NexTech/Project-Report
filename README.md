@@ -484,52 +484,96 @@ Sabremos que esto es cierto cuando al menos el 75% de los usuarios interactúen 
 </p>
 
 ### 1.3. Segmentos objetivo
+#### **Segmento Objetivo #1: Paciente (jóvenes y adultos: 18 a 60+ años)**
 
-### Segmento Objetivo #1: Paciente (jóvenes y adultos: 18 a 60+ años) 
+Este segmento incluye a personas jóvenes y adultas interesadas en mejorar sus hábitos alimenticios, llevar un control de su salud y recibir seguimiento nutricional mediante una plataforma digital. BioTrack se enfoca principalmente en usuarios ubicados en zonas urbanas, con acceso frecuente a internet y familiaridad con aplicaciones móviles o plataformas web.
 
-Este segmento incluye personas entre 18 y más de 60 años interesados en mejorar sus hábitos alimenticios y llevar un control de su salud. 
+#### Características demográficas:
 
-#### Características demográficas: 
+| Factor | Descripción |
+|---|---|
+| Edad | 18 a 60+ años |
+| Género | Masculino y femenino |
+| Ubicación | Zonas urbanas del Perú, principalmente Lima Metropolitana y ciudades con mayor acceso a internet |
+| Nivel socioeconómico | Medio y medio-alto |
+| Ocupación | Estudiantes, trabajadores dependientes, independientes y personas interesadas en bienestar personal |
+| Acceso tecnológico | Usuarios con smartphone, computadora o acceso frecuente a internet |
+| Intereses | Nutrición, control de peso, salud preventiva, bienestar físico y mejora de hábitos alimenticios |
 
-- Edad: 18 a 60+ años  
+#### Características relevantes:
 
-- Ubicación: zonas urbanas con acceso a internet  
+- Interés en bienestar, nutrición y prevención de enfermedades.
+- Falta de constancia en el seguimiento de hábitos saludables.
+- Uso frecuente de aplicaciones móviles o plataformas digitales.
+- Necesidad de visualizar su progreso mediante gráficos, reportes o alertas.
+- Disposición a utilizar herramientas digitales si son simples, rápidas y fáciles de entender.
 
-- Nivel socioeconómico: medio y medio-alto  
+#### Sustento estadístico y clientes potenciales:
 
-- Acceso a smartphones o computadoras  
+El segmento de pacientes individuales presenta condiciones favorables para el uso de BioTrack debido al alto nivel de acceso a internet en la población joven y adulta. Según el INEI, el 97,0% de la población de 19 a 24 años utilizó internet, seguido por el 92,0% de la población de 25 a 40 años. Asimismo, el 58,4% de los hogares del país cuenta con acceso a internet, lo que evidencia un entorno favorable para la adopción de soluciones digitales de salud y bienestar. :contentReference[oaicite:0]{index=0}
 
-#### Características relevantes: 
+Para estimar el mercado potencial, BioTrack considera como público objetivo inicial a personas de 18 a 60+ años que viven en zonas urbanas, tienen acceso a internet y muestran interés en nutrición, bienestar o control de salud. Al tratarse de una startup en etapa inicial, se plantea una captación conservadora de entre **1% y 3% del mercado digital urbano interesado en bienestar nutricional**.
 
-- Interés en bienestar, nutrición y prevención de enfermedades  
+| Nivel de mercado | Descripción | Porcentaje estimado |
+|---|---|---:|
+| TAM | Personas adultas en Perú con posible interés en salud, alimentación y bienestar | 100% |
+| SAM | Personas de 18 a 60+ años en zonas urbanas con acceso frecuente a internet | 35% - 45% del mercado general |
+| SOM inicial | Usuarios que BioTrack buscará captar mediante campañas digitales, landing page y suscripción individual | 1% - 3% del SAM |
 
-- Falta de constancia en el seguimiento de hábitos saludables  
+De esta manera, BioTrack no depende de un único usuario o cliente, sino de una base amplia de personas con acceso digital y necesidad de seguimiento nutricional continuo.
 
-- Uso frecuente de aplicaciones móviles o plataformas digitales 
+---
 
-### Segmento Objetivo #2: Organizaciones 
+#### **Segmento Objetivo #2: Organizaciones**
 
-Este segmento incluye empresas que buscan mejorar la salud, el bienestar y la productividad de sus colaboradores mediante la implementación de programas de bienestar corporativo basados en datos. Dentro de estas organizaciones, los principales usuarios del sistema suelen ser responsables del área de recursos humanos o bienestar, quienes requieren herramientas para monitorear y analizar información relacionada con la salud de los empleados. 
+Este segmento incluye empresas que buscan mejorar la salud, el bienestar y la productividad de sus colaboradores mediante la implementación de programas de bienestar corporativo basados en datos. Dentro de estas organizaciones, los principales usuarios del sistema suelen ser responsables del área de recursos humanos, bienestar organizacional o salud ocupacional, quienes requieren herramientas para monitorear y analizar información relacionada con la salud de los empleados.
 
-#### Características demográficas: 
+#### Características demográficas y organizacionales:
 
-  - Tipo: empresas medianas y grandes  
+| Factor | Descripción |
+|---|---|
+| Tipo de cliente | Empresas medianas y grandes |
+| Sector | Corporativo, servicios, tecnología, educación, salud, retail e industria |
+| Ubicación | Principalmente Lima Metropolitana y otras zonas urbanas con alta concentración empresarial |
+| Área usuaria | Recursos Humanos, Bienestar Organizacional, Salud Ocupacional o Administración |
+| Nivel de digitalización | Medio a alto |
+| Capacidad de pago | Empresas con presupuesto para programas de bienestar, salud ocupacional o beneficios laborales |
+| Tamaño de empresa | Organizaciones con equipos de trabajo medianos o numerosos |
 
-  - Sector: corporativo, servicios, tecnología e industria  
+#### Características relevantes:
 
-  - Ubicación: principalmente en entornos urbanos  
+- Interés en reducir el ausentismo laboral.
+- Necesidad de monitorear el bienestar de sus colaboradores.
+- Inversión en programas de salud ocupacional.
+- Búsqueda de soluciones tecnológicas para la toma de decisiones.
+- Necesidad de reportes agregados y anonimizados para evaluar indicadores de bienestar.
 
-  - Nivel de digitalización: medio a alto  
+#### Sustento estadístico y clientes potenciales:
 
-#### Características relevantes: 
+El segmento de organizaciones representa una oportunidad para BioTrack porque permite ofrecer planes corporativos y generar ingresos recurrentes mediante paquetes empresariales. Según el INEI, el documento *Perú: Estructura Empresarial 2024* analiza las unidades económicas formales constituidas a nivel nacional, lo cual permite identificar un mercado empresarial amplio para soluciones digitales B2B. :contentReference[oaicite:1]{index=1}
 
-  - Interés en reducir el ausentismo laboral  
+Además, Lima Metropolitana concentra una parte importante de la actividad empresarial y presenta altos niveles de acceso a internet. En el primer trimestre de 2024, el 88,5% de la población de Lima Metropolitana usó internet, lo que refuerza la viabilidad de introducir inicialmente BioTrack en entornos urbanos y empresariales con mayor digitalización. :contentReference[oaicite:2]{index=2}
 
-  - Necesidad de monitorear el bienestar de sus colaboradores  
+Para el segmento B2B, BioTrack considera como mercado inicial a empresas medianas y grandes con interés en programas de bienestar corporativo, salud ocupacional y beneficios para colaboradores. Al tratarse de una solución nueva, se plantea una captación inicial conservadora de entre **1% y 2% de empresas medianas y grandes con capacidad de inversión en bienestar digital**.
 
-  - Inversión en programas de salud ocupacional  
+| Nivel de mercado | Descripción | Porcentaje estimado |
+|---|---|---:|
+| TAM | Empresas formales que podrían implementar programas de bienestar o salud ocupacional | 100% |
+| SAM | Empresas medianas y grandes con mayor capacidad de inversión tecnológica y bienestar corporativo | 10% - 15% del mercado empresarial formal |
+| SOM inicial | Empresas que BioTrack buscará captar mediante alianzas, demostraciones y propuestas B2B | 1% - 2% del SAM |
 
-  - Búsqueda de soluciones tecnológicas para la toma de decisiones
+Este segmento fortalece la rentabilidad de BioTrack porque permite complementar el modelo B2C con contratos corporativos, licencias por colaborador y planes empresariales. Así, el proyecto no depende únicamente de pacientes individuales, sino también de organizaciones interesadas en mejorar el bienestar de sus equipos mediante herramientas digitales.
+
+---
+
+### Resumen de clientes potenciales
+
+| Segmento | Cliente potencial | Necesidad principal | Porcentaje inicial estimado de captación |
+|---|---|---|---:|
+| Pacientes individuales | Jóvenes y adultos de 18 a 60+ años con acceso a internet e interés en bienestar nutricional | Registrar hábitos, visualizar progreso y recibir seguimiento nutricional | 1% - 3% del SAM |
+| Organizaciones | Empresas medianas y grandes con programas de bienestar o salud ocupacional | Monitorear bienestar de colaboradores mediante dashboards y reportes agregados | 1% - 2% del SAM |
+
+En conclusión, BioTrack cuenta con dos segmentos objetivo complementarios. El segmento B2C permite llegar a usuarios individuales interesados en mejorar su salud, mientras que el segmento B2B ofrece una oportunidad de escalabilidad mediante contratos corporativos. Esta combinación demuestra que el proyecto no se limita a un solo cliente, sino que apunta a un mercado potencial más amplio y rentable.
 
 ---
 
@@ -756,7 +800,7 @@ Muchas gracias por tu tiempo y por compartir tu experiencia, ha sido de gran ayu
 
 ---
 
-#### **Segmento 2: Empresas**
+#### **Segmento 2: Organizaciones**
 
  **Introducción :**
 
@@ -928,7 +972,7 @@ Ahora sí, comenzamos:
 
 *(Tabla 5. Tabla de Registro de entrevistas - Elaboracion propia.)*
 
-#### **Segmento #2: Empresas**
+#### **Segmento #2: Organizaciones**
 
 <table>
   <tr>
@@ -5536,9 +5580,180 @@ Asimismo, se incluyen Technical Stories relacionadas con el RESTful API, necesar
 
 ### Conclusiones y recomendaciones
 
-Durante este primer sprint, el equipo logró sentar una base sólida tanto en la arquitectura técnica como en la dinámica de trabajo colaborativo. Nos enfocamos en contrastar los artefactos del proceso Lean UX con el modelado del negocio mediante EventStorming, lo que nos permitió definir Bounded Contexts funcionales y confirmar que la desconexión entre pacientes, nutricionistas y organizaciones constituye una barrera real para la salud preventiva. A nivel técnico, se preparó el entorno de desarrollo definiendo el stack principal con Vue.js para el frontend y C# con .NET para el backend, sentando las bases para la futura integración de servicios RESTful. Asimismo, se alcanzó un primer hito relevante con el diseño, maquetación y despliegue exitoso de la Landing Page en GitHub Pages, incorporando un diseño responsivo y soporte multilingüe mediante i18n. Además, se fortaleció la organización interna al trabajar con GitFlow, adoptar Conventional Commits como convención de cambios y gestionar el flujo de tareas mediante un tablero ágil, asegurando un repositorio ordenado y visibilidad sobre el avance del equipo.
+D# Conclusiones
 
-Como recomendaciones para los siguientes sprints, se sugiere iniciar la conexión progresiva entre el frontend y los servicios backend, priorizando la implementación de los primeros endpoints del Bounded Context de Gestión de Identidad y Autenticación. De cara a la evolución del producto, también se recomienda planificar la integración con dispositivos IoT o wearables, en coherencia con la propuesta de monitoreo en tiempo real planteada en el informe, con el fin de enriquecer el seguimiento del paciente y reducir la dependencia del registro manual. Asimismo, resulta pertinente consolidar el flujo de asignación automática de nutricionistas ya modelado en la arquitectura del sistema, de modo que pueda implementarse de forma consistente en los siguientes incrementos. Finalmente, para fortalecer el modelo B2B, se recomienda investigar integraciones con sistemas de Recursos Humanos existentes que faciliten la gestión organizacional y la consulta de métricas agregadas, manteniendo siempre la privacidad de los datos individuales.
+El desarrollo del proyecto BioTrack permitió identificar una oportunidad relevante dentro del sector HealthTech, orientada a mejorar el seguimiento nutricional de pacientes individuales y organizaciones. A partir del análisis del problema, se evidenció que la falta de monitoreo continuo, la baja constancia en el registro de hábitos y la ausencia de información centralizada afectan tanto a los usuarios que desean mejorar su salud como a las empresas que buscan implementar programas de bienestar.
+
+En relación con los Problem Statements definidos durante el proceso Lean UX, se concluye que BioTrack responde a una necesidad real del mercado: ofrecer una plataforma que centralice datos nutricionales, facilite el seguimiento del progreso y permita tomar decisiones basadas en información clara. Esta propuesta se fortalece al atender dos segmentos complementarios: pacientes individuales y organizaciones, lo que amplía el alcance comercial del producto y evita depender de un único tipo de cliente.
+
+Las assumptions planteadas fueron útiles para orientar el diseño de la solución. Se asumió que los pacientes necesitan una herramienta sencilla para registrar su información y visualizar su evolución, mientras que las organizaciones requieren dashboards con datos agregados para evaluar el bienestar de sus colaboradores. Estas suposiciones permitieron definir funcionalidades clave como el registro de datos de salud, planes nutricionales, gráficos de progreso, reportes y métricas corporativas.
+
+Asimismo, las Hypothesis Statements ayudaron a establecer criterios de éxito medibles, como la frecuencia de registro de datos, el uso de gráficos de progreso, la interacción con reportes y la continuidad de uso de la plataforma. Aunque estas hipótesis aún requieren validación completa con usuarios finales, sirven como base para futuras entrevistas de validación y pruebas de usabilidad.
+
+Desde el punto de vista del diseño y la implementación, el proyecto avanzó en la construcción de una Landing Page orientada a la conversión, la definición de User Stories, Product Backlog, Sprint Planning y Sprint Backlog, además del diseño de flujos principales de la Web Application. Esto permite mantener trazabilidad entre las necesidades identificadas, las funcionalidades propuestas y las tareas desarrolladas por el equipo.
+
+Finalmente, BioTrack demuestra potencial de rentabilidad porque combina un modelo B2C, basado en suscripciones individuales, con un modelo B2B, orientado a paquetes corporativos para empresas. Como recomendación, se propone continuar con la validación de los segmentos objetivo, mejorar la integración entre la Web Application y el RESTful API, implementar métricas reales de uso y fortalecer las funcionalidades de reportes, notificaciones y dashboards corporativos.
+
+Se recomienda continuar validando BioTrack con usuarios pertenecientes a los segmentos objetivo, especialmente pacientes interesados en mejorar sus hábitos alimenticios y representantes de empresas vinculados a recursos humanos o bienestar organizacional. Esto permitirá contrastar las hipótesis Lean UX con comportamientos reales y ajustar las funcionalidades según las necesidades observadas.
+
+También se recomienda priorizar el desarrollo de las funcionalidades centrales del producto, como el registro de datos de salud, visualización de progreso, creación de planes nutricionales y dashboards corporativos. Estas características representan el valor principal de BioTrack y deben consolidarse antes de ampliar el alcance hacia funcionalidades complementarias.
+
+Además, es importante fortalecer la evidencia de gestión del proyecto mediante Jira, manteniendo actualizados el Product Backlog, Sprint Backlog, responsables, estados de avance y Story Points. Esto permitirá demostrar una mejor organización del trabajo colaborativo y una mayor trazabilidad entre planificación e implementación.
+
+Como siguiente paso del roadmap, se recomienda integrar progresivamente el RESTful API con la Web Application, validar los endpoints principales, implementar autenticación segura y preparar pruebas con usuarios finales. De esta forma, BioTrack podrá evolucionar desde un prototipo académico hacia una solución funcional con mayor potencial de adopción en el mercado.
+
+Para el commit de esta corrección puedes usar:
+
+docs(chapter-1): update target segments with market share analysis
+
+Y si también agregas conclusiones:
+
+docs(report): update target segments and conclusions
+## Segmento Objetivo #1: Paciente (jóvenes y adultos: 18 a 60+ años) 
+
+Este segmento incluye personas entre 18 y más de 60 años interesados en mejorar sus hábitos alimenticios y llevar un control de su salud. 
+
+#### Características demográficas: 
+
+- Edad: 18 a 60+ años  
+
+- Ubicación: zonas urbanas con acceso a internet  
+
+- Nivel socioeconómico: medio y medio-alto  
+
+- Acceso a smartphones o computadoras  
+
+#### Características relevantes: 
+
+- Interés en bienestar, nutrición y prevención de enfermedades  
+
+- Falta de constancia en el seguimiento de hábitos saludables  
+
+- Uso frecuente de aplicaciones móviles o plataformas digitales 
+
+### Segmento Objetivo #2: Organizaciones 
+
+Este segmento incluye empresas que buscan mejorar la salud, el bienestar y la productividad de sus colaboradores mediante la implementación de programas de bienestar corporativo basados en datos. Dentro de estas organizaciones, los principales usuarios del sistema suelen ser responsables del área de recursos humanos o bienestar, quienes requieren herramientas para monitorear y analizar información relacionada con la salud de los empleados. 
+
+#### Características demográficas: 
+
+  - Tipo: empresas medianas y grandes  
+
+  - Sector: corporativo, servicios, tecnología e industria  
+
+  - Ubicación: principalmente en entornos urbanos  
+
+  - Nivel de digitalización: medio a alto  
+
+#### Características relevantes: 
+
+  - Interés en reducir el ausentismo laboral  
+
+  - Necesidad de monitorear el bienestar de sus colaboradores  
+
+  - Inversión en programas de salud ocupacional  
+
+  - Búsqueda de soluciones tecnológicas para la toma de decisiones
+
+esto es lo que tengo solo cambio no?
+Pensado durante 8s
+
+Sí, solo debes reemplazar esa parte por una versión más completa. Tu estructura está bien, pero le falta lo que te observaron: factores demográficos más precisos + porcentaje de clientes potenciales / market share.
+
+Pega esto en lugar de lo que tienes:
+
+## Segmento Objetivo #1: Paciente (jóvenes y adultos: 18 a 60+ años)
+
+Este segmento incluye a personas jóvenes y adultas interesadas en mejorar sus hábitos alimenticios, llevar un control de su salud y recibir seguimiento nutricional mediante una plataforma digital. BioTrack se enfoca principalmente en usuarios ubicados en zonas urbanas, con acceso frecuente a internet y familiaridad con aplicaciones móviles o plataformas web.
+
+#### Características demográficas:
+
+| Factor | Descripción |
+|---|---|
+| Edad | 18 a 60+ años |
+| Género | Masculino y femenino |
+| Ubicación | Zonas urbanas del Perú, principalmente Lima Metropolitana y ciudades con mayor acceso a internet |
+| Nivel socioeconómico | Medio y medio-alto |
+| Ocupación | Estudiantes, trabajadores dependientes, independientes y personas interesadas en bienestar personal |
+| Acceso tecnológico | Usuarios con smartphone, computadora o acceso frecuente a internet |
+| Intereses | Nutrición, control de peso, salud preventiva, bienestar físico y mejora de hábitos alimenticios |
+
+#### Características relevantes:
+
+- Interés en bienestar, nutrición y prevención de enfermedades.
+- Falta de constancia en el seguimiento de hábitos saludables.
+- Uso frecuente de aplicaciones móviles o plataformas digitales.
+- Necesidad de visualizar su progreso mediante gráficos, reportes o alertas.
+- Disposición a utilizar herramientas digitales si son simples, rápidas y fáciles de entender.
+
+#### Sustento estadístico y clientes potenciales:
+
+El segmento de pacientes individuales presenta condiciones favorables para el uso de BioTrack debido al alto nivel de acceso a internet en la población joven y adulta. Según el INEI, el 97,0% de la población de 19 a 24 años utilizó internet, seguido por el 92,0% de la población de 25 a 40 años. Asimismo, el 58,4% de los hogares del país cuenta con acceso a internet, lo que evidencia un entorno favorable para la adopción de soluciones digitales de salud y bienestar. :contentReference[oaicite:0]{index=0}
+
+Para estimar el mercado potencial, BioTrack considera como público objetivo inicial a personas de 18 a 60+ años que viven en zonas urbanas, tienen acceso a internet y muestran interés en nutrición, bienestar o control de salud. Al tratarse de una startup en etapa inicial, se plantea una captación conservadora de entre **1% y 3% del mercado digital urbano interesado en bienestar nutricional**.
+
+| Nivel de mercado | Descripción | Porcentaje estimado |
+|---|---|---:|
+| TAM | Personas adultas en Perú con posible interés en salud, alimentación y bienestar | 100% |
+| SAM | Personas de 18 a 60+ años en zonas urbanas con acceso frecuente a internet | 35% - 45% del mercado general |
+| SOM inicial | Usuarios que BioTrack buscará captar mediante campañas digitales, landing page y suscripción individual | 1% - 3% del SAM |
+
+De esta manera, BioTrack no depende de un único usuario o cliente, sino de una base amplia de personas con acceso digital y necesidad de seguimiento nutricional continuo.
+
+---
+
+## Segmento Objetivo #2: Organizaciones
+
+Este segmento incluye empresas que buscan mejorar la salud, el bienestar y la productividad de sus colaboradores mediante la implementación de programas de bienestar corporativo basados en datos. Dentro de estas organizaciones, los principales usuarios del sistema suelen ser responsables del área de recursos humanos, bienestar organizacional o salud ocupacional, quienes requieren herramientas para monitorear y analizar información relacionada con la salud de los empleados.
+
+#### Características demográficas y organizacionales:
+
+| Factor | Descripción |
+|---|---|
+| Tipo de cliente | Empresas medianas y grandes |
+| Sector | Corporativo, servicios, tecnología, educación, salud, retail e industria |
+| Ubicación | Principalmente Lima Metropolitana y otras zonas urbanas con alta concentración empresarial |
+| Área usuaria | Recursos Humanos, Bienestar Organizacional, Salud Ocupacional o Administración |
+| Nivel de digitalización | Medio a alto |
+| Capacidad de pago | Empresas con presupuesto para programas de bienestar, salud ocupacional o beneficios laborales |
+| Tamaño de empresa | Organizaciones con equipos de trabajo medianos o numerosos |
+
+#### Características relevantes:
+
+- Interés en reducir el ausentismo laboral.
+- Necesidad de monitorear el bienestar de sus colaboradores.
+- Inversión en programas de salud ocupacional.
+- Búsqueda de soluciones tecnológicas para la toma de decisiones.
+- Necesidad de reportes agregados y anonimizados para evaluar indicadores de bienestar.
+
+#### Sustento estadístico y clientes potenciales:
+
+El segmento de organizaciones representa una oportunidad para BioTrack porque permite ofrecer planes corporativos y generar ingresos recurrentes mediante paquetes empresariales. Según el INEI, el documento *Perú: Estructura Empresarial 2024* analiza las unidades económicas formales constituidas a nivel nacional, lo cual permite identificar un mercado empresarial amplio para soluciones digitales B2B. :contentReference[oaicite:1]{index=1}
+
+Además, Lima Metropolitana concentra una parte importante de la actividad empresarial y presenta altos niveles de acceso a internet. En el primer trimestre de 2024, el 88,5% de la población de Lima Metropolitana usó internet, lo que refuerza la viabilidad de introducir inicialmente BioTrack en entornos urbanos y empresariales con mayor digitalización. :contentReference[oaicite:2]{index=2}
+
+Para el segmento B2B, BioTrack considera como mercado inicial a empresas medianas y grandes con interés en programas de bienestar corporativo, salud ocupacional y beneficios para colaboradores. Al tratarse de una solución nueva, se plantea una captación inicial conservadora de entre **1% y 2% de empresas medianas y grandes con capacidad de inversión en bienestar digital**.
+
+| Nivel de mercado | Descripción | Porcentaje estimado |
+|---|---|---:|
+| TAM | Empresas formales que podrían implementar programas de bienestar o salud ocupacional | 100% |
+| SAM | Empresas medianas y grandes con mayor capacidad de inversión tecnológica y bienestar corporativo | 10% - 15% del mercado empresarial formal |
+| SOM inicial | Empresas que BioTrack buscará captar mediante alianzas, demostraciones y propuestas B2B | 1% - 2% del SAM |
+
+Este segmento fortalece la rentabilidad de BioTrack porque permite complementar el modelo B2C con contratos corporativos, licencias por colaborador y planes empresariales. Así, el proyecto no depende únicamente de pacientes individuales, sino también de organizaciones interesadas en mejorar el bienestar de sus equipos mediante herramientas digitales.
+
+---
+
+### Resumen de clientes potenciales
+
+| Segmento | Cliente potencial | Necesidad principal | Porcentaje inicial estimado de captación |
+|---|---|---|---:|
+| Pacientes individuales | Jóvenes y adultos de 18 a 60+ años con acceso a internet e interés en bienestar nutricional | Registrar hábitos, visualizar progreso y recibir seguimiento nutricional | 1% - 3% del SAM |
+| Organizaciones | Empresas medianas y grandes con programas de bienestar o salud ocupacional | Monitorear bienestar de colaboradores mediante dashboards y reportes agregados | 1% - 2% del SAM |
+
+En conclusión, BioTrack cuenta con dos segmentos objetivo complementarios. El segmento B2C permite llegar a usuarios individuales interesados en mejorar su salud, mientras que el segmento B2B ofrece una oportunidad de escalabilidad mediante contratos corporativos. Esta combinación demuestra que el proyecto no se limita a un solo cliente, sino que apunta a un mercado potencial más amplio y rentable.
+
+Sí, en resumen: reemplaza tu sección actual por esta. Solo cambia el número de tabla o figura si tu informe lo necesita.
 
 ## 📚 Bibliografía
 
@@ -5556,7 +5771,7 @@ https://miro.com/welcomeonboard/ZXZtR2J2Q3poTU9vU3hzUGdZTDkwUzlFeHpKWjR0bjg2Q1c2
 - **Pagina Web:**  
 https://1asi0729-2610-10203-nextech.github.io/Landing-Page/index.html#
 
-- **Jira - Sprint 1:**  
+- **Jira - Sprint 1 y 2:**  
 https://sdyurivilca.atlassian.net/jira/software/projects/BIO/boards/1?jql=Sprint%20%3D%201&sprints=1
 
 ### Índice de Figuras
