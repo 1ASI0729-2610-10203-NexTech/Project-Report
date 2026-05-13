@@ -5054,8 +5054,7 @@ El primer Sprint de **BioTrack** se centró en establecer la presencia digital i
 ##### 5.2.1.1. Sprint Planning 1
 A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1. Se discution los objetivos, etapa de tiempo y tareas a realizar.
 
-<div>
- <table>
+<table>
   <thead>
     <tr>
       <th>#️⃣ Número</th>
@@ -5122,8 +5121,6 @@ A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1.
  </table>
 
 *(Tabla 28. Tabla de Sprint Planning 1 - Elaboracion propia.)*
-
-</div>
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 Se ha distribuido el liderazgo de las secciones de la Landing Page equitativamente entre los 5 miembros.
@@ -5438,6 +5435,75 @@ La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como 
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
+A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 2. Se discution los objetivos, etapa de tiempo y tareas a realizar.
+
+<table>
+  <thead>
+    <tr>
+      <th>#️⃣ Número</th>
+      <th>Sprint 2</th>
+    </tr>
+    <tr>
+      <th colspan="2">Sprint Planning Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>Date</td>
+      <td>2026-05-07</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>10:00 - 11:00</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Google Meet</td>
+    </tr>
+    <tr>
+      <td>Prepared by</td>
+      <td>Pacheco Lavado, Rafael Agustin</td>
+    </tr>
+    <tr>
+      <td>Attendees</td>
+      <td>
+        Pacheco Lavado, Rafael Agustin<br>
+        Mendoza Moreano, Mariel Lucero<br>
+        Díaz Yurivilca, Sofía<br>
+        Rengifo Lozano, David<br>
+        Villón Amez, Enrique
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint n-1 Review Summary</td>
+      <td>Se completó exitosamente el desarrollo de la Landing Page con soporte multiidioma y la maquetación de las vistas de autenticación (Login/Signup). Asimismo, se resolvieron las observaciones de la presentación anterior, asegurando la operatividad de todos los enlaces de navegación y estructurando las historias de usuario correctamente.</td>
+    </tr>
+    <tr>
+      <td>Sprint n-1 Retrospective Summary</td>
+      <td>El equipo demostró una sólida colaboración a través de control de versiones. Como oportunidad de mejora, se acordó mantener el tablero Kanban actualizado en tiempo real y aplicar estrictamente la secuencia de Fibonacci para estimar la complejidad de las nuevas tareas.</td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Goal</td>
+      <td>
+        <strong>Desarrollo y despliegue inicial de la Frontend Web Application:</strong><br>
+        El objetivo principal de este sprint es construir la primera versión funcional de la aplicación web de BioTrack. Nos enfocaremos en diseñar y maquetar los dashboards principales para los perfiles de paciente, empresa y nutricionista, asegurando un diseño responsivo y estableciendo la estructura base para la posterior integración con la API RESTful.
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Velocity</td>
+      <td>34 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>34 Story Points</td>
+    </tr>
+  </tbody>
+</table>
+
+*(Tabla 32. Tabla de Sprint Planning 2 - Elaboracion propia.)*
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
@@ -5446,6 +5512,8 @@ La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
