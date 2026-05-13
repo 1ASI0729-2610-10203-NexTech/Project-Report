@@ -5555,8 +5555,9 @@ Asimismo, se incluyen Technical Stories relacionadas con el RESTful API, necesar
 **Herramienta utilizada:** Jira  
 **URL pública del Sprint Board:** https://sdyurivilca.atlassian.net/jira/software/projects/BIO/boards/1?sprints=6&atlOrigin=eyJpIjoiMTc2M2RmMDYyY2ZjNGE1M2E5MTVhMzBjZTkxOWQ3MzkiLCJwIjoiaiJ9
 
-**Evidencia del Sprint Board:**  
-![Sprint Backlog 2](resources/Chapter-V/sprintbacklog2.png)
+**Evidencia del Sprint Board:**
+  ![Sprint Backlog 2](resources/Chapter-V/sprintbacklog2.png)
+
 
 | Sprint # | User Story |  | Work-Item / Task |  |  |  |  |  |
 |---|---|---|---|---|---|---:|---|---|
