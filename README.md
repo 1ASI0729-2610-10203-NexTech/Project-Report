@@ -2,7 +2,7 @@
 
 # Informe de Trabajo Final
 
-<img src="./resources/Banner-UPC.png" alt="Banner UPC">
+<img src="resources/Banner-UPC.png" alt="Banner UPC">
 
 ### Universidad Peruana de Ciencias Aplicadas (UPC) 🎓
 
@@ -5478,25 +5478,6 @@ La colaboración del equipo NexTech se gestionó mediante el uso de GitHub como 
   <strong>Fuente:</strong> Elaboración propia.
 </p>
 
-
-### 5.2.2. Sprint 2
-
-#### 5.2.2.1. Sprint Planning 2
-
-#### 5.2.2.2. Aspect Leaders and Collaborators
-
-#### 5.2.2.3. Sprint Backlog 2
-
-#### 5.2.2.4. Development Evidence for Sprint Review
-
-#### 5.2.2.5. Execution Evidence for Sprint Review
-
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.2.8. Team Collaboration Insights during Sprint
-
 ---
 
 ## 5.2.2. Sprint 2
@@ -5520,8 +5501,20 @@ En esta sección se presenta la planificación del Sprint 2 de BioTrack. Durante
 | **Sprint n Velocity** | 34 Story Points |
 | **Sum of Story Points** | 34 Story Points |
 
-### 5.2.2.2. Aspect Leaders and Collaborators.
-
+### 5.2.2.2. Aspect Leaders and Collaborators
+ 
+En este Sprint 2, el equipo NexTech organizó el trabajo en torno a seis aspectos principales, alineados con el Sprint Goal de habilitar el registro inicial de información de salud y el seguimiento nutricional del paciente. Cada aspecto agrupa un conjunto de User Stories o Technical Stories relacionadas funcionalmente. Se designó un líder (L) responsable de coordinar y liderar el desarrollo de cada aspecto, y uno o más colaboradores (C) que participaron activamente en su implementación.
+ 
+| Team Member (Last Name, First Name) | GitHub Username | Patient Health Profile Setup (US09, US10, US11) | Food Consumption Tracking (US27) | Progress Visualization (US30) | Weekly Diet View (US23) | Health Profile API Endpoints (TS04) | Progress Tracking API Endpoints (TS06) |
+|---|---|---|---|---|---|---|---|
+| Díaz Yurivilca, Sofía | u20241a195-cmd | L | C | C | C | C | C |
+| Mendoza Moreano, Mariel Lucero | — | C | C | C | L | C | C |
+| Pacheco Lavado, Rafael Agustin | RafaelAgustin21 | C | C | C | C | L | C |
+| Rengifo Lozano, David | DavidRengifoLoz | C | L | C | C | C | L |
+| Villón Amez, Enrique | enriquevillon25 | C | C | L | C | C | C |
+ 
+(Tabla X. Aspect Leaders and Collaborators — Sprint 2 de BioTrack. Elaboración propia.)
+ 
 ### 5.2.2.3. Sprint Backlog 2
 
 El Sprint Backlog 2 presenta las User Stories y Technical Stories seleccionadas para el segundo Sprint de BioTrack. El objetivo principal de este Sprint es implementar las funcionalidades iniciales del seguimiento nutricional del paciente, permitiendo registrar datos de salud, seleccionar objetivos nutricionales, registrar restricciones alimentarias, visualizar la dieta semanal y revisar información inicial de progreso.
@@ -5570,17 +5563,254 @@ Asimismo, se incluyen Technical Stories relacionadas con el RESTful API, necesar
 
 (Tabla X. Sprint Backlog 2 de BioTrack - Elaboración propia.)
 
-### 5.2.2.4. Development Evidence for Sprint Review. 
+ 
+### 5.2.2.4. Development Evidence for Sprint Review
+ 
+Durante el Sprint 2, el equipo NexTech implementó las principales vistas del Frontend Web Application de BioTrack, incluyendo el formulario de registro de datos de salud, el selector de objetivos nutricionales, el registro de restricciones alimentarias, la visualización de la dieta semanal, el registro de consumo de alimentos y la vista de progreso nutricional. Todos los cambios fueron integrados al repositorio mediante pull requests revisados desde la rama `develop`, aplicando GitFlow y Conventional Commits.
+ 
+**Repositorio Frontend:** https://1asi0729-2610-10203-nextech.github.io/biotrack-frontend/login 
+ 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | main | a365a71 | first commit | Configuración inicial del repositorio del frontend de BioTrack. | 2026-05-12 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | main | 069167e | feat: setup biotrack vue ddd architecture and style global | Configuración de la arquitectura Vue con DDD y estilos globales del proyecto. | 2026-05-12 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | main | 5d43ad6 | feat: setup header navbar | Implementación del componente header con barra de navegación principal. | 2026-05-12 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | feat/show-correct-i18 | cdb3f25 | feat: show correct i18n | Corrección en la configuración de internacionalización (i18n) para la visualización correcta de textos. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | feat/sofia | 77deb8b | feat: add corporate management views (US13, US15, US17) | Adición de vistas de gestión corporativa para los User Stories US13, US15 y US17. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | feat/sofia | fbcf195 | feat: The progress from the paciente | Implementación de la vista de progreso del paciente. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | fix/resolve-errors-conflicts | 43563c4 | fix: resolve erros conflicts | Resolución de conflictos detectados durante la integración de ramas. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | develop | 198ef90 | merge: resolve conflicts with develop | Resolución de conflictos al integrar cambios con la rama develop. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | develop | aaedb7c | fix: update router with corporate management routes | Actualización del router con las rutas de gestión corporativa. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | develop | 9d0bf03 | merge: resolve conflicts with develop | Segunda resolución de conflictos en rama develop. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | develop | 1ce722a | fix: update router with corporate management routes | Corrección final del router de gestión corporativa. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | main | 10639a5 | feat: correct show deploy | Corrección en la visualización del despliegue del Frontend. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | main | 6f964d4 | feat: show correct files | Corrección en la presentación de archivos dentro de la aplicación. | 2026-05-13 |
+| 1ASI0729-2610-10203-NexTech/biotrack-frontend | main | 096d6f5 | feat: show correct db register page | Corrección en la visualización de la página de registro de base de datos. | 2026-05-13 |
+ 
+(Tabla X. Development Evidence for Sprint Review — Sprint 2 de BioTrack. Elaboración propia.)
+ 
+---
+ 
 ### 5.2.2.5. Execution Evidence for Sprint Review. 
-### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
-### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+
+![dashboard-paciente](resources/Chapter-V/dashboard-paciente.png)
+
+Vista principal del paciente con plan activo. Muestra las calorías restantes del día (1850 kcal), el estado del plan nutricional como "Activo" asignado a la Dra. Ana Torres, la adherencia actual del día (0%) y el estado del perfil de salud como "Completado". Incluye accesos directos para registrar comida, ver el plan nutricional e ir a facturación. Interfaz en idioma inglés.
+
+---
+
+![dashboard-paciente_1](resources/Chapter-V/dashboard-paciente_1.png)
+
+Misma vista del dashboard del paciente Juan Pérez pero con interfaz en idioma español y con datos actualizados tras registrar consumo: muestra calorías en negativo (-8049 kcal de 1950 kcal objetivo) y adherencia del día en 100%, evidenciando que el sistema actualiza los indicadores en tiempo real según el consumo registrado.
+
+---
+
+![dashboard-sin-plan](resources/Chapter-V/dashboard-sin-plan.png)
+
+Vista del dashboard para un paciente (Enrique Villon) que aún no tiene plan nutricional activo ni perfil de salud completado. Muestra el estado del plan como "Sin plan", el perfil de salud como "Pendiente" y una alerta indicando que el correo aún no ha sido verificado. Los botones de acción aparecen deshabilitados hasta que el paciente complete su perfil.
+
+---
+
+![food-log](resources/Chapter-V/food-log.png)
+
+Vista de registro de consumo diario en estado vacío. Muestra 0 kcal consumidas frente a un objetivo de 1850 kcal y una adherencia del 0%. El formulario de agregar alimento está disponible con campos de tipo de comida, descripción y calorías. En el panel lateral se indica que aún no se registraron alimentos en el día.
+
+---
+
+![food-log_1](resources/Chapter-V/food-log_1.png)
+
+Vista de registro de consumo con alimento ya registrado. Muestra el contador de calorías consumidas actualizado (9999 kcal) y la adherencia al 100%. El sistema muestra el mensaje de confirmación "Consumo guardado correctamente" y en el panel lateral aparece el alimento registrado con su categoría (desayuno) y su valor calórico.
+
+---
+
+![actualizar-peso-semanal](resources/Chapter-V/actualizar-peso-semanal.png)
+
+Vista para el registro y actualización del peso semanal del paciente. Incluye un formulario con campos de peso actual, fecha (precompletada con la fecha actual) y comentario opcional, junto con el botón "Guardar peso". En el panel derecho se muestra un resumen con la diferencia de peso respecto al inicial (-2.0 kg), el restante para la meta (6.0 kg) y el historial de registros de peso anteriores con sus fechas y etiquetas de tipo.
+
+---
+
+![nutritional-plan](resources/Chapter-V/nutritional-plan.png)
+
+Vista del plan nutricional activo del paciente en idioma inglés. Muestra el nombre del plan (Plan Nutricional — Semana 1), el profesional que lo elaboró (Dra. Ana Torres) y la fecha de creación. En el panel derecho se presentan las calorías diarias asignadas (1950 kcal), el objetivo nutricional (bajar de peso) y la distribución de macronutrientes en barras de progreso: Proteínas 35%, Carbohidratos 45% y Grasas 20%. Incluye botón para acceder a la dieta semanal.
+
+---
+
+![nutritional-plan_1](resources/Chapter-V/nutritional-plan_1.png)
+
+Misma vista del plan nutricional activo en idioma español. Evidencia el correcto funcionamiento de la internacionalización (i18n), mostrando todos los elementos de la interfaz, etiquetas y navegación lateral traducidos al español sin alteración del contenido del plan.
+
+---
+
+![weekly-diet-view](resources/Chapter-V/weekly-diet-view.png)
+
+Vista de la dieta semanal del paciente mostrando los días Lunes, Martes, Miércoles y Jueves. Cada día presenta sus comidas organizadas en tarjetas con el nombre del alimento, una descripción nutricional breve y las calorías correspondientes (desayuno: 380 kcal, almuerzo: 620 kcal, snack: 230 kcal, cena: 380 kcal). La interfaz está en idioma inglés con los nombres de los alimentos en español según el plan asignado.
+
+---
+
+![weekly-diet-view_1](resources/Chapter-V/weekly-diet-view_1.png)
+
+Continuación de la vista de dieta semanal mostrando los días Viernes, Sábado y Domingo. Mantiene la misma estructura de tarjetas por comida con calorías detalladas, evidenciando que el plan nutricional cubre los siete días de la semana de forma completa y consistente.
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2 se desarrollaron e integraron los endpoints del RESTful API necesarios para soportar las funcionalidades del Frontend Web Application de BioTrack. Para ello, se utilizó JSON Server como Fake API desplegada en la plataforma Render, conectada al repositorio mediante GitHub. Los endpoints siguen la convención `/api/v1/<resource>` definida en el archivo `server/routes.json` del proyecto, el cual mapea cada ruta pública hacia su colección correspondiente en `server/db.json`.
+
+> [!IMPORTANT]
+> Base URL (producción): https://biotrack-frontend-blkn.onrender.com
+
+A continuación se presentan los endpoints consumidos durante este Sprint, organizados por bounded context:
+
+**Patient Profile (TS04)**
+
+| Endpoint | Verbo HTTP | Descripción | Response |
+|---|---|---|---|
+| `/api/v1/patient-profiles` | GET | Obtiene todos los perfiles de salud. Se filtra por `userId` en el frontend para obtener el perfil del paciente autenticado. | 200 OK |
+| `/api/v1/patient-profiles` | POST | Crea el perfil de salud inicial del paciente con datos como peso, talla, objetivo nutricional y restricciones alimentarias. | 201 Created |
+| `/api/v1/patient-profiles/:id` | PATCH | Actualiza datos del perfil de salud, objetivo nutricional o restricciones alimentarias del paciente. | 200 OK |
+
+**Progress Tracking — Food Log (TS06)**
+
+| Endpoint | Verbo HTTP | Descripción | Response |
+|---|---|---|---|
+| `/api/v1/food-logs` | GET | Obtiene todos los registros de consumo. Se filtra por `patientId` en el frontend para mostrar solo los del paciente activo. | 200 OK |
+| `/api/v1/food-logs` | POST | Registra el consumo diario de un alimento con los campos `mealType`, `description`, `calories` y `date`. | 201 Created |
+
+**Progress Tracking — Activity Log (TS06)**
+
+| Endpoint | Verbo HTTP | Descripción | Response |
+|---|---|---|---|
+| `/api/v1/activity-logs` | GET | Obtiene todos los registros de actividad física filtrados por `patientId` en el frontend. | 200 OK |
+| `/api/v1/activity-logs` | POST | Registra una actividad física con los campos `activityType`, `durationMinutes`, `intensity`, `burnedCalories` y `date`. | 201 Created |
+
+**Progress Tracking — Weight Records (TS06)**
+
+| Endpoint | Verbo HTTP | Descripción | Response |
+|---|---|---|---|
+| `/api/v1/weight-records` | GET | Obtiene el historial de registros de peso del paciente filtrados por `patientId`. | 200 OK |
+| `/api/v1/weight-records` | POST | Registra el peso semanal del paciente con los campos `weightKg`, `date`, `type`, `source` y `comment`. | 201 Created |
+| `/api/v1/weight-records/:id` | PATCH | Actualiza un registro de peso existente del paciente. | 200 OK |
+
+**Nutritional Planning**
+
+| Endpoint | Verbo HTTP | Descripción | Response |
+|---|---|---|---|
+| `/api/v1/patient-plans` | GET | Obtiene todos los planes nutricionales. Se filtra por `patientId` para obtener el plan activo del paciente. | 200 OK |
+| `/api/v1/patient-plans/:id` | PATCH | Actualiza el estado del plan a `ACTIVATED` o `REJECTED` según la decisión del paciente. | 200 OK |
+| `/api/v1/weekly-diets` | GET | Obtiene la dieta semanal filtrada por `planId` para visualizar las comidas organizadas por día de la semana. | 200 OK |
+
+**URL del repositorio Frontend:** https://github.com/1ASI0729-2610-10203-NexTech/biotrack-frontend
+
+---
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 2, el equipo NexTech realizó el despliegue del Frontend Web Application de BioTrack en GitHub Pages y de la Fake API (JSON Server) en Render. El proceso de despliegue del frontend fue completamente automatizado mediante GitHub Actions, eliminando la necesidad de comandos manuales de publicación.
+
+**Productos desplegados:**
+
+| Producto | Plataforma | URL |
+|---|---|---|
+| Frontend Web Application (Vue.js) | GitHub Pages | https://1asi0729-2610-10203-nextech.github.io/biotrack-frontend/ |
+| Fake API (JSON Server) | Render | https://biotrack-frontend-blkn.onrender.com |
+
+**Proceso de despliegue del Frontend Web Application:**
+
+**1. Configuración de variables de entorno por entorno**
+
+El proyecto cuenta con archivos `.env` separados por entorno. El archivo `.env.production` define la URL de la Fake API desplegada en Render y el base path para GitHub Pages:
+
+```env
+VITE_APP_ENV=production
+VITE_APP_BASE_PATH=/biotrack-frontend/
+VITE_API_BASE_URL=https://biotrack-frontend-blkn.onrender.com
+VITE_API_TIMEOUT=10000
+VITE_ENABLE_API_DEBUG=false
+```
+
+**2. Configuración del GitHub Actions Workflow**
+
+Se configuró el archivo `.github/workflows/deploy.yml` para automatizar el build y despliegue en GitHub Pages cada vez que se realiza un push a la rama `main`. El workflow ejecuta los siguientes pasos:
+
+```yaml
+name: Deploy Vue app to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate production environment
+        run: |
+          if [ -z "$VITE_API_BASE_URL" ]; then
+            echo "VITE_API_BASE_URL is required for GitHub Pages production builds."
+            exit 1
+          fi
+        env:
+          VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL || 'https://biotrack-frontend-blkn.onrender.com' }}
+
+      - name: Build
+        run: npm run build
+        env:
+          VITE_APP_ENV: production
+          VITE_APP_BASE_PATH: /biotrack-frontend/
+          VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL || 'https://biotrack-frontend-blkn.onrender.com' }}
+          VITE_API_TIMEOUT: 10000
+          VITE_ENABLE_API_DEBUG: false
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    environment:
+      name: github-pages
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+```
+
+**3. Ejecución del despliegue**
+
+El despliegue se activa automáticamente con cada push a `main`. El workflow realiza la validación del entorno, el build con `npm run build` y la publicación del contenido de la carpeta `dist/` en GitHub Pages sin intervención manual del equipo.
+
+**Proceso de despliegue de la Fake API en Render:**
+
+La Fake API fue configurada en Render conectando el repositorio de GitHub al servicio. El servidor utiliza JSON Server ejecutando el archivo `server/db.json` con las rutas personalizadas definidas en `server/routes.json`. El script de inicio del servidor es el siguiente:
+
+```bash
+json-server --watch server/db.json --routes server/routes.json --host 0.0.0.0 --port 3001
+```
+
+![weekly-diet-view](resources/Chapter-V/deploy.png)
+
+![weekly-diet-view](resources/Chapter-V/url.png)
+
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
+Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un contro de versiones adecuados. Aqui se detalla el flujo y los contribuidores:
+
+![weekly-diet-view](resources/Chapter-V/network.png)
 
 ## 💡 Conclusiones
 
 ### Conclusiones y recomendaciones
-
-D# Conclusiones
 
 El desarrollo del proyecto BioTrack permitió identificar una oportunidad relevante dentro del sector HealthTech, orientada a mejorar el seguimiento nutricional de pacientes individuales y organizaciones. A partir del análisis del problema, se evidenció que la falta de monitoreo continuo, la baja constancia en el registro de hábitos y la ausencia de información centralizada afectan tanto a los usuarios que desean mejorar su salud como a las empresas que buscan implementar programas de bienestar.
 
@@ -5601,159 +5831,6 @@ También se recomienda priorizar el desarrollo de las funcionalidades centrales 
 Además, es importante fortalecer la evidencia de gestión del proyecto mediante Jira, manteniendo actualizados el Product Backlog, Sprint Backlog, responsables, estados de avance y Story Points. Esto permitirá demostrar una mejor organización del trabajo colaborativo y una mayor trazabilidad entre planificación e implementación.
 
 Como siguiente paso del roadmap, se recomienda integrar progresivamente el RESTful API con la Web Application, validar los endpoints principales, implementar autenticación segura y preparar pruebas con usuarios finales. De esta forma, BioTrack podrá evolucionar desde un prototipo académico hacia una solución funcional con mayor potencial de adopción en el mercado.
-
-Para el commit de esta corrección puedes usar:
-
-docs(chapter-1): update target segments with market share analysis
-
-Y si también agregas conclusiones:
-
-docs(report): update target segments and conclusions
-## Segmento Objetivo #1: Paciente (jóvenes y adultos: 18 a 60+ años) 
-
-Este segmento incluye personas entre 18 y más de 60 años interesados en mejorar sus hábitos alimenticios y llevar un control de su salud. 
-
-#### Características demográficas: 
-
-- Edad: 18 a 60+ años  
-
-- Ubicación: zonas urbanas con acceso a internet  
-
-- Nivel socioeconómico: medio y medio-alto  
-
-- Acceso a smartphones o computadoras  
-
-#### Características relevantes: 
-
-- Interés en bienestar, nutrición y prevención de enfermedades  
-
-- Falta de constancia en el seguimiento de hábitos saludables  
-
-- Uso frecuente de aplicaciones móviles o plataformas digitales 
-
-### Segmento Objetivo #2: Organizaciones 
-
-Este segmento incluye empresas que buscan mejorar la salud, el bienestar y la productividad de sus colaboradores mediante la implementación de programas de bienestar corporativo basados en datos. Dentro de estas organizaciones, los principales usuarios del sistema suelen ser responsables del área de recursos humanos o bienestar, quienes requieren herramientas para monitorear y analizar información relacionada con la salud de los empleados. 
-
-#### Características demográficas: 
-
-  - Tipo: empresas medianas y grandes  
-
-  - Sector: corporativo, servicios, tecnología e industria  
-
-  - Ubicación: principalmente en entornos urbanos  
-
-  - Nivel de digitalización: medio a alto  
-
-#### Características relevantes: 
-
-  - Interés en reducir el ausentismo laboral  
-
-  - Necesidad de monitorear el bienestar de sus colaboradores  
-
-  - Inversión en programas de salud ocupacional  
-
-  - Búsqueda de soluciones tecnológicas para la toma de decisiones
-
-esto es lo que tengo solo cambio no?
-Pensado durante 8s
-
-Sí, solo debes reemplazar esa parte por una versión más completa. Tu estructura está bien, pero le falta lo que te observaron: factores demográficos más precisos + porcentaje de clientes potenciales / market share.
-
-Pega esto en lugar de lo que tienes:
-
-## Segmento Objetivo #1: Paciente (jóvenes y adultos: 18 a 60+ años)
-
-Este segmento incluye a personas jóvenes y adultas interesadas en mejorar sus hábitos alimenticios, llevar un control de su salud y recibir seguimiento nutricional mediante una plataforma digital. BioTrack se enfoca principalmente en usuarios ubicados en zonas urbanas, con acceso frecuente a internet y familiaridad con aplicaciones móviles o plataformas web.
-
-#### Características demográficas:
-
-| Factor | Descripción |
-|---|---|
-| Edad | 18 a 60+ años |
-| Género | Masculino y femenino |
-| Ubicación | Zonas urbanas del Perú, principalmente Lima Metropolitana y ciudades con mayor acceso a internet |
-| Nivel socioeconómico | Medio y medio-alto |
-| Ocupación | Estudiantes, trabajadores dependientes, independientes y personas interesadas en bienestar personal |
-| Acceso tecnológico | Usuarios con smartphone, computadora o acceso frecuente a internet |
-| Intereses | Nutrición, control de peso, salud preventiva, bienestar físico y mejora de hábitos alimenticios |
-
-#### Características relevantes:
-
-- Interés en bienestar, nutrición y prevención de enfermedades.
-- Falta de constancia en el seguimiento de hábitos saludables.
-- Uso frecuente de aplicaciones móviles o plataformas digitales.
-- Necesidad de visualizar su progreso mediante gráficos, reportes o alertas.
-- Disposición a utilizar herramientas digitales si son simples, rápidas y fáciles de entender.
-
-#### Sustento estadístico y clientes potenciales:
-
-El segmento de pacientes individuales presenta condiciones favorables para el uso de BioTrack debido al alto nivel de acceso a internet en la población joven y adulta. Según el INEI, el 97,0% de la población de 19 a 24 años utilizó internet, seguido por el 92,0% de la población de 25 a 40 años. Asimismo, el 58,4% de los hogares del país cuenta con acceso a internet, lo que evidencia un entorno favorable para la adopción de soluciones digitales de salud y bienestar. :contentReference[oaicite:0]{index=0}
-
-Para estimar el mercado potencial, BioTrack considera como público objetivo inicial a personas de 18 a 60+ años que viven en zonas urbanas, tienen acceso a internet y muestran interés en nutrición, bienestar o control de salud. Al tratarse de una startup en etapa inicial, se plantea una captación conservadora de entre **1% y 3% del mercado digital urbano interesado en bienestar nutricional**.
-
-| Nivel de mercado | Descripción | Porcentaje estimado |
-|---|---|---:|
-| TAM | Personas adultas en Perú con posible interés en salud, alimentación y bienestar | 100% |
-| SAM | Personas de 18 a 60+ años en zonas urbanas con acceso frecuente a internet | 35% - 45% del mercado general |
-| SOM inicial | Usuarios que BioTrack buscará captar mediante campañas digitales, landing page y suscripción individual | 1% - 3% del SAM |
-
-De esta manera, BioTrack no depende de un único usuario o cliente, sino de una base amplia de personas con acceso digital y necesidad de seguimiento nutricional continuo.
-
----
-
-## Segmento Objetivo #2: Organizaciones
-
-Este segmento incluye empresas que buscan mejorar la salud, el bienestar y la productividad de sus colaboradores mediante la implementación de programas de bienestar corporativo basados en datos. Dentro de estas organizaciones, los principales usuarios del sistema suelen ser responsables del área de recursos humanos, bienestar organizacional o salud ocupacional, quienes requieren herramientas para monitorear y analizar información relacionada con la salud de los empleados.
-
-#### Características demográficas y organizacionales:
-
-| Factor | Descripción |
-|---|---|
-| Tipo de cliente | Empresas medianas y grandes |
-| Sector | Corporativo, servicios, tecnología, educación, salud, retail e industria |
-| Ubicación | Principalmente Lima Metropolitana y otras zonas urbanas con alta concentración empresarial |
-| Área usuaria | Recursos Humanos, Bienestar Organizacional, Salud Ocupacional o Administración |
-| Nivel de digitalización | Medio a alto |
-| Capacidad de pago | Empresas con presupuesto para programas de bienestar, salud ocupacional o beneficios laborales |
-| Tamaño de empresa | Organizaciones con equipos de trabajo medianos o numerosos |
-
-#### Características relevantes:
-
-- Interés en reducir el ausentismo laboral.
-- Necesidad de monitorear el bienestar de sus colaboradores.
-- Inversión en programas de salud ocupacional.
-- Búsqueda de soluciones tecnológicas para la toma de decisiones.
-- Necesidad de reportes agregados y anonimizados para evaluar indicadores de bienestar.
-
-#### Sustento estadístico y clientes potenciales:
-
-El segmento de organizaciones representa una oportunidad para BioTrack porque permite ofrecer planes corporativos y generar ingresos recurrentes mediante paquetes empresariales. Según el INEI, el documento *Perú: Estructura Empresarial 2024* analiza las unidades económicas formales constituidas a nivel nacional, lo cual permite identificar un mercado empresarial amplio para soluciones digitales B2B. :contentReference[oaicite:1]{index=1}
-
-Además, Lima Metropolitana concentra una parte importante de la actividad empresarial y presenta altos niveles de acceso a internet. En el primer trimestre de 2024, el 88,5% de la población de Lima Metropolitana usó internet, lo que refuerza la viabilidad de introducir inicialmente BioTrack en entornos urbanos y empresariales con mayor digitalización. :contentReference[oaicite:2]{index=2}
-
-Para el segmento B2B, BioTrack considera como mercado inicial a empresas medianas y grandes con interés en programas de bienestar corporativo, salud ocupacional y beneficios para colaboradores. Al tratarse de una solución nueva, se plantea una captación inicial conservadora de entre **1% y 2% de empresas medianas y grandes con capacidad de inversión en bienestar digital**.
-
-| Nivel de mercado | Descripción | Porcentaje estimado |
-|---|---|---:|
-| TAM | Empresas formales que podrían implementar programas de bienestar o salud ocupacional | 100% |
-| SAM | Empresas medianas y grandes con mayor capacidad de inversión tecnológica y bienestar corporativo | 10% - 15% del mercado empresarial formal |
-| SOM inicial | Empresas que BioTrack buscará captar mediante alianzas, demostraciones y propuestas B2B | 1% - 2% del SAM |
-
-Este segmento fortalece la rentabilidad de BioTrack porque permite complementar el modelo B2C con contratos corporativos, licencias por colaborador y planes empresariales. Así, el proyecto no depende únicamente de pacientes individuales, sino también de organizaciones interesadas en mejorar el bienestar de sus equipos mediante herramientas digitales.
-
----
-
-### Resumen de clientes potenciales
-
-| Segmento | Cliente potencial | Necesidad principal | Porcentaje inicial estimado de captación |
-|---|---|---|---:|
-| Pacientes individuales | Jóvenes y adultos de 18 a 60+ años con acceso a internet e interés en bienestar nutricional | Registrar hábitos, visualizar progreso y recibir seguimiento nutricional | 1% - 3% del SAM |
-| Organizaciones | Empresas medianas y grandes con programas de bienestar o salud ocupacional | Monitorear bienestar de colaboradores mediante dashboards y reportes agregados | 1% - 2% del SAM |
-
-En conclusión, BioTrack cuenta con dos segmentos objetivo complementarios. El segmento B2C permite llegar a usuarios individuales interesados en mejorar su salud, mientras que el segmento B2B ofrece una oportunidad de escalabilidad mediante contratos corporativos. Esta combinación demuestra que el proyecto no se limita a un solo cliente, sino que apunta a un mercado potencial más amplio y rentable.
-
-Sí, en resumen: reemplaza tu sección actual por esta. Solo cambia el número de tabla o figura si tu informe lo necesita.
 
 ## 📚 Bibliografía
 
